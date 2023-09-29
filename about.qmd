@@ -1,0 +1,53 @@
+---
+title: "About"
+---
+## Goal 
+The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing. 
+
+## Learning objectives
+1. Hands-on knowledge of Raspberry Pi hardware with Python programming language 
+2. Exposure to various sensors with hands-on exercises
+3. Implement innovative Raspberry Pi-based projects that interact with the physical world 
+
+## Learning Outcomes
+As a result of completing this course, students will be able to:
+
+1. Understand the various areas of work and research in Computer Science.
+2. Perform experiments aimed at collecting and analyzing data.
+3. Design and write Python programs.
+4. Work on an engineering-innovation group project.
+
+Additional Learning Outcomes:
+- an ability to apply knowledge of computer science and mathematics
+- an ability to design and conduct experiments, as well as to analyze and interpret data
+- an ability to identify, formulate, and solve engineering problems
+- an ability to use the techniques, skills, and modern computing tools necessary for practice of computer science.
+ 
+
+## Course format 
+- Lectures on the fundamentals of Raspberry Pi programming using Python programming language, sensors and automation. 
+- $\mu-labs$: Hands-on and guided Raspberry Pi activities in a laboratory setting. 
+- Guest lectures from academic experts and alumni in the field of computer science
+- Interactive quizzes and instant concept checks
+- Individual and/or group assignments and projects
+- Midterm and Final projects
+
+## Audience and credit-level
+The course is designed for first-year undergraduate students as a 1-credit course. 
+
+## Prerequisites
+None
+
+## Time Requirements and Expectations
+This course will have 50 minutes of lecture time per week, approximately 90 minutes of laboratory, review, and discussion per week, and will require 2 hours per week on average for homework assignments.
+
+## Textbook, hardware and other course material
+There is no textbook requirement for this course. All reading, hardware and course material will be provided by the instructor.
+
+<br><br>
+<footer>
+  <p>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2022 All rights reserved</p>
+</footer>

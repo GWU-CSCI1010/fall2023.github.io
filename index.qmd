@@ -1,0 +1,88 @@
+---
+title: "Computer Science Orientation"
+---
+
+<h2>Hands-on exploration of the possibilities in Computer Science</h2>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  /* height: 350px; Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+### Course and Contact Information
+
+<div class="row">
+ <div class="column">
+- **CSCI 1010:** Computer Science Orientation
+- **Semester:**  Fall 2023
+- **Credits:** 1
+- **Lecture location and meeting times:** 
+  - Duques 151
+  - Friday 9:35 AM — 10:25 AM
+- **Lab location and meeting times:**  
+  - SEH 1300 \& SEH 1400 \& SEH 1450
+  - Lab section 30: Friday 10:40 AM - 12:15 PM 
+  - Lab section 31: Friday 12:45 PM - 2:10 PM
+- **Course website:** TBA
+<!-- - **Course website:** [https://gwu-csci3907.github.io](https://gwu-csci3907.github.io) -->
+- **Instructor information** [can be found here](/instructor.qmd)
+ </div>
+
+ <div class="column">
+ <!-- "float: left;  -->
+ <img src="/images/CS1010.png" alt="IoT icon" style="object-fit:contain width:250px;height:250px; margin-right: 10px;" /><br>
+<!--  <p><font size="1">IoT by Alla Zaleuska from <a href="https://thenounproject.com/browse/icons/term/iot/" target="_blank" title="IoT Icons">Noun Project</a></font></p> -->
+ </div>
+</div>
+
+<br>
+
+### Github Repo (updated weekly)
+git clone **TBA**
+
+### Course description
+This is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of
+
+1. lectures on the various disciplines in Computer Science,
+2. hands-on Python programming exercises and
+3. hands-on exercises and in-class projects using Raspberry Pi 4B single-board computer.
+
+The students will work on the following two engineering innovation projects:
+
+1. Guided-python programming project and
+2. Will have the option of choosing a final Raspberry Pi 4B-based project or a python programming project to address an impending need in engineering-innovation
+
+Through the above course activities students will be exposed to computing, technical resources and presentations on various aspects in the field of computer science. The students will get access to a “slack-workspace” for this course, that will facilitate offline discussions among themselves and the instruction team. The students will also be provided lecture presentationsand video summaries whenever possible and made available on the course webpage and / or blackboard.
+
+
+
+<br><br>
+<footer>
+  <p>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</p>
+</footer>
+

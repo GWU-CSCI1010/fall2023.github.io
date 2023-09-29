@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computer Science Orientation",
+    "section": "",
+    "text": "Hands-on exploration of the possibilities in Computer Science\n\n\n\n\nCourse and Contact Information\n\n\n\nCSCI 1010: Computer Science Orientation\nSemester: Fall 2023\nCredits: 1\nLecture location and meeting times:\n\nDuques 151\nFriday 9:35 AM — 10:25 AM\n\nLab location and meeting times:\n\nSEH 1300 & SEH 1400 & SEH 1450\nLab section 30: Friday 10:40 AM - 12:15 PM\nLab section 31: Friday 12:45 PM - 2:10 PM\n\nCourse website: TBA \nInstructor information can be found here\n\n\n\n  \n\n\n\n\n\nGithub Repo (updated weekly)\ngit clone TBA\n\n\nCourse description\nThis is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of\n\nlectures on the various disciplines in Computer Science,\nhands-on Python programming exercises and\nhands-on exercises and in-class projects using Raspberry Pi 4B single-board computer.\n\nThe students will work on the following two engineering innovation projects:\n\nGuided-python programming project and\nWill have the option of choosing a final Raspberry Pi 4B-based project or a python programming project to address an impending need in engineering-innovation\n\nThrough the above course activities students will be exposed to computing, technical resources and presentations on various aspects in the field of computer science. The students will get access to a “slack-workspace” for this course, that will facilitate offline discussions among themselves and the instruction team. The students will also be provided lecture presentationsand video summaries whenever possible and made available on the course webpage and / or blackboard.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Sample class schedule [week-by-week]\n(The course schedule subject to changes during the semester)\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTopic(s)\n\n\n\\(\\mu\\)-LABs and Assignment(s) due\n\n\n\n\n\n\n\n\nWeek 1 [01/20/2023]\n\n\n\n\nOverview of CS1010 by Prof. Kartik Bulusu\n\n\nIntroduction to Computer Science Department by Prof. Rebecca Hwa (Website TBA)\n\n\nIntroduction to Raspberry Pi and Python programming by Prof. Kartik Bulusu (Website TBA)\n\n\nLecture Notes (Website TBA)\n\n\n\n\n\n\n\nPython programming using DeepNote TBA\n\n\nIn-class Raspberry Pi Lab (Blinking LEDs)\n\n\nWorking Styles Workout Survey (Google form TBA)\n\n\nLab examples (github TBA)\n\n\nHW 1 Assigned (Website TBA)\n\n\n\n\n\n\n\n\n\nWeek 2 [01/27/2023]\n\n\n\n\nVery brief introduction to matrices by Prof. Kartik Bulusu (Website TBA)\n\n\nIntroduction to Augmented and Virtual Reality Technologies by Prof. Hurriyet Ok (Website TBA)\n\n\nLecture Notes (Website TBA)\n\n\n\n\n\n\n\nHandling data arrays and plotting data using Python\n\n\nIn-class Raspberry Pi Lab (Ultrasonic cacophony)\n\n\nStudent group formation\n\n\nHW 1 due\n\n\nLab examples (github TBA)\n\n\nHW 2 Assigned (Website TBA)\n\n\n\n\n\n\n\n\n\n\n\nDate TBA\n\n\n\n\n\nGuided-Python Project on COVID-19 Data Analysis is released\n\n\n\n\n\n\nNOTE: This group project is due on Date TBA by 11:59 PM\n\n\n\n\n\n\n\n\n\nWeek 3 [02/03/2023]\n\n\n\n\nCryptography and Secure Computation by Prof. Arkady Yerukhimovich (Website TBA)\n\n\nCloud Computing by Prof. Tim Wood (Website TBA)\n\n\nLecture Notes (Website TBA)\n\n\n\n\n\n\n\nLearning about dataframe using Pandas in Python\n\n\nIn-class Raspberry Pi Lab using senseHats\n\n\nHW 2 due\n\n\nLab examples (github TBA)\n\n\nHW 3 Assigned (Website TBA)\n\n\n\n\n\n\n\n\nDate TBA\n\n\n\n\n\nGuided-Python Project on COVID-19 Data Analysis is due by 11:59 PM\n\n\n\n\n\n\nNOTE: This group project accounts for 30% of the final grade\n\n\n\n\n\n\n\nWeek 4 [02/10/2023]\n\n\n\n\nComputer Vision by Prof. Robert Pless (Website TBA)\n\n\nComputer Vision and Natural Language Processing applied to BioMed by Prof. Kinga Dobolyi (Website TBA)\n\n\nLecture Notes (Website TBA)\n\n\n\n\n\n\n\nIn-class Raspberry Pi Lab using Pi NOIR camera\n\n\nHW 3 due\n\n\nPython Guided-Project due\n\n\nLab examples (github TBA)\n\n\nHW 4 Assigned (Website TBA)\n\n\n\n\n\n\n\n\nDate TBA\n\n\n\n\n\nFinal Raspberry Pi / Python group projects are announced\n\n\n\n\n\n\nStudent groups are asked to indicate their three choices by 11:59 PM\n\n\n\n\n\n\n\n\n\nWeek 5 [02/17/2023]\n\n\n\n\nMachine Learning by Richard Sear (CS Alumni and ML researcher) [Slides]\n\n\nInformation privacy / Image encryption-decryption by Prof. Bhagirath Narahari (Website TBA)\n\n\nLecture Notes (Website TBA)\n\n\n\n\n\n\n\nIn-class Raspberry Pi Lab on Image Encryption and Decryption\n\n\n\nHW 4 due\n\n\nLab examples (github TBA)\n\n\nHW 5 Assigned (Website TBA)\n\n\n\n\n\n\n\n\nWeek 6 [02/24/2023]\n\n\n\n\nGuest lecture: Intersection of Industry 4.0 and Technology for Manufacturing in day-to-day applications by Hadi Mohammed, Digital Technologies Director of Factory 4.0 Pratt and Whitney\n\n\nLecture notes\n\n\nDiscussion of Midterm Projects and setting course for updates and reporting\n\n\n\n\n\n\ndweet.io - it’s like the Twitter of Things  dweet\n\n\nFetching data from dweet\n\n\ndweet an LED\n\n\nWorking with senseHAT data and matplotlib\n\n\nWriting senseHAT data to CSV files\n\n\nEmails alerts from senseHAT data\n\n\nLab examples\n\n\nHW 4 assigned: Presentation of midterm project progress\n\n\n\n\n\n\n\n\nWeek 7 [03/03/2023]\n\n\n\n\n\n\nMidterm Project Progress Mentoring by Catherine Meadows, CS Department Graduate student\n\n\nGuest lecture: Edge Cloud by Prof. Tim Wood, Interim Chair, CS Department, GWU. Director of GW Cloud Systems Lab\n\n\nLecture notes & Presentation slide decks from students\n\n\n\n\n\n\n\nIn-class demo Raspberry Pi: PiNOIR Cameras\n\n\n\nLab examples\n\n\nHW 4 due: Uploaded Presentation\n\n\nHW 5 assigned: In-class Midterm Project Demonstrations\n\n\n\n\n\n\n\n\nWeek 8 [03/10/2023]\n\n\n\n\nIoT Taxonomy - 5 layer model\n\n\nService-oriented model of IoT\n\n\nLecture notes\n\n\n\n\n\n\nIn-class Flask API development\n\n\nDiscussion on what to expect in the remaining portion of the course\n\n\n\n\nLab examples\n\n\nHW 5 due: Graded in-class Midterm Project Demonstrations\n\n\n\n\n\n\n\n\n\n03/13/2022 to 03/17/2023\n\n\nSpring Break. No class this week\n\n\n\n\n\n\nWeek 9 [03/24/2023]\n\n\n\n\nIntroduction to ESP32 microcontroller\n\n\nUnderstand key differences between Microprocessors and Microcontrollers\n\n\nIntroduction to Micropython\n\n\nSetting up Micropython interpreter in Thonny IDE\n\n\nReview of final project proposals\n\n\nLecture notes\n\n\n\n\n\n\nFlashing the ESP32 microcontroller\n\n\nIn-class Raspberry Pi Lab with ESP32\n\n\nPush-botton LEDs with ESP32 and Raspberry Pi 3B+\n\n\nWebserver Accesspoint with ESP32 and Raspberry Pi 3B+\n\n\nLab examples\n\n\n\n\n\n\n\n\n\n\nWeek 10 [03/31/2023]\n\n\n\n\n\n\nWorking with SciPy\n\n\nPractical introduction to Mosquitto MQTT\n\n\nPractical introduction to linear algebra in the Edge compute framework\n\n\nGuest lecture: Neeraj Paliwal, General Manager and VP of Security IP, Rambus\n\n\nLecture notes\n\n\n\n\n\n\nIn-class Raspberry Pi Lab - Installation of Mosquitto MQTT\n\n\nData smoothing with Scipy library in Python\n\n\nExamples: Moving average and Savitzky-Golay filters\n\n\nLab examples\n\n\n\n\n\n\n\n\n\n\nWeek 11 [04/07/2023]\n\n\n\n\n\nCase study: IoT in Vehicular Applications\n\n\nGuest lecture: Robert Shaughnessy, Senior Vice President, GRIMM Cyber\n\n\nPractical introduction to Fourier analysis and filtering for Edge Compute Applications\n\n\nLecture notes\n\n\n\n\n\n\nPractical Introduction to ThingSpeak IoT Analytics platform\n\n\nIn-class Raspberry Pi Lab with MQTT using SenseHat and ThingSpeak\n\n\nLab examples\n\n\n\n\n\n\n\n\n\n\nWeek 12 [04/17/2023]\n\n\n\n\nCase study - continued\n\n\nGuest lecture: Chris Rodley, CEO and founder of Snap Information Technologies (SnapIT), Chairman of Teem Fish Monitoring, Director of Daily Catch and Snap Group LP partner and Tedx speaker, SnapIT\n\n\nPractical Introduction to Image processing and Filtering for Edge Compute Applications\n\n\nLecture notes\n\n\n\n\n\n\nPractical Introduction to OpenCV library in Python on the Raspberry Pi 3B+\n\n\nIn-class Raspberry Pi Lab with PiCamera using OpenCV library\n\n\nSobel, Laplacian, Guassian filtering on Raspberry Pi 3B+\n\n\nEdge detection using thresholding and Otsu’s method on Raspberry Pi 3B+\n\n\nLab examples\n\n\n\n\n\n\n\n\n\n\nWeek 13 [04/21/2023]\n\n\n\n\nCase study: IoT in Environmental monitoring\n\n\nGuest lecture: Remy Pottier, Director of Innovation, ARM\n\n\n\n\n\n\nIn-class Raspberry Pi Lab\n\n\n\n\n\n\n\n\n\n\nWeek 14 [04/28/2023]\n\n\n\n\nParadigms, Challenges in IoT technologies\n\n\n\n\n\n\nFinal Project Presentations and Demonstrations\n\n\nFinal Projects due\n\n\n\n\n\n\n\n\nNOTE: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "policies.html",
+    "href": "policies.html",
+    "title": "Course policies",
+    "section": "",
+    "text": "For example:\n\n\n\n\n\n\nAttendance and/or peer-to-peer and instructor interactions 10%\nIn-class work and Weekly Quizzes 10%\nPython programming and other Homework 30%\nProjects (including code, demo and presentation) 50%\n\n30% Individual midterm project\n20% Group final project There is no required final exam.\n\n\n\n\n \n\nexam by pongsakorn from Noun Project"
+  },
+  {
+    "objectID": "policies.html#grading-scale",
+    "href": "policies.html#grading-scale",
+    "title": "Course policies",
+    "section": "Grading Scale",
+    "text": "Grading Scale\nThe following grading scale will be applied at the end of the semester to calculate letter grades: 90-100: A, 84-89: A-, 78-83: B+, 72-77: B, 66-71: B-, 60-65: C+, 56-59: C, 52-55: C-, 46-51: D, 0-45: F.\nGrades are rounded to the nearest integer, e.g., 0.4 rounds to 0 and 0.5 rounds to 1."
+  },
+  {
+    "objectID": "policies.html#additional-important-information-about-grading-policy",
+    "href": "policies.html#additional-important-information-about-grading-policy",
+    "title": "Course policies",
+    "section": "Additional important information about grading policy:",
+    "text": "Additional important information about grading policy:\n\nLate submissions on Homework and projects will not be acceptable.\nAny questions or follow up about the assignments will be done only within 1 week of submission deadline.\n\nFollowing the week after the submission deadline no further discussion on the assignment will be done."
+  },
+  {
+    "objectID": "policies.html#classroom-policies-and-student-responsibilities",
+    "href": "policies.html#classroom-policies-and-student-responsibilities",
+    "title": "Course policies",
+    "section": "Classroom Policies and Student responsibilities",
+    "text": "Classroom Policies and Student responsibilities\n\n\n\nThis course requires a combination of individual and group work entailing hands-on activities and frequent interactions with the instructional team. The lectures, labs and office hours are available for interacting with your group and the instruction team. In addition, a course messaging platform (Slack) is made available for the students to interact in groups and with the instruction team asynchronously. We ask that all students adhere to the course policies throughout the duration of the semester.\n\n\n\n \n\nclassroom by Chattapat from Noun Project\n\n\n\n\n\nBe respectful: Listen to the instructors. Keep an open mind to the course material presented. Limit the use of personal devices. Be aware that you are working in a group. Be mindful of your colleagues.\nBe responsible: Arrive on time. Attendance is the first pathway toward success. Submit the course deliverables on time. Help your team members.\nBe a communicator: Observe, Ask questions and Try out the materials presented during the course. Communicate with your team effectively and politely.\nBe a problem solver: Explore options to complete hands-on tasks. Make your own notes. Stay positive about the course outcomes."
+  },
+  {
+    "objectID": "policies.html#justice-equity-diversity-inclusion-jedi-statement",
+    "href": "policies.html#justice-equity-diversity-inclusion-jedi-statement",
+    "title": "Course policies",
+    "section": "Justice, Equity, Diversity, Inclusion (JEDI) statement",
+    "text": "Justice, Equity, Diversity, Inclusion (JEDI) statement\n\n\n\nThe instruction team intends to students from all diverse backgrounds and perspectives by this course, The diversity that the students bring to this class be viewed as a resource, strength, and benefit. The course materials and activities presented in this course are intended to be respectful of: age, race, ethnicity, country of origin, language, religion, spiritual practice, sexual orientation, gender identity or expression, introversion/extroversion personality dimensions, and socioeconomic and mental/physical status.\n\n\n\n \n\nemployee diversity by Bold Yellow from Noun Project\n\n\n\n\n\nPlease let the main instructor know ways to improve the effectiveness of the course. See JEDI resources for student resources."
+  },
+  {
+    "objectID": "policies.html#use-of-chatgpt-or-any-other-ai-based-models-for-in-class-work-and-deliverables",
+    "href": "policies.html#use-of-chatgpt-or-any-other-ai-based-models-for-in-class-work-and-deliverables",
+    "title": "Course policies",
+    "section": "Use of chatGPT or any other AI-based models for in-class work and deliverables",
+    "text": "Use of chatGPT or any other AI-based models for in-class work and deliverables\nThe use chatGPT or any other genreative AI-based tool is NOT PERMITTED.  Furthermore, the ethical issues regarding the use of chatGPT or any other AI-based models will be discussed in-class and course policy will be ammended according to the findings. The findings of any such discussions will be summarized and placed in-context of the Academic Integrity Code\n Resources that will guide the course policy changes during the course: \n\n\nchatGPT Course policy formulation\n\n\nchatGPT chatbot\n\n\nHow ChatGPT Could Transform Higher Education"
+  },
+  {
+    "objectID": "policies.html#use-of-electronic-course-materials-and-class-recordings",
+    "href": "policies.html#use-of-electronic-course-materials-and-class-recordings",
+    "title": "Course policies",
+    "section": "Use of Electronic Course Materials and Class Recordings",
+    "text": "Use of Electronic Course Materials and Class Recordings\nStudents are encouraged to use electronic course materials, including recorded class sessions (if any), for private personal use in connection with their academic program of study. Electronic course materials and recorded class sessions should not be shared or used for non-course related purposes unless express permission has been granted by the instructor. Students who impermissibly share any electronic course materials are subject to discipline under the Student Code of Conduct. Please contact the instructor if you have questions regarding what constitutes permissible or impermissible use of electronic course materials and/or recorded class sessions. Please contact Disability Support Services if you have questions or need assistance in accessing electronic course materials."
+  },
+  {
+    "objectID": "policies.html#university-policy-on-religious-holidays",
+    "href": "policies.html#university-policy-on-religious-holidays",
+    "title": "Course policies",
+    "section": "University Policy on Religious Holidays",
+    "text": "University Policy on Religious Holidays\n\nStudents should notify faculty during the first week of the semester of their intention to be absent from class on their day(s) of religious observance.\nFaculty should extend to these students the courtesy of absence without penalty on such occasions, including permission to make up examinations.\nFaculty who intend to observe a religious holiday should arrange at the beginning of the semester to reschedule missed classes or to make other provisions for their course‐related activities. For details and policy, see “Religious Holidays” at https://provost.gwu.edu/policies-procedures-and-guidelines"
+  },
+  {
+    "objectID": "policies.html#support-for-students-outside-the-classroom",
+    "href": "policies.html#support-for-students-outside-the-classroom",
+    "title": "Course policies",
+    "section": "Support for Students Outside the Classroom",
+    "text": "Support for Students Outside the Classroom\nDisability Support Services (DSS) Any student who may need an accommodation based on the potential impact of a disability should contact the Disability Support Services office at 202‐994‐8250 in the Rome Hall, Suite 102, to establish eligibility and to coordinate reasonable accommodations. For additional information please refer to: https://disabilitysupport.gwu.edu/\nMental Health Services 202‐994‐5300 The University’s Mental Health Services offers 24/7 assistance and referral to address students’ personal, social, career, and study skills problems. Services for students include: crisis and emergency mental health consultations confidential assessment, counseling services (individual and small group), and referrals. https://healthcenter.gwu.edu/counseling-and-psychological-services"
+  },
+  {
+    "objectID": "policies.html#academic-integrity-code",
+    "href": "policies.html#academic-integrity-code",
+    "title": "Course policies",
+    "section": "Academic Integrity Code",
+    "text": "Academic Integrity Code\nAcademic dishonesty is defined as cheating of any kind, including misrepresenting one’s own work, taking credit for the work of others without crediting them and without appropriate authorization, and the fabrication of information. You are not allowed to collaborate on the home works and lab assignments; for programming projects and hardware lab assignments, you can work in teams only if they are designated as team projects (labs). Unless otherwise specified, you cannot search for solutions or code on the web – but you can use any code that is included in the textbook or lecture notes (but please cite them). I will be using a SW tool that checks for program code similarities – any pair of programs or written reports with greater than 10% similarity will be closely examined.\nThe Office of Academic Integrity maintains a permanent record of the violation. More information is available from the Office of Academic Integrity at https://studentconduct.gwu.edu/academic-integrity. The University’s “Guide of Academic Integrity in Online Learning Environments” is available at https://studentconduct.gwu.edu/guide-academic-integrity-online-learning-environments. Contact information: rights@gwu.edu or 202-994-6757.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "instructor.html",
+    "href": "instructor.html",
+    "title": "Instruction Team",
+    "section": "",
+    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\n\n\nHis research work entails human health and sustainable energy with focus on biofluid mechanics, polymer rheology, low-cost energy technologies and applications of wavelet transforms.\n\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he is loves to tinker with electronics and design low-cost experiments for research and education.\n\n\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\n\n\nOffice hours: On-demand (please reach out via email!)\n\n\nLocation: Blackboard Collaborate Course Room\n\n\n\n\n \n\nCampus Address: SEH 3640\n\n\nE-mail: bulusu at gwu dot edu\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "about.html#learning-objectives",
+    "href": "about.html#learning-objectives",
+    "title": "About",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nHands-on knowledge of Raspberry Pi hardware with Python programming language\nExposure to various sensors with hands-on exercises\nImplement innovative Raspberry Pi-based projects that interact with the physical world"
+  },
+  {
+    "objectID": "about.html#learning-outcomes",
+    "href": "about.html#learning-outcomes",
+    "title": "About",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nAs a result of completing this course, students will be able to:\n\nUnderstand the various areas of work and research in Computer Science.\nPerform experiments aimed at collecting and analyzing data.\nDesign and write Python programs.\nWork on an engineering-innovation group project.\n\nAdditional Learning Outcomes: - an ability to apply knowledge of computer science and mathematics - an ability to design and conduct experiments, as well as to analyze and interpret data - an ability to identify, formulate, and solve engineering problems - an ability to use the techniques, skills, and modern computing tools necessary for practice of computer science."
+  },
+  {
+    "objectID": "about.html#additional-learning-outcomes",
+    "href": "about.html#additional-learning-outcomes",
+    "title": "About",
+    "section": "Additional Learning Outcomes",
+    "text": "Additional Learning Outcomes\n\nAbility to apply knowledge of programming and mathematics in the IoT framework\nAbility to design and conduct experiments, as well as to analyze and interpret IoT data\nAbility to identify, formulate, and solve physical problems using the IoT framework\nAbility to use the techniques, skills, and modern computing tools necessary for practical implementation of IoT technologies"
+  },
+  {
+    "objectID": "about.html#course-format",
+    "href": "about.html#course-format",
+    "title": "About",
+    "section": "Course format",
+    "text": "Course format\n\nLectures on the fundamentals of Raspberry Pi programming using Python programming language, sensors and automation.\n\\(\\mu-labs\\): Hands-on and guided Raspberry Pi activities in a laboratory setting.\nGuest lectures from academic experts and alumni in the field of computer science\nInteractive quizzes and instant concept checks\nIndividual and/or group assignments and projects\nMidterm and Final projects"
+  },
+  {
+    "objectID": "about.html#audience-and-credit-level",
+    "href": "about.html#audience-and-credit-level",
+    "title": "About",
+    "section": "Audience and credit-level",
+    "text": "Audience and credit-level\nThe course is designed for first-year undergraduate students as a 1-credit course."
+  },
+  {
+    "objectID": "about.html#prerequisites",
+    "href": "about.html#prerequisites",
+    "title": "About",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nNone"
+  },
+  {
+    "objectID": "about.html#workload",
+    "href": "about.html#workload",
+    "title": "About",
+    "section": "Workload",
+    "text": "Workload\nThis course will have 150 minutes of lecture time per week, that includes approximately 60-75 minutes of hands-on, microlab work. The course requires between 2-4 hours per week on average for homework assignments or project-based deliverables."
+  },
+  {
+    "objectID": "about.html#textbook-hardware-and-other-course-material",
+    "href": "about.html#textbook-hardware-and-other-course-material",
+    "title": "About",
+    "section": "Textbook, hardware and other course material",
+    "text": "Textbook, hardware and other course material\nThere is no textbook requirement for this course. All reading, hardware and course material will be provided by the instructor.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2022 All rights reserved"
+  },
+  {
+    "objectID": "about.html#time-requirements-and-expectations",
+    "href": "about.html#time-requirements-and-expectations",
+    "title": "About",
+    "section": "Time Requirements and Expectations",
+    "text": "Time Requirements and Expectations\nThis course will have 50 minutes of lecture time per week, approximately 90 minutes of laboratory, review, and discussion per week, and will require 2 hours per week on average for homework assignments."
+  }
+]
