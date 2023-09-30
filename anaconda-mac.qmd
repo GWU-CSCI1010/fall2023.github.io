@@ -74,7 +74,7 @@ Once the installation is complete, you will see a confirmation message. Click th
 
 ### 9. You're <u>NOT REQUIRED</u> to Log in/Sign up for Anaconda Cloud, you can close the prompt by clicking the "x" button
 
-![Don't Log in/Sign up](images/screenshots/10.5.png)
+![Don't Log in/Sign up](images/screenshots/13.png)
 
 ### 10. Verify the Installation
 
