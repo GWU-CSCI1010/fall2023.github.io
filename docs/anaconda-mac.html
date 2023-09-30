@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CSCI 1010 [Fall 2023] - Computer Science Orientation</title>
+<title>CSCI 1010 [Fall 2023] – anaconda-mac</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -82,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -128,110 +162,184 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-and-contact-information" id="toc-course-and-contact-information" class="nav-link active" data-scroll-target="#course-and-contact-information">Course and Contact Information</a></li>
-  <li><a href="#github-repo-updated-weekly" id="toc-github-repo-updated-weekly" class="nav-link" data-scroll-target="#github-repo-updated-weekly">Github Repo (updated weekly)</a></li>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course description</a></li>
+  <li><a href="#anaconda-installation-guide-for-macos" id="toc-anaconda-installation-guide-for-macos" class="nav-link active" data-scroll-target="#anaconda-installation-guide-for-macos">Anaconda Installation Guide for macOS</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#installation-steps" id="toc-installation-steps" class="nav-link" data-scroll-target="#installation-steps">Installation Steps</a>
+  <ul class="collapse">
+  <li><a href="#download-anaconda" id="toc-download-anaconda" class="nav-link" data-scroll-target="#download-anaconda">1. Download Anaconda</a></li>
+  <li><a href="#choose-the-macos-installer" id="toc-choose-the-macos-installer" class="nav-link" data-scroll-target="#choose-the-macos-installer">2. Choose the macOS Installer</a></li>
+  <li><a href="#run-the-installer" id="toc-run-the-installer" class="nav-link" data-scroll-target="#run-the-installer">3. Run the Installer</a></li>
+  <li><a href="#follow-the-installer-wizard" id="toc-follow-the-installer-wizard" class="nav-link" data-scroll-target="#follow-the-installer-wizard">4. Follow the Installer Wizard</a></li>
+  <li><a href="#install-anaconda" id="toc-install-anaconda" class="nav-link" data-scroll-target="#install-anaconda">5. Install Anaconda</a></li>
+  <li><a href="#complete-the-installation" id="toc-complete-the-installation" class="nav-link" data-scroll-target="#complete-the-installation">6. Complete the Installation</a></li>
+  <li><a href="#move-the-installer-file-to-trash-optional" id="toc-move-the-installer-file-to-trash-optional" class="nav-link" data-scroll-target="#move-the-installer-file-to-trash-optional">7. Move the Installer file to Trash <strong>(Optional)</strong></a></li>
+  <li><a href="#if-prompted-to-update-the-navigator-select-no-dont-show-again" id="toc-if-prompted-to-update-the-navigator-select-no-dont-show-again" class="nav-link" data-scroll-target="#if-prompted-to-update-the-navigator-select-no-dont-show-again">8. If prompted to update the navigator, select “No, don’t show again”</a></li>
+  <li><a href="#youre-not-required-to-log-insign-up-for-anaconda-cloud-you-can-close-the-prompt-by-clicking-the-x-button" id="toc-youre-not-required-to-log-insign-up-for-anaconda-cloud-you-can-close-the-prompt-by-clicking-the-x-button" class="nav-link" data-scroll-target="#youre-not-required-to-log-insign-up-for-anaconda-cloud-you-can-close-the-prompt-by-clicking-the-x-button">9. You’re <u>NOT REQUIRED</u> to Log in/Sign up for Anaconda Cloud, you can close the prompt by clicking the “x” button</a></li>
+  <li><a href="#verify-the-installation" id="toc-verify-the-installation" class="nav-link" data-scroll-target="#verify-the-installation">10. Verify the Installation</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Computer Science Orientation</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<h2 class="anchored">
-Hands-on exploration of the possibilities in Computer Science
-</h2>
-
-<style>
-* {
-  box-sizing: border-box;
-}
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-  /* height: 350px; Should be removed. Only for demonstration */
-}
-
-.left {
-  width: 25%;
-}
-
-.right {
-  width: 75%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-<section id="course-and-contact-information" class="level3">
-<h3 class="anchored" data-anchor-id="course-and-contact-information">Course and Contact Information</h3>
-<div class="row">
-<div class="column">
-<ul>
-<li><strong>CSCI 1010:</strong> Computer Science Orientation</li>
-<li><strong>Semester:</strong> Fall 2023</li>
-<li><strong>Credits:</strong> 1</li>
-<li><strong>Lecture location and meeting times:</strong>
-<ul>
-<li>Duques 151</li>
-<li>Friday 9:35 AM — 10:25 AM</li>
-</ul></li>
-<li><strong>Lab location and meeting times:</strong>
-<ul>
-<li>SEH 1300 &amp; SEH 1400 &amp; SEH 1450</li>
-<li>Lab section 30: Friday 10:40 AM - 12:15 PM</li>
-<li>Lab section 31: Friday 12:45 PM - 2:10 PM</li>
-</ul></li>
-<li><strong>Course website:</strong> TBA <!-- - **Course website:** [https://gwu-csci3907.github.io](https://gwu-csci3907.github.io) --></li>
-<li><strong>Instructor information</strong> <a href="./instructor.html">can be found here</a>
-</li></ul></div>
-
-<div class="column">
-<!-- "float: left;  --> <img src="./images/CS1010.png" alt="IoT icon" style="object-fit:contain width:250px;height:250px; margin-right: 10px;"><br> <!--  <p><font size="1">IoT by Alla Zaleuska from <a href="https://thenounproject.com/browse/icons/term/iot/" target="_blank" title="IoT Icons">Noun Project</a></font></p> -->
-</div>
-</div>
-<p><br></p>
+<section id="anaconda-installation-guide-for-macos" class="level1">
+<h1>Anaconda Installation Guide for macOS</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.</p>
 </section>
-<section id="github-repo-updated-weekly" class="level3">
-<h3 class="anchored" data-anchor-id="github-repo-updated-weekly">Github Repo (updated weekly)</h3>
-<p>git clone <strong>TBA</strong></p>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>Before you begin, ensure you have the following:</p>
+<ol type="1">
+<li>A macOS computer.</li>
+<li>An internet connection.</li>
+<li>Sufficient disk space for the installation.</li>
+</ol>
 </section>
-<section id="course-description" class="level3">
-<h3 class="anchored" data-anchor-id="course-description">Course description</h3>
-<p>This is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of</p>
-<ol type="1">
-<li>lectures on the various disciplines in Computer Science,</li>
-<li>hands-on Python programming exercises and</li>
-<li>hands-on exercises and in-class projects using Raspberry Pi 4B single-board computer.</li>
-</ol>
-<p>The students will work on the following two engineering innovation projects:</p>
-<ol type="1">
-<li>Guided-python programming project and</li>
-<li>Will have the option of choosing a final Raspberry Pi 4B-based project or a python programming project to address an impending need in engineering-innovation</li>
-</ol>
-<p>Through the above course activities students will be exposed to computing, technical resources and presentations on various aspects in the field of computer science. The students will get access to a “slack-workspace” for this course, that will facilitate offline discussions among themselves and the instruction team. The students will also be provided lecture presentationsand video summaries whenever possible and made available on the course webpage and / or blackboard.</p>
-<br><br>
+<section id="installation-steps" class="level2">
+<h2 class="anchored" data-anchor-id="installation-steps">Installation Steps</h2>
+<section id="download-anaconda" class="level3">
+<h3 class="anchored" data-anchor-id="download-anaconda">1. Download Anaconda</h3>
+<p>Visit the Anaconda download page at <a href="https://www.anaconda.com/downloads">https://www.anaconda.com/downloads</a>.</p>
+</section>
+<section id="choose-the-macos-installer" class="level3">
+<h3 class="anchored" data-anchor-id="choose-the-macos-installer">2. Choose the macOS Installer</h3>
+<p>Click on the “Download” button under the macOS section depending on you System-on-chip (<strong>Intel/M1/M2</strong>) to download the Anaconda installer for macOS.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Download Anaconda</figcaption>
+</figure>
+</div>
+</section>
+<section id="run-the-installer" class="level3">
+<h3 class="anchored" data-anchor-id="run-the-installer">3. Run the Installer</h3>
+<ul>
+<li>Locate the downloaded file (usually in your “Downloads” folder).</li>
+<li>Double-click the Anaconda disk image (<code>.dmg</code>) file to open it and click on “Allow” when prompted.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Run Installer</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/3.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Allow Installation</figcaption>
+</figure>
+</div>
+</section>
+<section id="follow-the-installer-wizard" class="level3">
+<h3 class="anchored" data-anchor-id="follow-the-installer-wizard">4. Follow the Installer Wizard</h3>
+<ul>
+<li>Follow the on-screen instructions to begin the installation.</li>
+<li>Read and accept the license agreement when prompted.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/4.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Read Me</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/5.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">License Agreement</figcaption>
+</figure>
+</div>
+<!-- - Choose the installation type. It's recommended to select "Install for me only" unless you have specific reasons for a different choice. -->
+<!-- ![Installation Type](path/to/screenshot-4.png) -->
+<!-- - Select the installation location (the default is usually fine). -->
+<!-- ![Installation Location](path/to/screenshot-5.png) -->
+</section>
+<section id="install-anaconda" class="level3">
+<h3 class="anchored" data-anchor-id="install-anaconda">5. Install Anaconda</h3>
+<p>Click the “Install” button to begin the installation process. This may take a few minutes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/6.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Install</figcaption>
+</figure>
+</div>
+</section>
+<section id="complete-the-installation" class="level3">
+<h3 class="anchored" data-anchor-id="complete-the-installation">6. Complete the Installation</h3>
+<p>Once the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/7.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Installation Complete</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/8.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Close Installation Wizard</figcaption>
+</figure>
+</div>
+</section>
+<section id="move-the-installer-file-to-trash-optional" class="level3">
+<h3 class="anchored" data-anchor-id="move-the-installer-file-to-trash-optional">7. Move the Installer file to Trash <strong>(Optional)</strong></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/9.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Move the Installer to Trash</figcaption>
+</figure>
+</div>
+</section>
+<section id="if-prompted-to-update-the-navigator-select-no-dont-show-again" class="level3">
+<h3 class="anchored" data-anchor-id="if-prompted-to-update-the-navigator-select-no-dont-show-again">8. If prompted to update the navigator, select “No, don’t show again”</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/10.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Don’t Update</figcaption>
+</figure>
+</div>
+</section>
+<section id="youre-not-required-to-log-insign-up-for-anaconda-cloud-you-can-close-the-prompt-by-clicking-the-x-button" class="level3">
+<h3 class="anchored" data-anchor-id="youre-not-required-to-log-insign-up-for-anaconda-cloud-you-can-close-the-prompt-by-clicking-the-x-button">9. You’re <u>NOT REQUIRED</u> to Log in/Sign up for Anaconda Cloud, you can close the prompt by clicking the “x” button</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/10.5.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Don’t Log in/Sign up</figcaption>
+</figure>
+</div>
+</section>
+<section id="verify-the-installation" class="level3">
+<h3 class="anchored" data-anchor-id="verify-the-installation">10. Verify the Installation</h3>
+<p>Open the “Terminal” application on your macOS computer and type the following command to verify that Anaconda and Jupyter were installed successfully:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">jupyter</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/11.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Open Terminal</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/12.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Verify Jupyter Installation</figcaption>
+</figure>
+</div>
+<p>You should see the Jupyter packages version numbers displayed.</p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Congratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.</p>
+<p>For more information on using Anaconda, refer to the official documentation at <a href="https://docs.anaconda.com/">https://docs.anaconda.com/</a>.</p>
+<p>If you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.</p>
+<br>
 <footer>
 <p>
 <small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.<br> Author: Kartik Bulusu<br> Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br> © 2023 All rights reserved</small></small></small></small>
@@ -239,6 +347,7 @@ Hands-on exploration of the possibilities in Computer Science
 </footer>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

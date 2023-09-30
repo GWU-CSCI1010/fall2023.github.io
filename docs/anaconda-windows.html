@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CSCI 1010 [Fall 2023] - Computer Science Orientation</title>
+<title>CSCI 1010 [Fall 2023] – anaconda-windows</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -128,110 +128,136 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-and-contact-information" id="toc-course-and-contact-information" class="nav-link active" data-scroll-target="#course-and-contact-information">Course and Contact Information</a></li>
-  <li><a href="#github-repo-updated-weekly" id="toc-github-repo-updated-weekly" class="nav-link" data-scroll-target="#github-repo-updated-weekly">Github Repo (updated weekly)</a></li>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course description</a></li>
+  <li><a href="#anaconda-installation-guide-for-windows" id="toc-anaconda-installation-guide-for-windows" class="nav-link active" data-scroll-target="#anaconda-installation-guide-for-windows">Anaconda Installation Guide for Windows</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#installation-steps" id="toc-installation-steps" class="nav-link" data-scroll-target="#installation-steps">Installation Steps</a>
+  <ul class="collapse">
+  <li><a href="#download-anaconda" id="toc-download-anaconda" class="nav-link" data-scroll-target="#download-anaconda">1. Download Anaconda</a></li>
+  <li><a href="#choose-the-windows-installer" id="toc-choose-the-windows-installer" class="nav-link" data-scroll-target="#choose-the-windows-installer">2. Choose the Windows Installer</a></li>
+  <li><a href="#run-the-installer" id="toc-run-the-installer" class="nav-link" data-scroll-target="#run-the-installer">3. Run the Installer</a></li>
+  <li><a href="#follow-the-installer-wizard" id="toc-follow-the-installer-wizard" class="nav-link" data-scroll-target="#follow-the-installer-wizard">4. Follow the Installer Wizard</a></li>
+  <li><a href="#install-anaconda" id="toc-install-anaconda" class="nav-link" data-scroll-target="#install-anaconda">5. Install Anaconda</a></li>
+  <li><a href="#complete-the-installation" id="toc-complete-the-installation" class="nav-link" data-scroll-target="#complete-the-installation">6. Complete the Installation</a></li>
+  <li><a href="#verify-the-installation" id="toc-verify-the-installation" class="nav-link" data-scroll-target="#verify-the-installation">7. Verify the Installation</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Computer Science Orientation</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<h2 class="anchored">
-Hands-on exploration of the possibilities in Computer Science
-</h2>
-
-<style>
-* {
-  box-sizing: border-box;
-}
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-  /* height: 350px; Should be removed. Only for demonstration */
-}
-
-.left {
-  width: 25%;
-}
-
-.right {
-  width: 75%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-<section id="course-and-contact-information" class="level3">
-<h3 class="anchored" data-anchor-id="course-and-contact-information">Course and Contact Information</h3>
-<div class="row">
-<div class="column">
-<ul>
-<li><strong>CSCI 1010:</strong> Computer Science Orientation</li>
-<li><strong>Semester:</strong> Fall 2023</li>
-<li><strong>Credits:</strong> 1</li>
-<li><strong>Lecture location and meeting times:</strong>
-<ul>
-<li>Duques 151</li>
-<li>Friday 9:35 AM — 10:25 AM</li>
-</ul></li>
-<li><strong>Lab location and meeting times:</strong>
-<ul>
-<li>SEH 1300 &amp; SEH 1400 &amp; SEH 1450</li>
-<li>Lab section 30: Friday 10:40 AM - 12:15 PM</li>
-<li>Lab section 31: Friday 12:45 PM - 2:10 PM</li>
-</ul></li>
-<li><strong>Course website:</strong> TBA <!-- - **Course website:** [https://gwu-csci3907.github.io](https://gwu-csci3907.github.io) --></li>
-<li><strong>Instructor information</strong> <a href="./instructor.html">can be found here</a>
-</li></ul></div>
-
-<div class="column">
-<!-- "float: left;  --> <img src="./images/CS1010.png" alt="IoT icon" style="object-fit:contain width:250px;height:250px; margin-right: 10px;"><br> <!--  <p><font size="1">IoT by Alla Zaleuska from <a href="https://thenounproject.com/browse/icons/term/iot/" target="_blank" title="IoT Icons">Noun Project</a></font></p> -->
-</div>
-</div>
-<p><br></p>
+<section id="anaconda-installation-guide-for-windows" class="level1">
+<h1>Anaconda Installation Guide for Windows</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your Windows computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.</p>
 </section>
-<section id="github-repo-updated-weekly" class="level3">
-<h3 class="anchored" data-anchor-id="github-repo-updated-weekly">Github Repo (updated weekly)</h3>
-<p>git clone <strong>TBA</strong></p>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>Before you begin, ensure you have the following:</p>
+<ol type="1">
+<li>A Windows computer.</li>
+<li>An internet connection.</li>
+<li>Sufficient disk space for the installation.</li>
+</ol>
 </section>
-<section id="course-description" class="level3">
-<h3 class="anchored" data-anchor-id="course-description">Course description</h3>
-<p>This is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of</p>
-<ol type="1">
-<li>lectures on the various disciplines in Computer Science,</li>
-<li>hands-on Python programming exercises and</li>
-<li>hands-on exercises and in-class projects using Raspberry Pi 4B single-board computer.</li>
-</ol>
-<p>The students will work on the following two engineering innovation projects:</p>
-<ol type="1">
-<li>Guided-python programming project and</li>
-<li>Will have the option of choosing a final Raspberry Pi 4B-based project or a python programming project to address an impending need in engineering-innovation</li>
-</ol>
-<p>Through the above course activities students will be exposed to computing, technical resources and presentations on various aspects in the field of computer science. The students will get access to a “slack-workspace” for this course, that will facilitate offline discussions among themselves and the instruction team. The students will also be provided lecture presentationsand video summaries whenever possible and made available on the course webpage and / or blackboard.</p>
-<br><br>
+<section id="installation-steps" class="level2">
+<h2 class="anchored" data-anchor-id="installation-steps">Installation Steps</h2>
+<section id="download-anaconda" class="level3">
+<h3 class="anchored" data-anchor-id="download-anaconda">1. Download Anaconda</h3>
+<p>Visit the Anaconda download page at <a href="https://www.anaconda.com/products/distribution">https://www.anaconda.com/products/distribution</a>.</p>
+</section>
+<section id="choose-the-windows-installer" class="level3">
+<h3 class="anchored" data-anchor-id="choose-the-windows-installer">2. Choose the Windows Installer</h3>
+<p>Click on the “Download” button under the Windows section to download the Anaconda installer for Windows.</p>
+</section>
+<section id="run-the-installer" class="level3">
+<h3 class="anchored" data-anchor-id="run-the-installer">3. Run the Installer</h3>
+<ul>
+<li>Locate the downloaded file (usually in your “Downloads” folder).</li>
+<li>Double-click the installer executable to run it.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Run Installer</figcaption>
+</figure>
+</div>
+</section>
+<section id="follow-the-installer-wizard" class="level3">
+<h3 class="anchored" data-anchor-id="follow-the-installer-wizard">4. Follow the Installer Wizard</h3>
+<ul>
+<li>Follow the on-screen instructions to begin the installation.</li>
+<li>Read and accept the license agreement when prompted.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">License Agreement</figcaption>
+</figure>
+</div>
+<ul>
+<li>Choose the installation type. It’s recommended to select “Install for me only” unless you have specific reasons for a different choice.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-3.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Installation Type</figcaption>
+</figure>
+</div>
+<ul>
+<li>Select the installation location (the default is usually fine).</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-4.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Installation Location</figcaption>
+</figure>
+</div>
+</section>
+<section id="install-anaconda" class="level3">
+<h3 class="anchored" data-anchor-id="install-anaconda">5. Install Anaconda</h3>
+<p>Click the “Install” button to begin the installation process. This may take a few minutes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-5.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Install</figcaption>
+</figure>
+</div>
+</section>
+<section id="complete-the-installation" class="level3">
+<h3 class="anchored" data-anchor-id="complete-the-installation">6. Complete the Installation</h3>
+<p>Once the installation is complete, you will see a confirmation message. Click the “Next” button to finish.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-6.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Installation Complete</figcaption>
+</figure>
+</div>
+</section>
+<section id="verify-the-installation" class="level3">
+<h3 class="anchored" data-anchor-id="verify-the-installation">7. Verify the Installation</h3>
+<p>Open the “Anaconda Navigator” application from the Windows Start menu or search bar. It should launch without errors.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-7.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Launch Anaconda Navigator</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Congratulations! You’ve successfully installed Anaconda on your Windows computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.</p>
+<p>For more information on using Anaconda, refer to the official documentation at <a href="https://docs.anaconda.com/">https://docs.anaconda.com/</a>.</p>
+<p>If you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.</p>
+<br>
 <footer>
 <p>
 <small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.<br> Author: Kartik Bulusu<br> Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br> © 2023 All rights reserved</small></small></small></small>
@@ -239,6 +265,7 @@ Hands-on exploration of the possibilities in Computer Science
 </footer>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CSCI 1010 [Fall 2023] - Computer Science Orientation</title>
+<title>CSCI 1010 [Fall 2023] – vscode-windows</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -128,110 +128,144 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-and-contact-information" id="toc-course-and-contact-information" class="nav-link active" data-scroll-target="#course-and-contact-information">Course and Contact Information</a></li>
-  <li><a href="#github-repo-updated-weekly" id="toc-github-repo-updated-weekly" class="nav-link" data-scroll-target="#github-repo-updated-weekly">Github Repo (updated weekly)</a></li>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course description</a></li>
+  <li><a href="#visual-studio-code-installation-guide-for-windows" id="toc-visual-studio-code-installation-guide-for-windows" class="nav-link active" data-scroll-target="#visual-studio-code-installation-guide-for-windows">Visual Studio Code Installation Guide for Windows</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#installation-steps" id="toc-installation-steps" class="nav-link" data-scroll-target="#installation-steps">Installation Steps</a>
+  <ul class="collapse">
+  <li><a href="#download-visual-studio-code" id="toc-download-visual-studio-code" class="nav-link" data-scroll-target="#download-visual-studio-code">1. Download Visual Studio Code</a></li>
+  <li><a href="#choose-the-windows-installer" id="toc-choose-the-windows-installer" class="nav-link" data-scroll-target="#choose-the-windows-installer">2. Choose the Windows Installer</a></li>
+  <li><a href="#run-the-installer" id="toc-run-the-installer" class="nav-link" data-scroll-target="#run-the-installer">3. Run the Installer</a></li>
+  <li><a href="#start-the-installation" id="toc-start-the-installation" class="nav-link" data-scroll-target="#start-the-installation">4. Start the Installation</a></li>
+  <li><a href="#choose-installation-options" id="toc-choose-installation-options" class="nav-link" data-scroll-target="#choose-installation-options">5. Choose Installation Options</a></li>
+  <li><a href="#install-vs-code" id="toc-install-vs-code" class="nav-link" data-scroll-target="#install-vs-code">6. Install VS Code</a></li>
+  <li><a href="#launch-visual-studio-code" id="toc-launch-visual-studio-code" class="nav-link" data-scroll-target="#launch-visual-studio-code">7. Launch Visual Studio Code</a></li>
+  <li><a href="#customize-vs-code-optional" id="toc-customize-vs-code-optional" class="nav-link" data-scroll-target="#customize-vs-code-optional">8. Customize VS Code (Optional)</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Computer Science Orientation</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<h2 class="anchored">
-Hands-on exploration of the possibilities in Computer Science
-</h2>
-
-<style>
-* {
-  box-sizing: border-box;
-}
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-  /* height: 350px; Should be removed. Only for demonstration */
-}
-
-.left {
-  width: 25%;
-}
-
-.right {
-  width: 75%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-<section id="course-and-contact-information" class="level3">
-<h3 class="anchored" data-anchor-id="course-and-contact-information">Course and Contact Information</h3>
-<div class="row">
-<div class="column">
-<ul>
-<li><strong>CSCI 1010:</strong> Computer Science Orientation</li>
-<li><strong>Semester:</strong> Fall 2023</li>
-<li><strong>Credits:</strong> 1</li>
-<li><strong>Lecture location and meeting times:</strong>
-<ul>
-<li>Duques 151</li>
-<li>Friday 9:35 AM — 10:25 AM</li>
-</ul></li>
-<li><strong>Lab location and meeting times:</strong>
-<ul>
-<li>SEH 1300 &amp; SEH 1400 &amp; SEH 1450</li>
-<li>Lab section 30: Friday 10:40 AM - 12:15 PM</li>
-<li>Lab section 31: Friday 12:45 PM - 2:10 PM</li>
-</ul></li>
-<li><strong>Course website:</strong> TBA <!-- - **Course website:** [https://gwu-csci3907.github.io](https://gwu-csci3907.github.io) --></li>
-<li><strong>Instructor information</strong> <a href="./instructor.html">can be found here</a>
-</li></ul></div>
-
-<div class="column">
-<!-- "float: left;  --> <img src="./images/CS1010.png" alt="IoT icon" style="object-fit:contain width:250px;height:250px; margin-right: 10px;"><br> <!--  <p><font size="1">IoT by Alla Zaleuska from <a href="https://thenounproject.com/browse/icons/term/iot/" target="_blank" title="IoT Icons">Noun Project</a></font></p> -->
-</div>
-</div>
-<p><br></p>
+<section id="visual-studio-code-installation-guide-for-windows" class="level1">
+<h1>Visual Studio Code Installation Guide for Windows</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your Windows computer. VS Code provides a powerful environment for coding and development across various programming languages.</p>
 </section>
-<section id="github-repo-updated-weekly" class="level3">
-<h3 class="anchored" data-anchor-id="github-repo-updated-weekly">Github Repo (updated weekly)</h3>
-<p>git clone <strong>TBA</strong></p>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>Before you begin, ensure you have the following:</p>
+<ol type="1">
+<li>A Windows computer.</li>
+<li>An internet connection.</li>
+</ol>
 </section>
-<section id="course-description" class="level3">
-<h3 class="anchored" data-anchor-id="course-description">Course description</h3>
-<p>This is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of</p>
-<ol type="1">
-<li>lectures on the various disciplines in Computer Science,</li>
-<li>hands-on Python programming exercises and</li>
-<li>hands-on exercises and in-class projects using Raspberry Pi 4B single-board computer.</li>
-</ol>
-<p>The students will work on the following two engineering innovation projects:</p>
-<ol type="1">
-<li>Guided-python programming project and</li>
-<li>Will have the option of choosing a final Raspberry Pi 4B-based project or a python programming project to address an impending need in engineering-innovation</li>
-</ol>
-<p>Through the above course activities students will be exposed to computing, technical resources and presentations on various aspects in the field of computer science. The students will get access to a “slack-workspace” for this course, that will facilitate offline discussions among themselves and the instruction team. The students will also be provided lecture presentationsand video summaries whenever possible and made available on the course webpage and / or blackboard.</p>
-<br><br>
+<section id="installation-steps" class="level2">
+<h2 class="anchored" data-anchor-id="installation-steps">Installation Steps</h2>
+<section id="download-visual-studio-code" class="level3">
+<h3 class="anchored" data-anchor-id="download-visual-studio-code">1. Download Visual Studio Code</h3>
+<p>Visit the official VS Code download page at <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a>.</p>
+</section>
+<section id="choose-the-windows-installer" class="level3">
+<h3 class="anchored" data-anchor-id="choose-the-windows-installer">2. Choose the Windows Installer</h3>
+<p>Click on the “Windows” download link to download the Visual Studio Code installer for Windows.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Download VS Code</figcaption>
+</figure>
+</div>
+</section>
+<section id="run-the-installer" class="level3">
+<h3 class="anchored" data-anchor-id="run-the-installer">3. Run the Installer</h3>
+<ul>
+<li>Locate the downloaded installer file (usually in your “Downloads” folder).</li>
+<li>Double-click the installer executable (<code>.exe</code>) file to run it.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Run Installer</figcaption>
+</figure>
+</div>
+</section>
+<section id="start-the-installation" class="level3">
+<h3 class="anchored" data-anchor-id="start-the-installation">4. Start the Installation</h3>
+<ul>
+<li>You will see the VS Code Setup Wizard. Click the “Next” button to begin the installation.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-3.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Setup Wizard</figcaption>
+</figure>
+</div>
+</section>
+<section id="choose-installation-options" class="level3">
+<h3 class="anchored" data-anchor-id="choose-installation-options">5. Choose Installation Options</h3>
+<ul>
+<li>Select the installation location (the default is usually fine) and click “Next.”</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-4.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Installation Location</figcaption>
+</figure>
+</div>
+<ul>
+<li>Choose additional tasks if desired (e.g., adding VS Code to the PATH). Then, click “Next.”</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-5.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Additional Tasks</figcaption>
+</figure>
+</div>
+</section>
+<section id="install-vs-code" class="level3">
+<h3 class="anchored" data-anchor-id="install-vs-code">6. Install VS Code</h3>
+<p>Click the “Install” button to begin the installation process. This may take a few moments.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-6.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Install</figcaption>
+</figure>
+</div>
+</section>
+<section id="launch-visual-studio-code" class="level3">
+<h3 class="anchored" data-anchor-id="launch-visual-studio-code">7. Launch Visual Studio Code</h3>
+<p>After the installation is complete, you can leave the “Launch Visual Studio Code” option checked and click “Finish.”</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-7.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Launch VS Code</figcaption>
+</figure>
+</div>
+</section>
+<section id="customize-vs-code-optional" class="level3">
+<h3 class="anchored" data-anchor-id="customize-vs-code-optional">8. Customize VS Code (Optional)</h3>
+<p>Upon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="path/to/screenshot-8.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Customize VS Code</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Congratulations! You’ve successfully installed Visual Studio Code on your Windows computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.</p>
+<p>Feel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!</p>
+<p>For more information and documentation on Visual Studio Code, visit <a href="https://code.visualstudio.com/docs">https://code.visualstudio.com/docs</a>.</p>
+<br>
 <footer>
 <p>
 <small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.<br> Author: Kartik Bulusu<br> Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br> © 2023 All rights reserved</small></small></small></small>
@@ -239,6 +273,7 @@ Hands-on exploration of the possibilities in Computer Science
 </footer>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -16,62 +16,84 @@ Before you begin, ensure you have the following:
 
 ### 1. Download Anaconda
 
-Visit the Anaconda download page at [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution).
+Visit the Anaconda download page at [https://www.anaconda.com/downloads](https://www.anaconda.com/downloads).
 
 ### 2. Choose the macOS Installer
 
-Click on the "Download" button under the macOS section to download the Anaconda installer for macOS.
+Click on the "Download" button under the macOS section depending on you System-on-chip (**Intel/M1/M2**) to download the Anaconda installer for macOS.
 
-![Download Anaconda](path/to/screenshot-1.png)
+![Download Anaconda](images/screenshots/1.png)
 
 ### 3. Run the Installer
 
 - Locate the downloaded file (usually in your "Downloads" folder).
-- Double-click the installer package to run it.
+- Double-click the Anaconda disk image (`.dmg`) file to open it and click on "Allow" when prompted.
 
-![Run Installer](path/to/screenshot-2.png)
+![Run Installer](images/screenshots/2.png)
+
+![Allow Installation](images/screenshots/3.png)
 
 ### 4. Follow the Installer Wizard
 
 - Follow the on-screen instructions to begin the installation.
 - Read and accept the license agreement when prompted.
 
-![License Agreement](path/to/screenshot-3.png)
+![Read Me](images/screenshots/4.png)
 
-- Choose the installation type. It's recommended to select "Install for me only" unless you have specific reasons for a different choice.
+![License Agreement](images/screenshots/5.png)
 
-![Installation Type](path/to/screenshot-4.png)
+<!-- - Choose the installation type. It's recommended to select "Install for me only" unless you have specific reasons for a different choice. -->
 
-- Select the installation location (the default is usually fine).
+<!-- ![Installation Type](path/to/screenshot-4.png) -->
 
-![Installation Location](path/to/screenshot-5.png)
+<!-- - Select the installation location (the default is usually fine). -->
+
+<!-- ![Installation Location](path/to/screenshot-5.png) -->
 
 ### 5. Install Anaconda
 
 Click the "Install" button to begin the installation process. This may take a few minutes.
 
-![Install](path/to/screenshot-6.png)
+![Install](images/screenshots/6.png)
 
 ### 6. Complete the Installation
 
-Once the installation is complete, you will see a confirmation message. Click the "Next" button to finish.
+Once the installation is complete, you will see a confirmation message. Click the "Continue" button and finally close the installation wizard by clicking on the "Close" button.
 
-![Installation Complete](path/to/screenshot-7.png)
+![Installation Complete](images/screenshots/7.png)
 
-### 7. Verify the Installation
+![Close Installation Wizard](images/screenshots/8.png)
 
-Open the "Terminal" application on your macOS computer and type the following command to verify that Anaconda was installed successfully:
+### 7. Move the Installer file to Trash **(Optional)**
+
+![Move the Installer to Trash](images/screenshots/9.png)
+
+### 8. If prompted to update the navigator, select "No, don't show again"
+
+![Don't Update](images/screenshots/10.png)
+
+### 9. You're <u>NOT REQUIRED</u> to Log in/Sign up for Anaconda Cloud, you can close the prompt by clicking the "x" button
+
+![Don't Log in/Sign up](images/screenshots/10.5.png)
+
+### 10. Verify the Installation
+
+Open the "Terminal" application on your macOS computer and type the following command to verify that Anaconda and Jupyter were installed successfully:
 
 ```bash
-conda --version
+jupyter --version
 ```
 
+![Open Terminal](images/screenshots/11.png)
 
-You should see the Anaconda version number displayed.
+![Verify Jupyter Installation](images/screenshots/12.png)
+
+
+You should see the Jupyter packages version numbers displayed.
 
 ## Conclusion
 
-Congratulations! You've successfully installed Anaconda on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.
+Congratulations! You've successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.
 
 For more information on using Anaconda, refer to the official documentation at [https://docs.anaconda.com/](https://docs.anaconda.com/).
 
