@@ -55,7 +55,7 @@ Sample class schedule [week-by-week]
 </table>
 
 
-
+<br><br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
   Author: Kartik Bulusu<br>

@@ -12,6 +12,11 @@ website:
       - schedule.qmd
       - policies.qmd
       - instructor.qmd
+      - text: "Getting Started"
+        menu:
+          # - text: "Installation Guides"
+          - href: install-editor.qmd
+    search: true
 
 format:
   html:
