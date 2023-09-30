@@ -60,18 +60,10 @@ There is no required final exam.
 
 <br>
 
-## Grading Scale
-
-The following grading scale will be applied at the end of the semester to calculate letter grades: 90-100: A, 84-89: A-, 78-83: B+, 72-77: B, 66-71: B-, 60-65: C+, 56-59: C, 52-55: C-, 46-51: D, 0-45: F.
-
-Grades are rounded to the nearest integer, e.g., 0.4 rounds to 0 and 0.5 rounds to 1.
-
-<br>
-
 ## Additional important information about grading policy:
 
 - Late submissions on Homework and projects will not be acceptable.
-- Any questions or follow up about the assignments will be done only within 1 week of submission deadline.
+- Any questions or follow up about the assignments will be done only within 2 weeks of submission deadline.
   - Following the week after the submission deadline no further discussion on the assignment will be done.
 <!-- - There is no required final exam. -->
 <!-- - There may be instances in the presentations where peer-evaluations may be introduced at the discretion of the instructor. -->
@@ -165,8 +157,8 @@ More information is available from the Office of Academic Integrity at <https://
 
 <br><br>
 <footer>
-  <p>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
   Author: Kartik Bulusu<br>
   Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
-  &copy; 2023 All rights reserved</p>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
 </footer>
