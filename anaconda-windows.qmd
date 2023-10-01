@@ -16,51 +16,73 @@ Before you begin, ensure you have the following:
 
 ### 1. Download Anaconda
 
-Visit the Anaconda download page at [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution).
+Visit the Anaconda download page at [[https://www.anaconda.com/download](https://www.anaconda.com/download).
 
 ### 2. Choose the Windows Installer
 
 Click on the "Download" button under the Windows section to download the Anaconda installer for Windows.
 
+![Download Anaconda](images/screenshots/anaconda-windows/screenshot-1.png)
+
 ### 3. Run the Installer
 
 - Locate the downloaded file (usually in your "Downloads" folder).
-- Double-click the installer executable to run it.
+- Double-click the installer executable (`.exe`) file to run it.
 
-![Run Installer](path/to/screenshot-1.png)
+![Run Installer](images/screenshots/anaconda-windows/screenshot-2.png)
 
 ### 4. Follow the Installer Wizard
 
 - Follow the on-screen instructions to begin the installation.
 - Read and accept the license agreement when prompted.
 
-![License Agreement](path/to/screenshot-2.png)
+![Read Me](images/screenshots/anaconda-windows/screenshot-3.png)
 
-- Choose the installation type. It's recommended to select "Install for me only" unless you have specific reasons for a different choice.
+![License Agreement](images/screenshots/anaconda-windows/screenshot-4.png)
 
-![Installation Type](path/to/screenshot-3.png)
+- Choose the installation type. It's recommended to select "Just me" unless you have specific reasons for a different choice.
+
+![Installation Type](images/screenshots/anaconda-windows/screenshot-5.png)
 
 - Select the installation location (the default is usually fine).
 
-![Installation Location](path/to/screenshot-4.png)
+![Installation Location](images/screenshots/anaconda-windows/screenshot-6.png)
 
 ### 5. Install Anaconda
 
 Click the "Install" button to begin the installation process. This may take a few minutes.
 
-![Install](path/to/screenshot-5.png)
+![Install](images/screenshots/anaconda-windows/screenshot-7.png)
 
 ### 6. Complete the Installation
 
-Once the installation is complete, you will see a confirmation message. Click the "Next" button to finish.
+Once the installation is complete, you will see a confirmation message. Click the "Next" button and proceed to finish.
 
-![Installation Complete](path/to/screenshot-6.png)
+![Installation Complete](images/screenshots/anaconda-windows/screenshot-8.png)
 
-### 7. Verify the Installation
+![Close Installation Wizard](images/screenshots/anaconda-windows/screenshot-10.png)
 
-Open the "Anaconda Navigator" application from the Windows Start menu or search bar. It should launch without errors.
+### 7. If prompted to update the navigator, select "No, don't show again"
 
-![Launch Anaconda Navigator](path/to/screenshot-7.png)
+![Don't Update](images/screenshots/anaconda-mac/screenshot-10.png)
+
+### 8. You're <u>NOT REQUIRED</u> to Log in/Sign up for Anaconda Cloud, close the prompt by clicking the "x" button
+
+![Don't Log in/Sign up](images/screenshots/anaconda-windows/screenshot-11.png)
+
+### 10. Verify the Installation
+
+Open the "Terminal" application on your macOS computer and type the following command to verify that Anaconda and Jupyter were installed successfully:
+
+```bash
+jupyter --version
+```
+
+![Open Terminal](images/screenshots/anaconda-windows/screenshot-12.png)
+
+![Verify Jupyter Installation](images/screenshots/anaconda-mac/screenshot-12.png)
+
+You should see the Jupyter packages version numbers displayed.
 
 ## Conclusion
 
