@@ -21,30 +21,62 @@ Visit the official VS Code download page at [https://code.visualstudio.com/downl
 
 Click on the "macOS" download link to download the Visual Studio Code for macOS.
 
-![Download VS Code](path/to/screenshot-1.png)
+![Download VS Code](images/screenshots/vscode-mac/screenshot-1.png)
+
+![Allow Download](images/screenshots/vscode-mac/screenshot-2.png)
 
 ### 3. Install Visual Studio Code
 
 - Locate the downloaded file (usually in your "Downloads" folder).
 - Double-click the VS Code disk image (`.dmg`) file to open it.
 
-![Open DMG](path/to/screenshot-2.png)
+![Open DMG](images/screenshots/vscode-mac/screenshot-3.png)
 
-- Drag the Visual Studio Code application icon to the "Applications" folder to install it.
+<!-- - Drag the Visual Studio Code application icon to the "Applications" folder to install it.
 
-![Install VS Code](path/to/screenshot-3.png)
+![Install VS Code](path/to/screenshot-3.png) -->
 
 ### 4. Launch Visual Studio Code
 
-Open your "Applications" folder and locate the "Visual Studio Code" application. Double-click it to launch the editor.
+Open your "Launchpad" and locate the "Visual Studio Code" application. Double-click it to launch the editor.
 
-![Launch VS Code](path/to/screenshot-4.png)
+![Launch VS Code](images/screenshots/vscode-mac/screenshot-10.png)
 
 ### 5. Customize VS Code (Optional)
 
-Upon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs.
+Upon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (**Optional**)
 
-![Customize VS Code](path/to/screenshot-5.png)
+![Customize VS Code](images/screenshots/vscode-mac/screenshot-4.png)
+
+### 6. Open Extensions Tab
+
+On the sidebar click on the Extensions tab.
+
+![Extensions tab](images/screenshots/vscode-mac/screenshot-5.png)
+
+### 7. Select "Python" Extension
+
+Under the "Popular" select "Python".
+
+![Search Python](images/screenshots/vscode-mac/screenshot-6.png)
+
+### 8. Install Python Extension
+
+On the right panel click on the install button to install the extension.
+
+![Install Python Extension](images/screenshots/vscode-mac/screenshot-7.png)
+
+### 9. Open a New File
+
+Click on the File tab from the toolbar and open a New File.
+
+![Open New File](images/screenshots/vscode-mac/screenshot-8.png)
+
+### 10. Open a Jupyter Notebook
+
+From the drop down menu, select "Jupyter Notebook" as the file type.
+
+![Open Jupyter Notebook](images/screenshots/vscode-mac/screenshot-9.png)
 
 ## Conclusion
 

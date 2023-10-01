@@ -60,7 +60,7 @@ After the installation is complete, you can leave the "Launch Visual Studio Code
 
 ### 8. Customize VS Code (**Optional**)
 
-Upon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs.
+Upon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (**Optional**) 
 
 ![Customize VS Code](images/screenshots/vscode-windows/screenshot-8.png)
 
@@ -93,6 +93,7 @@ From the top-right corner click on the three-bars and open a New File.
 From the drop down menu, select "Jupyter Notebook" as the file type.
 
 ![Open Jupyter Notebook](images/screenshots/vscode-windows/screenshot-14.png)
+
 ## Conclusion
 
 Congratulations! You've successfully installed Visual Studio Code on your Windows computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.
