@@ -1,51 +1,169 @@
 ---
 title: "Instruction Team"
-format: html
+format: html 
 ---
 
-<style>
-* {
-  box-sizing: border-box;
-}
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
+## Dr. Kartik Bulusu (Instructor)
+<table>
+  <tr>
+    <td width="70%">
+      
+      Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
+      His research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.
 
-## Instructor
-<div class="row">
- <div class="column">
- <p>Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE). </p>
- 
- <p>His research work entails human health and sustainable energy with focus on biofluid mechanics, polymer rheology, low-cost energy technologies and applications of wavelet transforms. 
- <p>He is also working on AI-on-the-edge applications using low-power devices. In his free time, he is loves to tinker with electronics and design low-cost experiments for research and education.</p>
- <p>Dr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs. </p>
- <p><strong>Office hours:</strong> On-demand <br>(please reach out via email!)</p>
- <p><strong>Location:</strong> Blackboard Collaborate Course Room</p>
- </div>
+      He is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.
 
+      Dr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.
 
-<br><br><br><br>
- <div class="column">
- <!-- "float: left;  -->
- <img src="/images/20160728facultybioshots_SEAS_GWU_40.jpg" alt="instructor" style="object-fit:contain width:400px;height:400px; margin-right: 10px;" /><br><br><br><br>
- <p><strong>Campus Address:</strong> SEH 3640</p>
- <p><strong>E-mail:</strong> bulusu at gwu dot edu</p>
- </div>
-</div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+      **Office Hours:** On-Demand (Please reach out via email)
 
+      **Location:** Blackboard Collaborate Course Room
+
+    </td>
+
+    <td width="30%">
+      <img src="images/team/bulusu.jpg" alt="instructor" style="object-fit:contain width:400px;height:400px; margin-right: 10px;" />
+      <!-- <small>Dr. Kartik Bulusu</small><br> -->
+      **Campus Address:** SEH 3640 
+
+      **Email:** bulusu at gwu dot edu
+    </td>
+  </tr>
+</table>
+
+## Oscar Southwell (GTA)
+<table>
+  <tr>
+    <td width="70%">
+      **Oscar Southwell** is a graduate student studying Engineering Management, who received his bachelor’s in mechanical engineering at GW this past spring. Originally from London, United Kingdom, he has experience working as an engineering intern for the Pennsylvanian Department of Transportation and as a science and tech instructor in Philadelphia. 
+      
+      During his time as an undergraduate, he was significantly involved in programs from the GW Office of Entrepreneurship and Innovation, winning prizes in the George Hacks and Pitch George competitions and completing the Fall 2022 I-Corps Program. 
+      
+      He currently serves as the treasurer for the GW Men’s Club Soccer team and American Society of Mechanical Engineers section.
+
+      **Office Hours:** Mondays, Tuesdays (5-6 PM)
+      
+      **Location:** Tompkins Hall (Room 409)
+
+    </td>
+
+    <td width="30%">
+      <img src="images/team/oscar.png" alt="gta" style="object-fit:contain width:400px;height:350px; margin-right: 10px;" />
+
+    </td>
+  </tr>
+</table>
+
+## Sameen Ahmad (UTA)
+<table>
+  <tr>
+    <td width="70%">
+      **Sameen** is a junior majoring in Computer Science. She is from the DMV area (Arlington, VA) and is interested in cybersecurity and artificial intelligence. Ever since Sameen developed her passion for computer science, it has been her goal to combine it with social change. 
+      
+      Sameen is the Executive Secretary of Undergraduate Academic Affairs - The Student Association Executive Branch, and the Chair of the SEAS Together Committee. Sameen has been a committee member of the GW Computer Science [**Justice, Equity, Diversity, and Inclusion**](https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee) (JEDI) Committee since her freshmen year, Co-President for Girls Who Code College Loop at GW, SEASSPAN Undergraduate Ambassador Mentor, the Recruitment and Mentorship Director of WiCS (Women in Computer Science), Member of the University Integrity and Conduct Council, and the University Grievance Committee. In her free time, she enjoys spending time with her family and friends and loves trying out new food. 
+      
+      Sameen is super **EXCITED** to be the UTA for this class and can not wait to meet everyone!!
+
+    </td>
+
+    <td width="30%">
+      <img src="images/team/sameen.png" alt="uta" style="object-fit:contain width:600px;height:350px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Talia Novack (UTA)
+<table>
+  <tr>
+    <td width="70%">
+      **Talia** is a Junior studying Computer Science with a minor in Astronomy and Astrophysics. She is a part of Women in Computer Science and ACM. Talia is interested in space as well as AI applications in our modern world. Outside of CS, Talia’s whole life is WRGW District Radio: GW’s radio station where she is the Programming Director. 
+      
+      In her free time, she enjoys hanging out with friends, being outside, and lifting weights. Talia is pumped to be a UTA for this course and can’t wait to get to some Python programming!!
+
+    </td>
+
+    <td width="30%">
+      <img src="images/team/talia.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Manue Alaimo (LA)
+<table>
+  <tr>
+    <td width="70%">
+      **Manue** is a senior studying Computer Science and is from Pennsylvania.  They have an interest in IoT devices, machine learning, and artificial intelligence. 
+      
+      Over the summer Manue worked as a software engineering intern in the financial technology industry for one of the largest global banks. On campus, they are involved in **JEDI** (Learn more [here](https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee)!). In their free time, they like to run, play frisbee, and try out new coffee shops around DC.
+
+    </td>
+
+    <td width="30%">
+      <img src="images/team/manue.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Selamn Eris (LA)
+<table>
+  <tr>
+    <td width="70%">
+      **Selman** Eris is a senior studying Computer Science. He grew up in Istanbul, Turkey and transferred to GWU after completing freshman year at Istanbul Technical University. He is interested in real-time AI and edge devices. Last summer, he worked in Professor Narahari and Professor Bulusu’s lab focusing on imprecise computation and real-time AI. 
+      
+      In his free time, he enjoys playing video games, listening to music and spending time with his family and friends.
+
+    </td>
+
+    <td width="30%">
+      <img src="images/team/selman.png" alt="uta" style="object-fit:contain width:300px;height:350px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Saif Alzaabi (LA)
+<table>
+  <tr>
+    <td width="70%">
+      **Saif** Alzaabi is a senior graduating this semester. He is majoring in Computer Science and Economics. His main interest is in financial technologies, and is hoping to enter that field after graduation. Outside of studying, Saif trains in martial arts, mainly Brazilian Jiu-Jitsu.
+
+    </td>
+
+    <td width="30%">
+      <img src="images/team/saif.png" alt="uta" style="object-fit:contain width:300px;height:250px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Gustavo Londono (LA)
+<table>
+  <tr>
+    <td width="70%">
+      **Gustavo** is a sophomore studying Computer Science here at GW and is originally from Rhode Island. He’s particularly interested in software engineering and cybersecurity, both of which he hopes to apply to his future career. 
+      
+      Gustavo enjoys reading, working on side projects, and watching tv shows. He’s also a part of GWU Robotics, GW Rocket, and participates in both student/university theater.
+
+    </td>
+
+    <td width="30%">
+      <img src="images/team/gustavo.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Amy Longua (LA)
+<table>
+  <tr>
+    <td width="70%">
+      My name **Amy**, I'm a computer science sophomore and I'll be one of your LAs this fall. I had very little coding experience but I took CSCI1010 last year and it was one of my favorites which is why I decided to LA for it! I'm also a part of WiCS and ACM so if you see me at one of their events come say hi.
+
+    </td>
+
+    <td width="30%">
+      <img src="images/team/amy.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
 
 <!-- 
 ### Instructor contacts

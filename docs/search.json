@@ -95,14 +95,14 @@
     "href": "instructor.html",
     "title": "Instruction Team",
     "section": "",
-    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\n\n\nHis research work entails human health and sustainable energy with focus on biofluid mechanics, polymer rheology, low-cost energy technologies and applications of wavelet transforms.\n\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he is loves to tinker with electronics and design low-cost experiments for research and education.\n\n\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\n\n\nOffice hours: On-demand (please reach out via email!)\n\n\nLocation: Blackboard Collaborate Course Room\n\n\n\n\n \n\nCampus Address: SEH 3640\n\n\nE-mail: bulusu at gwu dot edu\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\nHis research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\nOffice Hours: On-Demand (Please reach out via email)\nLocation: Blackboard Collaborate Course Room\n\n\n  Campus Address: SEH 3640\nEmail: bulusu at gwu dot edu"
   },
   {
     "objectID": "instructor.html#instructor",
     "href": "instructor.html#instructor",
     "title": "Instruction Team",
     "section": "",
-    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\n\n\nHis research work entails human health and sustainable energy with focus on biofluid mechanics, polymer rheology, low-cost energy technologies and applications of wavelet transforms.\n\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he is loves to tinker with electronics and design low-cost experiments for research and education.\n\n\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\n\n\nOffice hours: On-demand (please reach out via email!)\n\n\nLocation: Blackboard Collaborate Course Room\n\n\n\n\n \n\nCampus Address: SEH 3640\n\n\nE-mail: bulusu at gwu dot edu\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\nHis research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\nOffice Hours: On-Demand (Please reach out via email)\nLocation: Blackboard Collaborate Course Room\n\n\n  Campus Address: 3640\nEmail: bulusu at gwu dot edu"
   },
   {
     "objectID": "about.html",
@@ -221,7 +221,7 @@
     "href": "anaconda-windows.html",
     "title": "Anaconda Installation Guide for Windows",
     "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your Windows computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at [https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\nOpen the “Terminal” application on your macOS computer and type the following command to verify that Anaconda and Jupyter were installed successfully:\njupyter --version\n\n\n\nOpen Terminal\n\n\n\n\n\nVerify Jupyter Installation\n\n\nYou should see the Jupyter packages version numbers displayed.\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda on your Windows computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your Windows computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\nOpen the “Terminal” application on your macOS computer and type the following command to verify that Anaconda and Jupyter were installed successfully:\njupyter --version\n\n\n\nOpen Terminal\n\n\n\n\n\nVerify Jupyter Installation\n\n\nYou should see the Jupyter packages version numbers displayed.\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda on your Windows computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
     "objectID": "anaconda-windows.html#introduction",
@@ -242,7 +242,7 @@
     "href": "anaconda-windows.html#installation-steps",
     "title": "Anaconda Installation Guide for Windows",
     "section": "",
-    "text": "Visit the Anaconda download page at [https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\nOpen the “Terminal” application on your macOS computer and type the following command to verify that Anaconda and Jupyter were installed successfully:\njupyter --version\n\n\n\nOpen Terminal\n\n\n\n\n\nVerify Jupyter Installation\n\n\nYou should see the Jupyter packages version numbers displayed."
+    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\nOpen the “Terminal” application on your macOS computer and type the following command to verify that Anaconda and Jupyter were installed successfully:\njupyter --version\n\n\n\nOpen Terminal\n\n\n\n\n\nVerify Jupyter Installation\n\n\nYou should see the Jupyter packages version numbers displayed."
   },
   {
     "objectID": "anaconda-windows.html#conclusion",
@@ -383,5 +383,124 @@
     "title": "Installing an Editor",
     "section": "",
     "text": "In the world of programming, an editor is more than just a text processor. It’s your creative workspace where you bring your code to life. Here are some key aspects of code editors:\n\nText Editing: At its core, an editor allows you to write, edit, and organize code in various programming languages. It provides features like syntax highlighting, auto-indentation, and code completion to enhance your coding experience.\nCode Execution: Some editors, like Jupyter Notebook, not only allow you to write code but also execute it in an interactive and step-by-step manner. This is especially useful for data analysis and experimentation.\nExtensions and Plugins: Code editors are highly customizable. You can enhance their functionality by installing extensions or plugins tailored to your needs. For example, you can add Python-specific tools or themes to make your editor visually appealing.\nIntegrated Development Environments (IDEs): Some editors, such as Visual Studio Code (VS Code), go beyond text editing and offer a complete integrated development environment with debugging capabilities, version control integration, and more.\nCollaboration: Many editors support collaborative coding, allowing multiple programmers to work on the same codebase simultaneously, which is crucial for group projects.\n\nIn your CSCI1010 class, you’ll use a combination of Anaconda, Jupyter, and VS Code:\n\nAnaconda: Anaconda is a Python distribution that simplifies package management and environment setup. It’s particularly valuable for data science projects, as it comes with a wide array of pre-installed libraries and tools.\nJupyter: Jupyter Notebook is an interactive environment that enables you to create and share documents containing live code, equations, visualizations, and narrative text. It’s an excellent choice for data analysis and presenting your findings.\nVS Code: Visual Studio Code (VS Code) is a versatile code editor that supports multiple programming languages and offers a rich ecosystem of extensions. Its user-friendly interface and powerful features make it a great choice for general programming tasks.\n\nThese tools will empower you throughout your CSCI1010 journey, helping you write, execute, and collaborate on code effectively. Select the appropriate option for your operating system, follow the installation instructions, and dive into the world of coding with confidence!\n\n\n\n\n\nStep 1: Install Anaconda for Mac\n\n\n\n\n\n\nStep 1: Install Anaconda for Windows\n\n\nChoose the option that best suits your needs and follow the respective installation instructions.\nOnce you have an editor installed, you can start writing and running your code. Happy coding!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "instructor-old.html",
+    "href": "instructor-old.html",
+    "title": "Instruction Team",
+    "section": "",
+    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\n\n\nHis research work entails human health and sustainable energy with focus on biofluid mechanics, polymer rheology, low-cost energy technologies and applications of wavelet transforms.\n\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he is loves to tinker with electronics and design low-cost experiments for research and education.\n\n\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\n\n\nOffice hours: On-demand (please reach out via email!)\n\n\nLocation: Blackboard Collaborate Course Room\n\n\n\n\n \n\nCampus Address: SEH 3640\n\n\nE-mail: bulusu at gwu dot edu\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "instructor-old.html#instructor",
+    "href": "instructor-old.html#instructor",
+    "title": "Instruction Team",
+    "section": "",
+    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\n\n\nHis research work entails human health and sustainable energy with focus on biofluid mechanics, polymer rheology, low-cost energy technologies and applications of wavelet transforms.\n\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he is loves to tinker with electronics and design low-cost experiments for research and education.\n\n\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\n\n\nOffice hours: On-demand (please reach out via email!)\n\n\nLocation: Blackboard Collaborate Course Room\n\n\n\n\n \n\nCampus Address: SEH 3640\n\n\nE-mail: bulusu at gwu dot edu\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "instructor.html#instructor-1",
+    "href": "instructor.html#instructor-1",
+    "title": "Instruction Team",
+    "section": "Instructor",
+    "text": "Instructor\nDr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\nHis research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\nOffice Hours: On-Demand (Please reach out via email)\nLocation: Blackboard Collaborate Course Room"
+  },
+  {
+    "objectID": "instructor.html#gta",
+    "href": "instructor.html#gta",
+    "title": "Instruction Team",
+    "section": "GTA",
+    "text": "GTA\n\n\n\n\nOscar Southwell is a graduate student studying Engineering Management, who received his bachelor’s in mechanical engineering at GW this past spring. Originally from London, United Kingdom, he has experience working as an engineering intern for the Pennsylvanian Department of Transportation and as a science and tech instructor in Philadelphia.\nDuring his time as an undergraduate, he was significantly involved in programs from the GW Office of Entrepreneurship and Innovation, winning prizes in the George Hacks and Pitch George competitions and completing the Fall 2022 I-Corps Program.\nHe currently serves as the treasurer for the GW Men’s Club Soccer team and American Society of Mechanical Engineers section.\n\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "instructor.html#oscar-southwell-gta",
+    "href": "instructor.html#oscar-southwell-gta",
+    "title": "Instruction Team",
+    "section": "Oscar Southwell (GTA)",
+    "text": "Oscar Southwell (GTA)\n\n\n\n\nOscar Southwell is a graduate student studying Engineering Management, who received his bachelor’s in mechanical engineering at GW this past spring. Originally from London, United Kingdom, he has experience working as an engineering intern for the Pennsylvanian Department of Transportation and as a science and tech instructor in Philadelphia.\nDuring his time as an undergraduate, he was significantly involved in programs from the GW Office of Entrepreneurship and Innovation, winning prizes in the George Hacks and Pitch George competitions and completing the Fall 2022 I-Corps Program.\nHe currently serves as the treasurer for the GW Men’s Club Soccer team and American Society of Mechanical Engineers section.\nOffice Hours: Mondays, Tuesdays (5-6 PM)\nLocation: Tompkins Hall (Room 409)"
+  },
+  {
+    "objectID": "instructor.html#dr.-kartik-bulusu-instructor",
+    "href": "instructor.html#dr.-kartik-bulusu-instructor",
+    "title": "Instruction Team",
+    "section": "",
+    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\nHis research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\nOffice Hours: On-Demand (Please reach out via email)\nLocation: Blackboard Collaborate Course Room\n\n\n  Campus Address: SEH 3640\nEmail: bulusu at gwu dot edu"
+  },
+  {
+    "objectID": "instructor.html#sameen-ahmad-uta",
+    "href": "instructor.html#sameen-ahmad-uta",
+    "title": "Instruction Team",
+    "section": "Sameen Ahmad (UTA)",
+    "text": "Sameen Ahmad (UTA)\n\n\n\n\nSameen is a junior majoring in Computer Science. She is from the DMV area (Arlington, VA) and is interested in cybersecurity and artificial intelligence. Ever since Sameen developed her passion for computer science, it has been her goal to combine it with social change.\nSameen is the Executive Secretary of Undergraduate Academic Affairs - The Student Association Executive Branch, and the Chair of the SEAS Together Committee. Sameen has been a committee member of the GW Computer Science Justice, Equity, Diversity, and Inclusion (JEDI) Committee since her freshmen year, Co-President for Girls Who Code College Loop at GW, SEASSPAN Undergraduate Ambassador Mentor, the Recruitment and Mentorship Director of WiCS (Women in Computer Science), Member of the University Integrity and Conduct Council, and the University Grievance Committee. In her free time, she enjoys spending time with her family and friends and loves trying out new food.\nSameen is super EXCITED to be the UTA for this class and can not wait to meet everyone!!"
+  },
+  {
+    "objectID": "instructor.html#talia-novack-uta",
+    "href": "instructor.html#talia-novack-uta",
+    "title": "Instruction Team",
+    "section": "Talia Novack (UTA)",
+    "text": "Talia Novack (UTA)\n\n\n\n\nTalia is a Junior studying Computer Science with a minor in Astronomy and Astrophysics. She is a part of Women in Computer Science and ACM. Talia is interested in space as well as AI applications in our modern world. Outside of CS, Talia’s whole life is WRGW District Radio: GW’s radio station where she is the Programming Director.\nIn her free time, she enjoys hanging out with friends, being outside, and lifting weights. Talia is pumped to be a UTA for this course and can’t wait to get to some Python programming!!"
+  },
+  {
+    "objectID": "instructor.html#manue-alaimo",
+    "href": "instructor.html#manue-alaimo",
+    "title": "Instruction Team",
+    "section": "Manue Alaimo",
+    "text": "Manue Alaimo\n\n\n\n\nManue is a senior studying Computer Science and is from Pennsylvania. They have an interest in IoT devices, machine learning, and artificial intelligence.\nOver the summer Manue worked as a software engineering intern in the financial technology industry for one of the largest global banks. On campus, they are involved in JEDI (Learn more here!). In their free time, they like to run, play frisbee, and try out new coffee shops around DC."
+  },
+  {
+    "objectID": "instructor.html#selamn-eris",
+    "href": "instructor.html#selamn-eris",
+    "title": "Instruction Team",
+    "section": "Selamn Eris",
+    "text": "Selamn Eris\n\n\n\n\nSelman Eris is a senior studying Computer Science. He grew up in Istanbul, Turkey and transferred to GWU after completing freshman year at Istanbul Technical University. He is interested in real-time AI and edge devices. Last summer, he worked in Professor Narahari and Professor Bulusu’s lab focusing on imprecise computation and real-time AI.\nIn his free time, he enjoys playing video games, listening to music and spending time with his family and friends.\n\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "instructor.html#manue-alaimo-la",
+    "href": "instructor.html#manue-alaimo-la",
+    "title": "Instruction Team",
+    "section": "Manue Alaimo (LA)",
+    "text": "Manue Alaimo (LA)\n\n\n\n\nManue is a senior studying Computer Science and is from Pennsylvania. They have an interest in IoT devices, machine learning, and artificial intelligence.\nOver the summer Manue worked as a software engineering intern in the financial technology industry for one of the largest global banks. On campus, they are involved in JEDI (Learn more here!). In their free time, they like to run, play frisbee, and try out new coffee shops around DC."
+  },
+  {
+    "objectID": "instructor.html#selamn-erisla",
+    "href": "instructor.html#selamn-erisla",
+    "title": "Instruction Team",
+    "section": "Selamn Eris(LA)",
+    "text": "Selamn Eris(LA)\n\n\n\n\nSelman Eris is a senior studying Computer Science. He grew up in Istanbul, Turkey and transferred to GWU after completing freshman year at Istanbul Technical University. He is interested in real-time AI and edge devices. Last summer, he worked in Professor Narahari and Professor Bulusu’s lab focusing on imprecise computation and real-time AI.\nIn his free time, he enjoys playing video games, listening to music and spending time with his family and friends."
+  },
+  {
+    "objectID": "instructor.html#saif-alzaabila",
+    "href": "instructor.html#saif-alzaabila",
+    "title": "Instruction Team",
+    "section": "Saif Alzaabi(LA)",
+    "text": "Saif Alzaabi(LA)\n\n\n\n\nSaif Alzaabi is a senior graduating this semester. He is majoring in Computer Science and Economics. His main interest is in financial technologies, and is hoping to enter that field after graduation. Outside of studying, Saif trains in martial arts, mainly Brazilian Jiu-Jitsu.\n\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "instructor.html#selamn-eris-la",
+    "href": "instructor.html#selamn-eris-la",
+    "title": "Instruction Team",
+    "section": "Selamn Eris (LA)",
+    "text": "Selamn Eris (LA)\n\n\n\n\nSelman Eris is a senior studying Computer Science. He grew up in Istanbul, Turkey and transferred to GWU after completing freshman year at Istanbul Technical University. He is interested in real-time AI and edge devices. Last summer, he worked in Professor Narahari and Professor Bulusu’s lab focusing on imprecise computation and real-time AI.\nIn his free time, he enjoys playing video games, listening to music and spending time with his family and friends."
+  },
+  {
+    "objectID": "instructor.html#saif-alzaabi-la",
+    "href": "instructor.html#saif-alzaabi-la",
+    "title": "Instruction Team",
+    "section": "Saif Alzaabi (LA)",
+    "text": "Saif Alzaabi (LA)\n\n\n\n\nSaif Alzaabi is a senior graduating this semester. He is majoring in Computer Science and Economics. His main interest is in financial technologies, and is hoping to enter that field after graduation. Outside of studying, Saif trains in martial arts, mainly Brazilian Jiu-Jitsu."
+  },
+  {
+    "objectID": "instructor.html#gustavo-londono-la",
+    "href": "instructor.html#gustavo-londono-la",
+    "title": "Instruction Team",
+    "section": "Gustavo Londono (LA)",
+    "text": "Gustavo Londono (LA)\n\n\n\n\nGustavo is a sophomore studying Computer Science here at GW and is originally from Rhode Island. He’s particularly interested in software engineering and cybersecurity, both of which he hopes to apply to his future career.\nGustavo enjoys reading, working on side projects, and watching tv shows. He’s also a part of GWU Robotics, GW Rocket, and participates in both student/university theater."
+  },
+  {
+    "objectID": "instructor.html#amy-longua-la",
+    "href": "instructor.html#amy-longua-la",
+    "title": "Instruction Team",
+    "section": "Amy Longua (LA)",
+    "text": "Amy Longua (LA)\n\n\n\n\nMy name Amy, I’m a computer science sophomore and I’ll be one of your LAs this fall. I had very little coding experience but I took CSCI1010 last year and it was one of my favorites which is why I decided to LA for it! I’m also a part of WiCS and ACM so if you see me at one of their events come say hi.\n\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   }
 ]
