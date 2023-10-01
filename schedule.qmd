@@ -39,7 +39,7 @@ Sample class schedule [week-by-week]
           <li>In-class Raspberry Pi Lab (Blinking LEDs)</li>
           <li>Working Styles Workout Survey (**Google form TBA**)</li>
           <li>Lab examples (**github TBA**)</li>
-          <li><a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>HW 1 Assigned </a></li>
+          <li>HW 1 Assigned <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>(Download)</a></li>
         </ul>
       </td>
       <td>
