@@ -8,7 +8,7 @@ format: html
   <tr>
     <td width="70%">
       
-      Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).
+      **Dr. Kartik V. Bulusu** is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).
 
       His research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.
 
@@ -109,7 +109,7 @@ format: html
 <table>
   <tr>
     <td width="70%">
-      **Selman** Eris is a senior studying Computer Science. He grew up in Istanbul, Turkey and transferred to GWU after completing freshman year at Istanbul Technical University. He is interested in real-time AI and edge devices. Last summer, he worked in Professor Narahari and Professor Bulusu’s lab focusing on imprecise computation and real-time AI. 
+      **Selman Eris** is a senior studying Computer Science. He grew up in Istanbul, Turkey and transferred to GWU after completing freshman year at Istanbul Technical University. He is interested in real-time AI and edge devices. Last summer, he worked in Professor Narahari and Professor Bulusu’s lab focusing on imprecise computation and real-time AI. 
       
       In his free time, he enjoys playing video games, listening to music and spending time with his family and friends.
 
@@ -125,7 +125,7 @@ format: html
 <table>
   <tr>
     <td width="70%">
-      **Saif** Alzaabi is a senior graduating this semester. He is majoring in Computer Science and Economics. His main interest is in financial technologies, and is hoping to enter that field after graduation. Outside of studying, Saif trains in martial arts, mainly Brazilian Jiu-Jitsu.
+      **Saif Alzaabi** is a senior graduating this semester. He is majoring in Computer Science and Economics. His main interest is in financial technologies, and is hoping to enter that field after graduation. Outside of studying, Saif trains in martial arts, mainly Brazilian Jiu-Jitsu.
 
     </td>
 

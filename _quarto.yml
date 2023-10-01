@@ -14,13 +14,12 @@ website:
       - instructor.qmd
       - text: "Getting Started"
         menu:
-          # - text: "Installation Guides"
           - href: install-editor.qmd
     search: true
 
 format:
   html:
-    theme: journal
+    theme: flatly
     css: styles.css
     toc: true
 
