@@ -53,7 +53,7 @@ Choose the option that best suits your needs and follow the respective installat
 
 Once you have an editor installed, you can start writing and running your code. Happy coding!
 
-Also, once you've finished these installation steps, fill out the [Installation Check-In form](https://forms.gle/Y6Yi9HTZSjD1MPHb7) and the [CS1010 Entry form](https://forms.gle/EoKoGY5KHMi4wEBs7). Both the forms are **MANDATORY** to be filled out before the first class.
+Also, once you've finished installation Steps 1 and 2, fill out the [Installation Check-In form](https://forms.gle/Y6Yi9HTZSjD1MPHb7) and the [CS1010 Entry form](https://forms.gle/EoKoGY5KHMi4wEBs7). Both the forms are **MANDATORY** to be filled out before the first class.
 
 ### You will be automatically entered into a raffle in the first class of CS1010 on 10/06/2023.
 

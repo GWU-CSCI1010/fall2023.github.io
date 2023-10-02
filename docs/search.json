@@ -1,10 +1,304 @@
 [
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
+    "objectID": "realvnc-windows-connect.html",
+    "href": "realvnc-windows-connect.html",
+    "title": "RealVNC Installation Guide for Mac",
     "section": "",
-    "text": "Sample class schedule [week-by-week]\n(The course schedule subject to changes during the semester)\n\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTopic(s)\n\n\n\\(\\mu\\)-LABs and Assignment(s) due\n\n\nDownload Files\n\n\n\n\n\n\n\nWeek 1 [10/06/2023]\n\n\n\n\nOverview of CS1010 by Prof. Kartik Bulusu\n\n\nIntroduction to Computer Science Department by Prof. Rebecca Hwa (Website TBA)\n\n\nIntroduction to Raspberry Pi and Python programming by Prof. Kartik Bulusu\n\n\n\n\n\n\n\nPython programming using Anaconda Python Distribution\n\n\nIn-class Raspberry Pi Lab (Blinking LEDs)\n\n\nHW 1 Assigned\n\n\n\n\n\n\nLecture Notes\n\n\nLab Examples\n\n\nIn-class Excercise \n\n\nHW1 \n\n\n\n\nWeek 2 [10/13/2023]\n\n\n\nFall Break, NO CLASS!\n\n\n\n\n\n\n\n\nNOTE: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to establish a remote using RealVNC on your Windows computer.\n\n\nBefore you begin, ensure that you have already installed RealVNC on your Mac.\n\n\n\n\n\nLaunch VNC Viewer from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window.\n\n\n\n\nYou have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "realvnc-windows-connect.html#prerequisites",
+    "href": "realvnc-windows-connect.html#prerequisites",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "Before you begin, ensure that you have already installed RealVNC on your Mac."
+  },
+  {
+    "objectID": "realvnc-windows-connect.html#establish-a-connection",
+    "href": "realvnc-windows-connect.html#establish-a-connection",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "Launch VNC Viewer from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window."
+  },
+  {
+    "objectID": "realvnc-windows-connect.html#conclusion",
+    "href": "realvnc-windows-connect.html#conclusion",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "You have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "vscode-windows.html",
+    "href": "vscode-windows.html",
+    "title": "Visual Studio Code Installation Guide for Windows",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your Windows computer. VS Code provides a powerful environment for coding and development across various programming languages.\n\n\n\nBefore you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\n\n\n\n\n\n\nVisit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “Windows” download link to download the Visual Studio Code installer for Windows.\n\n\n\nDownload VS Code\n\n\n\n\n\n\nLocate the downloaded installer file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nYou will see the VS Code Setup Wizard. Click the “Next” button to begin the installation.\n\n\n\n\nLicense Agreement\n\n\n\n\n\n\nSelect the installation location (the default is usually fine) and click “Next.”\n\n\n\n\nInstallation Location\n\n\n\nChoose additional tasks if desired (e.g., adding VS Code to the PATH). Then, click “Next.”\n\n\n\n\nAdditional Tasks\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few moments.\n\n\n\nInstall\n\n\n\n\n\nAfter the installation is complete, you can leave the “Launch Visual Studio Code” option checked and click “Finish.”\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nIn the search bar type “Python” and hit Enter.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nFrom the top-right corner click on the three-bars and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Visual Studio Code on your Windows computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "vscode-windows.html#introduction",
+    "href": "vscode-windows.html#introduction",
+    "title": "Visual Studio Code Installation Guide for Windows",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your Windows computer. VS Code provides a powerful environment for coding and development across various programming languages."
+  },
+  {
+    "objectID": "vscode-windows.html#prerequisites",
+    "href": "vscode-windows.html#prerequisites",
+    "title": "Visual Studio Code Installation Guide for Windows",
+    "section": "",
+    "text": "Before you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection."
+  },
+  {
+    "objectID": "vscode-windows.html#installation-steps",
+    "href": "vscode-windows.html#installation-steps",
+    "title": "Visual Studio Code Installation Guide for Windows",
+    "section": "",
+    "text": "Visit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “Windows” download link to download the Visual Studio Code installer for Windows.\n\n\n\nDownload VS Code\n\n\n\n\n\n\nLocate the downloaded installer file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nYou will see the VS Code Setup Wizard. Click the “Next” button to begin the installation.\n\n\n\n\nLicense Agreement\n\n\n\n\n\n\nSelect the installation location (the default is usually fine) and click “Next.”\n\n\n\n\nInstallation Location\n\n\n\nChoose additional tasks if desired (e.g., adding VS Code to the PATH). Then, click “Next.”\n\n\n\n\nAdditional Tasks\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few moments.\n\n\n\nInstall\n\n\n\n\n\nAfter the installation is complete, you can leave the “Launch Visual Studio Code” option checked and click “Finish.”\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nIn the search bar type “Python” and hit Enter.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nFrom the top-right corner click on the three-bars and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook"
+  },
+  {
+    "objectID": "vscode-windows.html#conclusion",
+    "href": "vscode-windows.html#conclusion",
+    "title": "Visual Studio Code Installation Guide for Windows",
+    "section": "",
+    "text": "Congratulations! You’ve successfully installed Visual Studio Code on your Windows computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "anaconda-windows.html",
+    "href": "anaconda-windows.html",
+    "title": "Anaconda Installation Guide for Windows",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your Windows computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda on your Windows computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "anaconda-windows.html#introduction",
+    "href": "anaconda-windows.html#introduction",
+    "title": "Anaconda Installation Guide for Windows",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your Windows computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
+  },
+  {
+    "objectID": "anaconda-windows.html#prerequisites",
+    "href": "anaconda-windows.html#prerequisites",
+    "title": "Anaconda Installation Guide for Windows",
+    "section": "",
+    "text": "Before you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\nSufficient disk space for the installation."
+  },
+  {
+    "objectID": "anaconda-windows.html#installation-steps",
+    "href": "anaconda-windows.html#installation-steps",
+    "title": "Anaconda Installation Guide for Windows",
+    "section": "",
+    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
+  },
+  {
+    "objectID": "anaconda-windows.html#conclusion",
+    "href": "anaconda-windows.html#conclusion",
+    "title": "Anaconda Installation Guide for Windows",
+    "section": "",
+    "text": "Congratulations! You’ve successfully installed Anaconda on your Windows computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "realvnc-windows.html",
+    "href": "realvnc-windows.html",
+    "title": "RealVNC Installation Guide for Windows",
+    "section": "",
+    "text": "This guide will walk you through the process of installing and setting up RealVNC on your Windows computer to enable remote desktop access.\n\n\nBefore you begin, ensure you meet the following requirements:\n\nA Windows computer running a supported version of Windows (e.g., Windows 10, Windows 8, Windows 7).\nInternet access.\n\n\n\nOpen your web browser and go to the RealVNC website at https://www.realvnc.com/en/connect/download/combined/. Click on the “Download VNC Viewer” button.\n\n\n\nDownload VNC Viewer\n\n\n\n\n\nLocate the downloaded installer file (e.g., VNC-Viewer-*.exe) and double-click it to run the installer. Once the installation is complete, click “Finish” to exit the installer.\n\n\n\nOpen Installer\n\n\n\n\n\nRun Installer\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up"
+  },
+  {
+    "objectID": "realvnc-windows.html#prerequisites",
+    "href": "realvnc-windows.html#prerequisites",
+    "title": "RealVNC Installation Guide for Windows",
+    "section": "",
+    "text": "Before you begin, ensure you meet the following requirements:\n\nA Windows computer running a supported version of Windows (e.g., Windows 10, Windows 8, Windows 7).\nInternet access.\n\n\n\nOpen your web browser and go to the RealVNC website at https://www.realvnc.com/en/connect/download/combined/. Click on the “Download VNC Viewer” button.\n\n\n\nDownload VNC Viewer\n\n\n\n\n\nLocate the downloaded installer file (e.g., VNC-Viewer-*.exe) and double-click it to run the installer. Once the installation is complete, click “Finish” to exit the installer.\n\n\n\nOpen Installer\n\n\n\n\n\nRun Installer\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up"
+  },
+  {
+    "objectID": "download/Week1/Demo1.html",
+    "href": "download/Week1/Demo1.html",
+    "title": "CSCI 1010 [Fall 2023]",
+    "section": "",
+    "text": "This is a place for you to follow along live!\nUse Shift+Enter to run a cell!\n\n#Start typing code below!\nprint(\"hello CS1001 Instruction Team .. Welcome !\")\n\nhello CS1001 Instruction Team .. Welcome !"
+  },
+  {
+    "objectID": "vscode-mac.html",
+    "href": "vscode-mac.html",
+    "title": "Visual Studio Code Installation Guide for macOS",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\n\n\n\n\n\n\nVisit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "vscode-mac.html#introduction",
+    "href": "vscode-mac.html#introduction",
+    "title": "Visual Studio Code Installation Guide for macOS",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages."
+  },
+  {
+    "objectID": "vscode-mac.html#prerequisites",
+    "href": "vscode-mac.html#prerequisites",
+    "title": "Visual Studio Code Installation Guide for macOS",
+    "section": "",
+    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection."
+  },
+  {
+    "objectID": "vscode-mac.html#installation-steps",
+    "href": "vscode-mac.html#installation-steps",
+    "title": "Visual Studio Code Installation Guide for macOS",
+    "section": "",
+    "text": "Visit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook"
+  },
+  {
+    "objectID": "vscode-mac.html#conclusion",
+    "href": "vscode-mac.html#conclusion",
+    "title": "Visual Studio Code Installation Guide for macOS",
+    "section": "",
+    "text": "Congratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "instructor.html",
+    "href": "instructor.html",
+    "title": "Instruction Team",
+    "section": "",
+    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\nHis research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\nOffice Hours: On-Demand (Please reach out via email)\nLocation: Blackboard Collaborate Course Room\n\n\n  Campus Address: SEH 3640\nEmail: bulusu at gwu dot edu"
+  },
+  {
+    "objectID": "instructor.html#dr.-kartik-bulusu-instructor",
+    "href": "instructor.html#dr.-kartik-bulusu-instructor",
+    "title": "Instruction Team",
+    "section": "",
+    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\nHis research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\nOffice Hours: On-Demand (Please reach out via email)\nLocation: Blackboard Collaborate Course Room\n\n\n  Campus Address: SEH 3640\nEmail: bulusu at gwu dot edu"
+  },
+  {
+    "objectID": "instructor.html#oscar-southwell-gta",
+    "href": "instructor.html#oscar-southwell-gta",
+    "title": "Instruction Team",
+    "section": "Oscar Southwell (GTA)",
+    "text": "Oscar Southwell (GTA)\n\n\n\n\nOscar Southwell is a graduate student studying Engineering Management, who received his bachelor’s in mechanical engineering at GW this past spring. Originally from London, United Kingdom, he has experience working as an engineering intern for the Pennsylvanian Department of Transportation and as a science and tech instructor in Philadelphia.\nDuring his time as an undergraduate, he was significantly involved in programs from the GW Office of Entrepreneurship and Innovation, winning prizes in the George Hacks and Pitch George competitions and completing the Fall 2022 I-Corps Program.\nHe currently serves as the treasurer for the GW Men’s Club Soccer team and American Society of Mechanical Engineers section.\nOffice Hours: Mondays, Tuesdays (5-6 PM)\nLocation: Tompkins Hall (Room 409)"
+  },
+  {
+    "objectID": "instructor.html#sameen-ahmad-uta",
+    "href": "instructor.html#sameen-ahmad-uta",
+    "title": "Instruction Team",
+    "section": "Sameen Ahmad (UTA)",
+    "text": "Sameen Ahmad (UTA)\n\n\n\n\nSameen is a junior majoring in Computer Science. She is from the DMV area (Arlington, VA) and is interested in cybersecurity and artificial intelligence. Ever since Sameen developed her passion for computer science, it has been her goal to combine it with social change.\nSameen is the Executive Secretary of Undergraduate Academic Affairs - The Student Association Executive Branch, and the Chair of the SEAS Together Committee. Sameen has been a committee member of the GW Computer Science Justice, Equity, Diversity, and Inclusion (JEDI) Committee since her freshmen year, Co-President for Girls Who Code College Loop at GW, SEASSPAN Undergraduate Ambassador Mentor, the Recruitment and Mentorship Director of WiCS (Women in Computer Science), Member of the University Integrity and Conduct Council, and the University Grievance Committee. In her free time, she enjoys spending time with her family and friends and loves trying out new food.\nSameen is super EXCITED to be the UTA for this class and can not wait to meet everyone!!"
+  },
+  {
+    "objectID": "instructor.html#talia-novack-uta",
+    "href": "instructor.html#talia-novack-uta",
+    "title": "Instruction Team",
+    "section": "Talia Novack (UTA)",
+    "text": "Talia Novack (UTA)\n\n\n\n\nTalia is a Junior studying Computer Science with a minor in Astronomy and Astrophysics. She is a part of Women in Computer Science and ACM. Talia is interested in space as well as AI applications in our modern world. Outside of CS, Talia’s whole life is WRGW District Radio: GW’s radio station where she is the Programming Director.\nIn her free time, she enjoys hanging out with friends, being outside, and lifting weights. Talia is pumped to be a UTA for this course and can’t wait to get to some Python programming!!"
+  },
+  {
+    "objectID": "instructor.html#manue-alaimo-la",
+    "href": "instructor.html#manue-alaimo-la",
+    "title": "Instruction Team",
+    "section": "Manue Alaimo (LA)",
+    "text": "Manue Alaimo (LA)\n\n\n\n\nManue is a senior studying Computer Science and is from Pennsylvania. They have an interest in IoT devices, machine learning, and artificial intelligence.\nOver the summer Manue worked as a software engineering intern in the financial technology industry for one of the largest global banks. On campus, they are involved in JEDI (Learn more here!). In their free time, they like to run, play frisbee, and try out new coffee shops around DC."
+  },
+  {
+    "objectID": "instructor.html#selman-eris-la",
+    "href": "instructor.html#selman-eris-la",
+    "title": "Instruction Team",
+    "section": "Selman Eris (LA)",
+    "text": "Selman Eris (LA)\n\n\n\n\nSelman Eris is a senior studying Computer Science. He grew up in Istanbul, Turkey and transferred to GWU after completing freshman year at Istanbul Technical University. He is interested in real-time AI and edge devices. Last summer, he worked in Professor Narahari and Professor Bulusu’s lab focusing on imprecise computation and real-time AI.\nIn his free time, he enjoys playing video games, listening to music and spending time with his family and friends."
+  },
+  {
+    "objectID": "instructor.html#saif-alzaabi-la",
+    "href": "instructor.html#saif-alzaabi-la",
+    "title": "Instruction Team",
+    "section": "Saif Alzaabi (LA)",
+    "text": "Saif Alzaabi (LA)\n\n\n\n\nSaif Alzaabi is a senior graduating this semester. He is majoring in Computer Science and Economics. His main interest is in financial technologies, and is hoping to enter that field after graduation. Outside of studying, Saif trains in martial arts, mainly Brazilian Jiu-Jitsu."
+  },
+  {
+    "objectID": "instructor.html#gustavo-londono-la",
+    "href": "instructor.html#gustavo-londono-la",
+    "title": "Instruction Team",
+    "section": "Gustavo Londono (LA)",
+    "text": "Gustavo Londono (LA)\n\n\n\n\nGustavo is a sophomore studying Computer Science here at GW and is originally from Rhode Island. He’s particularly interested in software engineering and cybersecurity, both of which he hopes to apply to his future career.\nGustavo enjoys reading, working on side projects, and watching tv shows. He’s also a part of GWU Robotics, GW Rocket, and participates in both student/university theater."
+  },
+  {
+    "objectID": "instructor.html#amy-longua-la",
+    "href": "instructor.html#amy-longua-la",
+    "title": "Instruction Team",
+    "section": "Amy Longua (LA)",
+    "text": "Amy Longua (LA)\n\n\n\n\nMy name Amy, I’m a computer science sophomore and I’ll be one of your LAs this fall. I had very little coding experience but I took CSCI1010 last year and it was one of my favorites which is why I decided to LA for it! I’m also a part of WiCS and ACM so if you see me at one of their events come say hi."
+  },
+  {
+    "objectID": "instructor.html#pravin-khanal-la",
+    "href": "instructor.html#pravin-khanal-la",
+    "title": "Instruction Team",
+    "section": "Pravin Khanal (LA)",
+    "text": "Pravin Khanal (LA)\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "realvnc-mac-connect.html",
+    "href": "realvnc-mac-connect.html",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to establish a remote using RealVNC on your Mac computer.\n\n\nBefore you begin, ensure that you have already installed RealVNC on your Mac.\n\n\n\n\n\nLaunch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window.\n\n\n\n\nYou have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "realvnc-mac-connect.html#prerequisites",
+    "href": "realvnc-mac-connect.html#prerequisites",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "Before you begin, ensure that you have already installed RealVNC on your Mac."
+  },
+  {
+    "objectID": "realvnc-mac-connect.html#establish-a-connection",
+    "href": "realvnc-mac-connect.html#establish-a-connection",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "Launch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window."
+  },
+  {
+    "objectID": "realvnc-mac-connect.html#conclusion",
+    "href": "realvnc-mac-connect.html#conclusion",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "You have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "anaconda-mac.html",
+    "href": "anaconda-mac.html",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "anaconda-mac.html#introduction",
+    "href": "anaconda-mac.html#introduction",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
+  },
+  {
+    "objectID": "anaconda-mac.html#prerequisites",
+    "href": "anaconda-mac.html#prerequisites",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation."
+  },
+  {
+    "objectID": "anaconda-mac.html#installation-steps",
+    "href": "anaconda-mac.html#installation-steps",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
+  },
+  {
+    "objectID": "anaconda-mac.html#conclusion",
+    "href": "anaconda-mac.html#conclusion",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Congratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computer Science Orientation",
+    "section": "",
+    "text": "Hands-on exploration of the possibilities in Computer Science\n\n\n\n\nCourse and Contact Information\n\n\n\nCSCI 1010: Computer Science Orientation\nSemester: Fall 2023\nCredits: 1\nLecture location and meeting times:\n\nDuques 151\nFriday 9:35 AM — 10:25 AM\n\nLab location and meeting times:\n\nSEH 1300 & SEH 1400 & SEH 1450\nLab section 30: Friday 10:40 AM - 12:15 PM\nLab section 31: Friday 12:45 PM - 2:10 PM\n\nCourse website: TBA \nInstructor information can be found here\n\n\n\n  \n\n\n\n\n\nGithub Repo (updated weekly)\ngit clone TBA\n\n\nCourse description\nThis is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of\n\nlectures on the various disciplines in Computer Science,\nhands-on Python programming exercises and\nhands-on exercises and in-class projects using Raspberry Pi 4B single-board computer.\n\nThe students will work on the following two engineering innovation projects:\n\nGuided-python programming project and\nWill have the option of choosing a final Raspberry Pi 4B-based project or a python programming project to address an impending need in engineering-innovation\n\nThrough the above course activities students will be exposed to computing, technical resources and presentations on various aspects in the field of computer science. The students will get access to a “slack-workspace” for this course, that will facilitate offline discussions among themselves and the instruction team. The students will also be provided lecture presentationsand video summaries whenever possible and made available on the course webpage and / or blackboard.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
     "objectID": "policies.html",
@@ -19,13 +313,6 @@
     "title": "Course policies",
     "section": "",
     "text": "For example:\n\n\n\n\n\n\nAttendance and/or peer-to-peer and instructor interactions 10%\nIn-class work and Weekly Quizzes 10%\nPython programming and other Homework 30%\nProjects (including code, demo and presentation) 50%\n\n30% Individual midterm project\n20% Group final project There is no required final exam.\n\n\n\n\n \n\nexam by pongsakorn from Noun Project"
-  },
-  {
-    "objectID": "policies.html#grading-scale",
-    "href": "policies.html#grading-scale",
-    "title": "Course policies",
-    "section": "Grading Scale",
-    "text": "Grading Scale\nThe following grading scale will be applied at the end of the semester to calculate letter grades: 90-100: A, 84-89: A-, 78-83: B+, 72-77: B, 66-71: B-, 60-65: C+, 56-59: C, 52-55: C-, 46-51: D, 0-45: F.\nGrades are rounded to the nearest integer, e.g., 0.4 rounds to 0 and 0.5 rounds to 1."
   },
   {
     "objectID": "policies.html#additional-important-information-about-grading-policy",
@@ -82,27 +369,6 @@
     "title": "Course policies",
     "section": "Academic Integrity Code",
     "text": "Academic Integrity Code\nAcademic dishonesty is defined as cheating of any kind, including misrepresenting one’s own work, taking credit for the work of others without crediting them and without appropriate authorization, and the fabrication of information. You are not allowed to collaborate on the home works and lab assignments; for programming projects and hardware lab assignments, you can work in teams only if they are designated as team projects (labs). Unless otherwise specified, you cannot search for solutions or code on the web – but you can use any code that is included in the textbook or lecture notes (but please cite them). I will be using a SW tool that checks for program code similarities – any pair of programs or written reports with greater than 10% similarity will be closely examined.\nThe Office of Academic Integrity maintains a permanent record of the violation. More information is available from the Office of Academic Integrity at https://studentconduct.gwu.edu/academic-integrity. The University’s “Guide of Academic Integrity in Online Learning Environments” is available at https://studentconduct.gwu.edu/guide-academic-integrity-online-learning-environments. Contact information: rights@gwu.edu or 202-994-6757.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Computer Science Orientation",
-    "section": "",
-    "text": "Hands-on exploration of the possibilities in Computer Science\n\n\n\n\nCourse and Contact Information\n\n\n\nCSCI 1010: Computer Science Orientation\nSemester: Fall 2023\nCredits: 1\nLecture location and meeting times:\n\nDuques 151\nFriday 9:35 AM — 10:25 AM\n\nLab location and meeting times:\n\nSEH 1300 & SEH 1400 & SEH 1450\nLab section 30: Friday 10:40 AM - 12:15 PM\nLab section 31: Friday 12:45 PM - 2:10 PM\n\nCourse website: TBA \nInstructor information can be found here\n\n\n\n  \n\n\n\n\n\nGithub Repo (updated weekly)\ngit clone TBA\n\n\nCourse description\nThis is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of\n\nlectures on the various disciplines in Computer Science,\nhands-on Python programming exercises and\nhands-on exercises and in-class projects using Raspberry Pi 4B single-board computer.\n\nThe students will work on the following two engineering innovation projects:\n\nGuided-python programming project and\nWill have the option of choosing a final Raspberry Pi 4B-based project or a python programming project to address an impending need in engineering-innovation\n\nThrough the above course activities students will be exposed to computing, technical resources and presentations on various aspects in the field of computer science. The students will get access to a “slack-workspace” for this course, that will facilitate offline discussions among themselves and the instruction team. The students will also be provided lecture presentationsand video summaries whenever possible and made available on the course webpage and / or blackboard.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "instructor.html",
-    "href": "instructor.html",
-    "title": "Instruction Team",
-    "section": "",
-    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\nHis research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\nOffice Hours: On-Demand (Please reach out via email)\nLocation: Blackboard Collaborate Course Room\n\n\n  Campus Address: SEH 3640\nEmail: bulusu at gwu dot edu"
-  },
-  {
-    "objectID": "instructor.html#instructor",
-    "href": "instructor.html#instructor",
-    "title": "Instruction Team",
-    "section": "",
-    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\nHis research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\nOffice Hours: On-Demand (Please reach out via email)\nLocation: Blackboard Collaborate Course Room\n\n\n  Campus Address: 3640\nEmail: bulusu at gwu dot edu"
   },
   {
     "objectID": "about.html",
@@ -168,347 +434,18 @@
     "text": "Textbook, hardware and other course material\nThere is no textbook requirement for this course. All reading, hardware and course material will be provided by the instructor.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2022 All rights reserved"
   },
   {
-    "objectID": "anaconda-mac.html",
-    "href": "anaconda-mac.html",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "download/Week1/Demo1_Guide.html",
+    "href": "download/Week1/Demo1_Guide.html",
+    "title": "CS 1010 - Week1",
     "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Prof. Kartik Bulusu [CS & MAE]\n\n\nOscar Southwell [EMSE]\n\n\n\nSameen Ahmad [CS], Talia Novack [CS]\n\n\n\nManue Alaimo [CS], Selamn Eris [CS], Saif Alzaabi [CS], Pravin Khanal [CS], Gustavo Londono [CS], Amy Longua [CS]\n\n\n\nRutvik Solanki [CS]\nIf you have any questions regarding Python, please feel free to send a slack message or email to a member of the teaching team or come to office hours! We are happy to help!!"
   },
   {
-    "objectID": "anaconda-mac.html#introduction",
-    "href": "anaconda-mac.html#introduction",
-    "title": "Anaconda Installation Guide for macOS",
-    "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
-  },
-  {
-    "objectID": "anaconda-mac.html#prerequisites",
-    "href": "anaconda-mac.html#prerequisites",
-    "title": "Anaconda Installation Guide for macOS",
-    "section": "",
-    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation."
-  },
-  {
-    "objectID": "anaconda-mac.html#installation-steps",
-    "href": "anaconda-mac.html#installation-steps",
-    "title": "Anaconda Installation Guide for macOS",
-    "section": "",
-    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
-  },
-  {
-    "objectID": "anaconda-mac.html#conclusion",
-    "href": "anaconda-mac.html#conclusion",
-    "title": "Anaconda Installation Guide for macOS",
-    "section": "",
-    "text": "Congratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "getting-started.html",
-    "href": "getting-started.html",
-    "title": "Installing an Editor",
-    "section": "",
-    "text": "Running your First Program\n\n\nIn the world of programming, an editor is more than just a text processor. It’s your creative workspace where you bring your code to life. Here are some key aspects of code editors:\n\nText Editing: At its core, an editor allows you to write, edit, and organize code in various programming languages. It provides features like syntax highlighting, auto-indentation, and code completion to enhance your coding experience.\nCode Execution: Some editors, like Jupyter Notebook, not only allow you to write code but also execute it in an interactive and step-by-step manner. This is especially useful for data analysis and experimentation.\nExtensions and Plugins: Code editors are highly customizable. You can enhance their functionality by installing extensions or plugins tailored to your needs. For example, you can add Python-specific tools or themes to make your editor visually appealing.\nIntegrated Development Environments (IDEs): Some editors, such as Visual Studio Code (VS Code), go beyond text editing and offer a complete integrated development environment with debugging capabilities, version control integration, and more.\nCollaboration: Many editors support collaborative coding, allowing multiple programmers to work on the same codebase simultaneously, which is crucial for group projects.\n\nIn your CSCI1010 class, you’ll use a combination of Anaconda, Jupyter, and VS Code:\n\nAnaconda: Anaconda is a Python distribution that simplifies package management and environment setup. It’s particularly valuable for data science projects, as it comes with a wide array of pre-installed libraries and tools.\nJupyter: Jupyter Notebook is an interactive environment that enables you to create and share documents containing live code, equations, visualizations, and narrative text. It’s an excellent choice for data analysis and presenting your findings.\nVS Code: Visual Studio Code (VS Code) is a versatile code editor that supports multiple programming languages and offers a rich ecosystem of extensions. Its user-friendly interface and powerful features make it a great choice for general programming tasks.\n\nThese tools will empower you throughout your CSCI1010 journey, helping you write, execute, and collaborate on code effectively. Select the appropriate option for your operating system, follow the installation instructions, and dive into the world of coding with confidence!\n\n\n\n\n\nStep 1: Install Anaconda for Mac\nStep 2: Install VS Code for Mac\n\n\n\n\n\nStep 1: Install Anaconda for Windows\nStep 2: Install VS Code for Windows\n\nChoose the option that best suits your needs and follow the respective installation instructions.\nOnce you have an editor installed, you can start writing and running your code. Happy coding!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "getting-started.html#what-is-an-editor",
-    "href": "getting-started.html#what-is-an-editor",
-    "title": "Installing an Editor",
-    "section": "",
-    "text": "In the world of programming, an editor is more than just a text processor. It’s your creative workspace where you bring your code to life. Here are some key aspects of code editors:\n\nText Editing: At its core, an editor allows you to write, edit, and organize code in various programming languages. It provides features like syntax highlighting, auto-indentation, and code completion to enhance your coding experience.\nCode Execution: Some editors, like Jupyter Notebook, not only allow you to write code but also execute it in an interactive and step-by-step manner. This is especially useful for data analysis and experimentation.\nExtensions and Plugins: Code editors are highly customizable. You can enhance their functionality by installing extensions or plugins tailored to your needs. For example, you can add Python-specific tools or themes to make your editor visually appealing.\nIntegrated Development Environments (IDEs): Some editors, such as Visual Studio Code (VS Code), go beyond text editing and offer a complete integrated development environment with debugging capabilities, version control integration, and more.\nCollaboration: Many editors support collaborative coding, allowing multiple programmers to work on the same codebase simultaneously, which is crucial for group projects.\n\nIn your CSCI1010 class, you’ll use a combination of Anaconda, Jupyter, and VS Code:\n\nAnaconda: Anaconda is a Python distribution that simplifies package management and environment setup. It’s particularly valuable for data science projects, as it comes with a wide array of pre-installed libraries and tools.\nJupyter: Jupyter Notebook is an interactive environment that enables you to create and share documents containing live code, equations, visualizations, and narrative text. It’s an excellent choice for data analysis and presenting your findings.\nVS Code: Visual Studio Code (VS Code) is a versatile code editor that supports multiple programming languages and offers a rich ecosystem of extensions. Its user-friendly interface and powerful features make it a great choice for general programming tasks.\n\nThese tools will empower you throughout your CSCI1010 journey, helping you write, execute, and collaborate on code effectively. Select the appropriate option for your operating system, follow the installation instructions, and dive into the world of coding with confidence!\n\n\n\n\n\nStep 1: Install Anaconda for Mac\nStep 2: Install VS Code for Mac\n\n\n\n\n\nStep 1: Install Anaconda for Windows\nStep 2: Install VS Code for Windows\n\nChoose the option that best suits your needs and follow the respective installation instructions.\nOnce you have an editor installed, you can start writing and running your code. Happy coding!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "anaconda-windows.html",
-    "href": "anaconda-windows.html",
-    "title": "Anaconda Installation Guide for Windows",
-    "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your Windows computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda on your Windows computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "anaconda-windows.html#introduction",
-    "href": "anaconda-windows.html#introduction",
-    "title": "Anaconda Installation Guide for Windows",
-    "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your Windows computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
-  },
-  {
-    "objectID": "anaconda-windows.html#prerequisites",
-    "href": "anaconda-windows.html#prerequisites",
-    "title": "Anaconda Installation Guide for Windows",
-    "section": "",
-    "text": "Before you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\nSufficient disk space for the installation."
-  },
-  {
-    "objectID": "anaconda-windows.html#installation-steps",
-    "href": "anaconda-windows.html#installation-steps",
-    "title": "Anaconda Installation Guide for Windows",
-    "section": "",
-    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
-  },
-  {
-    "objectID": "anaconda-windows.html#conclusion",
-    "href": "anaconda-windows.html#conclusion",
-    "title": "Anaconda Installation Guide for Windows",
-    "section": "",
-    "text": "Congratulations! You’ve successfully installed Anaconda on your Windows computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "vscode-mac.html",
-    "href": "vscode-mac.html",
-    "title": "Visual Studio Code Installation Guide for macOS",
-    "section": "",
-    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\n\n\n\n\n\n\nVisit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "vscode-mac.html#introduction",
-    "href": "vscode-mac.html#introduction",
-    "title": "Visual Studio Code Installation Guide for macOS",
-    "section": "",
-    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages."
-  },
-  {
-    "objectID": "vscode-mac.html#prerequisites",
-    "href": "vscode-mac.html#prerequisites",
-    "title": "Visual Studio Code Installation Guide for macOS",
-    "section": "",
-    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection."
-  },
-  {
-    "objectID": "vscode-mac.html#installation-steps",
-    "href": "vscode-mac.html#installation-steps",
-    "title": "Visual Studio Code Installation Guide for macOS",
-    "section": "",
-    "text": "Visit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook"
-  },
-  {
-    "objectID": "vscode-mac.html#conclusion",
-    "href": "vscode-mac.html#conclusion",
-    "title": "Visual Studio Code Installation Guide for macOS",
-    "section": "",
-    "text": "Congratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "vscode-windows.html",
-    "href": "vscode-windows.html",
-    "title": "Visual Studio Code Installation Guide for Windows",
-    "section": "",
-    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your Windows computer. VS Code provides a powerful environment for coding and development across various programming languages.\n\n\n\nBefore you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\n\n\n\n\n\n\nVisit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “Windows” download link to download the Visual Studio Code installer for Windows.\n\n\n\nDownload VS Code\n\n\n\n\n\n\nLocate the downloaded installer file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nYou will see the VS Code Setup Wizard. Click the “Next” button to begin the installation.\n\n\n\n\nLicense Agreement\n\n\n\n\n\n\nSelect the installation location (the default is usually fine) and click “Next.”\n\n\n\n\nInstallation Location\n\n\n\nChoose additional tasks if desired (e.g., adding VS Code to the PATH). Then, click “Next.”\n\n\n\n\nAdditional Tasks\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few moments.\n\n\n\nInstall\n\n\n\n\n\nAfter the installation is complete, you can leave the “Launch Visual Studio Code” option checked and click “Finish.”\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nIn the search bar type “Python” and hit Enter.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nFrom the top-right corner click on the three-bars and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Visual Studio Code on your Windows computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "vscode-windows.html#introduction",
-    "href": "vscode-windows.html#introduction",
-    "title": "Visual Studio Code Installation Guide for Windows",
-    "section": "",
-    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your Windows computer. VS Code provides a powerful environment for coding and development across various programming languages."
-  },
-  {
-    "objectID": "vscode-windows.html#prerequisites",
-    "href": "vscode-windows.html#prerequisites",
-    "title": "Visual Studio Code Installation Guide for Windows",
-    "section": "",
-    "text": "Before you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection."
-  },
-  {
-    "objectID": "vscode-windows.html#installation-steps",
-    "href": "vscode-windows.html#installation-steps",
-    "title": "Visual Studio Code Installation Guide for Windows",
-    "section": "",
-    "text": "Visit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “Windows” download link to download the Visual Studio Code installer for Windows.\n\n\n\nDownload VS Code\n\n\n\n\n\n\nLocate the downloaded installer file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nYou will see the VS Code Setup Wizard. Click the “Next” button to begin the installation.\n\n\n\n\nLicense Agreement\n\n\n\n\n\n\nSelect the installation location (the default is usually fine) and click “Next.”\n\n\n\n\nInstallation Location\n\n\n\nChoose additional tasks if desired (e.g., adding VS Code to the PATH). Then, click “Next.”\n\n\n\n\nAdditional Tasks\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few moments.\n\n\n\nInstall\n\n\n\n\n\nAfter the installation is complete, you can leave the “Launch Visual Studio Code” option checked and click “Finish.”\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nIn the search bar type “Python” and hit Enter.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nFrom the top-right corner click on the three-bars and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook"
-  },
-  {
-    "objectID": "vscode-windows.html#conclusion",
-    "href": "vscode-windows.html#conclusion",
-    "title": "Visual Studio Code Installation Guide for Windows",
-    "section": "",
-    "text": "Congratulations! You’ve successfully installed Visual Studio Code on your Windows computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "schedule-old.html",
-    "href": "schedule-old.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Sample class schedule [week-by-week]\n(The course schedule subject to changes during the semester)\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTopic(s)\n\n\n\\(\\mu\\)-LABs and Assignment(s) due\n\n\n\n\n\n\n\n\nWeek 1 [01/20/2023]\n\n\n\n\nOverview of CS1010 by Prof. Kartik Bulusu\n\n\nIntroduction to Computer Science Department by Prof. Rebecca Hwa (Website TBA)\n\n\nIntroduction to Raspberry Pi and Python programming by Prof. Kartik Bulusu (Website TBA)\n\n\nLecture Notes (Website TBA)\n\n\n\n\n\n\n\nPython programming using DeepNote TBA\n\n\nIn-class Raspberry Pi Lab (Blinking LEDs)\n\n\nWorking Styles Workout Survey (Google form TBA)\n\n\nLab examples (github TBA)\n\n\nHW 1 Assigned (Website TBA)\n\n\n\n\n\n\n\n\n\nNOTE: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "landing.html",
-    "href": "landing.html",
-    "title": "CSCI 1010 Computer Science Orientation",
-    "section": "",
-    "text": "Welcome to CSCI 1010, Computer Science Orientation! This course serves as your gateway to the exciting world of computer science. Whether you’re a novice or have some prior experience, this course will provide you with a strong foundation in key concepts and practices.\n\n\nInstructor: Professor John Doe Term: Fall 2023 Location: Room 123, Main Building\n\n\nCSCI 1010 is designed to introduce you to the fundamental principles of computer science. Topics covered include:\n\nUnderstanding the basics of algorithms and data structures.\nLearning to program in Python.\nExploring the role of computation in various fields.\nGaining problem-solving skills through hands-on projects.\nPreparing for more advanced computer science courses.\n\n\n\n\n\nEngaging lectures and interactive discussions.\nPractical coding exercises and projects.\nAccess to online resources and tutorials.\nCollaborative learning with fellow students.\nGuidance from experienced teaching staff.\n\n\n\n\n\nTo excel in this course, you will need access to:\n\nA personal computer with internet connectivity.\nPython development environment (Anaconda recommended).\nRequired textbooks and course materials (see syllabus).\n\n\n\n\nYou can access the course syllabus here.\n\n\n\nProfessor John Doe’s office hours: - Mondays: 2:00 PM - 4:00 PM - Wednesdays: 10:00 AM - 12:00 PM\nFeel free to drop by during office hours for questions, clarifications, or to discuss any aspect of the course.\n\n\n\nIf you have any questions or concerns, please don’t hesitate to reach out:\n\nProfessor John Doe: john.doe@example.com\nTeaching Assistant: [Name]: ta@example.com\n\nWe look forward to embarking on this exciting journey of computer science exploration with you. Let’s get started!"
-  },
-  {
-    "objectID": "landing.html#course-overview",
-    "href": "landing.html#course-overview",
-    "title": "CSCI 1010 Computer Science Orientation",
-    "section": "",
-    "text": "Instructor: Professor John Doe Term: Fall 2023 Location: Room 123, Main Building\n\n\nCSCI 1010 is designed to introduce you to the fundamental principles of computer science. Topics covered include:\n\nUnderstanding the basics of algorithms and data structures.\nLearning to program in Python.\nExploring the role of computation in various fields.\nGaining problem-solving skills through hands-on projects.\nPreparing for more advanced computer science courses.\n\n\n\n\n\nEngaging lectures and interactive discussions.\nPractical coding exercises and projects.\nAccess to online resources and tutorials.\nCollaborative learning with fellow students.\nGuidance from experienced teaching staff."
-  },
-  {
-    "objectID": "landing.html#resources",
-    "href": "landing.html#resources",
-    "title": "CSCI 1010 Computer Science Orientation",
-    "section": "",
-    "text": "To excel in this course, you will need access to:\n\nA personal computer with internet connectivity.\nPython development environment (Anaconda recommended).\nRequired textbooks and course materials (see syllabus)."
-  },
-  {
-    "objectID": "landing.html#syllabus",
-    "href": "landing.html#syllabus",
-    "title": "CSCI 1010 Computer Science Orientation",
-    "section": "",
-    "text": "You can access the course syllabus here."
-  },
-  {
-    "objectID": "landing.html#office-hours",
-    "href": "landing.html#office-hours",
-    "title": "CSCI 1010 Computer Science Orientation",
-    "section": "",
-    "text": "Professor John Doe’s office hours: - Mondays: 2:00 PM - 4:00 PM - Wednesdays: 10:00 AM - 12:00 PM\nFeel free to drop by during office hours for questions, clarifications, or to discuss any aspect of the course."
-  },
-  {
-    "objectID": "landing.html#contact-information",
-    "href": "landing.html#contact-information",
-    "title": "CSCI 1010 Computer Science Orientation",
-    "section": "",
-    "text": "If you have any questions or concerns, please don’t hesitate to reach out:\n\nProfessor John Doe: john.doe@example.com\nTeaching Assistant: [Name]: ta@example.com\n\nWe look forward to embarking on this exciting journey of computer science exploration with you. Let’s get started!"
-  },
-  {
-    "objectID": "install-editor.html",
-    "href": "install-editor.html",
-    "title": "Installing an Editor",
-    "section": "",
-    "text": "Running your First Program\n\n\nIn the world of programming, an editor is more than just a text processor. It’s your creative workspace where you bring your code to life. Here are some key aspects of code editors:\n\nText Editing: At its core, an editor allows you to write, edit, and organize code in various programming languages. It provides features like syntax highlighting, auto-indentation, and code completion to enhance your coding experience.\nCode Execution: Some editors, like Jupyter Notebook, not only allow you to write code but also execute it in an interactive and step-by-step manner. This is especially useful for data analysis and experimentation.\nExtensions and Plugins: Code editors are highly customizable. You can enhance their functionality by installing extensions or plugins tailored to your needs. For example, you can add Python-specific tools or themes to make your editor visually appealing.\nIntegrated Development Environments (IDEs): Some editors, such as Visual Studio Code (VS Code), go beyond text editing and offer a complete integrated development environment with debugging capabilities, version control integration, and more.\nCollaboration: Many editors support collaborative coding, allowing multiple programmers to work on the same codebase simultaneously, which is crucial for group projects.\n\nIn your CSCI1010 class, you’ll use a combination of Anaconda, Jupyter, and VS Code:\n\nAnaconda: Anaconda is a Python distribution that simplifies package management and environment setup. It’s particularly valuable for data science projects, as it comes with a wide array of pre-installed libraries and tools.\nJupyter: Jupyter Notebook is an interactive environment that enables you to create and share documents containing live code, equations, visualizations, and narrative text. It’s an excellent choice for data analysis and presenting your findings.\nVS Code: Visual Studio Code (VS Code) is a versatile code editor that supports multiple programming languages and offers a rich ecosystem of extensions. Its user-friendly interface and powerful features make it a great choice for general programming tasks.\n\nThese tools will empower you throughout your CSCI1010 journey, helping you write, execute, and collaborate on code effectively. Select the appropriate option for your operating system, follow the installation instructions, and dive into the world of coding with confidence!\n\n\n\n\n\nStep 1: Install Anaconda for Mac\nStep 2: Install Real VNC\nStep 3: Install VS Code for Mac\nStep 4: Connect to the Raspberry Pi\n\n\n\n\n\nStep 1: Install Anaconda for Windows\nStep 2: Install Real VNC\nStep 3: Install VS Code for Windows\nStep 4: Connect to the Raspberry Pi\n\nChoose the option that best suits your needs and follow the respective installation instructions.\nOnce you have an editor installed, you can start writing and running your code. Happy coding!\nAlso, once you’ve finished these installation steps, fill out the Installation Check-In form and the CS1010 Entry form. Both the forms are MANDATORY to be filled out before the first class.\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "install-editor.html#what-is-an-editor",
-    "href": "install-editor.html#what-is-an-editor",
-    "title": "Installing an Editor",
-    "section": "",
-    "text": "In the world of programming, an editor is more than just a text processor. It’s your creative workspace where you bring your code to life. Here are some key aspects of code editors:\n\nText Editing: At its core, an editor allows you to write, edit, and organize code in various programming languages. It provides features like syntax highlighting, auto-indentation, and code completion to enhance your coding experience.\nCode Execution: Some editors, like Jupyter Notebook, not only allow you to write code but also execute it in an interactive and step-by-step manner. This is especially useful for data analysis and experimentation.\nExtensions and Plugins: Code editors are highly customizable. You can enhance their functionality by installing extensions or plugins tailored to your needs. For example, you can add Python-specific tools or themes to make your editor visually appealing.\nIntegrated Development Environments (IDEs): Some editors, such as Visual Studio Code (VS Code), go beyond text editing and offer a complete integrated development environment with debugging capabilities, version control integration, and more.\nCollaboration: Many editors support collaborative coding, allowing multiple programmers to work on the same codebase simultaneously, which is crucial for group projects.\n\nIn your CSCI1010 class, you’ll use a combination of Anaconda, Jupyter, and VS Code:\n\nAnaconda: Anaconda is a Python distribution that simplifies package management and environment setup. It’s particularly valuable for data science projects, as it comes with a wide array of pre-installed libraries and tools.\nJupyter: Jupyter Notebook is an interactive environment that enables you to create and share documents containing live code, equations, visualizations, and narrative text. It’s an excellent choice for data analysis and presenting your findings.\nVS Code: Visual Studio Code (VS Code) is a versatile code editor that supports multiple programming languages and offers a rich ecosystem of extensions. Its user-friendly interface and powerful features make it a great choice for general programming tasks.\n\nThese tools will empower you throughout your CSCI1010 journey, helping you write, execute, and collaborate on code effectively. Select the appropriate option for your operating system, follow the installation instructions, and dive into the world of coding with confidence!\n\n\n\n\n\nStep 1: Install Anaconda for Mac\nStep 2: Install Real VNC\nStep 3: Install VS Code for Mac\nStep 4: Connect to the Raspberry Pi\n\n\n\n\n\nStep 1: Install Anaconda for Windows\nStep 2: Install Real VNC\nStep 3: Install VS Code for Windows\nStep 4: Connect to the Raspberry Pi\n\nChoose the option that best suits your needs and follow the respective installation instructions.\nOnce you have an editor installed, you can start writing and running your code. Happy coding!\nAlso, once you’ve finished these installation steps, fill out the Installation Check-In form and the CS1010 Entry form. Both the forms are MANDATORY to be filled out before the first class.\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "instructor-old.html",
-    "href": "instructor-old.html",
-    "title": "Instruction Team",
-    "section": "",
-    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\n\n\nHis research work entails human health and sustainable energy with focus on biofluid mechanics, polymer rheology, low-cost energy technologies and applications of wavelet transforms.\n\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he is loves to tinker with electronics and design low-cost experiments for research and education.\n\n\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\n\n\nOffice hours: On-demand (please reach out via email!)\n\n\nLocation: Blackboard Collaborate Course Room\n\n\n\n\n \n\nCampus Address: SEH 3640\n\n\nE-mail: bulusu at gwu dot edu\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "instructor-old.html#instructor",
-    "href": "instructor-old.html#instructor",
-    "title": "Instruction Team",
-    "section": "",
-    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\n\n\nHis research work entails human health and sustainable energy with focus on biofluid mechanics, polymer rheology, low-cost energy technologies and applications of wavelet transforms.\n\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he is loves to tinker with electronics and design low-cost experiments for research and education.\n\n\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\n\n\nOffice hours: On-demand (please reach out via email!)\n\n\nLocation: Blackboard Collaborate Course Room\n\n\n\n\n \n\nCampus Address: SEH 3640\n\n\nE-mail: bulusu at gwu dot edu\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "instructor.html#instructor-1",
-    "href": "instructor.html#instructor-1",
-    "title": "Instruction Team",
-    "section": "Instructor",
-    "text": "Instructor\nDr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\nHis research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\nOffice Hours: On-Demand (Please reach out via email)\nLocation: Blackboard Collaborate Course Room"
-  },
-  {
-    "objectID": "instructor.html#gta",
-    "href": "instructor.html#gta",
-    "title": "Instruction Team",
-    "section": "GTA",
-    "text": "GTA\n\n\n\n\nOscar Southwell is a graduate student studying Engineering Management, who received his bachelor’s in mechanical engineering at GW this past spring. Originally from London, United Kingdom, he has experience working as an engineering intern for the Pennsylvanian Department of Transportation and as a science and tech instructor in Philadelphia.\nDuring his time as an undergraduate, he was significantly involved in programs from the GW Office of Entrepreneurship and Innovation, winning prizes in the George Hacks and Pitch George competitions and completing the Fall 2022 I-Corps Program.\nHe currently serves as the treasurer for the GW Men’s Club Soccer team and American Society of Mechanical Engineers section.\n\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "instructor.html#oscar-southwell-gta",
-    "href": "instructor.html#oscar-southwell-gta",
-    "title": "Instruction Team",
-    "section": "Oscar Southwell (GTA)",
-    "text": "Oscar Southwell (GTA)\n\n\n\n\nOscar Southwell is a graduate student studying Engineering Management, who received his bachelor’s in mechanical engineering at GW this past spring. Originally from London, United Kingdom, he has experience working as an engineering intern for the Pennsylvanian Department of Transportation and as a science and tech instructor in Philadelphia.\nDuring his time as an undergraduate, he was significantly involved in programs from the GW Office of Entrepreneurship and Innovation, winning prizes in the George Hacks and Pitch George competitions and completing the Fall 2022 I-Corps Program.\nHe currently serves as the treasurer for the GW Men’s Club Soccer team and American Society of Mechanical Engineers section.\nOffice Hours: Mondays, Tuesdays (5-6 PM)\nLocation: Tompkins Hall (Room 409)"
-  },
-  {
-    "objectID": "instructor.html#dr.-kartik-bulusu-instructor",
-    "href": "instructor.html#dr.-kartik-bulusu-instructor",
-    "title": "Instruction Team",
-    "section": "",
-    "text": "Dr. Kartik V. Bulusu is an Associate Professor of Practice in the Department of Computer Science (CS) and Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).\nHis research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.\nHe is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.\nDr. Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.\nOffice Hours: On-Demand (Please reach out via email)\nLocation: Blackboard Collaborate Course Room\n\n\n  Campus Address: SEH 3640\nEmail: bulusu at gwu dot edu"
-  },
-  {
-    "objectID": "instructor.html#sameen-ahmad-uta",
-    "href": "instructor.html#sameen-ahmad-uta",
-    "title": "Instruction Team",
-    "section": "Sameen Ahmad (UTA)",
-    "text": "Sameen Ahmad (UTA)\n\n\n\n\nSameen is a junior majoring in Computer Science. She is from the DMV area (Arlington, VA) and is interested in cybersecurity and artificial intelligence. Ever since Sameen developed her passion for computer science, it has been her goal to combine it with social change.\nSameen is the Executive Secretary of Undergraduate Academic Affairs - The Student Association Executive Branch, and the Chair of the SEAS Together Committee. Sameen has been a committee member of the GW Computer Science Justice, Equity, Diversity, and Inclusion (JEDI) Committee since her freshmen year, Co-President for Girls Who Code College Loop at GW, SEASSPAN Undergraduate Ambassador Mentor, the Recruitment and Mentorship Director of WiCS (Women in Computer Science), Member of the University Integrity and Conduct Council, and the University Grievance Committee. In her free time, she enjoys spending time with her family and friends and loves trying out new food.\nSameen is super EXCITED to be the UTA for this class and can not wait to meet everyone!!"
-  },
-  {
-    "objectID": "instructor.html#talia-novack-uta",
-    "href": "instructor.html#talia-novack-uta",
-    "title": "Instruction Team",
-    "section": "Talia Novack (UTA)",
-    "text": "Talia Novack (UTA)\n\n\n\n\nTalia is a Junior studying Computer Science with a minor in Astronomy and Astrophysics. She is a part of Women in Computer Science and ACM. Talia is interested in space as well as AI applications in our modern world. Outside of CS, Talia’s whole life is WRGW District Radio: GW’s radio station where she is the Programming Director.\nIn her free time, she enjoys hanging out with friends, being outside, and lifting weights. Talia is pumped to be a UTA for this course and can’t wait to get to some Python programming!!"
-  },
-  {
-    "objectID": "instructor.html#manue-alaimo",
-    "href": "instructor.html#manue-alaimo",
-    "title": "Instruction Team",
-    "section": "Manue Alaimo",
-    "text": "Manue Alaimo\n\n\n\n\nManue is a senior studying Computer Science and is from Pennsylvania. They have an interest in IoT devices, machine learning, and artificial intelligence.\nOver the summer Manue worked as a software engineering intern in the financial technology industry for one of the largest global banks. On campus, they are involved in JEDI (Learn more here!). In their free time, they like to run, play frisbee, and try out new coffee shops around DC."
-  },
-  {
-    "objectID": "instructor.html#selamn-eris",
-    "href": "instructor.html#selamn-eris",
-    "title": "Instruction Team",
-    "section": "Selamn Eris",
-    "text": "Selamn Eris\n\n\n\n\nSelman Eris is a senior studying Computer Science. He grew up in Istanbul, Turkey and transferred to GWU after completing freshman year at Istanbul Technical University. He is interested in real-time AI and edge devices. Last summer, he worked in Professor Narahari and Professor Bulusu’s lab focusing on imprecise computation and real-time AI.\nIn his free time, he enjoys playing video games, listening to music and spending time with his family and friends.\n\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "instructor.html#manue-alaimo-la",
-    "href": "instructor.html#manue-alaimo-la",
-    "title": "Instruction Team",
-    "section": "Manue Alaimo (LA)",
-    "text": "Manue Alaimo (LA)\n\n\n\n\nManue is a senior studying Computer Science and is from Pennsylvania. They have an interest in IoT devices, machine learning, and artificial intelligence.\nOver the summer Manue worked as a software engineering intern in the financial technology industry for one of the largest global banks. On campus, they are involved in JEDI (Learn more here!). In their free time, they like to run, play frisbee, and try out new coffee shops around DC."
-  },
-  {
-    "objectID": "instructor.html#selamn-erisla",
-    "href": "instructor.html#selamn-erisla",
-    "title": "Instruction Team",
-    "section": "Selamn Eris(LA)",
-    "text": "Selamn Eris(LA)\n\n\n\n\nSelman Eris is a senior studying Computer Science. He grew up in Istanbul, Turkey and transferred to GWU after completing freshman year at Istanbul Technical University. He is interested in real-time AI and edge devices. Last summer, he worked in Professor Narahari and Professor Bulusu’s lab focusing on imprecise computation and real-time AI.\nIn his free time, he enjoys playing video games, listening to music and spending time with his family and friends."
-  },
-  {
-    "objectID": "instructor.html#saif-alzaabila",
-    "href": "instructor.html#saif-alzaabila",
-    "title": "Instruction Team",
-    "section": "Saif Alzaabi(LA)",
-    "text": "Saif Alzaabi(LA)\n\n\n\n\nSaif Alzaabi is a senior graduating this semester. He is majoring in Computer Science and Economics. His main interest is in financial technologies, and is hoping to enter that field after graduation. Outside of studying, Saif trains in martial arts, mainly Brazilian Jiu-Jitsu.\n\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "instructor.html#selamn-eris-la",
-    "href": "instructor.html#selamn-eris-la",
-    "title": "Instruction Team",
-    "section": "Selamn Eris (LA)",
-    "text": "Selamn Eris (LA)\n\n\n\n\nSelman Eris is a senior studying Computer Science. He grew up in Istanbul, Turkey and transferred to GWU after completing freshman year at Istanbul Technical University. He is interested in real-time AI and edge devices. Last summer, he worked in Professor Narahari and Professor Bulusu’s lab focusing on imprecise computation and real-time AI.\nIn his free time, he enjoys playing video games, listening to music and spending time with his family and friends."
-  },
-  {
-    "objectID": "instructor.html#saif-alzaabi-la",
-    "href": "instructor.html#saif-alzaabi-la",
-    "title": "Instruction Team",
-    "section": "Saif Alzaabi (LA)",
-    "text": "Saif Alzaabi (LA)\n\n\n\n\nSaif Alzaabi is a senior graduating this semester. He is majoring in Computer Science and Economics. His main interest is in financial technologies, and is hoping to enter that field after graduation. Outside of studying, Saif trains in martial arts, mainly Brazilian Jiu-Jitsu."
-  },
-  {
-    "objectID": "instructor.html#gustavo-londono-la",
-    "href": "instructor.html#gustavo-londono-la",
-    "title": "Instruction Team",
-    "section": "Gustavo Londono (LA)",
-    "text": "Gustavo Londono (LA)\n\n\n\n\nGustavo is a sophomore studying Computer Science here at GW and is originally from Rhode Island. He’s particularly interested in software engineering and cybersecurity, both of which he hopes to apply to his future career.\nGustavo enjoys reading, working on side projects, and watching tv shows. He’s also a part of GWU Robotics, GW Rocket, and participates in both student/university theater."
-  },
-  {
-    "objectID": "instructor.html#amy-longua-la",
-    "href": "instructor.html#amy-longua-la",
-    "title": "Instruction Team",
-    "section": "Amy Longua (LA)",
-    "text": "Amy Longua (LA)\n\n\n\n\nMy name Amy, I’m a computer science sophomore and I’ll be one of your LAs this fall. I had very little coding experience but I took CSCI1010 last year and it was one of my favorites which is why I decided to LA for it! I’m also a part of WiCS and ACM so if you see me at one of their events come say hi."
-  },
-  {
-    "objectID": "instructor.html#selman-eris-la",
-    "href": "instructor.html#selman-eris-la",
-    "title": "Instruction Team",
-    "section": "Selman Eris (LA)",
-    "text": "Selman Eris (LA)\n\n\n\n\nSelman Eris is a senior studying Computer Science. He grew up in Istanbul, Turkey and transferred to GWU after completing freshman year at Istanbul Technical University. He is interested in real-time AI and edge devices. Last summer, he worked in Professor Narahari and Professor Bulusu’s lab focusing on imprecise computation and real-time AI.\nIn his free time, he enjoys playing video games, listening to music and spending time with his family and friends."
+    "objectID": "download/Week1/Demo1_Guide.html#python-as-a-scientific-calculator",
+    "href": "download/Week1/Demo1_Guide.html#python-as-a-scientific-calculator",
+    "title": "CS 1010 - Week1",
+    "section": "Python as a scientific calculator",
+    "text": "Python as a scientific calculator\nUtilizing the math library and the numpy library we can get extra functions!\n\nimport math\nimport numpy as np\n\n\nprint(math.sqrt(10))\n\n3.1622776601683795\n\n\n\nprint(math.cos(0))\n\n1.0\n\n\n\nprint(math.sin(math.pi))  #The sin(pi) is 0, notice the answer a small number\n\n1.2246467991473532e-16\n\n\n\nprint(np.sqrt(10))\n\n3.1622776601683795\n\n\n\nprint(np.cos(0))\n\n1.0\n\n\n\nprint(np.sin(np.pi))  #The sin(pi) is 0, notice the answer a small number\n\n1.2246467991473532e-16\n\n\nHere is a link that can help with learning the math library syntax in Python:\nSource 1"
   },
   {
     "objectID": "realvnc-mac.html",
@@ -539,108 +476,24 @@
     "text": "You have successfully installed RealVNC Viewer on your Mac, allowing you to access and control remote computers with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "schedule-new.html",
-    "href": "schedule-new.html",
+    "objectID": "install-editor.html",
+    "href": "install-editor.html",
+    "title": "Installing an Editor",
+    "section": "",
+    "text": "Running your First Program\n\n\nIn the world of programming, an editor is more than just a text processor. It’s your creative workspace where you bring your code to life. Here are some key aspects of code editors:\n\nText Editing: At its core, an editor allows you to write, edit, and organize code in various programming languages. It provides features like syntax highlighting, auto-indentation, and code completion to enhance your coding experience.\nCode Execution: Some editors, like Jupyter Notebook, not only allow you to write code but also execute it in an interactive and step-by-step manner. This is especially useful for data analysis and experimentation.\nExtensions and Plugins: Code editors are highly customizable. You can enhance their functionality by installing extensions or plugins tailored to your needs. For example, you can add Python-specific tools or themes to make your editor visually appealing.\nIntegrated Development Environments (IDEs): Some editors, such as Visual Studio Code (VS Code), go beyond text editing and offer a complete integrated development environment with debugging capabilities, version control integration, and more.\nCollaboration: Many editors support collaborative coding, allowing multiple programmers to work on the same codebase simultaneously, which is crucial for group projects.\n\nIn your CSCI1010 class, you’ll use a combination of Anaconda, Jupyter, and VS Code:\n\nAnaconda: Anaconda is a Python distribution that simplifies package management and environment setup. It’s particularly valuable for data science projects, as it comes with a wide array of pre-installed libraries and tools.\nJupyter: Jupyter Notebook is an interactive environment that enables you to create and share documents containing live code, equations, visualizations, and narrative text. It’s an excellent choice for data analysis and presenting your findings.\nVS Code: Visual Studio Code (VS Code) is a versatile code editor that supports multiple programming languages and offers a rich ecosystem of extensions. Its user-friendly interface and powerful features make it a great choice for general programming tasks.\n\nThese tools will empower you throughout your CSCI1010 journey, helping you write, execute, and collaborate on code effectively. Select the appropriate option for your operating system, follow the installation instructions, and dive into the world of coding with confidence!\n\n\n\n\n\nStep 1: Install Anaconda for Mac\nStep 2: Install Real VNC\nStep 3: Install VS Code for Mac\nStep 4: Connect to the Raspberry Pi\n\n\n\n\n\nStep 1: Install Anaconda for Windows\nStep 2: Install Real VNC\nStep 3: Install VS Code for Windows\nStep 4: Connect to the Raspberry Pi\n\nChoose the option that best suits your needs and follow the respective installation instructions.\nOnce you have an editor installed, you can start writing and running your code. Happy coding!\nAlso, once you’ve finished installation Steps 1 and 2, fill out the Installation Check-In form and the CS1010 Entry form. Both the forms are MANDATORY to be filled out before the first class.\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "install-editor.html#what-is-an-editor",
+    "href": "install-editor.html#what-is-an-editor",
+    "title": "Installing an Editor",
+    "section": "",
+    "text": "In the world of programming, an editor is more than just a text processor. It’s your creative workspace where you bring your code to life. Here are some key aspects of code editors:\n\nText Editing: At its core, an editor allows you to write, edit, and organize code in various programming languages. It provides features like syntax highlighting, auto-indentation, and code completion to enhance your coding experience.\nCode Execution: Some editors, like Jupyter Notebook, not only allow you to write code but also execute it in an interactive and step-by-step manner. This is especially useful for data analysis and experimentation.\nExtensions and Plugins: Code editors are highly customizable. You can enhance their functionality by installing extensions or plugins tailored to your needs. For example, you can add Python-specific tools or themes to make your editor visually appealing.\nIntegrated Development Environments (IDEs): Some editors, such as Visual Studio Code (VS Code), go beyond text editing and offer a complete integrated development environment with debugging capabilities, version control integration, and more.\nCollaboration: Many editors support collaborative coding, allowing multiple programmers to work on the same codebase simultaneously, which is crucial for group projects.\n\nIn your CSCI1010 class, you’ll use a combination of Anaconda, Jupyter, and VS Code:\n\nAnaconda: Anaconda is a Python distribution that simplifies package management and environment setup. It’s particularly valuable for data science projects, as it comes with a wide array of pre-installed libraries and tools.\nJupyter: Jupyter Notebook is an interactive environment that enables you to create and share documents containing live code, equations, visualizations, and narrative text. It’s an excellent choice for data analysis and presenting your findings.\nVS Code: Visual Studio Code (VS Code) is a versatile code editor that supports multiple programming languages and offers a rich ecosystem of extensions. Its user-friendly interface and powerful features make it a great choice for general programming tasks.\n\nThese tools will empower you throughout your CSCI1010 journey, helping you write, execute, and collaborate on code effectively. Select the appropriate option for your operating system, follow the installation instructions, and dive into the world of coding with confidence!\n\n\n\n\n\nStep 1: Install Anaconda for Mac\nStep 2: Install Real VNC\nStep 3: Install VS Code for Mac\nStep 4: Connect to the Raspberry Pi\n\n\n\n\n\nStep 1: Install Anaconda for Windows\nStep 2: Install Real VNC\nStep 3: Install VS Code for Windows\nStep 4: Connect to the Raspberry Pi\n\nChoose the option that best suits your needs and follow the respective installation instructions.\nOnce you have an editor installed, you can start writing and running your code. Happy coding!\nAlso, once you’ve finished installation Steps 1 and 2, fill out the Installation Check-In form and the CS1010 Entry form. Both the forms are MANDATORY to be filled out before the first class.\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Sample class schedule [week-by-week]\n(The course schedule subject to changes during the semester)\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTopic(s)\n\n\n\\(\\mu\\)-LABs and Assignment(s) due\n\n\n\n\n\n\n\nWeek 1 [10/06/2023]\n\n\n\n\nOverview of CS1010 by Prof. Kartik Bulusu\n\n\nIntroduction to Computer Science Department by Prof. Rebecca Hwa (Website TBA)\n\n\nIntroduction to Raspberry Pi and Python programming by Prof. Kartik Bulusu (Website TBA)\n\n\nLecture Notes (Website TBA)\n\n\n\n\n\n\nPython programming using DeepNote TBA\n\n\nIn-class Raspberry Pi Lab (Blinking LEDs)\n\n\nWorking Styles Workout Survey (Google form TBA)\n\n\nLab examples (github TBA)\n\n\nHW 1 Assigned \n\n\n\n\n\n\n\n\nWeek 2 [10/13/2023]\n\n\n\nFall Break, NO CLASS!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNOTE: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester"
-  },
-  {
-    "objectID": "realvnc-mac-connect.html",
-    "href": "realvnc-mac-connect.html",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to establish a remote using RealVNC on your Mac computer.\n\n\nBefore you begin, ensure that you have already installed RealVNC on your Mac.\n\n\n\n\n\nLaunch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window.\n\n\n\n\nYou have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "realvnc-mac-connect.html#prerequisites",
-    "href": "realvnc-mac-connect.html#prerequisites",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "Before you begin, ensure that you have already installed RealVNC on your Mac."
-  },
-  {
-    "objectID": "realvnc-mac-connect.html#establish-a-connection",
-    "href": "realvnc-mac-connect.html#establish-a-connection",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "Launch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window."
-  },
-  {
-    "objectID": "realvnc-mac-connect.html#conclusion",
-    "href": "realvnc-mac-connect.html#conclusion",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "You have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "realvnc-windows-connect.html",
-    "href": "realvnc-windows-connect.html",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to establish a remote using RealVNC on your Windows computer.\n\n\nBefore you begin, ensure that you have already installed RealVNC on your Mac.\n\n\n\n\n\nLaunch VNC Viewer from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window.\n\n\n\n\nYou have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "realvnc-windows-connect.html#prerequisites",
-    "href": "realvnc-windows-connect.html#prerequisites",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "Before you begin, ensure that you have already installed RealVNC on your Mac."
-  },
-  {
-    "objectID": "realvnc-windows-connect.html#establish-a-connection",
-    "href": "realvnc-windows-connect.html#establish-a-connection",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "Launch VNC Viewer from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window."
-  },
-  {
-    "objectID": "realvnc-windows-connect.html#conclusion",
-    "href": "realvnc-windows-connect.html#conclusion",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "You have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "download/Week1/Demo1_Guide.html",
-    "href": "download/Week1/Demo1_Guide.html",
-    "title": "CS 1010 - Week1",
-    "section": "",
-    "text": "Prof. Kartik Bulusu [CS & MAE]\n\n\nOscar Southwell [EMSE]\n\n\n\nSameen Ahmad [CS], Talia Novack [CS]\n\n\n\nManue Alaimo [CS], Selamn Eris [CS], Saif Alzaabi [CS], Pravin Khanal [CS], Gustavo Londono [CS], Amy Longua [CS]\n\n\n\nRutvik Solanki [CS]\nIf you have any questions regarding Python, please feel free to send a slack message or email to a member of the teaching team or come to office hours! We are happy to help!!"
-  },
-  {
-    "objectID": "download/Week1/Demo1_Guide.html#python-as-a-scientific-calculator",
-    "href": "download/Week1/Demo1_Guide.html#python-as-a-scientific-calculator",
-    "title": "CS 1010 - Week1",
-    "section": "Python as a scientific calculator",
-    "text": "Python as a scientific calculator\nUtilizing the math library and the numpy library we can get extra functions!\n\nimport math\nimport numpy as np\n\n\nprint(math.sqrt(10))\n\n3.1622776601683795\n\n\n\nprint(math.cos(0))\n\n1.0\n\n\n\nprint(math.sin(math.pi))  #The sin(pi) is 0, notice the answer a small number\n\n1.2246467991473532e-16\n\n\n\nprint(np.sqrt(10))\n\n3.1622776601683795\n\n\n\nprint(np.cos(0))\n\n1.0\n\n\n\nprint(np.sin(np.pi))  #The sin(pi) is 0, notice the answer a small number\n\n1.2246467991473532e-16\n\n\nHere is a link that can help with learning the math library syntax in Python:\nSource 1"
-  },
-  {
-    "objectID": "instructor.html#pravin-khanal-la",
-    "href": "instructor.html#pravin-khanal-la",
-    "title": "Instruction Team",
-    "section": "Pravin Khanal (LA)",
-    "text": "Pravin Khanal (LA)\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "download/Week1/Demo1.html",
-    "href": "download/Week1/Demo1.html",
-    "title": "CSCI 1010 [Fall 2023]",
-    "section": "",
-    "text": "This is a place for you to follow along live!\nUse Shift+Enter to run a cell!\n\n#Start typing code below!\nprint(\"hello CS1001 Instruction Team .. Welcome !\")\n\nhello CS1001 Instruction Team .. Welcome !"
-  },
-  {
-    "objectID": "realvnc-windows.html",
-    "href": "realvnc-windows.html",
-    "title": "RealVNC Installation Guide for Windows",
-    "section": "",
-    "text": "This guide will walk you through the process of installing and setting up RealVNC on your Windows computer to enable remote desktop access.\n\n\nBefore you begin, ensure you meet the following requirements:\n\nA Windows computer running a supported version of Windows (e.g., Windows 10, Windows 8, Windows 7).\nInternet access.\n\n\n\nOpen your web browser and go to the RealVNC website at https://www.realvnc.com/en/connect/download/combined/. Click on the “Download VNC Viewer” button.\n\n\n\nDownload VNC Viewer\n\n\n\n\n\nLocate the downloaded installer file (e.g., VNC-Viewer-*.exe) and double-click it to run the installer. Once the installation is complete, click “Finish” to exit the installer.\n\n\n\nOpen Installer\n\n\n\n\n\nRun Installer\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up"
-  },
-  {
-    "objectID": "realvnc-windows.html#prerequisites",
-    "href": "realvnc-windows.html#prerequisites",
-    "title": "RealVNC Installation Guide for Windows",
-    "section": "",
-    "text": "Before you begin, ensure you meet the following requirements:\n\nA Windows computer running a supported version of Windows (e.g., Windows 10, Windows 8, Windows 7).\nInternet access.\n\n\n\nOpen your web browser and go to the RealVNC website at https://www.realvnc.com/en/connect/download/combined/. Click on the “Download VNC Viewer” button.\n\n\n\nDownload VNC Viewer\n\n\n\n\n\nLocate the downloaded installer file (e.g., VNC-Viewer-*.exe) and double-click it to run the installer. Once the installation is complete, click “Finish” to exit the installer.\n\n\n\nOpen Installer\n\n\n\n\n\nRun Installer\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up"
+    "text": "Sample class schedule [week-by-week]\n(The course schedule subject to changes during the semester)\n\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTopic(s)\n\n\n\\(\\mu\\)-LABs and Assignment(s) due\n\n\nDownload Files\n\n\n\n\n\n\n\nWeek 1 [10/06/2023]\n\n\n\n\nOverview of CS1010 by Prof. Kartik Bulusu\n\n\nIntroduction to Computer Science Department by Prof. Rebecca Hwa (Website TBA)\n\n\nIntroduction to Raspberry Pi and Python programming by Prof. Kartik Bulusu\n\n\n\n\n\n\n\nPython programming using Anaconda Python Distribution\n\n\nIn-class Raspberry Pi Lab (Blinking LEDs)\n\n\nHW 1 Assigned\n\n\n\n\n\n\nLecture Notes\n\n\nLab Examples\n\n\nIn-class Excercise \n\n\nHW1 \n\n\n\n\nWeek 2 [10/13/2023]\n\n\n\nFall Break, NO CLASS!\n\n\n\n\n\n\n\n\nNOTE: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   }
 ]
