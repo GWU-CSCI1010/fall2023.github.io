@@ -55,6 +55,8 @@ Once you have an editor installed, you can start writing and running your code. 
 
 Also, once you've finished these installation steps, fill out the [Installation Check-In form](https://forms.gle/Y6Yi9HTZSjD1MPHb7) and the [CS1010 Entry form](https://forms.gle/EoKoGY5KHMi4wEBs7). Both the forms are **MANDATORY** to be filled out before the first class.
 
+### You will be automatically entered into a raffle in the first class of CS1010 on 10/06/2023.
+
 <br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
