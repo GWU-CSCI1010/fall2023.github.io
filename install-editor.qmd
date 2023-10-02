@@ -33,9 +33,9 @@ These tools will empower you throughout your CSCI1010 journey, helping you write
 
 - **Step 1**: [Install Anaconda for Mac](anaconda-mac.qmd)
 
-- **Step 2**: [Install VS Code for Mac](vscode-mac.qmd)
+- **Step 2:** [Install Real VNC](realvnc-mac.qmd)
 
-- **Step 3:** [Install Real VNC](realvnc-mac.qmd)
+- **Step 3**: [Install VS Code for Mac](vscode-mac.qmd)
 
 - **Step 4:** [Connect to the Raspberry Pi](realvnc-mac-connect.qmd)
 
@@ -43,9 +43,9 @@ These tools will empower you throughout your CSCI1010 journey, helping you write
 
 - **Step 1**: [Install Anaconda for Windows](anaconda-windows.qmd)
 
-- **Step 2**: [Install VS Code for Windows](vscode-windows.qmd)
+- **Step 2:** [Install Real VNC](realvnc-windows.qmd)
 
-- **Step 3:** [Install Real VNC](realvnc-windows.qmd)
+- **Step 3**: [Install VS Code for Windows](vscode-windows.qmd)
 
 - **Step 4:** [Connect to the Raspberry Pi](realvnc-windows-connect.qmd)
 
