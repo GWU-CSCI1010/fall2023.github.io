@@ -28,7 +28,7 @@ Sample class schedule [week-by-week]
         <ul>
           <li>Overview of CS1010 by Prof. Kartik Bulusu</li>
           <li>Introduction to Computer Science Department by Prof. Rebecca Hwa (**Website TBA**)</li>
-          <li>Introduction to Raspberry Pi and Python programming by Prof. Kartik Bulusu (**Website TBA**)</li>
+          <li>Introduction to Raspberry Pi and Python programming by Prof. Kartik Bulusu <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>![Download button](images/download-button.png)</a></li>
           <li>Lecture Notes (**Website TBA**)</li>
           <!-- <li><a href="https://drive.google.com/drive/folders/1qYaXJ_VKJUxnIOQKGn9c_LDQjJIzSsWs?usp=sharing" target="_blank">Lecture notes</a></li>  -->
         </ul>  
@@ -39,17 +39,22 @@ Sample class schedule [week-by-week]
           <li>In-class Raspberry Pi Lab (Blinking LEDs)</li>
           <li>Working Styles Workout Survey (**Google form TBA**)</li>
           <li>Lab examples (**github TBA**)</li>
-          <li>HW 1 Assigned <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>(Download)</a></li>
+          <li>HW 1 Assigned</li>
+          <!-- <li>HW 1 Assigned <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>(Download)</a></li> -->
         </ul>
       </td>
       <td>
       </td>
-      <!--- <td>Column content</td> -->
-      <tr class="table-dark">
-      <th colspan="3">Week 2 [10/13/2023]: Fall Break. NO CLASS!</th>
-      <!--- <td>Column content</td>
-      <td>Column content</td> -->
-      <!--- <td>Column content</td> -->
+      <tr>
+      <th scope="row">Week 2 [10/13/2023]</th>
+      <td>
+        <ul>
+            Fall Break
+            NO CLASS!
+        </ul>
+      </td>
+      <td>
+      </td>
     </tr>
       <tr class="table-dark">
       <th colspan="3">NOTE: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester</th>

@@ -70,7 +70,7 @@ Once the installation is complete, you will see a confirmation message. Click th
 
 ### 10. Verify the Installation
 
-Open the "Terminal" application on your macOS computer and type the following command to verify that Anaconda and Jupyter were installed successfully:
+<!-- Open the "Terminal" application on your macOS computer and type the following command to verify that Anaconda and Jupyter were installed successfully:
 
 ```bash
 jupyter --version
@@ -78,10 +78,15 @@ jupyter --version
 
 ![Open Terminal](images/screenshots/anaconda-mac/screenshot-11.png)
 
-![Verify Jupyter Installation](images/screenshots/anaconda-mac/screenshot-12.png)
+![Verify Jupyter Installation](images/screenshots/anaconda-mac/screenshot-12.png) -->
 
+To verify the installation launch a local Jupyter Server by clicking on the "launch" button for Jupyter Notebook.
 
-You should see the Jupyter packages version numbers displayed.
+![Launch Jupyter Server](images/screenshots/anaconda-mac/screenshot-14.png)
+
+You should see a terminal open and the Jupyter Notebbok server launched in a browser window.
+
+![Jupyter Server Launched](images/screenshots/anaconda-mac/screenshot-15.png)
 
 ## Conclusion
 

@@ -30,6 +30,8 @@ Click on the "macOS" download link to download the Visual Studio Code for macOS.
 - Locate the downloaded file (usually in your "Downloads" folder).
 - Double-click the VS Code disk image (`.dmg`) file to open it.
 
+![Locate file](images/screenshots/vscode-mac/screenshot-11.png)
+
 ![Open DMG](images/screenshots/vscode-mac/screenshot-3.png)
 
 <!-- - Drag the Visual Studio Code application icon to the "Applications" folder to install it.

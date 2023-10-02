@@ -165,6 +165,19 @@ format: html
   </tr>
 </table>
 
+## Pravin Khanal (LA)
+<!-- <table>
+  <tr>
+    <td width="70%">
+
+    </td>
+
+    <td width="30%">
+      <img src="images/team/pravin.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table> -->
+
 <!-- 
 ### Instructor contacts
 <p>Campus Address: SEH 3640</p>

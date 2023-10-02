@@ -37,15 +37,23 @@ These tools will empower you throughout your CSCI1010 journey, helping you write
 
 - **Step 3:** [Install Real VNC](realvnc-mac.qmd)
 
+- **Step 4:** [Connect to the Raspberry Pi](realvnc-mac-connect.qmd)
+
 #### **Windows:**
 
 - **Step 1**: [Install Anaconda for Windows](anaconda-windows.qmd)
 
 - **Step 2**: [Install VS Code for Windows](vscode-windows.qmd)
 
+- **Step 3:** [Install Real VNC](realvnc-windows.qmd)
+
+- **Step 4:** [Connect to the Raspberry Pi](realvnc-windows-connect.qmd)
+
 Choose the option that best suits your needs and follow the respective installation instructions.
 
 Once you have an editor installed, you can start writing and running your code. Happy coding!
+
+Also, once you've finished these installation steps, fill out the [Installation Check-In form](https://forms.gle/Y6Yi9HTZSjD1MPHb7) and the [CS1010 Entry form](https://forms.gle/EoKoGY5KHMi4wEBs7). Both the forms are **MANDATORY** to be filled out before the first class.
 
 <br>
 <footer>
