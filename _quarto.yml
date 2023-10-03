@@ -13,8 +13,8 @@ website:
       - policies.qmd
       - instructor.qmd
       - text: "Getting Started"
-        menu:
-          - href: install-editor.qmd
+        # menu:
+        href: install-editor.qmd
     search: true
 
 format:
