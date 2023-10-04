@@ -165,17 +165,19 @@ format: html
 </table>
 
 ## Pravin Khanal (LA)
-<!-- <table>
+<table>
   <tr>
     <td width="70%">
-
+      Hello, I am **Pravin Khanal**. I am a Senior in CS so I have been here for a while. My current hobby is playing volleyball. I found out they have sand courts near the Lincoln Memorial in the spring semester of my Junior year and I have been addicted ever since. 
+      
+      CS1010 was a fun class for me and was a great introduction to the CS department. I hope I am able to be of assistance to you all and get to know you guys. 
     </td>
 
     <td width="30%">
       <img src="images/team/pravin.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
     </td>
   </tr>
-</table> -->
+</table>
 
 <!-- 
 ### Instructor contacts
