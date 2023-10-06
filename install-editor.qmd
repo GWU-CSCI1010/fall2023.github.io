@@ -1,4 +1,4 @@
-# **Installing an Editor**
+# Installing an Editor
 
 <small>*Running your First Program*</small>
 

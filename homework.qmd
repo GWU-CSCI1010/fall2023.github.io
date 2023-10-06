@@ -1,0 +1,78 @@
+# How to launch a local Jupyter Server
+
+## Introduction
+
+In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.
+
+## Step 1: Open Anaconda Navigator
+
+1. Search for "Anaconda Navigator" in your computer's applications or start menu.
+2. Click on "Anaconda Navigator" to open it.
+
+![macOs](images/screenshots/homework/screenshot-1.png)
+
+![Windows](images/screenshots/homework/screenshot-8.png)
+
+## Step 2: Launch Jupyter Notebook
+
+1. In Anaconda Navigator, locate the "Jupyter Notebook" tile and click the "Launch" button next to it. This will launch a local Jupyter server on your computer.
+
+
+![Launch Jupyter Notebook](images/screenshots/anaconda-mac/screenshot-14.png)
+
+
+## Step 3: Access Jupyter Dashboard
+
+1. After the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.
+
+![Jupyter Dashboard - macOs](images/screenshots/homework/screenshot-7.png)
+
+![Jupyter Dashboard - Windows](images/screenshots/anaconda-windows/screenshot-13.png)
+
+
+2. You can navigate through your file system using the dashboard to locate and access your files.
+
+## Step 4: Open the HW1 File
+
+1. Navigate to your "Download" folder using the Jupyter Dashboard. You can use the file browser within the dashboard.
+2. If asked to allow terminal access to the Download folder, click on "AlLow"
+
+![Navigate to Download Folder](images/screenshots/homework/screenshot-4.png)
+
+![Allow access to Download Folder](images/screenshots/homework/screenshot-2.png)
+
+2. Look for the HW1 file within the "Download" folder.
+
+3. Select the file by clicking on it. This will open a new Jupyter notebook or file editor for your HW1 file.
+
+![Open HW .ipynb file](images/screenshots/homework/screenshot-3.png)
+
+## Step 5: Rename the HW File
+
+1. Before you begin working on your HW, it's necessay to rename the file to include your last name. This is how you're expected to turn in your HW files.
+
+   - Right-click on the file.
+   - Select "Rename."
+   - Change the file name to "HW1_\<Your Last Name>."
+
+![Click on File -> Rename...](images/screenshots/homework/screenshot-5.png)
+
+![Rename the HW file by renaming it to 'HW1_\<Last Name>'](images/screenshots/homework/screenshot-6.png)
+
+## Step 6: Work on Your HW
+
+You can now work on your renamed HW assignment within Jupyter Notebook. When you're done, remember to save your changes.
+
+![Save changes](images/screenshots/homework/screenshot-9.PNG)
+
+# Conclusion
+
+You've successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!
+
+<br><br>
+<footer>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
+</footer>

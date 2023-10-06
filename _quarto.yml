@@ -13,8 +13,9 @@ website:
       - policies.qmd
       - instructor.qmd
       - text: "Getting Started"
-        # menu:
-        href: install-editor.qmd
+        menu:
+          - href: install-editor.qmd
+          - href: homework.qmd
     search: true
 
 format:

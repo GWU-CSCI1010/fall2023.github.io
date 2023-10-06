@@ -45,7 +45,7 @@ Sample class schedule [week-by-week]
         <li>Lecture Notes</li>
         <li>Lab Examples</li>
         <li>In-class Python Excercise  <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>![Download button](images/download-button.png)</a></li>
-        <li>HW1 ![Download button](images/download-button.png)</li>
+        <li>HW1 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/HW1.ipynb" download>![Download button](images/download-button.png)</li>
       </td>
       <tr>
       <th scope="row">Week 2 [10/13/2023]</th>
