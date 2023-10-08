@@ -4,6 +4,10 @@
 
 In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.
 
+- Please [review](summary-policy.qmd) important information on course polices on collaboration among students before submitting your course deliverables.
+
+- Don't forget to rename your file as shown in **Step-5**, and save cahnges as you work on them
+
 <!-- ## Steps -->
 ### Step 1: Open Anaconda Navigator
 
@@ -69,7 +73,8 @@ You can now work on your renamed HW assignment within Jupyter Notebook. When you
 You've successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!
 
 # Reminders
-- Please <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CS1010_SummaziedCoursePolicy.pdf" download>review</a> important information on course polices on collaboration among students before submitting your course deliverables.
+- Please [review](summary-policy.qmd) important information on course polices on collaboration among students before submitting your course deliverables.
+<!-- - Please <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CS1010_SummaziedCoursePolicy.pdf" download>review</a> important information on course polices on collaboration among students before submitting your course deliverables. -->
 - Don't forget to rename your file as shown in **Step-5**, and save cahnges as you work on them
 
 

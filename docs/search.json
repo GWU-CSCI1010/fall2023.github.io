@@ -63,95 +63,277 @@
     "text": "Congratulations! You’ve successfully installed Visual Studio Code on your Windows computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "anaconda-windows.html",
-    "href": "anaconda-windows.html",
-    "title": "Anaconda Installation Guide for Windows",
-    "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your Windows computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda on your Windows computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "anaconda-windows.html#introduction",
-    "href": "anaconda-windows.html#introduction",
-    "title": "Anaconda Installation Guide for Windows",
-    "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your Windows computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
-  },
-  {
-    "objectID": "anaconda-windows.html#prerequisites",
-    "href": "anaconda-windows.html#prerequisites",
-    "title": "Anaconda Installation Guide for Windows",
-    "section": "",
-    "text": "Before you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\nSufficient disk space for the installation."
-  },
-  {
-    "objectID": "anaconda-windows.html#installation-steps",
-    "href": "anaconda-windows.html#installation-steps",
-    "title": "Anaconda Installation Guide for Windows",
-    "section": "",
-    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
-  },
-  {
-    "objectID": "anaconda-windows.html#conclusion",
-    "href": "anaconda-windows.html#conclusion",
-    "title": "Anaconda Installation Guide for Windows",
-    "section": "",
-    "text": "Congratulations! You’ve successfully installed Anaconda on your Windows computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "realvnc-windows.html",
-    "href": "realvnc-windows.html",
-    "title": "RealVNC Installation Guide for Windows",
-    "section": "",
-    "text": "This guide will walk you through the process of installing and setting up RealVNC on your Windows computer to enable remote desktop access.\n\n\nBefore you begin, ensure you meet the following requirements:\n\nA Windows computer running a supported version of Windows (e.g., Windows 10, Windows 8, Windows 7).\nInternet access.\n\n\n\nOpen your web browser and go to the RealVNC website at https://www.realvnc.com/en/connect/download/combined/. Click on the “Download VNC Viewer” button.\n\n\n\nDownload VNC Viewer\n\n\n\n\n\nLocate the downloaded installer file (e.g., VNC-Viewer-*.exe) and double-click it to run the installer. Once the installation is complete, click “Finish” to exit the installer.\n\n\n\nOpen Installer\n\n\n\n\n\nRun Installer\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up"
-  },
-  {
-    "objectID": "realvnc-windows.html#prerequisites",
-    "href": "realvnc-windows.html#prerequisites",
-    "title": "RealVNC Installation Guide for Windows",
-    "section": "",
-    "text": "Before you begin, ensure you meet the following requirements:\n\nA Windows computer running a supported version of Windows (e.g., Windows 10, Windows 8, Windows 7).\nInternet access.\n\n\n\nOpen your web browser and go to the RealVNC website at https://www.realvnc.com/en/connect/download/combined/. Click on the “Download VNC Viewer” button.\n\n\n\nDownload VNC Viewer\n\n\n\n\n\nLocate the downloaded installer file (e.g., VNC-Viewer-*.exe) and double-click it to run the installer. Once the installation is complete, click “Finish” to exit the installer.\n\n\n\nOpen Installer\n\n\n\n\n\nRun Installer\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up"
-  },
-  {
-    "objectID": "download/Week1/Demo1.html",
-    "href": "download/Week1/Demo1.html",
+    "objectID": "summary-policy.html",
+    "href": "summary-policy.html",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "This is a place for you to follow along live!\nUse Shift+Enter to run a cell!\n\n#Start typing code below!\nprint(\"hello CS1001 Instruction Team .. Welcome !\")\n\nhello CS1001 Instruction Team .. Welcome !"
+    "text": "Your instruction will address HW-related questions for up to one-week after the due date.\nYou may study in groups, but you may not discuss HWs among yourselves.\nEach student is expected to work out the HW programs independently.\nUnder no circumstances may you look at another student’s HWs.\nYou are encouraged\n\nto discuss the class material on the course website and\npost your queries on slack for your instructors and peers to comment\n\nYou are not allowed to\n\ndiscuss HW problems nor give out hints to the HW problems or\nprovide hints or suggestions on slack or\ndiscuss projects, tests, exams and quizzes, unless explicitly assigned a group quiz or a group HW.\n\nNOTE: You will be given opportunities to work in groups\n\nuse chatGPT or other generate AI tools to complete your HWs, projects, tests, exams and quizzes unless explicity permitted by the instruction team\n\n\n\n\n\nAll violations will be treated as violations of the Code of Academic Integrity."
   },
   {
-    "objectID": "vscode-mac.html",
-    "href": "vscode-mac.html",
-    "title": "Visual Studio Code Installation Guide for macOS",
+    "objectID": "summary-policy.html#class-policy-on-collaboration",
+    "href": "summary-policy.html#class-policy-on-collaboration",
+    "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\n\n\n\n\n\n\nVisit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Your instruction will address HW-related questions for up to one-week after the due date.\nYou may study in groups, but you may not discuss HWs among yourselves.\nEach student is expected to work out the HW programs independently.\nUnder no circumstances may you look at another student’s HWs.\nYou are encouraged\n\nto discuss the class material on the course website and\npost your queries on slack for your instructors and peers to comment\n\nYou are not allowed to\n\ndiscuss HW problems nor give out hints to the HW problems or\nprovide hints or suggestions on slack or\ndiscuss projects, tests, exams and quizzes, unless explicitly assigned a group quiz or a group HW.\n\nNOTE: You will be given opportunities to work in groups\n\nuse chatGPT or other generate AI tools to complete your HWs, projects, tests, exams and quizzes unless explicity permitted by the instruction team\n\n\n\n\n\nAll violations will be treated as violations of the Code of Academic Integrity."
   },
   {
-    "objectID": "vscode-mac.html#introduction",
-    "href": "vscode-mac.html#introduction",
-    "title": "Visual Studio Code Installation Guide for macOS",
-    "section": "",
-    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages."
+    "objectID": "summary-policy.html#justice-equity-diversity-inclusion-jedi",
+    "href": "summary-policy.html#justice-equity-diversity-inclusion-jedi",
+    "title": "CSCI 1010 [Fall 2023]",
+    "section": "Justice, Equity, Diversity, Inclusion (JEDI)",
+    "text": "Justice, Equity, Diversity, Inclusion (JEDI)\n\nIt is our intention that this course serve the needs of all students who have the prerequisites.\nWe believe that the diversity of background and of perspective among the students and the instructional team is an asset.\nWe will strive to present material that is respectful of the diverse backgrounds and characteristics of the student body and the instructional team.\nEach of us, whether student or instructional team member, is expected to treat all others with respect. Disrespect in any form will not be tolerated.\nPlease contact Bulusu with any concerns or suggestions."
   },
   {
-    "objectID": "vscode-mac.html#prerequisites",
-    "href": "vscode-mac.html#prerequisites",
-    "title": "Visual Studio Code Installation Guide for macOS",
-    "section": "",
-    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection."
+    "objectID": "summary-policy.html#university-policies",
+    "href": "summary-policy.html#university-policies",
+    "title": "CSCI 1010 [Fall 2023]",
+    "section": "University Policies",
+    "text": "University Policies\nSee Course policies section on the course website more information\n\nCourse materials are only for the use of CS1010 Fall 2023.\n\nSubject to disciplinary action if you share any of this material\n\nIf you wish to avail of a religious holiday, you need to tell me in the first week of class.\nDisability Support Services (DSS) 202-994-8250\n\nAny student who may need an accommodation based on the potential impact of a disability should contact Disability Support Services to establish eligibility and to coordinate reasonable accommodations. disabilitysupport.gwu.edu\n\nFor other policies, including academic integrity, counselling, virtual academic support, safety and security, see University Policies under the course policies-section on the course webpage.\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "vscode-mac.html#installation-steps",
-    "href": "vscode-mac.html#installation-steps",
-    "title": "Visual Studio Code Installation Guide for macOS",
+    "objectID": "realvnc-mac.html",
+    "href": "realvnc-mac.html",
+    "title": "RealVNC Installation Guide for Mac",
     "section": "",
-    "text": "Visit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook"
+    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to install RealVNC on your macOS.\n\n\nBefore you begin, ensure that you have administrative privileges on your Mac.\n\n\n\n\n\nVisit the RealVNC Viewer download page at https://www.realvnc.com/en/connect/download/combined/ and click on the “Download for macOS” button to download the installer.\n\n\n\nDownlaod RealVNC\n\n\n\n\n\nLocate the downloaded installer file (usually in your Downloads folder) and double-click on it to start the installation process and click on “Allow” when prompted.\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\n\nYou have successfully installed RealVNC Viewer on your Mac, allowing you to access and control remote computers with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "vscode-mac.html#conclusion",
-    "href": "vscode-mac.html#conclusion",
-    "title": "Visual Studio Code Installation Guide for macOS",
+    "objectID": "realvnc-mac.html#prerequisites",
+    "href": "realvnc-mac.html#prerequisites",
+    "title": "RealVNC Installation Guide for Mac",
     "section": "",
-    "text": "Congratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Before you begin, ensure that you have administrative privileges on your Mac."
+  },
+  {
+    "objectID": "realvnc-mac.html#installation-steps",
+    "href": "realvnc-mac.html#installation-steps",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "Visit the RealVNC Viewer download page at https://www.realvnc.com/en/connect/download/combined/ and click on the “Download for macOS” button to download the installer.\n\n\n\nDownlaod RealVNC\n\n\n\n\n\nLocate the downloaded installer file (usually in your Downloads folder) and double-click on it to start the installation process and click on “Allow” when prompted.\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up"
+  },
+  {
+    "objectID": "realvnc-mac.html#conclusion",
+    "href": "realvnc-mac.html#conclusion",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "You have successfully installed RealVNC Viewer on your Mac, allowing you to access and control remote computers with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing."
+  },
+  {
+    "objectID": "about.html#goal",
+    "href": "about.html#goal",
+    "title": "About",
+    "section": "",
+    "text": "The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing."
+  },
+  {
+    "objectID": "about.html#learning-objectives",
+    "href": "about.html#learning-objectives",
+    "title": "About",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nHands-on knowledge of Raspberry Pi hardware with Python programming language\nExposure to various sensors with hands-on exercises\nImplement innovative Raspberry Pi-based projects that interact with the physical world"
+  },
+  {
+    "objectID": "about.html#learning-outcomes",
+    "href": "about.html#learning-outcomes",
+    "title": "About",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nAs a result of completing this course, students will be able to:\n\nUnderstand the various areas of work and research in Computer Science.\nPerform experiments aimed at collecting and analyzing data.\nDesign and write Python programs.\nWork on an engineering-innovation group project.\n\nAdditional Learning Outcomes: - an ability to apply knowledge of computer science and mathematics - an ability to design and conduct experiments, as well as to analyze and interpret data - an ability to identify, formulate, and solve engineering problems - an ability to use the techniques, skills, and modern computing tools necessary for practice of computer science."
+  },
+  {
+    "objectID": "about.html#course-format",
+    "href": "about.html#course-format",
+    "title": "About",
+    "section": "Course format",
+    "text": "Course format\n\nLectures on the fundamentals of Raspberry Pi programming using Python programming language, sensors and automation.\n\\(\\mu-labs\\): Hands-on and guided Raspberry Pi activities in a laboratory setting.\nGuest lectures from academic experts and alumni in the field of computer science\nInteractive quizzes and instant concept checks\nIndividual and/or group assignments and projects\nMidterm and Final projects"
+  },
+  {
+    "objectID": "about.html#audience-and-credit-level",
+    "href": "about.html#audience-and-credit-level",
+    "title": "About",
+    "section": "Audience and credit-level",
+    "text": "Audience and credit-level\nThe course is designed for first-year undergraduate students as a 1-credit course."
+  },
+  {
+    "objectID": "about.html#prerequisites",
+    "href": "about.html#prerequisites",
+    "title": "About",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nNone"
+  },
+  {
+    "objectID": "about.html#time-requirements-and-expectations",
+    "href": "about.html#time-requirements-and-expectations",
+    "title": "About",
+    "section": "Time Requirements and Expectations",
+    "text": "Time Requirements and Expectations\nThis course will have 50 minutes of lecture time per week, approximately 90 minutes of laboratory, review, and discussion per week, and will require 2 hours per week on average for homework assignments."
+  },
+  {
+    "objectID": "about.html#textbook-hardware-and-other-course-material",
+    "href": "about.html#textbook-hardware-and-other-course-material",
+    "title": "About",
+    "section": "Textbook, hardware and other course material",
+    "text": "Textbook, hardware and other course material\nThere is no textbook requirement for this course. All reading, hardware and course material will be provided by the instructor.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2022 All rights reserved"
+  },
+  {
+    "objectID": "policies.html",
+    "href": "policies.html",
+    "title": "Course policies",
+    "section": "",
+    "text": "For example:\n\n\n\n\n\n\nAttendance and/or peer-to-peer and instructor interactions 10%\nIn-class work and Weekly Quizzes 10%\nPython programming and other Homework 30%\nProjects (including code, demo and presentation) 50%\n\n30% Individual midterm project\n20% Group final project There is no required final exam.\n\n\n\n\n \n\nexam by pongsakorn from Noun Project"
+  },
+  {
+    "objectID": "policies.html#assignments-and-grades",
+    "href": "policies.html#assignments-and-grades",
+    "title": "Course policies",
+    "section": "",
+    "text": "For example:\n\n\n\n\n\n\nAttendance and/or peer-to-peer and instructor interactions 10%\nIn-class work and Weekly Quizzes 10%\nPython programming and other Homework 30%\nProjects (including code, demo and presentation) 50%\n\n30% Individual midterm project\n20% Group final project There is no required final exam.\n\n\n\n\n \n\nexam by pongsakorn from Noun Project"
+  },
+  {
+    "objectID": "policies.html#additional-important-information-about-grading-policy",
+    "href": "policies.html#additional-important-information-about-grading-policy",
+    "title": "Course policies",
+    "section": "Additional important information about grading policy:",
+    "text": "Additional important information about grading policy:\n\nLate submissions on Homework and projects will not be acceptable.\nAny questions or follow up about the assignments will be done only within 2 weeks of submission deadline.\n\nFollowing the week after the submission deadline no further discussion on the assignment will be done."
+  },
+  {
+    "objectID": "policies.html#classroom-policies-and-student-responsibilities",
+    "href": "policies.html#classroom-policies-and-student-responsibilities",
+    "title": "Course policies",
+    "section": "Classroom Policies and Student responsibilities",
+    "text": "Classroom Policies and Student responsibilities\n\n\n\nThis course requires a combination of individual and group work entailing hands-on activities and frequent interactions with the instructional team. The lectures, labs and office hours are available for interacting with your group and the instruction team. In addition, a course messaging platform (Slack) is made available for the students to interact in groups and with the instruction team asynchronously. We ask that all students adhere to the course policies throughout the duration of the semester.\n\n\n\n \n\nclassroom by Chattapat from Noun Project\n\n\n\n\n\nBe respectful: Listen to the instructors. Keep an open mind to the course material presented. Limit the use of personal devices. Be aware that you are working in a group. Be mindful of your colleagues.\nBe responsible: Arrive on time. Attendance is the first pathway toward success. Submit the course deliverables on time. Help your team members.\nBe a communicator: Observe, Ask questions and Try out the materials presented during the course. Communicate with your team effectively and politely.\nBe a problem solver: Explore options to complete hands-on tasks. Make your own notes. Stay positive about the course outcomes."
+  },
+  {
+    "objectID": "policies.html#justice-equity-diversity-inclusion-jedi-statement",
+    "href": "policies.html#justice-equity-diversity-inclusion-jedi-statement",
+    "title": "Course policies",
+    "section": "Justice, Equity, Diversity, Inclusion (JEDI) statement",
+    "text": "Justice, Equity, Diversity, Inclusion (JEDI) statement\n\n\n\nThe instruction team intends to students from all diverse backgrounds and perspectives by this course, The diversity that the students bring to this class be viewed as a resource, strength, and benefit. The course materials and activities presented in this course are intended to be respectful of: age, race, ethnicity, country of origin, language, religion, spiritual practice, sexual orientation, gender identity or expression, introversion/extroversion personality dimensions, and socioeconomic and mental/physical status.\n\n\n\n \n\nemployee diversity by Bold Yellow from Noun Project\n\n\n\n\n\nPlease let the main instructor know ways to improve the effectiveness of the course. See JEDI resources for student resources."
+  },
+  {
+    "objectID": "policies.html#use-of-chatgpt-or-any-other-ai-based-models-for-in-class-work-and-deliverables",
+    "href": "policies.html#use-of-chatgpt-or-any-other-ai-based-models-for-in-class-work-and-deliverables",
+    "title": "Course policies",
+    "section": "Use of chatGPT or any other AI-based models for in-class work and deliverables",
+    "text": "Use of chatGPT or any other AI-based models for in-class work and deliverables\nThe use chatGPT or any other genreative AI-based tool is NOT PERMITTED.  Furthermore, the ethical issues regarding the use of chatGPT or any other AI-based models will be discussed in-class and course policy will be ammended according to the findings. The findings of any such discussions will be summarized and placed in-context of the Academic Integrity Code\n Resources that will guide the course policy changes during the course: \n\n\nchatGPT Course policy formulation\n\n\nchatGPT chatbot\n\n\nHow ChatGPT Could Transform Higher Education"
+  },
+  {
+    "objectID": "policies.html#use-of-electronic-course-materials-and-class-recordings",
+    "href": "policies.html#use-of-electronic-course-materials-and-class-recordings",
+    "title": "Course policies",
+    "section": "Use of Electronic Course Materials and Class Recordings",
+    "text": "Use of Electronic Course Materials and Class Recordings\nStudents are encouraged to use electronic course materials, including recorded class sessions (if any), for private personal use in connection with their academic program of study. Electronic course materials and recorded class sessions should not be shared or used for non-course related purposes unless express permission has been granted by the instructor. Students who impermissibly share any electronic course materials are subject to discipline under the Student Code of Conduct. Please contact the instructor if you have questions regarding what constitutes permissible or impermissible use of electronic course materials and/or recorded class sessions. Please contact Disability Support Services if you have questions or need assistance in accessing electronic course materials."
+  },
+  {
+    "objectID": "policies.html#university-policy-on-religious-holidays",
+    "href": "policies.html#university-policy-on-religious-holidays",
+    "title": "Course policies",
+    "section": "University Policy on Religious Holidays",
+    "text": "University Policy on Religious Holidays\n\nStudents should notify faculty during the first week of the semester of their intention to be absent from class on their day(s) of religious observance.\nFaculty should extend to these students the courtesy of absence without penalty on such occasions, including permission to make up examinations.\nFaculty who intend to observe a religious holiday should arrange at the beginning of the semester to reschedule missed classes or to make other provisions for their course‐related activities. For details and policy, see “Religious Holidays” at https://provost.gwu.edu/policies-procedures-and-guidelines"
+  },
+  {
+    "objectID": "policies.html#support-for-students-outside-the-classroom",
+    "href": "policies.html#support-for-students-outside-the-classroom",
+    "title": "Course policies",
+    "section": "Support for Students Outside the Classroom",
+    "text": "Support for Students Outside the Classroom\nDisability Support Services (DSS): Any student who may need an accommodation based on the potential impact of a disability should contact the Disability Support Services office at 202‐994‐8250 in the Rome Hall, Suite 102, to establish eligibility and to coordinate reasonable accommodations. For additional information please refer to: https://disabilitysupport.gwu.edu/\nCounseling & Psychological Services: The University’s Mental Health Services offers 24/7 assistance and referral to address students’ personal, social, career, and study skills problems. Services for students include: crisis and emergency mental health consultations confidential assessment, counseling services (individual and small group), and referrals. https://healthcenter.gwu.edu/counseling-and-psychological-services\nCampus safety and security: The following links can be accessed to learn more about the Safety and Security at the George Washington University\n\nFor help in an emergency, call 911 or GW Police 202-994-6111 (GWPD)\nAdditional resources for student safety and security can be found at this link: https://studentlife.gwu.edu/safety-and-security"
+  },
+  {
+    "objectID": "policies.html#academic-integrity-code",
+    "href": "policies.html#academic-integrity-code",
+    "title": "Course policies",
+    "section": "Academic Integrity Code",
+    "text": "Academic Integrity Code\nAcademic dishonesty is defined as cheating of any kind, including misrepresenting one’s own work, taking credit for the work of others without crediting them and without appropriate authorization, and the fabrication of information. You are not allowed to collaborate on the home works and lab assignments; for programming projects and hardware lab assignments, you can work in teams only if they are designated as team projects (labs). Unless otherwise specified, you cannot search for solutions or code on the web – but you can use any code that is included in the textbook or lecture notes (but please cite them). I will be using a SW tool that checks for program code similarities – any pair of programs or written reports with greater than 10% similarity will be closely examined.\nThe Office of Academic Integrity maintains a permanent record of the violation. More information is available from the Office of Academic Integrity at https://studentconduct.gwu.edu/academic-integrity. The University’s “Guide of Academic Integrity in Online Learning Environments” is available at https://studentconduct.gwu.edu/guide-academic-integrity-online-learning-environments. Contact information: rights@gwu.edu or 202-994-6757.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computer Science Orientation",
+    "section": "",
+    "text": "Hands-on exploration of the possibilities in Computer Science\n\n\n\n\nCourse and Contact Information\n\n\n\nCSCI 1010: Computer Science Orientation\nSemester: Fall 2023\nCredits: 1\nLecture location and meeting times:\n\nDuques 151\nFriday 9:35 AM — 10:25 AM\n\nLab location and meeting times:\n\nSEH 1300 & SEH 1400 & SEH 1450\nLab section 30: Friday 10:40 AM - 12:15 PM\nLab section 31: Friday 12:45 PM - 2:10 PM\n\nCourse website: TBA \nInstructor information can be found here\n\n\n\n  \n\n\n\n\n\nGithub Repo (updated weekly)\ngit clone TBA\n\n\nCourse description\nThis is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of\n\nlectures on the various disciplines in Computer Science,\nhands-on Python programming exercises and\nhands-on exercises and in-class projects using Raspberry Pi 4B single-board computer.\n\nThe students will work on the following two engineering innovation projects:\n\nGuided-python programming project and\nWill have the option of choosing a final Raspberry Pi 4B-based project or a python programming project to address an impending need in engineering-innovation\n\nThrough the above course activities students will be exposed to computing, technical resources and presentations on various aspects in the field of computer science. The students will get access to a “slack-workspace” for this course, that will facilitate offline discussions among themselves and the instruction team. The students will also be provided lecture presentationsand video summaries whenever possible and made available on the course webpage and / or blackboard.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "realvnc-mac-connect.html",
+    "href": "realvnc-mac-connect.html",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to establish a remote using RealVNC on your Mac computer.\n\n\nBefore you begin, ensure that you have already installed RealVNC on your Mac.\n\n\n\n\n\nLaunch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window.\n\n\n\n\nYou have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "realvnc-mac-connect.html#prerequisites",
+    "href": "realvnc-mac-connect.html#prerequisites",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "Before you begin, ensure that you have already installed RealVNC on your Mac."
+  },
+  {
+    "objectID": "realvnc-mac-connect.html#establish-a-connection",
+    "href": "realvnc-mac-connect.html#establish-a-connection",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "Launch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window."
+  },
+  {
+    "objectID": "realvnc-mac-connect.html#conclusion",
+    "href": "realvnc-mac-connect.html#conclusion",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "You have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "anaconda-mac.html",
+    "href": "anaconda-mac.html",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "anaconda-mac.html#introduction",
+    "href": "anaconda-mac.html#introduction",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
+  },
+  {
+    "objectID": "anaconda-mac.html#prerequisites",
+    "href": "anaconda-mac.html#prerequisites",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation."
+  },
+  {
+    "objectID": "anaconda-mac.html#installation-steps",
+    "href": "anaconda-mac.html#installation-steps",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
+  },
+  {
+    "objectID": "anaconda-mac.html#conclusion",
+    "href": "anaconda-mac.html#conclusion",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Congratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "homework.html",
+    "href": "homework.html",
+    "title": "Reminders",
+    "section": "",
+    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\nPlease review important information on course polices on collaboration among students before submitting your course deliverables.\nDon’t forget to rename your file as shown in Step-5, and save cahnges as you work on them\n\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files.\n\n\n\n\n\nNavigate to your “Download” folder using the Jupyter Dashboard. You can use the file browser within the dashboard.\nIf asked to allow terminal access to the Download folder, click on “AlLow”\n\n\n\n\nNavigate to Download Folder\n\n\n\n\n\nAllow access to Download Folder\n\n\n\nLook for the HW1 file within the “Download” folder.\nSelect the file by clicking on it. This will open a new Jupyter notebook or file editor for your HW1 file.\n\n\n\n\nOpen HW .ipynb file\n\n\n\n\n\n\nBefore you begin working on your HW, it’s necessay to rename the file to include your last name. This is how you’re expected to turn in your HW files.\n\nRight-click on the file.\nSelect “Rename.”\nChange the file name to “HW1_&lt;Your Last Name&gt;.”\n\n\n\n\n\nClick on File -&gt; Rename…\n\n\n\n\n\nRename the HW file by renaming it to ‘HW1_&lt;Last Name&gt;’\n\n\n\n\n\nYou can now work on your renamed HW assignment within Jupyter Notebook. When you’re done, remember to save your changes.\n\n\n\nSave changes\n\n\nYou’ve successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!"
+  },
+  {
+    "objectID": "homework.html#how-to-launch-a-local-jupyter-server",
+    "href": "homework.html#how-to-launch-a-local-jupyter-server",
+    "title": "Reminders",
+    "section": "",
+    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\nPlease review important information on course polices on collaboration among students before submitting your course deliverables.\nDon’t forget to rename your file as shown in Step-5, and save cahnges as you work on them\n\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files.\n\n\n\n\n\nNavigate to your “Download” folder using the Jupyter Dashboard. You can use the file browser within the dashboard.\nIf asked to allow terminal access to the Download folder, click on “AlLow”\n\n\n\n\nNavigate to Download Folder\n\n\n\n\n\nAllow access to Download Folder\n\n\n\nLook for the HW1 file within the “Download” folder.\nSelect the file by clicking on it. This will open a new Jupyter notebook or file editor for your HW1 file.\n\n\n\n\nOpen HW .ipynb file\n\n\n\n\n\n\nBefore you begin working on your HW, it’s necessay to rename the file to include your last name. This is how you’re expected to turn in your HW files.\n\nRight-click on the file.\nSelect “Rename.”\nChange the file name to “HW1_&lt;Your Last Name&gt;.”\n\n\n\n\n\nClick on File -&gt; Rename…\n\n\n\n\n\nRename the HW file by renaming it to ‘HW1_&lt;Last Name&gt;’\n\n\n\n\n\nYou can now work on your renamed HW assignment within Jupyter Notebook. When you’re done, remember to save your changes.\n\n\n\nSave changes\n\n\nYou’ve successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!"
   },
   {
     "objectID": "instructor.html",
@@ -231,249 +413,95 @@
     "text": "Pravin Khanal (LA)\n\n\n\n\nHello, I am Pravin Khanal. I am a Senior in CS so I have been here for a while. My current hobby is playing volleyball. I found out they have sand courts near the Lincoln Memorial in the spring semester of my Junior year and I have been addicted ever since.\nCS1010 was a fun class for me and was a great introduction to the CS department. I hope I am able to be of assistance to you all and get to know you guys.\nOffice Hours: Wednesday (11 AM - 1 PM)"
   },
   {
-    "objectID": "realvnc-mac-connect.html",
-    "href": "realvnc-mac-connect.html",
-    "title": "RealVNC Installation Guide for Mac",
+    "objectID": "instructor.html#rutvik-solanki-grader",
+    "href": "instructor.html#rutvik-solanki-grader",
+    "title": "Instruction Team",
+    "section": "Rutvik Solanki (Grader)",
+    "text": "Rutvik Solanki (Grader)\n\n\n\n\nHey there, I’m Rutvik Solanki, a passionate grad student delving into the world of Computer Science. My journey began in India, where I completed my undergraduate studies at the Symbiosis Institute of Technology. It was during these formative years that I developed a keen interest in all things tech.\nBefore embarking on my graduate studies at GWU, I had the incredible opportunity to work as both a Data Scientist intern and a DevOps intern for a dynamic startup. These experiences not only honed my skills but also fueled my curiosity to explore the ever-evolving tech landscape.\nBut it’s not all about screens and keyboards. I’m an avid sports enthusiast, and cricket holds a special place in my heart. There’s nothing quite like the thrill of a good cricket match. And when I’m looking to break a sweat and enjoy some friendly competition, you might catch me on the volleyball court, spiking and setting with the folks at Volo.\nIn addition to my academic pursuits, I take on the responsibility of maintaining the CS1010 course website. It’s a role that I take seriously, as I believe that a well-structured online platform is essential for enhancing the learning experience of fellow students.\nSo, whether it’s coding, sports, or web maintenance, I’m always up for a challenge. Feel free to reach out, and let’s embark on this exciting journey together!\n\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "vscode-mac.html",
+    "href": "vscode-mac.html",
+    "title": "Visual Studio Code Installation Guide for macOS",
     "section": "",
-    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to establish a remote using RealVNC on your Mac computer.\n\n\nBefore you begin, ensure that you have already installed RealVNC on your Mac.\n\n\n\n\n\nLaunch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window.\n\n\n\n\nYou have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\n\n\n\n\n\n\nVisit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "realvnc-mac-connect.html#prerequisites",
-    "href": "realvnc-mac-connect.html#prerequisites",
-    "title": "RealVNC Installation Guide for Mac",
+    "objectID": "vscode-mac.html#introduction",
+    "href": "vscode-mac.html#introduction",
+    "title": "Visual Studio Code Installation Guide for macOS",
     "section": "",
-    "text": "Before you begin, ensure that you have already installed RealVNC on your Mac."
+    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages."
   },
   {
-    "objectID": "realvnc-mac-connect.html#establish-a-connection",
-    "href": "realvnc-mac-connect.html#establish-a-connection",
-    "title": "RealVNC Installation Guide for Mac",
+    "objectID": "vscode-mac.html#prerequisites",
+    "href": "vscode-mac.html#prerequisites",
+    "title": "Visual Studio Code Installation Guide for macOS",
     "section": "",
-    "text": "Launch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window."
+    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection."
   },
   {
-    "objectID": "realvnc-mac-connect.html#conclusion",
-    "href": "realvnc-mac-connect.html#conclusion",
-    "title": "RealVNC Installation Guide for Mac",
+    "objectID": "vscode-mac.html#installation-steps",
+    "href": "vscode-mac.html#installation-steps",
+    "title": "Visual Studio Code Installation Guide for macOS",
     "section": "",
-    "text": "You have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Visit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook"
   },
   {
-    "objectID": "anaconda-mac.html",
-    "href": "anaconda-mac.html",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "vscode-mac.html#conclusion",
+    "href": "vscode-mac.html#conclusion",
+    "title": "Visual Studio Code Installation Guide for macOS",
     "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Congratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "anaconda-mac.html#introduction",
-    "href": "anaconda-mac.html#introduction",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "realvnc-windows.html",
+    "href": "realvnc-windows.html",
+    "title": "RealVNC Installation Guide for Windows",
     "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
+    "text": "This guide will walk you through the process of installing and setting up RealVNC on your Windows computer to enable remote desktop access.\n\n\nBefore you begin, ensure you meet the following requirements:\n\nA Windows computer running a supported version of Windows (e.g., Windows 10, Windows 8, Windows 7).\nInternet access.\n\n\n\nOpen your web browser and go to the RealVNC website at https://www.realvnc.com/en/connect/download/combined/. Click on the “Download VNC Viewer” button.\n\n\n\nDownload VNC Viewer\n\n\n\n\n\nLocate the downloaded installer file (e.g., VNC-Viewer-*.exe) and double-click it to run the installer. Once the installation is complete, click “Finish” to exit the installer.\n\n\n\nOpen Installer\n\n\n\n\n\nRun Installer\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up"
   },
   {
-    "objectID": "anaconda-mac.html#prerequisites",
-    "href": "anaconda-mac.html#prerequisites",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "realvnc-windows.html#prerequisites",
+    "href": "realvnc-windows.html#prerequisites",
+    "title": "RealVNC Installation Guide for Windows",
     "section": "",
-    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation."
+    "text": "Before you begin, ensure you meet the following requirements:\n\nA Windows computer running a supported version of Windows (e.g., Windows 10, Windows 8, Windows 7).\nInternet access.\n\n\n\nOpen your web browser and go to the RealVNC website at https://www.realvnc.com/en/connect/download/combined/. Click on the “Download VNC Viewer” button.\n\n\n\nDownload VNC Viewer\n\n\n\n\n\nLocate the downloaded installer file (e.g., VNC-Viewer-*.exe) and double-click it to run the installer. Once the installation is complete, click “Finish” to exit the installer.\n\n\n\nOpen Installer\n\n\n\n\n\nRun Installer\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up"
   },
   {
-    "objectID": "anaconda-mac.html#installation-steps",
-    "href": "anaconda-mac.html#installation-steps",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "anaconda-windows.html",
+    "href": "anaconda-windows.html",
+    "title": "Anaconda Installation Guide for Windows",
     "section": "",
-    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your Windows computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda on your Windows computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "anaconda-mac.html#conclusion",
-    "href": "anaconda-mac.html#conclusion",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "anaconda-windows.html#introduction",
+    "href": "anaconda-windows.html#introduction",
+    "title": "Anaconda Installation Guide for Windows",
     "section": "",
-    "text": "Congratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your Windows computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Computer Science Orientation",
+    "objectID": "anaconda-windows.html#prerequisites",
+    "href": "anaconda-windows.html#prerequisites",
+    "title": "Anaconda Installation Guide for Windows",
     "section": "",
-    "text": "Hands-on exploration of the possibilities in Computer Science\n\n\n\n\nCourse and Contact Information\n\n\n\nCSCI 1010: Computer Science Orientation\nSemester: Fall 2023\nCredits: 1\nLecture location and meeting times:\n\nDuques 151\nFriday 9:35 AM — 10:25 AM\n\nLab location and meeting times:\n\nSEH 1300 & SEH 1400 & SEH 1450\nLab section 30: Friday 10:40 AM - 12:15 PM\nLab section 31: Friday 12:45 PM - 2:10 PM\n\nCourse website: TBA \nInstructor information can be found here\n\n\n\n  \n\n\n\n\n\nGithub Repo (updated weekly)\ngit clone TBA\n\n\nCourse description\nThis is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of\n\nlectures on the various disciplines in Computer Science,\nhands-on Python programming exercises and\nhands-on exercises and in-class projects using Raspberry Pi 4B single-board computer.\n\nThe students will work on the following two engineering innovation projects:\n\nGuided-python programming project and\nWill have the option of choosing a final Raspberry Pi 4B-based project or a python programming project to address an impending need in engineering-innovation\n\nThrough the above course activities students will be exposed to computing, technical resources and presentations on various aspects in the field of computer science. The students will get access to a “slack-workspace” for this course, that will facilitate offline discussions among themselves and the instruction team. The students will also be provided lecture presentationsand video summaries whenever possible and made available on the course webpage and / or blackboard.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Before you begin, ensure you have the following:\n\nA Windows computer.\nAn internet connection.\nSufficient disk space for the installation."
   },
   {
-    "objectID": "policies.html",
-    "href": "policies.html",
-    "title": "Course policies",
+    "objectID": "anaconda-windows.html#installation-steps",
+    "href": "anaconda-windows.html#installation-steps",
+    "title": "Anaconda Installation Guide for Windows",
     "section": "",
-    "text": "For example:\n\n\n\n\n\n\nAttendance and/or peer-to-peer and instructor interactions 10%\nIn-class work and Weekly Quizzes 10%\nPython programming and other Homework 30%\nProjects (including code, demo and presentation) 50%\n\n30% Individual midterm project\n20% Group final project There is no required final exam.\n\n\n\n\n \n\nexam by pongsakorn from Noun Project"
+    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the Windows section to download the Anaconda installer for Windows.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the installer executable (.exe) file to run it.\n\n\n\n\nRun Installer\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\nChoose the installation type. It’s recommended to select “Just me” unless you have specific reasons for a different choice.\n\n\n\n\nInstallation Type\n\n\n\nSelect the installation location (the default is usually fine).\n\n\n\n\nInstallation Location\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Next” button and proceed to finish.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
   },
   {
-    "objectID": "policies.html#assignments-and-grades",
-    "href": "policies.html#assignments-and-grades",
-    "title": "Course policies",
+    "objectID": "anaconda-windows.html#conclusion",
+    "href": "anaconda-windows.html#conclusion",
+    "title": "Anaconda Installation Guide for Windows",
     "section": "",
-    "text": "For example:\n\n\n\n\n\n\nAttendance and/or peer-to-peer and instructor interactions 10%\nIn-class work and Weekly Quizzes 10%\nPython programming and other Homework 30%\nProjects (including code, demo and presentation) 50%\n\n30% Individual midterm project\n20% Group final project There is no required final exam.\n\n\n\n\n \n\nexam by pongsakorn from Noun Project"
-  },
-  {
-    "objectID": "policies.html#additional-important-information-about-grading-policy",
-    "href": "policies.html#additional-important-information-about-grading-policy",
-    "title": "Course policies",
-    "section": "Additional important information about grading policy:",
-    "text": "Additional important information about grading policy:\n\nLate submissions on Homework and projects will not be acceptable.\nAny questions or follow up about the assignments will be done only within 2 weeks of submission deadline.\n\nFollowing the week after the submission deadline no further discussion on the assignment will be done."
-  },
-  {
-    "objectID": "policies.html#classroom-policies-and-student-responsibilities",
-    "href": "policies.html#classroom-policies-and-student-responsibilities",
-    "title": "Course policies",
-    "section": "Classroom Policies and Student responsibilities",
-    "text": "Classroom Policies and Student responsibilities\n\n\n\nThis course requires a combination of individual and group work entailing hands-on activities and frequent interactions with the instructional team. The lectures, labs and office hours are available for interacting with your group and the instruction team. In addition, a course messaging platform (Slack) is made available for the students to interact in groups and with the instruction team asynchronously. We ask that all students adhere to the course policies throughout the duration of the semester.\n\n\n\n \n\nclassroom by Chattapat from Noun Project\n\n\n\n\n\nBe respectful: Listen to the instructors. Keep an open mind to the course material presented. Limit the use of personal devices. Be aware that you are working in a group. Be mindful of your colleagues.\nBe responsible: Arrive on time. Attendance is the first pathway toward success. Submit the course deliverables on time. Help your team members.\nBe a communicator: Observe, Ask questions and Try out the materials presented during the course. Communicate with your team effectively and politely.\nBe a problem solver: Explore options to complete hands-on tasks. Make your own notes. Stay positive about the course outcomes."
-  },
-  {
-    "objectID": "policies.html#justice-equity-diversity-inclusion-jedi-statement",
-    "href": "policies.html#justice-equity-diversity-inclusion-jedi-statement",
-    "title": "Course policies",
-    "section": "Justice, Equity, Diversity, Inclusion (JEDI) statement",
-    "text": "Justice, Equity, Diversity, Inclusion (JEDI) statement\n\n\n\nThe instruction team intends to students from all diverse backgrounds and perspectives by this course, The diversity that the students bring to this class be viewed as a resource, strength, and benefit. The course materials and activities presented in this course are intended to be respectful of: age, race, ethnicity, country of origin, language, religion, spiritual practice, sexual orientation, gender identity or expression, introversion/extroversion personality dimensions, and socioeconomic and mental/physical status.\n\n\n\n \n\nemployee diversity by Bold Yellow from Noun Project\n\n\n\n\n\nPlease let the main instructor know ways to improve the effectiveness of the course. See JEDI resources for student resources."
-  },
-  {
-    "objectID": "policies.html#use-of-chatgpt-or-any-other-ai-based-models-for-in-class-work-and-deliverables",
-    "href": "policies.html#use-of-chatgpt-or-any-other-ai-based-models-for-in-class-work-and-deliverables",
-    "title": "Course policies",
-    "section": "Use of chatGPT or any other AI-based models for in-class work and deliverables",
-    "text": "Use of chatGPT or any other AI-based models for in-class work and deliverables\nThe use chatGPT or any other genreative AI-based tool is NOT PERMITTED.  Furthermore, the ethical issues regarding the use of chatGPT or any other AI-based models will be discussed in-class and course policy will be ammended according to the findings. The findings of any such discussions will be summarized and placed in-context of the Academic Integrity Code\n Resources that will guide the course policy changes during the course: \n\n\nchatGPT Course policy formulation\n\n\nchatGPT chatbot\n\n\nHow ChatGPT Could Transform Higher Education"
-  },
-  {
-    "objectID": "policies.html#use-of-electronic-course-materials-and-class-recordings",
-    "href": "policies.html#use-of-electronic-course-materials-and-class-recordings",
-    "title": "Course policies",
-    "section": "Use of Electronic Course Materials and Class Recordings",
-    "text": "Use of Electronic Course Materials and Class Recordings\nStudents are encouraged to use electronic course materials, including recorded class sessions (if any), for private personal use in connection with their academic program of study. Electronic course materials and recorded class sessions should not be shared or used for non-course related purposes unless express permission has been granted by the instructor. Students who impermissibly share any electronic course materials are subject to discipline under the Student Code of Conduct. Please contact the instructor if you have questions regarding what constitutes permissible or impermissible use of electronic course materials and/or recorded class sessions. Please contact Disability Support Services if you have questions or need assistance in accessing electronic course materials."
-  },
-  {
-    "objectID": "policies.html#university-policy-on-religious-holidays",
-    "href": "policies.html#university-policy-on-religious-holidays",
-    "title": "Course policies",
-    "section": "University Policy on Religious Holidays",
-    "text": "University Policy on Religious Holidays\n\nStudents should notify faculty during the first week of the semester of their intention to be absent from class on their day(s) of religious observance.\nFaculty should extend to these students the courtesy of absence without penalty on such occasions, including permission to make up examinations.\nFaculty who intend to observe a religious holiday should arrange at the beginning of the semester to reschedule missed classes or to make other provisions for their course‐related activities. For details and policy, see “Religious Holidays” at https://provost.gwu.edu/policies-procedures-and-guidelines"
-  },
-  {
-    "objectID": "policies.html#support-for-students-outside-the-classroom",
-    "href": "policies.html#support-for-students-outside-the-classroom",
-    "title": "Course policies",
-    "section": "Support for Students Outside the Classroom",
-    "text": "Support for Students Outside the Classroom\nDisability Support Services (DSS): Any student who may need an accommodation based on the potential impact of a disability should contact the Disability Support Services office at 202‐994‐8250 in the Rome Hall, Suite 102, to establish eligibility and to coordinate reasonable accommodations. For additional information please refer to: https://disabilitysupport.gwu.edu/\nCounseling & Psychological Services: The University’s Mental Health Services offers 24/7 assistance and referral to address students’ personal, social, career, and study skills problems. Services for students include: crisis and emergency mental health consultations confidential assessment, counseling services (individual and small group), and referrals. https://healthcenter.gwu.edu/counseling-and-psychological-services\nCampus safety and security: The following links can be accessed to learn more about the Safety and Security at the George Washington University\n\nFor help in an emergency, call 911 or GW Police 202-994-6111 (GWPD)\nAdditional resources for student safety and security can be found at this link: https://studentlife.gwu.edu/safety-and-security"
-  },
-  {
-    "objectID": "policies.html#academic-integrity-code",
-    "href": "policies.html#academic-integrity-code",
-    "title": "Course policies",
-    "section": "Academic Integrity Code",
-    "text": "Academic Integrity Code\nAcademic dishonesty is defined as cheating of any kind, including misrepresenting one’s own work, taking credit for the work of others without crediting them and without appropriate authorization, and the fabrication of information. You are not allowed to collaborate on the home works and lab assignments; for programming projects and hardware lab assignments, you can work in teams only if they are designated as team projects (labs). Unless otherwise specified, you cannot search for solutions or code on the web – but you can use any code that is included in the textbook or lecture notes (but please cite them). I will be using a SW tool that checks for program code similarities – any pair of programs or written reports with greater than 10% similarity will be closely examined.\nThe Office of Academic Integrity maintains a permanent record of the violation. More information is available from the Office of Academic Integrity at https://studentconduct.gwu.edu/academic-integrity. The University’s “Guide of Academic Integrity in Online Learning Environments” is available at https://studentconduct.gwu.edu/guide-academic-integrity-online-learning-environments. Contact information: rights@gwu.edu or 202-994-6757.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing."
-  },
-  {
-    "objectID": "about.html#goal",
-    "href": "about.html#goal",
-    "title": "About",
-    "section": "",
-    "text": "The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing."
-  },
-  {
-    "objectID": "about.html#learning-objectives",
-    "href": "about.html#learning-objectives",
-    "title": "About",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\nHands-on knowledge of Raspberry Pi hardware with Python programming language\nExposure to various sensors with hands-on exercises\nImplement innovative Raspberry Pi-based projects that interact with the physical world"
-  },
-  {
-    "objectID": "about.html#learning-outcomes",
-    "href": "about.html#learning-outcomes",
-    "title": "About",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nAs a result of completing this course, students will be able to:\n\nUnderstand the various areas of work and research in Computer Science.\nPerform experiments aimed at collecting and analyzing data.\nDesign and write Python programs.\nWork on an engineering-innovation group project.\n\nAdditional Learning Outcomes: - an ability to apply knowledge of computer science and mathematics - an ability to design and conduct experiments, as well as to analyze and interpret data - an ability to identify, formulate, and solve engineering problems - an ability to use the techniques, skills, and modern computing tools necessary for practice of computer science."
-  },
-  {
-    "objectID": "about.html#course-format",
-    "href": "about.html#course-format",
-    "title": "About",
-    "section": "Course format",
-    "text": "Course format\n\nLectures on the fundamentals of Raspberry Pi programming using Python programming language, sensors and automation.\n\\(\\mu-labs\\): Hands-on and guided Raspberry Pi activities in a laboratory setting.\nGuest lectures from academic experts and alumni in the field of computer science\nInteractive quizzes and instant concept checks\nIndividual and/or group assignments and projects\nMidterm and Final projects"
-  },
-  {
-    "objectID": "about.html#audience-and-credit-level",
-    "href": "about.html#audience-and-credit-level",
-    "title": "About",
-    "section": "Audience and credit-level",
-    "text": "Audience and credit-level\nThe course is designed for first-year undergraduate students as a 1-credit course."
-  },
-  {
-    "objectID": "about.html#prerequisites",
-    "href": "about.html#prerequisites",
-    "title": "About",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nNone"
-  },
-  {
-    "objectID": "about.html#time-requirements-and-expectations",
-    "href": "about.html#time-requirements-and-expectations",
-    "title": "About",
-    "section": "Time Requirements and Expectations",
-    "text": "Time Requirements and Expectations\nThis course will have 50 minutes of lecture time per week, approximately 90 minutes of laboratory, review, and discussion per week, and will require 2 hours per week on average for homework assignments."
-  },
-  {
-    "objectID": "about.html#textbook-hardware-and-other-course-material",
-    "href": "about.html#textbook-hardware-and-other-course-material",
-    "title": "About",
-    "section": "Textbook, hardware and other course material",
-    "text": "Textbook, hardware and other course material\nThere is no textbook requirement for this course. All reading, hardware and course material will be provided by the instructor.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2022 All rights reserved"
-  },
-  {
-    "objectID": "download/Week1/Demo1_Guide.html",
-    "href": "download/Week1/Demo1_Guide.html",
-    "title": "CS 1010 - Week1",
-    "section": "",
-    "text": "Prof. Kartik Bulusu [CS & MAE]\n\n\nOscar Southwell [EMSE]\n\n\n\nSameen Ahmad [CS], Talia Novack [CS]\n\n\n\nManue Alaimo [CS], Selamn Eris [CS], Saif Alzaabi [CS], Pravin Khanal [CS], Gustavo Londono [CS], Amy Longua [CS]\n\n\n\nRutvik Solanki [CS]\nIf you have any questions regarding Python, please feel free to send a slack message or email to a member of the teaching team or come to office hours! We are happy to help!!"
-  },
-  {
-    "objectID": "download/Week1/Demo1_Guide.html#python-as-a-scientific-calculator",
-    "href": "download/Week1/Demo1_Guide.html#python-as-a-scientific-calculator",
-    "title": "CS 1010 - Week1",
-    "section": "Python as a scientific calculator",
-    "text": "Python as a scientific calculator\nUtilizing the math library and the numpy library we can get extra functions!\n\nimport math\nimport numpy as np\n\n\nprint(math.sqrt(10))\n\n3.1622776601683795\n\n\n\nprint(math.cos(0))\n\n1.0\n\n\n\nprint(math.sin(math.pi))  #The sin(pi) is 0, notice the answer a small number\n\n1.2246467991473532e-16\n\n\n\nprint(np.sqrt(10))\n\n3.1622776601683795\n\n\n\nprint(np.cos(0))\n\n1.0\n\n\n\nprint(np.sin(np.pi))  #The sin(pi) is 0, notice the answer a small number\n\n1.2246467991473532e-16\n\n\nHere is a link that can help with learning the math library syntax in Python:\nSource 1"
-  },
-  {
-    "objectID": "realvnc-mac.html",
-    "href": "realvnc-mac.html",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to install RealVNC on your macOS.\n\n\nBefore you begin, ensure that you have administrative privileges on your Mac.\n\n\n\n\n\nVisit the RealVNC Viewer download page at https://www.realvnc.com/en/connect/download/combined/ and click on the “Download for macOS” button to download the installer.\n\n\n\nDownlaod RealVNC\n\n\n\n\n\nLocate the downloaded installer file (usually in your Downloads folder) and double-click on it to start the installation process and click on “Allow” when prompted.\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\n\nYou have successfully installed RealVNC Viewer on your Mac, allowing you to access and control remote computers with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "realvnc-mac.html#prerequisites",
-    "href": "realvnc-mac.html#prerequisites",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "Before you begin, ensure that you have administrative privileges on your Mac."
-  },
-  {
-    "objectID": "realvnc-mac.html#installation-steps",
-    "href": "realvnc-mac.html#installation-steps",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "Visit the RealVNC Viewer download page at https://www.realvnc.com/en/connect/download/combined/ and click on the “Download for macOS” button to download the installer.\n\n\n\nDownlaod RealVNC\n\n\n\n\n\nLocate the downloaded installer file (usually in your Downloads folder) and double-click on it to start the installation process and click on “Allow” when prompted.\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\nThe installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.\n\n\n\nCustomize Installation\n\n\n\n\n\nDeselect RealVNC Server\n\n\n\n\n\nOnce the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC\n\n\n\n\n\nDon’t Sign up"
-  },
-  {
-    "objectID": "realvnc-mac.html#conclusion",
-    "href": "realvnc-mac.html#conclusion",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "You have successfully installed RealVNC Viewer on your Mac, allowing you to access and control remote computers with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Congratulations! You’ve successfully installed Anaconda on your Windows computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
     "objectID": "install-editor.html",
@@ -495,173 +523,5 @@
     "title": "Schedule",
     "section": "",
     "text": "Sample class schedule [week-by-week]\n(The course schedule subject to changes during the semester)\n\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTopic(s)\n\n\n\\(\\mu\\)-LABs and Assignment(s) due\n\n\nDownload Files\n\n\n\n\n\n\n\nWeek 1 [10/06/2023]\n\n\n\n\nOverview of CS1010 by Prof. Kartik Bulusu\n\n\nIntroduction to Computer Science Department by Prof. Rebecca Hwa\n\n\nIntroduction to Raspberry Pi and Python programming by Prof. Kartik Bulusu\n\n\n\n\n\n\n\nPython programming using Anaconda Python Distribution\n\n\nIn-class Raspberry Pi Lab (Blinking LEDs)\n\n\nHW 1 Assigned\n\n\n\n\n\n\nLecture Notes\n\n\nLab Examples\n\n\nIn-class Python Excercise \n\n\nHW1 \n\n\n\n\nWeek 2 [10/13/2023]\n\n\n\nFall Break, NO CLASS!\n\n\n\n\n\n\n\n\nNOTE: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "homework.html",
-    "href": "homework.html",
-    "title": "Reminders",
-    "section": "",
-    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files.\n\n\n\n\n\nNavigate to your “Download” folder using the Jupyter Dashboard. You can use the file browser within the dashboard.\nIf asked to allow terminal access to the Download folder, click on “AlLow”\n\n\n\n\nNavigate to Download Folder\n\n\n\n\n\nAllow access to Download Folder\n\n\n\nLook for the HW1 file within the “Download” folder.\nSelect the file by clicking on it. This will open a new Jupyter notebook or file editor for your HW1 file.\n\n\n\n\nOpen HW .ipynb file\n\n\n\n\n\n\nBefore you begin working on your HW, it’s necessay to rename the file to include your last name. This is how you’re expected to turn in your HW files.\n\nRight-click on the file.\nSelect “Rename.”\nChange the file name to “HW1_&lt;Your Last Name&gt;.”\n\n\n\n\n\nClick on File -&gt; Rename…\n\n\n\n\n\nRename the HW file by renaming it to ‘HW1_&lt;Last Name&gt;’\n\n\n\n\n\nYou can now work on your renamed HW assignment within Jupyter Notebook. When you’re done, remember to save your changes.\n\n\n\nSave changes\n\n\nYou’ve successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!"
-  },
-  {
-    "objectID": "homework.html#step-1-open-anaconda-navigator",
-    "href": "homework.html#step-1-open-anaconda-navigator",
-    "title": "How to launch a local Jupyter Server",
-    "section": "",
-    "text": "Search for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows"
-  },
-  {
-    "objectID": "homework.html#step-2-launch-jupyter-notebook",
-    "href": "homework.html#step-2-launch-jupyter-notebook",
-    "title": "How to launch a local Jupyter Server",
-    "section": "",
-    "text": "In Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook"
-  },
-  {
-    "objectID": "homework.html#step-3-access-jupyter-dashboard",
-    "href": "homework.html#step-3-access-jupyter-dashboard",
-    "title": "How to launch a local Jupyter Server",
-    "section": "",
-    "text": "After the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files."
-  },
-  {
-    "objectID": "homework.html#step-4-open-the-hw1-file",
-    "href": "homework.html#step-4-open-the-hw1-file",
-    "title": "How to launch a local Jupyter Server",
-    "section": "",
-    "text": "Navigate to your “Download” folder using the Jupyter Dashboard. You can use the file browser within the dashboard.\nIf asked to allow terminal access to the Download folder, click on “AlLow”\n\n\n\n\nNavigate to Download Folder\n\n\n\n\n\nAllow access to Download Folder\n\n\n\nLook for the HW1 file within the “Download” folder.\nSelect the file by clicking on it. This will open a new Jupyter notebook or file editor for your HW1 file.\n\n\n\n\nOpen HW .ipynb file"
-  },
-  {
-    "objectID": "homework.html#step-5-rename-the-hw1-file",
-    "href": "homework.html#step-5-rename-the-hw1-file",
-    "title": "How to launch a local Jupyter Server",
-    "section": "",
-    "text": "Before you begin working on your HW1, it’s recommended to rename the file to include your last name. This will help you keep your files organized.\n\nRight-click on the file.\nSelect “Rename.”\nChange the file name to “HW1_&lt;Your Last Name&gt;.”"
-  },
-  {
-    "objectID": "homework.html#step-6-work-on-your-hw1",
-    "href": "homework.html#step-6-work-on-your-hw1",
-    "title": "How to launch a Jupyter Server",
-    "section": "",
-    "text": "You can now work on your renamed HW1 assignment within Jupyter Notebook. When you’re done, remember to save your changes."
-  },
-  {
-    "objectID": "homework.html#introduction",
-    "href": "homework.html#introduction",
-    "title": "How to launch a local Jupyter Server",
-    "section": "",
-    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding."
-  },
-  {
-    "objectID": "homework.html#step-6-work-on-your-hw",
-    "href": "homework.html#step-6-work-on-your-hw",
-    "title": "How to launch a local Jupyter Server",
-    "section": "",
-    "text": "You can now work on your renamed HW assignment within Jupyter Notebook. When you’re done, remember to save your changes.\n\n\n\nSave changes"
-  },
-  {
-    "objectID": "homework.html#step-5-rename-the-hw-file",
-    "href": "homework.html#step-5-rename-the-hw-file",
-    "title": "How to launch a local Jupyter Server",
-    "section": "",
-    "text": "Before you begin working on your HW, it’s necessay to rename the file to include your last name. This is how you’re expected to turn in your HW files.\n\nRight-click on the file.\nSelect “Rename.”\nChange the file name to “HW1_&lt;Your Last Name&gt;.”\n\n\n\n\n\nClick on File -&gt; Rename…\n\n\n\n\n\nRename the HW file by renaming it to ‘HW1_&lt;Last Name&gt;’"
-  },
-  {
-    "objectID": "download/HW1.html",
-    "href": "download/HW1.html",
-    "title": "CS1010 Assignment 1",
-    "section": "",
-    "text": "Prof. Kartik Bulusu [CS & MAE]"
-  },
-  {
-    "objectID": "download/HW1.html#sample-question",
-    "href": "download/HW1.html#sample-question",
-    "title": "CS1010 Assignment 1",
-    "section": "Sample Question",
-    "text": "Sample Question\nThis is how you and your group members should answer each question individually.\nEveryone should write their own line of code and add a comment next to their line with their name. For example, if the problem says “Define a variable x that is equal to 5” you would answer like this:\n\nx = 5"
-  },
-  {
-    "objectID": "download/HW1.html#question-1.",
-    "href": "download/HW1.html#question-1.",
-    "title": "CS1010 Assignment 1",
-    "section": "Question 1.",
-    "text": "Question 1.\nSave the value of 20 to a variable called twenty, then print that variable.\nAlso save the value of 15 to a variable called number and print that variable.\n\n# YOUR CODE HERE"
-  },
-  {
-    "objectID": "download/HW1.html#question-2.",
-    "href": "download/HW1.html#question-2.",
-    "title": "CS1010 Assignment 1",
-    "section": "Question 2.",
-    "text": "Question 2.\nSave the string of the word Hi to a variable called greeting, and print the variable\nHint: remember strings require quotations!\n\n# YOUR CODE HERE"
-  },
-  {
-    "objectID": "download/HW1.html#question-3.",
-    "href": "download/HW1.html#question-3.",
-    "title": "CS1010 Assignment 1",
-    "section": "Question 3.",
-    "text": "Question 3.\nMultiply the variable twenty by the variable number. Save this result as product and print the result\n\n# YOUR CODE HERE"
-  },
-  {
-    "objectID": "download/HW1.html#question-4.",
-    "href": "download/HW1.html#question-4.",
-    "title": "CS1010 Assignment 1",
-    "section": "Question 4.",
-    "text": "Question 4.\nCalculate the cosine \\(\\cos()\\) of the value \\(\\pi\\) and save it to a variable called x.\nHint: use the math library to calculate \\(\\pi\\) and \\(\\cos()\\)\n\n# YOUR CODE HERE"
-  },
-  {
-    "objectID": "download/HW1.html#question-5.",
-    "href": "download/HW1.html#question-5.",
-    "title": "CS1010 Assignment 1",
-    "section": "Question 5.",
-    "text": "Question 5.\nCompute the following equation using python and printing the value - G = 1, - M = 10 - L = 2 - r = 3 - s = 1\n\\(y= -GM \\frac{s}{r^2\\sqrt{r^2 +L^2/4}}\\)\n\n# YOUR CODE HERE"
-  },
-  {
-    "objectID": "download/HW1.html#question-6.",
-    "href": "download/HW1.html#question-6.",
-    "title": "CS1010 Assignment 1",
-    "section": "Question 6.",
-    "text": "Question 6.\nDefine 35 trillion in using each of the methods we learned in class. Print the results of each: - Default value (like any other number) - Adding underscore seperators - Using scientific notation\nHint: 1 trillion has how many zeroes?\n\n# YOUR CODE HERE"
-  },
-  {
-    "objectID": "download/HW1.html#question-7.",
-    "href": "download/HW1.html#question-7.",
-    "title": "CS1010 Assignment 1",
-    "section": "Question 7.",
-    "text": "Question 7.\nWrite a code to calculate the following and save the result to a variable named y1:\n\\(y1 = \\frac{400+\\frac{37}{43}}{(10)(3-18)}\\)\nHint: Be careful with parenthesis!\n\n# YOUR CODE HERE"
-  },
-  {
-    "objectID": "download/HW1.html#congrats",
-    "href": "download/HW1.html#congrats",
-    "title": "CS1010 Assignment 1",
-    "section": "Congrats!!",
-    "text": "Congrats!!\nYou completed your first Python Assignment in CS 1010! Give yourself a round of applause!!\n\nBelow cells are part of test section that will run your code against some test cases, DO NOT interact with these cells.\n\n\nIf you add anything in these cells, your might end up scoring a 0 for this assignment."
-  },
-  {
-    "objectID": "instructor.html#rutvik-solanki-grader",
-    "href": "instructor.html#rutvik-solanki-grader",
-    "title": "Instruction Team",
-    "section": "Rutvik Solanki (Grader)",
-    "text": "Rutvik Solanki (Grader)\n\n\n\n\nHey there, I’m Rutvik Solanki, a passionate grad student delving into the world of Computer Science. My journey began in India, where I completed my undergraduate studies at the Symbiosis Institute of Technology. It was during these formative years that I developed a keen interest in all things tech.\nBefore embarking on my graduate studies at GWU, I had the incredible opportunity to work as both a Data Scientist intern and a DevOps intern for a dynamic startup. These experiences not only honed my skills but also fueled my curiosity to explore the ever-evolving tech landscape.\nBut it’s not all about screens and keyboards. I’m an avid sports enthusiast, and cricket holds a special place in my heart. There’s nothing quite like the thrill of a good cricket match. And when I’m looking to break a sweat and enjoy some friendly competition, you might catch me on the volleyball court, spiking and setting with the folks at Volo.\nIn addition to my academic pursuits, I take on the responsibility of maintaining the CS1010 course website. It’s a role that I take seriously, as I believe that a well-structured online platform is essential for enhancing the learning experience of fellow students.\nSo, whether it’s coding, sports, or web maintenance, I’m always up for a challenge. Feel free to reach out, and let’s embark on this exciting journey together!\n\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "homework.html#please-review-important-information-on-course-polices-on-collaboration-among-students-before-submitting-your-course-deliverables.",
-    "href": "homework.html#please-review-important-information-on-course-polices-on-collaboration-among-students-before-submitting-your-course-deliverables.",
-    "title": "How to launch a local Jupyter Server",
-    "section": "Please review important information on course polices on collaboration among students before submitting your course deliverables.",
-    "text": "Please review important information on course polices on collaboration among students before submitting your course deliverables.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "homework.html#steps",
-    "href": "homework.html#steps",
-    "title": "How to launch a local Jupyter Server",
-    "section": "",
-    "text": "Search for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files.\n\n\n\n\n\nNavigate to your “Download” folder using the Jupyter Dashboard. You can use the file browser within the dashboard.\nIf asked to allow terminal access to the Download folder, click on “AlLow”\n\n\n\n\nNavigate to Download Folder\n\n\n\n\n\nAllow access to Download Folder\n\n\n\nLook for the HW1 file within the “Download” folder.\nSelect the file by clicking on it. This will open a new Jupyter notebook or file editor for your HW1 file.\n\n\n\n\nOpen HW .ipynb file\n\n\n\n\n\n\nBefore you begin working on your HW, it’s necessay to rename the file to include your last name. This is how you’re expected to turn in your HW files.\n\nRight-click on the file.\nSelect “Rename.”\nChange the file name to “HW1_&lt;Your Last Name&gt;.”\n\n\n\n\n\nClick on File -&gt; Rename…\n\n\n\n\n\nRename the HW file by renaming it to ‘HW1_&lt;Last Name&gt;’\n\n\n\n\n\nYou can now work on your renamed HW assignment within Jupyter Notebook. When you’re done, remember to save your changes.\n\n\n\nSave changes\n\n\nYou’ve successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!"
-  },
-  {
-    "objectID": "homework.html#how-to-launch-a-local-jupyter-server",
-    "href": "homework.html#how-to-launch-a-local-jupyter-server",
-    "title": "Reminders",
-    "section": "",
-    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files.\n\n\n\n\n\nNavigate to your “Download” folder using the Jupyter Dashboard. You can use the file browser within the dashboard.\nIf asked to allow terminal access to the Download folder, click on “AlLow”\n\n\n\n\nNavigate to Download Folder\n\n\n\n\n\nAllow access to Download Folder\n\n\n\nLook for the HW1 file within the “Download” folder.\nSelect the file by clicking on it. This will open a new Jupyter notebook or file editor for your HW1 file.\n\n\n\n\nOpen HW .ipynb file\n\n\n\n\n\n\nBefore you begin working on your HW, it’s necessay to rename the file to include your last name. This is how you’re expected to turn in your HW files.\n\nRight-click on the file.\nSelect “Rename.”\nChange the file name to “HW1_&lt;Your Last Name&gt;.”\n\n\n\n\n\nClick on File -&gt; Rename…\n\n\n\n\n\nRename the HW file by renaming it to ‘HW1_&lt;Last Name&gt;’\n\n\n\n\n\nYou can now work on your renamed HW assignment within Jupyter Notebook. When you’re done, remember to save your changes.\n\n\n\nSave changes\n\n\nYou’ve successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!"
   }
 ]
