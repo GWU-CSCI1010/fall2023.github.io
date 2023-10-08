@@ -42,7 +42,7 @@ format: html
       
       He currently serves as the treasurer for the GW Men’s Club Soccer team and American Society of Mechanical Engineers section.
 
-      **Office Hours:** Monday & Tuesday (5-6 PM)
+      **Office Hours:** Monday & Tuesday (5 PM - 6 PM)
       
       **Location:** Tompkins Hall (Room 409)
 
@@ -65,7 +65,7 @@ format: html
       
       Sameen is super **EXCITED** to be the UTA for this class and can not wait to meet everyone!!
 
-      **Office Hours:** Wednesday (1-3 PM)
+      **Office Hours:** Wednesday (1 PM - 3 PM)
     </td>
 
     <td width="30%">
@@ -82,7 +82,7 @@ format: html
       
       In her free time, she enjoys hanging out with friends, being outside, and lifting weights. Talia is pumped to be a UTA for this course and can’t wait to get to some Python programming!!
 
-      **Office Hours:** Wednesday (4-6 PM)
+      **Office Hours:** Wednesday (4 PM - 6 PM)
     </td>
 
     <td width="30%">
@@ -115,7 +115,7 @@ format: html
       
       In his free time, he enjoys playing video games, listening to music and spending time with his family and friends.
 
-      **Office Hours:** Monday (12-2 PM)
+      **Office Hours:** Monday (12 PM - 2 PM)
     </td>
 
     <td width="30%">
@@ -130,7 +130,7 @@ format: html
     <td width="70%">
       **Saif Alzaabi** is a senior graduating this semester. He is majoring in Computer Science and Economics. His main interest is in financial technologies, and is hoping to enter that field after graduation. Outside of studying, Saif trains in martial arts, mainly Brazilian Jiu-Jitsu.
       
-      **Office Hours:** Tuesday (2-4 PM)
+      **Office Hours:** Tuesday (2 PM - 4 PM)
     </td>
 
     <td width="30%">
@@ -147,7 +147,7 @@ format: html
       
       Gustavo enjoys reading, working on side projects, and watching tv shows. He’s also a part of GWU Robotics, GW Rocket, and participates in both student/university theater.
 
-      **Office Hours:** Sunday (2-4 PM)
+      **Office Hours:** Sunday (2 PM - 4 PM)
       
       **Location:** Tompkins Hall (Room 402)
     </td>
@@ -163,6 +163,10 @@ format: html
   <tr>
     <td width="70%">
       My name is **Amy**. I’m a computer science sophomore and I’ll be one of your LAs this fall. I had very little coding experience but I took CSCI1010 last year and it was one of my favorites which is why I decided to LA for it! I’m also a part of WiCS and ACM. So if you see me at one of their events, come say "Hi".
+
+      **Office Hours:** Sunday (12 PM - 2 PM)
+
+      **Location:** SEH 4th floor
     </td>
 
     <td width="30%">
@@ -179,7 +183,7 @@ format: html
       
       CS1010 was a fun class for me and was a great introduction to the CS department. I hope I am able to be of assistance to you all and get to know you guys. 
 
-      **Office Hours:** Monday (12-2 PM)
+      **Office Hours:** Wednesday (11 AM - 1 PM)
     </td>
 
     <td width="30%">
