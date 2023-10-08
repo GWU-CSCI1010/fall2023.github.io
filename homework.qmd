@@ -69,6 +69,9 @@ You can now work on your renamed HW assignment within Jupyter Notebook. When you
 
 You've successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!
 
+
+### Please <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CS1010_SummaziedCoursePolicy.pdf" download>review</a> important information on course polices on collaboration among students before submitting your course deliverables.
+
 <br><br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
