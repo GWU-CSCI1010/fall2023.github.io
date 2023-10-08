@@ -99,6 +99,9 @@ format: html
       
       Over the summer Manue worked as a software engineering intern in the financial technology industry for one of the largest global banks. On campus, they are involved in **JEDI** (Learn more [here](https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee)!). In their free time, they like to run, play frisbee, and try out new coffee shops around DC.
 
+      **Office Hours:** Wednesday (5 PM - 7 PM)
+
+      **Location:** SEH 4th floor
     </td>
 
     <td width="30%">

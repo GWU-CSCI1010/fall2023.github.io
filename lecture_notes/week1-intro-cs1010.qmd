@@ -1,0 +1,50 @@
+## Introduction to CS1010
+
+Course materials are only for the use of **CS1010 Fall 2023**.
+
+### Slide 1
+![Slide 1](../images/lecture_notes/week-1/intro-cs1010/slide-1.png)
+
+Course Website: [https://gwu-csci1010.github.io/](https://gwu-csci1010.github.io/)
+
+### Slide 2
+![Slide 2](../images/lecture_notes/week-1/intro-cs1010/slide-2.png)
+
+Icon Source: [https://thenounproject.com/](https://thenounproject.com/)
+
+Icon credits: [LUTFI GANI AL](https://thenounproject.com/lutfidiarycoc/), [Studion 365](), [DesignBite](), [Danil Polshin]() 
+
+### Slide 3
+![Slide 3](../images/lecture_notes/week-1/intro-cs1010/slide-3.png)
+
+### Slide 4
+![Slide 4](../images/lecture_notes/week-1/intro-cs1010/slide-4.png)
+
+### Slide 5
+![Slide 5](../images/lecture_notes/week-1/intro-cs1010/slide-5.png)
+
+### Slide 6
+![Slide 6](../images/lecture_notes/week-1/intro-cs1010/slide-6.png)
+
+### Slide 7
+![Slide 7](../images/lecture_notes/week-1/intro-cs1010/slide-7.png)
+Justice, Equality, Diversity, Inclusion (JEDI): [https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee](https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee) 
+
+### Slide 8
+![Slide 8](../images/lecture_notes/week-1/intro-cs1010/slide-8.png)
+Disability Support: [https://disabilitysupport.gwu.edu/](https://disabilitysupport.gwu.edu/)
+
+### Slide 9
+![Slide 9](../images/lecture_notes/week-1/intro-cs1010/slide-9.png)
+
+
+Course materials are only for the use of **CS1010 Fall 2023**.
+
+<br><br>
+<footer>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
+</footer>
+

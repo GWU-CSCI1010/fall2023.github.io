@@ -29,14 +29,15 @@ Sample class schedule [week-by-week]
         <ul>
           <li>Overview of CS1010 by **Prof. Kartik Bulusu**</li>
           <li>Introduction to Computer Science Department by [**Prof. Rebecca Hwa**](https://cs.engineering.gwu.edu/rebecca-hwa)</li>
-          <li>Introduction to Raspberry Pi and Python programming by **Prof. Kartik Bulusu**</li>
+          <li>[Introduction to Raspberry Pi and Python programming](lecture_notes/week1-intro-cs1010.qmd) by **Prof. Kartik Bulusu**</li>
           <!-- <li><a href="https://drive.google.com/drive/folders/1qYaXJ_VKJUxnIOQKGn9c_LDQjJIzSsWs?usp=sharing" target="_blank">Lecture notes</a></li>  -->
         </ul>  
       </td>
       <td>
         <ul>
           <li>Python programming using [Anaconda Python Distribution](www.anaconda.com)</li>
-          <li>In-class Raspberry Pi Lab (**Blinking LEDs**)</li>
+          <li>[In-class Raspberry Pi Lab](lecture_notes/week1-rasp-pi.qmd) (**Blinking LEDs**)</li>
+          <li>5-min Standup talk by: **Marlee Alvino**</li>
           <li>HW 1 Assigned</li>
           <!-- <li>HW 1 Assigned <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>(Download)</a></li> -->
         </ul>

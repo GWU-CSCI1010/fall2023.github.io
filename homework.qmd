@@ -1,4 +1,4 @@
-## How to launch a local Jupyter Server
+## Launching a Jupyter Server & working with HW .ipynb files
 
 <!-- ## Introduction -->
 
@@ -37,7 +37,9 @@ In this guide, you will learn how to launch a local Jupyter server using Anacond
 
 2. You can navigate through your file system using the dashboard to locate and access your files.
 
-### Step 4: Open the HW1 File
+## Working with HW .ipynb files
+
+### Step 1: Open the HW1 File
 
 1. Navigate to your "Download" folder using the Jupyter Dashboard. You can use the file browser within the dashboard.
 2. If asked to allow terminal access to the Download folder, click on "AlLow"
@@ -52,7 +54,7 @@ In this guide, you will learn how to launch a local Jupyter server using Anacond
 
 ![Open HW .ipynb file](images/screenshots/homework/screenshot-3.png)
 
-### Step 5: Rename the HW File
+### Step 2: Rename the HW File
 
 1. Before you begin working on your HW, it's necessay to rename the file to include your last name. This is how you're expected to turn in your HW files.
 
@@ -64,7 +66,7 @@ In this guide, you will learn how to launch a local Jupyter server using Anacond
 
 ![Rename the HW file by renaming it to 'HW1_\<Last Name>'](images/screenshots/homework/screenshot-6.png)
 
-### Step 6: Work on Your HW
+### Step 3: Work on Your HW
 
 You can now work on your renamed HW assignment within Jupyter Notebook. When you're done, remember to save your changes.
 

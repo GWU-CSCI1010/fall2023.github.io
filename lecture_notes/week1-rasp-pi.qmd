@@ -1,0 +1,60 @@
+## Introduction to Raspberry Pi plus LED
+
+Course materials are only for the use of **CS1010 Fall 2023**.
+
+### Slide 1
+![Slide 1](../images/lecture_notes/week-1/intro-raspb-pi/slide-1.png)
+
+### Slide 2
+![Slide 2](../images/lecture_notes/week-1/intro-raspb-pi/slide-2.png)
+
+### Slide 3
+![Slide 3](../images/lecture_notes/week-1/intro-raspb-pi/slide-3.png)
+**Sources**:
+
+Codecaemy: [https://www.youtube.com/watch?v=EGQh5SZctaE](https://www.youtube.com/watch?v=EGQh5SZctaE)
+
+Python Logo: [https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg](https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg)
+
+Python (Programming Language): [https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg](https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg)
+
+### Slide 4
+![Slide 4](../images/lecture_notes/week-1/intro-raspb-pi/slide-4.png)
+Python logo and other information: [https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg](https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg)
+
+### Slide 5
+![Slide 5](../images/lecture_notes/week-1/intro-raspb-pi/slide-5.png)
+Source: [https://www.raspberrypi.org/help/](https://www.raspberrypi.org/help/)
+
+### Slide 6
+![Slide 6](../images/lecture_notes/week-1/intro-raspb-pi/slide-6.png)
+
+### Slide 7
+![Slide 7](../images/lecture_notes/week-1/intro-raspb-pi/slide-7.png)
+Source: [https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html](https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html)
+
+### Slide 8
+![Slide 8](../images/lecture_notes/week-1/intro-raspb-pi/slide-8.png)
+
+### Slide 9
+![Slide 9](../images/lecture_notes/week-1/intro-raspb-pi/slide-9.png)
+
+### Slide 10
+![Slide 10](../images/lecture_notes/week-1/intro-raspb-pi/slide-10.png)
+
+### Slide 11
+![Slide 11](../images/lecture_notes/week-1/intro-raspb-pi/slide-11.png)
+
+### Slide 12
+![Slide 12](../images/lecture_notes/week-1/intro-raspb-pi/slide-12.png)
+
+
+Course materials are only for the use of **CS1010 Fall 2023**.
+
+<br><br>
+<footer>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
+</footer>
