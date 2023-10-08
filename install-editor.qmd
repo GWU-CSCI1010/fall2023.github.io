@@ -57,6 +57,11 @@ Also, once you've finished **installation Steps 1 and 2**, fill out the [Install
 
 ### You will be automatically entered into a raffle in the first class of CS1010 on 10/06/2023.
 
+
+---
+
+<small><small>*Content generated using ChatGPT.*</small></small>
+
 <br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
