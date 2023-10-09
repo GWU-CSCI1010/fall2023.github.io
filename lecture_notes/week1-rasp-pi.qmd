@@ -1,14 +1,19 @@
-<!-- ## Introduction to Raspberry Pi plus LED -->
-## Week-1 Presentation: CSCI1010 Computer Science Orientation [*Introduction to the Raspberry Pi  with Blinking LEDs*]. 
+## Introduction to Raspberry Pi with Blinking LEDs
+<!-- ## Week-1 Presentation: CSCI1010 Computer Science Orientation [*Introduction to the Raspberry Pi  with Blinking LEDs*]. 
 
 Department of Computer Science, The George Washington University. 
 
 [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
 
-Referencing this presentation: **Bulusu, Kartik V.** (2023, October 6). 
+Referencing this presentation: **Bulusu, Kartik V.** (2023, October 6).  -->
 
-::: {.callout-warning}
-Course materials are only for the use of **CS1010 Fall 2023**
+**Referencing this presentation:**
+
+Bulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to the Raspberry Pi with Blinking LEDs]. Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
+
+
+::: {.callout-note appearance="simple"}
+**Course materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.**
 :::
 
 ### Slide 1
@@ -56,11 +61,6 @@ Source: [https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-
 
 ### Slide 12
 ![Slide 12](../images/lecture_notes/week-1/intro-raspb-pi/slide-12.png)
-
-
-::: {.callout-warning}
-Course materials are only for the use of **CS1010 Fall 2023**
-:::
 
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>

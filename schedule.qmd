@@ -36,7 +36,7 @@ Sample class schedule [week-by-week]
       <td>
         <ul>
           <li>Python programming using [Anaconda Python Distribution](www.anaconda.com)</li>
-          <li>[In-class Raspberry Pi Lab](lecture_notes/week1-rasp-pi.qmd) (**Blinking LEDs**)</li>
+          <li>[In-class Raspberry Pi Lab (**Blinking LEDs**)](lecture_notes/week1-rasp-pi.qmd)</li>
           <li>5-min Standup talk by: **Marlee Alvino**</li>
           <li>HW 1 Assigned</li>
           <!-- <li>HW 1 Assigned <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>(Download)</a></li> -->
