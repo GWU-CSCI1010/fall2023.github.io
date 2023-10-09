@@ -1,0 +1,50 @@
+## Introduction to Matrices with Python
+
+**Referencing this presentation:**
+
+Bulusu, Kartik V. (2023, October 6). Week-3 Presentation: CSCI1010 Computer Science Orientation [Introduction to Matrices with Python.] Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
+
+
+::: {.callout-note appearance="simple"}
+**Course materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.**
+:::
+
+### Slide 1
+![Slide 1](../images/lecture_notes/week-3/matrices/slide-1.png)
+
+### Slide 2
+![Slide 2](../images/lecture_notes/week-3/matrices/slide-2.png)
+
+### Slide 3
+![Slide 3](../images/lecture_notes/week-3/matrices/slide-3.png)
+**Source**: [http://giphy.com/search/matrix-gif](http://giphy.com/search/matrix-gif)
+
+### Slide 4
+![Slide 4](../images/lecture_notes/week-3/matrices/slide-4.png)
+**Sources**: 
+
+[https://numpy.org](https://numpy.org)
+
+[https://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html](https://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html)
+
+[https://numpy.org/doc/stable/user/absolute_beginners.html](https://numpy.org/doc/stable/user/absolute_beginners.html)
+
+
+### Slide 5
+![Slide 5](../images/lecture_notes/week-3/matrices/slide-5.png)
+**Source**: [http://en.wikipedia.org/wiki/Matrix_(mathematics)](http://en.wikipedia.org/wiki/Matrix_(mathematics))
+
+### Slide 6
+![Slide 6](../images/lecture_notes/week-3/matrices/slide-6.png)
+
+### Slide 7
+![Slide 7](../images/lecture_notes/week-3/matrices/slide-7.png)
+
+
+<br>
+<footer>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
+</footer>
