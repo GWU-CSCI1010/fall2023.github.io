@@ -1,6 +1,15 @@
-## Introduction to Raspberry Pi plus LED
+<!-- ## Introduction to Raspberry Pi plus LED -->
+## Week-1 Presentation: CSCI1010 Computer Science Orientation [*Introduction to the Raspberry Pi  with Blinking LEDs*]. 
 
-Course materials are only for the use of **CS1010 Fall 2023**.
+Department of Computer Science, The George Washington University. 
+
+[https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
+
+Referencing this presentation: **Bulusu, Kartik V.** (2023, October 6). 
+
+::: {.callout-warning}
+Course materials are only for the use of **CS1010 Fall 2023**
+:::
 
 ### Slide 1
 ![Slide 1](../images/lecture_notes/week-1/intro-raspb-pi/slide-1.png)
@@ -31,10 +40,10 @@ Source: [https://www.raspberrypi.org/help/](https://www.raspberrypi.org/help/)
 
 ### Slide 7
 ![Slide 7](../images/lecture_notes/week-1/intro-raspb-pi/slide-7.png)
-Source: [https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html](https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html)
 
 ### Slide 8
 ![Slide 8](../images/lecture_notes/week-1/intro-raspb-pi/slide-8.png)
+Source: [https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html](https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html)
 
 ### Slide 9
 ![Slide 9](../images/lecture_notes/week-1/intro-raspb-pi/slide-9.png)
@@ -49,9 +58,10 @@ Source: [https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-
 ![Slide 12](../images/lecture_notes/week-1/intro-raspb-pi/slide-12.png)
 
 
-Course materials are only for the use of **CS1010 Fall 2023**.
+::: {.callout-warning}
+Course materials are only for the use of **CS1010 Fall 2023**
+:::
 
-<br><br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
   Author: Kartik Bulusu<br>

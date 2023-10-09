@@ -1,6 +1,14 @@
-## Introduction to CS1010
+<!-- ## Introduction to CS1010 -->
+## Week-1 Presentation: CSCI1010 Computer Science Orientation [*Introduction to CSCI1010*]. 
+Department of Computer Science, The George Washington University. 
 
-Course materials are only for the use of **CS1010 Fall 2023**.
+[https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
+
+Referencing this presentation: **Bulusu, Kartik V.** (2023, October 6). 
+
+::: {.callout-warning}
+Course materials are only for the use of **CS1010 Fall 2023**
+:::
 
 ### Slide 1
 ![Slide 1](../images/lecture_notes/week-1/intro-cs1010/slide-1.png)
@@ -38,9 +46,10 @@ Disability Support: [https://disabilitysupport.gwu.edu/](https://disabilitysuppo
 ![Slide 9](../images/lecture_notes/week-1/intro-cs1010/slide-9.png)
 
 
-Course materials are only for the use of **CS1010 Fall 2023**.
+::: {.callout-warning}
+Course materials are only for the use of **CS1010 Fall 2023**
+:::
 
-<br><br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
   Author: Kartik Bulusu<br>

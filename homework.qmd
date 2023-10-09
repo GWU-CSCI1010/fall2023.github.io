@@ -6,7 +6,7 @@ In this guide, you will learn how to launch a local Jupyter server using Anacond
 
 - Please [review](summary-policy.qmd) important information on course polices on collaboration among students before submitting your course deliverables.
 
-- Don't forget to rename your file as shown in **Step-5**, and save cahnges as you work on them
+- Don’t **forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them.
 
 <!-- ## Steps -->
 ### Step 1: Open Anaconda Navigator
@@ -76,8 +76,8 @@ You've successfully launched a local Jupyter server using Anaconda Navigator, op
 
 # Reminders
 - Please [review](summary-policy.qmd) important information on course polices on collaboration among students before submitting your course deliverables.
-<!-- - Please <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CS1010_SummaziedCoursePolicy.pdf" download>review</a> important information on course polices on collaboration among students before submitting your course deliverables. -->
-- Don't forget to rename your file as shown in **Step-5**, and save cahnges as you work on them
+
+- Don’t **forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them.
 
 
 

@@ -15,10 +15,9 @@
         - NOTE: You will be given opportunities to work in groups
     - use chatGPT or other generate AI tools to complete your HWs, projects, tests, exams and quizzes unless explicity permitted by the instruction team
 
-<div class="alert alert-danger">
-<h6 class="alert-heading">WARNING!</h6>
-<p class="mb-0">All violations will be treated as violations of the Code of Academic Integrity</a>.</p>
-</div>
+::: {.callout-important}
+All violations will be treated as violations of the **Code of Academic Integrity**
+:::
 
 ## [Justice, Equity, Diversity, Inclusion (JEDI)](https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee)
 - It is our intention that this course serve the needs of **<u>all</u>** students who have the prerequisites.
