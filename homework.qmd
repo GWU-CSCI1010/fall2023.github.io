@@ -1,4 +1,5 @@
-## Launching a Jupyter Server & working with HW .ipynb files
+## Launching a Jupyter Server
+<div id="launch-jupyter"></div>
 
 <!-- ## Introduction -->
 
@@ -37,7 +38,8 @@ In this guide, you will learn how to launch a local Jupyter server using Anacond
 
 2. You can navigate through your file system using the dashboard to locate and access your files.
 
-## Working with HW .ipynb files
+## Working with HW .ipynb files 
+<div id="work-with-HW.ipynb"></div>
 
 ### Step 1: Open the HW1 File
 

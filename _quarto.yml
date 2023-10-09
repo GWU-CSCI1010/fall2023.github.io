@@ -11,7 +11,10 @@ website:
       - text: "Getting Started"
         menu:
           - href: install-editor.qmd
-          - href: homework.qmd
+          - href: "homework.qmd#launch-jupyter"
+            text: "Launch a Jupyter Server"
+          - href: "homework.qmd#work-with-HW.ipynb"
+            text: "Working with HW .ipynb files"
       - about.qmd
       - schedule.qmd
       - policies.qmd
