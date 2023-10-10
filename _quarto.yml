@@ -20,6 +20,7 @@ website:
       - policies.qmd
       - instructor.qmd
     search: true
+  favicon: "images/CS1010.png"
 
 format:
   html:

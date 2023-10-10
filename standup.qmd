@@ -5,6 +5,7 @@
 
 **Marlee** is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!
 
+ **Email**: [marlenaalvino@gwmail.gwu.edu](marlenaalvino@gwmail.gwu.edu)
 <br><br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
