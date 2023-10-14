@@ -119,298 +119,102 @@
     "text": "You have successfully installed RealVNC Viewer on your Mac, allowing you to access and control remote computers with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "python3.html",
+    "href": "python3.html",
+    "title": "Installing Python on macOS",
     "section": "",
-    "text": "The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing."
+    "text": "In this guide, we will walk you through the process of installing Python on macOS, configuring the user-specific Python bin path, and exporting it in your ~/.zshrc file for easy access.\n\n\n\nVisit the official Python website: https://www.python.org/downloads/macos/\nDownload the latest version of Python for macOS by clicking on the “Download Python X.Y.Z” button (replace X.Y.Z with the latest version).\nOpen the downloaded installer and follow the installation instructions. Make sure to check the box that says “Add Python X.Y to PATH.”\n\n\n\n\nTo ensure that Python is installed correctly, open your terminal and run the following command:\npython3 --version\n\n\n\nTo install Jupyter Notebook, run the following command in your terminal:\npip3 install jupyter\nThis command will download and install Jupyter Notebook, a powerful tool for interactive Python development.\n\n\n\nNow, you will export the Python bin path in your ~/.zshrc file to make it accessible in your terminal sessions. To open ~/.zshrc for editing, follow these simplified steps:\n\nOpen your terminal.\nType the following command and press Enter:\n\nopen -e ~/.zshrc\nThis command will open your ~/.zshrc file in the default text editor.\n\nIn the text editor, add the following line at the end of the file:\n\nexport PATH=$PATH:$(python3 -m site --user-base)/bin\n\nSave the file and close the text editor.\n\n\n\n\nIf you receive an error indicating that the ~/.zshrc file does not exist, you can create it using the following command:\ntouch ~/.zshrc\nThis command will create an empty ~/.zshrc file if it doesn’t already exist.\nNow repeat Step 2.\n\n\n\nTo apply the changes, either restart your terminal or run the following command:\nsource ~/.zshrc\nYour Python installation is now set up and configured for use on macOS.\n\n\n\nTo start Jupyter Notebook, open your terminal and run the following command:\njupyter notebook\nThis command will launch the Jupyter Notebook in your default web browser, allowing you to create and run Python notebooks for interactive coding and data analysis.\n\n\n\nYou have successfully installed Python and Jupyter Notebook on your macOS system, configured the user-specific Python bin path, and exported it to your ~/.zshrc file for easy access. You can now use Jupyter Notebook for interactive coding and data analysis.\nHappy coding!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "about.html#goal",
-    "href": "about.html#goal",
-    "title": "About",
+    "objectID": "python3.html#step-1-download-and-install-python",
+    "href": "python3.html#step-1-download-and-install-python",
+    "title": "Installing Python on macOS",
     "section": "",
-    "text": "The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing."
+    "text": "Visit the official Python website: https://www.python.org/downloads/macos/\nDownload the latest version of Python for macOS by clicking on the “Download Python X.Y.Z” button (replace X.Y.Z with the latest version).\nOpen the downloaded installer and follow the installation instructions. Make sure to check the box that says “Add Python X.Y to PATH.”"
   },
   {
-    "objectID": "about.html#learning-objectives",
-    "href": "about.html#learning-objectives",
-    "title": "About",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\nHands-on knowledge of Raspberry Pi hardware with Python programming language\nExposure to various sensors with hands-on exercises\nImplement innovative Raspberry Pi-based projects that interact with the physical world"
-  },
-  {
-    "objectID": "about.html#learning-outcomes",
-    "href": "about.html#learning-outcomes",
-    "title": "About",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nAs a result of completing this course, students will be able to:\n\nUnderstand the various areas of work and research in Computer Science.\nPerform experiments aimed at collecting and analyzing data.\nDesign and write Python programs.\nWork on an engineering-innovation group project.\n\nAdditional Learning Outcomes: - an ability to apply knowledge of computer science and mathematics - an ability to design and conduct experiments, as well as to analyze and interpret data - an ability to identify, formulate, and solve engineering problems - an ability to use the techniques, skills, and modern computing tools necessary for practice of computer science."
-  },
-  {
-    "objectID": "about.html#course-format",
-    "href": "about.html#course-format",
-    "title": "About",
-    "section": "Course format",
-    "text": "Course format\n\nLectures on the fundamentals of Raspberry Pi programming using Python programming language, sensors and automation.\n\\(\\mu-labs\\): Hands-on and guided Raspberry Pi activities in a laboratory setting.\nGuest lectures from academic experts and alumni in the field of computer science\nInteractive quizzes and instant concept checks\nIndividual and/or group assignments and projects\nMidterm and Final projects"
-  },
-  {
-    "objectID": "about.html#audience-and-credit-level",
-    "href": "about.html#audience-and-credit-level",
-    "title": "About",
-    "section": "Audience and credit-level",
-    "text": "Audience and credit-level\nThe course is designed for first-year undergraduate students as a 1-credit course."
-  },
-  {
-    "objectID": "about.html#prerequisites",
-    "href": "about.html#prerequisites",
-    "title": "About",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nNone"
-  },
-  {
-    "objectID": "about.html#time-requirements-and-expectations",
-    "href": "about.html#time-requirements-and-expectations",
-    "title": "About",
-    "section": "Time Requirements and Expectations",
-    "text": "Time Requirements and Expectations\nThis course will have 50 minutes of lecture time per week, approximately 90 minutes of laboratory, review, and discussion per week, and will require 2 hours per week on average for homework assignments."
-  },
-  {
-    "objectID": "about.html#textbook-hardware-and-other-course-material",
-    "href": "about.html#textbook-hardware-and-other-course-material",
-    "title": "About",
-    "section": "Textbook, hardware and other course material",
-    "text": "Textbook, hardware and other course material\nThere is no textbook requirement for this course. All reading, hardware and course material will be provided by the instructor.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2022 All rights reserved"
-  },
-  {
-    "objectID": "policies.html",
-    "href": "policies.html",
-    "title": "Course policies",
+    "objectID": "python3.html#step-2-verify-python-installation",
+    "href": "python3.html#step-2-verify-python-installation",
+    "title": "Installing Python on macOS",
     "section": "",
-    "text": "For example:\n\n\n\n\n\n\nAttendance and/or peer-to-peer and instructor interactions 10%\nIn-class work and Weekly Quizzes 10%\nPython programming and other Homework 30%\nProjects (including code, demo and presentation) 50%\n\n30% Individual midterm project\n20% Group final project There is no required final exam.\n\n\n\n\n \n\nexam by pongsakorn from Noun Project"
+    "text": "To ensure that Python is installed correctly, open your terminal and run the following command:\npython3 --version"
   },
   {
-    "objectID": "policies.html#assignments-and-grades",
-    "href": "policies.html#assignments-and-grades",
-    "title": "Course policies",
+    "objectID": "python3.html#step-3-install-jupyter-notebook",
+    "href": "python3.html#step-3-install-jupyter-notebook",
+    "title": "Installing Python on macOS",
     "section": "",
-    "text": "For example:\n\n\n\n\n\n\nAttendance and/or peer-to-peer and instructor interactions 10%\nIn-class work and Weekly Quizzes 10%\nPython programming and other Homework 30%\nProjects (including code, demo and presentation) 50%\n\n30% Individual midterm project\n20% Group final project There is no required final exam.\n\n\n\n\n \n\nexam by pongsakorn from Noun Project"
+    "text": "To install Jupyter Notebook, run the following command in your terminal:\npip3 install jupyter\nThis command will download and install Jupyter Notebook, a powerful tool for interactive Python development."
   },
   {
-    "objectID": "policies.html#additional-important-information-about-grading-policy",
-    "href": "policies.html#additional-important-information-about-grading-policy",
-    "title": "Course policies",
-    "section": "Additional important information about grading policy:",
-    "text": "Additional important information about grading policy:\n\nLate submissions on Homework and projects will not be acceptable.\nAny questions or follow up about the assignments will be done only within 2 weeks of submission deadline.\n\nFollowing the week after the submission deadline no further discussion on the assignment will be done."
-  },
-  {
-    "objectID": "policies.html#classroom-policies-and-student-responsibilities",
-    "href": "policies.html#classroom-policies-and-student-responsibilities",
-    "title": "Course policies",
-    "section": "Classroom Policies and Student responsibilities",
-    "text": "Classroom Policies and Student responsibilities\n\n\n\nThis course requires a combination of individual and group work entailing hands-on activities and frequent interactions with the instructional team. The lectures, labs and office hours are available for interacting with your group and the instruction team. In addition, a course messaging platform (Slack) is made available for the students to interact in groups and with the instruction team asynchronously. We ask that all students adhere to the course policies throughout the duration of the semester.\n\n\n\n \n\nclassroom by Chattapat from Noun Project\n\n\n\n\n\nBe respectful: Listen to the instructors. Keep an open mind to the course material presented. Limit the use of personal devices. Be aware that you are working in a group. Be mindful of your colleagues.\nBe responsible: Arrive on time. Attendance is the first pathway toward success. Submit the course deliverables on time. Help your team members.\nBe a communicator: Observe, Ask questions and Try out the materials presented during the course. Communicate with your team effectively and politely.\nBe a problem solver: Explore options to complete hands-on tasks. Make your own notes. Stay positive about the course outcomes."
-  },
-  {
-    "objectID": "policies.html#justice-equity-diversity-inclusion-jedi-statement",
-    "href": "policies.html#justice-equity-diversity-inclusion-jedi-statement",
-    "title": "Course policies",
-    "section": "Justice, Equity, Diversity, Inclusion (JEDI) statement",
-    "text": "Justice, Equity, Diversity, Inclusion (JEDI) statement\n\n\n\nThe instruction team intends to students from all diverse backgrounds and perspectives by this course, The diversity that the students bring to this class be viewed as a resource, strength, and benefit. The course materials and activities presented in this course are intended to be respectful of: age, race, ethnicity, country of origin, language, religion, spiritual practice, sexual orientation, gender identity or expression, introversion/extroversion personality dimensions, and socioeconomic and mental/physical status.\n\n\n\n \n\nemployee diversity by Bold Yellow from Noun Project\n\n\n\n\n\nPlease let the main instructor know ways to improve the effectiveness of the course. See JEDI resources for student resources."
-  },
-  {
-    "objectID": "policies.html#use-of-chatgpt-or-any-other-ai-based-models-for-in-class-work-and-deliverables",
-    "href": "policies.html#use-of-chatgpt-or-any-other-ai-based-models-for-in-class-work-and-deliverables",
-    "title": "Course policies",
-    "section": "Use of chatGPT or any other AI-based models for in-class work and deliverables",
-    "text": "Use of chatGPT or any other AI-based models for in-class work and deliverables\nThe use chatGPT or any other genreative AI-based tool is NOT PERMITTED.  Furthermore, the ethical issues regarding the use of chatGPT or any other AI-based models will be discussed in-class and course policy will be ammended according to the findings. The findings of any such discussions will be summarized and placed in-context of the Academic Integrity Code\n Resources that will guide the course policy changes during the course: \n\n\nchatGPT Course policy formulation\n\n\nchatGPT chatbot\n\n\nHow ChatGPT Could Transform Higher Education"
-  },
-  {
-    "objectID": "policies.html#use-of-electronic-course-materials-and-class-recordings",
-    "href": "policies.html#use-of-electronic-course-materials-and-class-recordings",
-    "title": "Course policies",
-    "section": "Use of Electronic Course Materials and Class Recordings",
-    "text": "Use of Electronic Course Materials and Class Recordings\nStudents are encouraged to use electronic course materials, including recorded class sessions (if any), for private personal use in connection with their academic program of study. Electronic course materials and recorded class sessions should not be shared or used for non-course related purposes unless express permission has been granted by the instructor. Students who impermissibly share any electronic course materials are subject to discipline under the Student Code of Conduct. Please contact the instructor if you have questions regarding what constitutes permissible or impermissible use of electronic course materials and/or recorded class sessions. Please contact Disability Support Services if you have questions or need assistance in accessing electronic course materials."
-  },
-  {
-    "objectID": "policies.html#university-policy-on-religious-holidays",
-    "href": "policies.html#university-policy-on-religious-holidays",
-    "title": "Course policies",
-    "section": "University Policy on Religious Holidays",
-    "text": "University Policy on Religious Holidays\n\nStudents should notify faculty during the first week of the semester of their intention to be absent from class on their day(s) of religious observance.\nFaculty should extend to these students the courtesy of absence without penalty on such occasions, including permission to make up examinations.\nFaculty who intend to observe a religious holiday should arrange at the beginning of the semester to reschedule missed classes or to make other provisions for their course‐related activities. For details and policy, see “Religious Holidays” at https://provost.gwu.edu/policies-procedures-and-guidelines"
-  },
-  {
-    "objectID": "policies.html#support-for-students-outside-the-classroom",
-    "href": "policies.html#support-for-students-outside-the-classroom",
-    "title": "Course policies",
-    "section": "Support for Students Outside the Classroom",
-    "text": "Support for Students Outside the Classroom\nDisability Support Services (DSS): Any student who may need an accommodation based on the potential impact of a disability should contact the Disability Support Services office at 202‐994‐8250 in the Rome Hall, Suite 102, to establish eligibility and to coordinate reasonable accommodations. For additional information please refer to: https://disabilitysupport.gwu.edu/\nCounseling & Psychological Services: The University’s Mental Health Services offers 24/7 assistance and referral to address students’ personal, social, career, and study skills problems. Services for students include: crisis and emergency mental health consultations confidential assessment, counseling services (individual and small group), and referrals. https://healthcenter.gwu.edu/counseling-and-psychological-services\nCampus safety and security: The following links can be accessed to learn more about the Safety and Security at the George Washington University\n\nFor help in an emergency, call 911 or GW Police 202-994-6111 (GWPD)\nAdditional resources for student safety and security can be found at this link: https://studentlife.gwu.edu/safety-and-security"
-  },
-  {
-    "objectID": "policies.html#academic-integrity-code",
-    "href": "policies.html#academic-integrity-code",
-    "title": "Course policies",
-    "section": "Academic Integrity Code",
-    "text": "Academic Integrity Code\nAcademic dishonesty is defined as cheating of any kind, including misrepresenting one’s own work, taking credit for the work of others without crediting them and without appropriate authorization, and the fabrication of information. You are not allowed to collaborate on the home works and lab assignments; for programming projects and hardware lab assignments, you can work in teams only if they are designated as team projects (labs). Unless otherwise specified, you cannot search for solutions or code on the web – but you can use any code that is included in the textbook or lecture notes (but please cite them). I will be using a SW tool that checks for program code similarities – any pair of programs or written reports with greater than 10% similarity will be closely examined.\nThe Office of Academic Integrity maintains a permanent record of the violation. More information is available from the Office of Academic Integrity at https://studentconduct.gwu.edu/academic-integrity. The University’s “Guide of Academic Integrity in Online Learning Environments” is available at https://studentconduct.gwu.edu/guide-academic-integrity-online-learning-environments. Contact information: rights@gwu.edu or 202-994-6757.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Computer Science Orientation",
+    "objectID": "python3.html#step-4-export-python-bin-path-in-.zshrc",
+    "href": "python3.html#step-4-export-python-bin-path-in-.zshrc",
+    "title": "Installing Python on macOS",
     "section": "",
-    "text": "Hands-on exploration of the possibilities in Computer Science\n\n\n\n\nCourse and Contact Information\n\n\n\nCSCI 1010: Computer Science Orientation\nSemester: Fall 2023\nCredits: 1\nLecture location and meeting times:\n\nDuques 151\nFriday 9:35 AM — 10:25 AM\n\nLab location and meeting times:\n\nSEH 1300 & SEH 1400 & SEH 1450\nLab section 30: Friday 10:40 AM - 12:15 PM\nLab section 31: Friday 12:45 PM - 2:10 PM\n\nCourse website: TBA \nInstructor information can be found here\n\n\n\n  \n\n\n\n\n\nGithub Repo (updated weekly)\ngit clone TBA\n\n\nCourse description\nThis is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of\n\nlectures on the various disciplines in Computer Science,\nhands-on Python programming exercises and\nhands-on exercises and in-class projects using Raspberry Pi 4B single-board computer.\n\nThe students will work on the following two engineering innovation projects:\n\nGuided-python programming project and\nWill have the option of choosing a final Raspberry Pi 4B-based project or a python programming project to address an impending need in engineering-innovation\n\nThrough the above course activities students will be exposed to computing, technical resources and presentations on various aspects in the field of computer science. The students will get access to a “slack-workspace” for this course, that will facilitate offline discussions among themselves and the instruction team. The students will also be provided lecture presentationsand video summaries whenever possible and made available on the course webpage and / or blackboard.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Now, you will export the Python bin path in your ~/.zshrc file to make it accessible in your terminal sessions. To open ~/.zshrc for editing, follow these simplified steps:\n\nOpen your terminal.\nType the following command and press Enter:\n\nopen -e ~/.zshrc\nThis command will open your ~/.zshrc file in the default text editor.\n\nIn the text editor, add the following line at the end of the file:\n\nexport PATH=$PATH:$(python3 -m site --user-base)/bin\n\nSave the file and close the text editor."
   },
   {
-    "objectID": "lecture_notes/week1-intro-cs1010.html",
-    "href": "lecture_notes/week1-intro-cs1010.html",
-    "title": "CSCI 1010 [Fall 2023]",
+    "objectID": "python3.html#step-5-create-.zshrc-if-not-found",
+    "href": "python3.html#step-5-create-.zshrc-if-not-found",
+    "title": "Installing Python on macOS",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to CSCI1010]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\nCourse Website: https://gwu-csci1010.github.io/\n\n\n\n\n\n\nSlide 2\n\n\nIcon Source: https://thenounproject.com/\nIcon credits: LUTFI GANI AL, Studion 365, DesignBite, Danil Polshin\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n Justice, Equality, Diversity, Inclusion (JEDI): https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee\n\n\n\n Disability Support: https://disabilitysupport.gwu.edu/\n\n\n\n\n\n\nSlide 9\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "If you receive an error indicating that the ~/.zshrc file does not exist, you can create it using the following command:\ntouch ~/.zshrc\nThis command will create an empty ~/.zshrc file if it doesn’t already exist.\nNow repeat Step 2."
   },
   {
-    "objectID": "lecture_notes/week1-intro-cs1010.html#introduction-to-cs1010",
-    "href": "lecture_notes/week1-intro-cs1010.html#introduction-to-cs1010",
-    "title": "CSCI 1010 [Fall 2023]",
+    "objectID": "python3.html#step-6-apply-changes",
+    "href": "python3.html#step-6-apply-changes",
+    "title": "Installing Python on macOS",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to CSCI1010]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\nCourse Website: https://gwu-csci1010.github.io/\n\n\n\n\n\n\nSlide 2\n\n\nIcon Source: https://thenounproject.com/\nIcon credits: LUTFI GANI AL, Studion 365, DesignBite, Danil Polshin\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n Justice, Equality, Diversity, Inclusion (JEDI): https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee\n\n\n\n Disability Support: https://disabilitysupport.gwu.edu/\n\n\n\n\n\n\nSlide 9\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "To apply the changes, either restart your terminal or run the following command:\nsource ~/.zshrc\nYour Python installation is now set up and configured for use on macOS."
   },
   {
-    "objectID": "lecture_notes/week1-rasp-pi.html",
-    "href": "lecture_notes/week1-rasp-pi.html",
-    "title": "CSCI 1010 [Fall 2023]",
+    "objectID": "python3.html#step-7-launch-jupyter-notebook",
+    "href": "python3.html#step-7-launch-jupyter-notebook",
+    "title": "Installing Python on macOS",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to the Raspberry Pi with Blinking LEDs]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Sources:\nCodecaemy: https://www.youtube.com/watch?v=EGQh5SZctaE\nPython Logo: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\nPython (Programming Language): https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Python logo and other information: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n Source: https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\n\n\n\nSlide 12\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "To start Jupyter Notebook, open your terminal and run the following command:\njupyter notebook\nThis command will launch the Jupyter Notebook in your default web browser, allowing you to create and run Python notebooks for interactive coding and data analysis."
   },
   {
-    "objectID": "lecture_notes/week1-rasp-pi.html#introduction-to-raspberry-pi-with-blinking-leds",
-    "href": "lecture_notes/week1-rasp-pi.html#introduction-to-raspberry-pi-with-blinking-leds",
-    "title": "CSCI 1010 [Fall 2023]",
+    "objectID": "python3.html#conclusion",
+    "href": "python3.html#conclusion",
+    "title": "Installing Python on macOS",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to the Raspberry Pi with Blinking LEDs]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Sources:\nCodecaemy: https://www.youtube.com/watch?v=EGQh5SZctaE\nPython Logo: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\nPython (Programming Language): https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Python logo and other information: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n Source: https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\n\n\n\nSlide 12\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "You have successfully installed Python and Jupyter Notebook on your macOS system, configured the user-specific Python bin path, and exported it to your ~/.zshrc file for easy access. You can now use Jupyter Notebook for interactive coding and data analysis.\nHappy coding!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "realvnc-mac-connect.html",
-    "href": "realvnc-mac-connect.html",
-    "title": "RealVNC Installation Guide for Mac",
+    "objectID": "vscode-mac.html",
+    "href": "vscode-mac.html",
+    "title": "Visual Studio Code Installation Guide for macOS",
     "section": "",
-    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to establish a remote using RealVNC on your Mac computer.\n\n\nBefore you begin, ensure that you have already installed RealVNC on your Mac.\n\n\n\n\n\nLaunch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window.\n\n\n\n\nYou have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\n\n\n\n\n\n\nVisit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "realvnc-mac-connect.html#prerequisites",
-    "href": "realvnc-mac-connect.html#prerequisites",
-    "title": "RealVNC Installation Guide for Mac",
+    "objectID": "vscode-mac.html#introduction",
+    "href": "vscode-mac.html#introduction",
+    "title": "Visual Studio Code Installation Guide for macOS",
     "section": "",
-    "text": "Before you begin, ensure that you have already installed RealVNC on your Mac."
+    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages."
   },
   {
-    "objectID": "realvnc-mac-connect.html#establish-a-connection",
-    "href": "realvnc-mac-connect.html#establish-a-connection",
-    "title": "RealVNC Installation Guide for Mac",
+    "objectID": "vscode-mac.html#prerequisites",
+    "href": "vscode-mac.html#prerequisites",
+    "title": "Visual Studio Code Installation Guide for macOS",
     "section": "",
-    "text": "Launch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window."
+    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection."
   },
   {
-    "objectID": "realvnc-mac-connect.html#conclusion",
-    "href": "realvnc-mac-connect.html#conclusion",
-    "title": "RealVNC Installation Guide for Mac",
+    "objectID": "vscode-mac.html#installation-steps",
+    "href": "vscode-mac.html#installation-steps",
+    "title": "Visual Studio Code Installation Guide for macOS",
     "section": "",
-    "text": "You have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Visit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook"
   },
   {
-    "objectID": "anaconda-mac.html",
-    "href": "anaconda-mac.html",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "vscode-mac.html#conclusion",
+    "href": "vscode-mac.html#conclusion",
+    "title": "Visual Studio Code Installation Guide for macOS",
     "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "anaconda-mac.html#introduction",
-    "href": "anaconda-mac.html#introduction",
-    "title": "Anaconda Installation Guide for macOS",
-    "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
-  },
-  {
-    "objectID": "anaconda-mac.html#prerequisites",
-    "href": "anaconda-mac.html#prerequisites",
-    "title": "Anaconda Installation Guide for macOS",
-    "section": "",
-    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation."
-  },
-  {
-    "objectID": "anaconda-mac.html#installation-steps",
-    "href": "anaconda-mac.html#installation-steps",
-    "title": "Anaconda Installation Guide for macOS",
-    "section": "",
-    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
-  },
-  {
-    "objectID": "anaconda-mac.html#conclusion",
-    "href": "anaconda-mac.html#conclusion",
-    "title": "Anaconda Installation Guide for macOS",
-    "section": "",
-    "text": "Congratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "standup.html",
-    "href": "standup.html",
-    "title": "Student guest speakers",
-    "section": "",
-    "text": "Marlee is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!\nEmail: marlenaalvino@gwmail.gwu.edu \n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "standup.html#marlee-alvino",
-    "href": "standup.html#marlee-alvino",
-    "title": "Student guest speakers",
-    "section": "",
-    "text": "Marlee is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!\nEmail: marlenaalvino@gwmail.gwu.edu \n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "homework.html",
-    "href": "homework.html",
-    "title": "Reminders",
-    "section": "",
-    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\nPlease review important information on course polices on collaboration among students before submitting your course deliverables.\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files."
-  },
-  {
-    "objectID": "homework.html#launching-a-jupyter-server",
-    "href": "homework.html#launching-a-jupyter-server",
-    "title": "Reminders",
-    "section": "",
-    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\nPlease review important information on course polices on collaboration among students before submitting your course deliverables.\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files."
-  },
-  {
-    "objectID": "homework.html#working-with-hw-.ipynb-files",
-    "href": "homework.html#working-with-hw-.ipynb-files",
-    "title": "Reminders",
-    "section": "Working with HW .ipynb files",
-    "text": "Working with HW .ipynb files\n\n\n\n\nStep 1: Open the HW1 File\n\nNavigate to your “Download” folder using the Jupyter Dashboard. You can use the file browser within the dashboard.\nIf asked to allow terminal access to the Download folder, click on “AlLow”\n\n\n\n\nNavigate to Download Folder\n\n\n\n\n\nAllow access to Download Folder\n\n\n\nLook for the HW1 file within the “Download” folder.\nSelect the file by clicking on it. This will open a new Jupyter notebook or file editor for your HW1 file.\n\n\n\n\nOpen HW .ipynb file\n\n\n\n\nStep 2: Rename the HW File\n\nBefore you begin working on your HW, it’s necessay to rename the file to include your last name. This is how you’re expected to turn in your HW files.\n\nRight-click on the file.\nSelect “Rename.”\nChange the file name to “HW1_&lt;Your Last Name&gt;.”\n\n\n\n\n\nClick on File -&gt; Rename…\n\n\n\n\n\nRename the HW file by renaming it to ‘HW1_&lt;Last Name&gt;’\n\n\n\n\nStep 3: Work on Your HW\nYou can now work on your renamed HW assignment within Jupyter Notebook. When you’re done, remember to save your changes.\n\n\n\nSave changes\n\n\nYou’ve successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!"
-  },
-  {
-    "objectID": "lecture_notes/week3-rasp-pi-ultrasound.html",
-    "href": "lecture_notes/week3-rasp-pi-ultrasound.html",
-    "title": "CSCI 1010 [Fall 2023]",
-    "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-3 Presentation: CSCI1010 Computer Science Orientation [From LED Madness to Ultrasound Cacophony.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n Source: https://youtu.be/Rr9RaisO11E\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n\n\n\nSlide 8\n\n\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "lecture_notes/week3-rasp-pi-ultrasound.html#from-led-madness-to-ultrasound-cacophony",
-    "href": "lecture_notes/week3-rasp-pi-ultrasound.html#from-led-madness-to-ultrasound-cacophony",
-    "title": "CSCI 1010 [Fall 2023]",
-    "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-3 Presentation: CSCI1010 Computer Science Orientation [From LED Madness to Ultrasound Cacophony.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n Source: https://youtu.be/Rr9RaisO11E\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n\n\n\nSlide 8\n\n\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "lecture_notes/week3-matrices.html",
-    "href": "lecture_notes/week3-matrices.html",
-    "title": "CSCI 1010 [Fall 2023]",
-    "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-3 Presentation: CSCI1010 Computer Science Orientation [Introduction to Matrices with Python.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Source: http://giphy.com/search/matrix-gif\n\n\n\n Sources:\nhttps://numpy.org\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Source: http://en.wikipedia.org/wiki/Matrix_(mathematics)\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "lecture_notes/week3-matrices.html#introduction-to-matrices-with-python",
-    "href": "lecture_notes/week3-matrices.html#introduction-to-matrices-with-python",
-    "title": "CSCI 1010 [Fall 2023]",
-    "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-3 Presentation: CSCI1010 Computer Science Orientation [Introduction to Matrices with Python.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Source: http://giphy.com/search/matrix-gif\n\n\n\n Sources:\nhttps://numpy.org\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Source: http://en.wikipedia.org/wiki/Matrix_(mathematics)\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Congratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
     "objectID": "instructor.html",
@@ -497,39 +301,298 @@
     "text": "Rutvik Solanki (Grader)\n\n\n\n\nHey there, I’m Rutvik Solanki, a passionate grad student delving into the world of Computer Science. My journey began in India, where I completed my undergraduate studies at the Symbiosis Institute of Technology. It was during these formative years that I developed a keen interest in all things tech.\nBefore embarking on my graduate studies at GWU, I had the incredible opportunity to work as both a Data Scientist intern and a DevOps intern for a dynamic startup. These experiences not only honed my skills but also fueled my curiosity to explore the ever-evolving tech landscape.\nBut it’s not all about screens and keyboards. I’m an avid sports enthusiast, and cricket holds a special place in my heart. There’s nothing quite like the thrill of a good cricket match. And when I’m looking to break a sweat and enjoy some friendly competition, you might catch me on the volleyball court, spiking and setting with the folks at Volo.\nIn addition to my academic pursuits, I take on the responsibility of maintaining the CS1010 course website. It’s a role that I take seriously, as I believe that a well-structured online platform is essential for enhancing the learning experience of fellow students.\nSo, whether it’s coding, sports, or web maintenance, I’m always up for a challenge. Feel free to reach out, and let’s embark on this exciting journey together!\n\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "vscode-mac.html",
-    "href": "vscode-mac.html",
-    "title": "Visual Studio Code Installation Guide for macOS",
+    "objectID": "lecture_notes/week3-matrices.html",
+    "href": "lecture_notes/week3-matrices.html",
+    "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\n\n\n\n\n\n\nVisit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-3 Presentation: CSCI1010 Computer Science Orientation [Introduction to Matrices with Python.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Source: http://giphy.com/search/matrix-gif\n\n\n\n Sources:\nhttps://numpy.org\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Source: http://en.wikipedia.org/wiki/Matrix_(mathematics)\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "vscode-mac.html#introduction",
-    "href": "vscode-mac.html#introduction",
-    "title": "Visual Studio Code Installation Guide for macOS",
+    "objectID": "lecture_notes/week3-matrices.html#introduction-to-matrices-with-python",
+    "href": "lecture_notes/week3-matrices.html#introduction-to-matrices-with-python",
+    "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "This guide will walk you through the process of installing Visual Studio Code (VS Code), a popular and versatile code editor, on your macOS computer. VS Code provides a powerful environment for coding and development across various programming languages."
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-3 Presentation: CSCI1010 Computer Science Orientation [Introduction to Matrices with Python.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Source: http://giphy.com/search/matrix-gif\n\n\n\n Sources:\nhttps://numpy.org\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Source: http://en.wikipedia.org/wiki/Matrix_(mathematics)\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "vscode-mac.html#prerequisites",
-    "href": "vscode-mac.html#prerequisites",
-    "title": "Visual Studio Code Installation Guide for macOS",
+    "objectID": "lecture_notes/week3-rasp-pi-ultrasound.html",
+    "href": "lecture_notes/week3-rasp-pi-ultrasound.html",
+    "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection."
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-3 Presentation: CSCI1010 Computer Science Orientation [From LED Madness to Ultrasound Cacophony.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n Source: https://youtu.be/Rr9RaisO11E\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n\n\n\nSlide 8\n\n\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "vscode-mac.html#installation-steps",
-    "href": "vscode-mac.html#installation-steps",
-    "title": "Visual Studio Code Installation Guide for macOS",
+    "objectID": "lecture_notes/week3-rasp-pi-ultrasound.html#from-led-madness-to-ultrasound-cacophony",
+    "href": "lecture_notes/week3-rasp-pi-ultrasound.html#from-led-madness-to-ultrasound-cacophony",
+    "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Visit the official VS Code download page at https://code.visualstudio.com/download.\n\n\n\nClick on the “macOS” download link to download the Visual Studio Code for macOS.\n\n\n\nDownload VS Code\n\n\n\n\n\nAllow Download\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the VS Code disk image (.dmg) file to open it.\n\n\n\n\nLocate file\n\n\n\n\n\nOpen DMG\n\n\n\n\n\n\nOpen your “Launchpad” and locate the “Visual Studio Code” application. Double-click it to launch the editor.\n\n\n\nLaunch VS Code\n\n\n\n\n\nUpon launching, you can customize Visual Studio Code by installing extensions, themes, and configuring settings to suit your development needs. (Optional)\n\n\n\nCustomize VS Code\n\n\n\n\n\nOn the sidebar click on the Extensions tab.\n\n\n\nExtensions tab\n\n\n\n\n\nUnder the “Popular” select “Python”.\n\n\n\nSearch Python\n\n\n\n\n\nOn the right panel click on the install button to install the extension.\n\n\n\nInstall Python Extension\n\n\n\n\n\nClick on the File tab from the toolbar and open a New File.\n\n\n\nOpen New File\n\n\n\n\n\nFrom the drop down menu, select “Jupyter Notebook” as the file type.\n\n\n\nOpen Jupyter Notebook"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-3 Presentation: CSCI1010 Computer Science Orientation [From LED Madness to Ultrasound Cacophony.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n Source: https://youtu.be/Rr9RaisO11E\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n\n\n\nSlide 8\n\n\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "vscode-mac.html#conclusion",
-    "href": "vscode-mac.html#conclusion",
-    "title": "Visual Studio Code Installation Guide for macOS",
+    "objectID": "homework.html",
+    "href": "homework.html",
+    "title": "Reminders",
     "section": "",
-    "text": "Congratulations! You’ve successfully installed Visual Studio Code on your macOS computer. VS Code is now ready for you to use as a powerful code editor for various programming languages.\nFeel free to explore the extensions marketplace and customize VS Code to enhance your coding experience. Happy coding!\nFor more information and documentation on Visual Studio Code, visit https://code.visualstudio.com/docs.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\nPlease review important information on course polices on collaboration among students before submitting your course deliverables.\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files."
+  },
+  {
+    "objectID": "homework.html#launching-a-jupyter-server",
+    "href": "homework.html#launching-a-jupyter-server",
+    "title": "Reminders",
+    "section": "",
+    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\nPlease review important information on course polices on collaboration among students before submitting your course deliverables.\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files."
+  },
+  {
+    "objectID": "homework.html#working-with-hw-.ipynb-files",
+    "href": "homework.html#working-with-hw-.ipynb-files",
+    "title": "Reminders",
+    "section": "Working with HW .ipynb files",
+    "text": "Working with HW .ipynb files\n\n\n\n\nStep 1: Open the HW1 File\n\nNavigate to your “Download” folder using the Jupyter Dashboard. You can use the file browser within the dashboard.\nIf asked to allow terminal access to the Download folder, click on “AlLow”\n\n\n\n\nNavigate to Download Folder\n\n\n\n\n\nAllow access to Download Folder\n\n\n\nLook for the HW1 file within the “Download” folder.\nSelect the file by clicking on it. This will open a new Jupyter notebook or file editor for your HW1 file.\n\n\n\n\nOpen HW .ipynb file\n\n\n\n\nStep 2: Rename the HW File\n\nBefore you begin working on your HW, it’s necessay to rename the file to include your last name. This is how you’re expected to turn in your HW files.\n\nRight-click on the file.\nSelect “Rename.”\nChange the file name to “HW1_&lt;Your Last Name&gt;.”\n\n\n\n\n\nClick on File -&gt; Rename…\n\n\n\n\n\nRename the HW file by renaming it to ‘HW1_&lt;Last Name&gt;’\n\n\n\n\nStep 3: Work on Your HW\nYou can now work on your renamed HW assignment within Jupyter Notebook. When you’re done, remember to save your changes.\n\n\n\nSave changes\n\n\nYou’ve successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!"
+  },
+  {
+    "objectID": "standup.html",
+    "href": "standup.html",
+    "title": "Student guest speakers",
+    "section": "",
+    "text": "Marlee is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!\nEmail: marlenaalvino@gwmail.gwu.edu \n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "standup.html#marlee-alvino",
+    "href": "standup.html#marlee-alvino",
+    "title": "Student guest speakers",
+    "section": "",
+    "text": "Marlee is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!\nEmail: marlenaalvino@gwmail.gwu.edu \n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "anaconda-mac.html",
+    "href": "anaconda-mac.html",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "anaconda-mac.html#introduction",
+    "href": "anaconda-mac.html#introduction",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
+  },
+  {
+    "objectID": "anaconda-mac.html#prerequisites",
+    "href": "anaconda-mac.html#prerequisites",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation."
+  },
+  {
+    "objectID": "anaconda-mac.html#installation-steps",
+    "href": "anaconda-mac.html#installation-steps",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
+  },
+  {
+    "objectID": "anaconda-mac.html#conclusion",
+    "href": "anaconda-mac.html#conclusion",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Congratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "realvnc-mac-connect.html",
+    "href": "realvnc-mac-connect.html",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to establish a remote using RealVNC on your Mac computer.\n\n\nBefore you begin, ensure that you have already installed RealVNC on your Mac.\n\n\n\n\n\nLaunch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window.\n\n\n\n\nYou have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "realvnc-mac-connect.html#prerequisites",
+    "href": "realvnc-mac-connect.html#prerequisites",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "Before you begin, ensure that you have already installed RealVNC on your Mac."
+  },
+  {
+    "objectID": "realvnc-mac-connect.html#establish-a-connection",
+    "href": "realvnc-mac-connect.html#establish-a-connection",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "Launch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window."
+  },
+  {
+    "objectID": "realvnc-mac-connect.html#conclusion",
+    "href": "realvnc-mac-connect.html#conclusion",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "You have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "lecture_notes/week1-rasp-pi.html",
+    "href": "lecture_notes/week1-rasp-pi.html",
+    "title": "CSCI 1010 [Fall 2023]",
+    "section": "",
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to the Raspberry Pi with Blinking LEDs]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Sources:\nCodecaemy: https://www.youtube.com/watch?v=EGQh5SZctaE\nPython Logo: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\nPython (Programming Language): https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Python logo and other information: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n Source: https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\n\n\n\nSlide 12\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "lecture_notes/week1-rasp-pi.html#introduction-to-raspberry-pi-with-blinking-leds",
+    "href": "lecture_notes/week1-rasp-pi.html#introduction-to-raspberry-pi-with-blinking-leds",
+    "title": "CSCI 1010 [Fall 2023]",
+    "section": "",
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to the Raspberry Pi with Blinking LEDs]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Sources:\nCodecaemy: https://www.youtube.com/watch?v=EGQh5SZctaE\nPython Logo: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\nPython (Programming Language): https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Python logo and other information: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n Source: https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\n\n\n\nSlide 12\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "lecture_notes/week1-intro-cs1010.html",
+    "href": "lecture_notes/week1-intro-cs1010.html",
+    "title": "CSCI 1010 [Fall 2023]",
+    "section": "",
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to CSCI1010]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\nCourse Website: https://gwu-csci1010.github.io/\n\n\n\n\n\n\nSlide 2\n\n\nIcon Source: https://thenounproject.com/\nIcon credits: LUTFI GANI AL, Studion 365, DesignBite, Danil Polshin\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n Justice, Equality, Diversity, Inclusion (JEDI): https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee\n\n\n\n Disability Support: https://disabilitysupport.gwu.edu/\n\n\n\n\n\n\nSlide 9\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "lecture_notes/week1-intro-cs1010.html#introduction-to-cs1010",
+    "href": "lecture_notes/week1-intro-cs1010.html#introduction-to-cs1010",
+    "title": "CSCI 1010 [Fall 2023]",
+    "section": "",
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to CSCI1010]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\nCourse Website: https://gwu-csci1010.github.io/\n\n\n\n\n\n\nSlide 2\n\n\nIcon Source: https://thenounproject.com/\nIcon credits: LUTFI GANI AL, Studion 365, DesignBite, Danil Polshin\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n Justice, Equality, Diversity, Inclusion (JEDI): https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee\n\n\n\n Disability Support: https://disabilitysupport.gwu.edu/\n\n\n\n\n\n\nSlide 9\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computer Science Orientation",
+    "section": "",
+    "text": "Hands-on exploration of the possibilities in Computer Science\n\n\n\n\nCourse and Contact Information\n\n\n\nCSCI 1010: Computer Science Orientation\nSemester: Fall 2023\nCredits: 1\nLecture location and meeting times:\n\nDuques 151\nFriday 9:35 AM — 10:25 AM\n\nLab location and meeting times:\n\nSEH 1300 & SEH 1400 & SEH 1450\nLab section 30: Friday 10:40 AM - 12:15 PM\nLab section 31: Friday 12:45 PM - 2:10 PM\n\nCourse website: TBA \nInstructor information can be found here\n\n\n\n  \n\n\n\n\n\nGithub Repo (updated weekly)\ngit clone TBA\n\n\nCourse description\nThis is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of\n\nlectures on the various disciplines in Computer Science,\nhands-on Python programming exercises and\nhands-on exercises and in-class projects using Raspberry Pi 4B single-board computer.\n\nThe students will work on the following two engineering innovation projects:\n\nGuided-python programming project and\nWill have the option of choosing a final Raspberry Pi 4B-based project or a python programming project to address an impending need in engineering-innovation\n\nThrough the above course activities students will be exposed to computing, technical resources and presentations on various aspects in the field of computer science. The students will get access to a “slack-workspace” for this course, that will facilitate offline discussions among themselves and the instruction team. The students will also be provided lecture presentationsand video summaries whenever possible and made available on the course webpage and / or blackboard.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "policies.html",
+    "href": "policies.html",
+    "title": "Course policies",
+    "section": "",
+    "text": "For example:\n\n\n\n\n\n\nAttendance and/or peer-to-peer and instructor interactions 10%\nIn-class work and Weekly Quizzes 10%\nPython programming and other Homework 30%\nProjects (including code, demo and presentation) 50%\n\n30% Individual midterm project\n20% Group final project There is no required final exam.\n\n\n\n\n \n\nexam by pongsakorn from Noun Project"
+  },
+  {
+    "objectID": "policies.html#assignments-and-grades",
+    "href": "policies.html#assignments-and-grades",
+    "title": "Course policies",
+    "section": "",
+    "text": "For example:\n\n\n\n\n\n\nAttendance and/or peer-to-peer and instructor interactions 10%\nIn-class work and Weekly Quizzes 10%\nPython programming and other Homework 30%\nProjects (including code, demo and presentation) 50%\n\n30% Individual midterm project\n20% Group final project There is no required final exam.\n\n\n\n\n \n\nexam by pongsakorn from Noun Project"
+  },
+  {
+    "objectID": "policies.html#additional-important-information-about-grading-policy",
+    "href": "policies.html#additional-important-information-about-grading-policy",
+    "title": "Course policies",
+    "section": "Additional important information about grading policy:",
+    "text": "Additional important information about grading policy:\n\nLate submissions on Homework and projects will not be acceptable.\nAny questions or follow up about the assignments will be done only within 2 weeks of submission deadline.\n\nFollowing the week after the submission deadline no further discussion on the assignment will be done."
+  },
+  {
+    "objectID": "policies.html#classroom-policies-and-student-responsibilities",
+    "href": "policies.html#classroom-policies-and-student-responsibilities",
+    "title": "Course policies",
+    "section": "Classroom Policies and Student responsibilities",
+    "text": "Classroom Policies and Student responsibilities\n\n\n\nThis course requires a combination of individual and group work entailing hands-on activities and frequent interactions with the instructional team. The lectures, labs and office hours are available for interacting with your group and the instruction team. In addition, a course messaging platform (Slack) is made available for the students to interact in groups and with the instruction team asynchronously. We ask that all students adhere to the course policies throughout the duration of the semester.\n\n\n\n \n\nclassroom by Chattapat from Noun Project\n\n\n\n\n\nBe respectful: Listen to the instructors. Keep an open mind to the course material presented. Limit the use of personal devices. Be aware that you are working in a group. Be mindful of your colleagues.\nBe responsible: Arrive on time. Attendance is the first pathway toward success. Submit the course deliverables on time. Help your team members.\nBe a communicator: Observe, Ask questions and Try out the materials presented during the course. Communicate with your team effectively and politely.\nBe a problem solver: Explore options to complete hands-on tasks. Make your own notes. Stay positive about the course outcomes."
+  },
+  {
+    "objectID": "policies.html#justice-equity-diversity-inclusion-jedi-statement",
+    "href": "policies.html#justice-equity-diversity-inclusion-jedi-statement",
+    "title": "Course policies",
+    "section": "Justice, Equity, Diversity, Inclusion (JEDI) statement",
+    "text": "Justice, Equity, Diversity, Inclusion (JEDI) statement\n\n\n\nThe instruction team intends to students from all diverse backgrounds and perspectives by this course, The diversity that the students bring to this class be viewed as a resource, strength, and benefit. The course materials and activities presented in this course are intended to be respectful of: age, race, ethnicity, country of origin, language, religion, spiritual practice, sexual orientation, gender identity or expression, introversion/extroversion personality dimensions, and socioeconomic and mental/physical status.\n\n\n\n \n\nemployee diversity by Bold Yellow from Noun Project\n\n\n\n\n\nPlease let the main instructor know ways to improve the effectiveness of the course. See JEDI resources for student resources."
+  },
+  {
+    "objectID": "policies.html#use-of-chatgpt-or-any-other-ai-based-models-for-in-class-work-and-deliverables",
+    "href": "policies.html#use-of-chatgpt-or-any-other-ai-based-models-for-in-class-work-and-deliverables",
+    "title": "Course policies",
+    "section": "Use of chatGPT or any other AI-based models for in-class work and deliverables",
+    "text": "Use of chatGPT or any other AI-based models for in-class work and deliverables\nThe use chatGPT or any other genreative AI-based tool is NOT PERMITTED.  Furthermore, the ethical issues regarding the use of chatGPT or any other AI-based models will be discussed in-class and course policy will be ammended according to the findings. The findings of any such discussions will be summarized and placed in-context of the Academic Integrity Code\n Resources that will guide the course policy changes during the course: \n\n\nchatGPT Course policy formulation\n\n\nchatGPT chatbot\n\n\nHow ChatGPT Could Transform Higher Education"
+  },
+  {
+    "objectID": "policies.html#use-of-electronic-course-materials-and-class-recordings",
+    "href": "policies.html#use-of-electronic-course-materials-and-class-recordings",
+    "title": "Course policies",
+    "section": "Use of Electronic Course Materials and Class Recordings",
+    "text": "Use of Electronic Course Materials and Class Recordings\nStudents are encouraged to use electronic course materials, including recorded class sessions (if any), for private personal use in connection with their academic program of study. Electronic course materials and recorded class sessions should not be shared or used for non-course related purposes unless express permission has been granted by the instructor. Students who impermissibly share any electronic course materials are subject to discipline under the Student Code of Conduct. Please contact the instructor if you have questions regarding what constitutes permissible or impermissible use of electronic course materials and/or recorded class sessions. Please contact Disability Support Services if you have questions or need assistance in accessing electronic course materials."
+  },
+  {
+    "objectID": "policies.html#university-policy-on-religious-holidays",
+    "href": "policies.html#university-policy-on-religious-holidays",
+    "title": "Course policies",
+    "section": "University Policy on Religious Holidays",
+    "text": "University Policy on Religious Holidays\n\nStudents should notify faculty during the first week of the semester of their intention to be absent from class on their day(s) of religious observance.\nFaculty should extend to these students the courtesy of absence without penalty on such occasions, including permission to make up examinations.\nFaculty who intend to observe a religious holiday should arrange at the beginning of the semester to reschedule missed classes or to make other provisions for their course‐related activities. For details and policy, see “Religious Holidays” at https://provost.gwu.edu/policies-procedures-and-guidelines"
+  },
+  {
+    "objectID": "policies.html#support-for-students-outside-the-classroom",
+    "href": "policies.html#support-for-students-outside-the-classroom",
+    "title": "Course policies",
+    "section": "Support for Students Outside the Classroom",
+    "text": "Support for Students Outside the Classroom\nDisability Support Services (DSS): Any student who may need an accommodation based on the potential impact of a disability should contact the Disability Support Services office at 202‐994‐8250 in the Rome Hall, Suite 102, to establish eligibility and to coordinate reasonable accommodations. For additional information please refer to: https://disabilitysupport.gwu.edu/\nCounseling & Psychological Services: The University’s Mental Health Services offers 24/7 assistance and referral to address students’ personal, social, career, and study skills problems. Services for students include: crisis and emergency mental health consultations confidential assessment, counseling services (individual and small group), and referrals. https://healthcenter.gwu.edu/counseling-and-psychological-services\nCampus safety and security: The following links can be accessed to learn more about the Safety and Security at the George Washington University\n\nFor help in an emergency, call 911 or GW Police 202-994-6111 (GWPD)\nAdditional resources for student safety and security can be found at this link: https://studentlife.gwu.edu/safety-and-security"
+  },
+  {
+    "objectID": "policies.html#academic-integrity-code",
+    "href": "policies.html#academic-integrity-code",
+    "title": "Course policies",
+    "section": "Academic Integrity Code",
+    "text": "Academic Integrity Code\nAcademic dishonesty is defined as cheating of any kind, including misrepresenting one’s own work, taking credit for the work of others without crediting them and without appropriate authorization, and the fabrication of information. You are not allowed to collaborate on the home works and lab assignments; for programming projects and hardware lab assignments, you can work in teams only if they are designated as team projects (labs). Unless otherwise specified, you cannot search for solutions or code on the web – but you can use any code that is included in the textbook or lecture notes (but please cite them). I will be using a SW tool that checks for program code similarities – any pair of programs or written reports with greater than 10% similarity will be closely examined.\nThe Office of Academic Integrity maintains a permanent record of the violation. More information is available from the Office of Academic Integrity at https://studentconduct.gwu.edu/academic-integrity. The University’s “Guide of Academic Integrity in Online Learning Environments” is available at https://studentconduct.gwu.edu/guide-academic-integrity-online-learning-environments. Contact information: rights@gwu.edu or 202-994-6757.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing."
+  },
+  {
+    "objectID": "about.html#goal",
+    "href": "about.html#goal",
+    "title": "About",
+    "section": "",
+    "text": "The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing."
+  },
+  {
+    "objectID": "about.html#learning-objectives",
+    "href": "about.html#learning-objectives",
+    "title": "About",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nHands-on knowledge of Raspberry Pi hardware with Python programming language\nExposure to various sensors with hands-on exercises\nImplement innovative Raspberry Pi-based projects that interact with the physical world"
+  },
+  {
+    "objectID": "about.html#learning-outcomes",
+    "href": "about.html#learning-outcomes",
+    "title": "About",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nAs a result of completing this course, students will be able to:\n\nUnderstand the various areas of work and research in Computer Science.\nPerform experiments aimed at collecting and analyzing data.\nDesign and write Python programs.\nWork on an engineering-innovation group project.\n\nAdditional Learning Outcomes: - an ability to apply knowledge of computer science and mathematics - an ability to design and conduct experiments, as well as to analyze and interpret data - an ability to identify, formulate, and solve engineering problems - an ability to use the techniques, skills, and modern computing tools necessary for practice of computer science."
+  },
+  {
+    "objectID": "about.html#course-format",
+    "href": "about.html#course-format",
+    "title": "About",
+    "section": "Course format",
+    "text": "Course format\n\nLectures on the fundamentals of Raspberry Pi programming using Python programming language, sensors and automation.\n\\(\\mu-labs\\): Hands-on and guided Raspberry Pi activities in a laboratory setting.\nGuest lectures from academic experts and alumni in the field of computer science\nInteractive quizzes and instant concept checks\nIndividual and/or group assignments and projects\nMidterm and Final projects"
+  },
+  {
+    "objectID": "about.html#audience-and-credit-level",
+    "href": "about.html#audience-and-credit-level",
+    "title": "About",
+    "section": "Audience and credit-level",
+    "text": "Audience and credit-level\nThe course is designed for first-year undergraduate students as a 1-credit course."
+  },
+  {
+    "objectID": "about.html#prerequisites",
+    "href": "about.html#prerequisites",
+    "title": "About",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nNone"
+  },
+  {
+    "objectID": "about.html#time-requirements-and-expectations",
+    "href": "about.html#time-requirements-and-expectations",
+    "title": "About",
+    "section": "Time Requirements and Expectations",
+    "text": "Time Requirements and Expectations\nThis course will have 50 minutes of lecture time per week, approximately 90 minutes of laboratory, review, and discussion per week, and will require 2 hours per week on average for homework assignments."
+  },
+  {
+    "objectID": "about.html#textbook-hardware-and-other-course-material",
+    "href": "about.html#textbook-hardware-and-other-course-material",
+    "title": "About",
+    "section": "Textbook, hardware and other course material",
+    "text": "Textbook, hardware and other course material\nThere is no textbook requirement for this course. All reading, hardware and course material will be provided by the instructor.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2022 All rights reserved"
   },
   {
     "objectID": "realvnc-windows.html",
