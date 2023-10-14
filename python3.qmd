@@ -47,7 +47,7 @@ touch ~/.zshrc
 ```
 This command will create an empty `~/.zshrc` file if it doesn't already exist.
 
-Now repeat **Step 2**.
+Now repeat **Step 4**.
 
 ## Step 6: Apply Changes
 To apply the changes, either restart your terminal or run the following command:
