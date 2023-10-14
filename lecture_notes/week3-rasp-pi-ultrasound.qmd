@@ -2,7 +2,7 @@
 
 **Referencing this presentation:**
 
-Bulusu, Kartik V. (2023, October 6). Week-3 Presentation: CSCI1010 Computer Science Orientation [From LED Madness to Ultrasound Cacophony.] Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
+Bulusu, Kartik V. (2023, October 20). Week-3 Presentation: CSCI1010 Computer Science Orientation [From LED Madness to Ultrasound Cacophony.] Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
 
 
 ::: {.callout-note appearance="simple"}
