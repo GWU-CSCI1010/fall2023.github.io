@@ -15,7 +15,7 @@ Sample class schedule [week-by-week]
     <col style="width:25%">
   </colgroup> 
   <thead>
-    <tr>
+    <tr class="table-primary">
       <th scope="col">Date</th>
       <th scope="col">Topic(s)</th>
       <th scope="col">$\mu$-LABs and Assignment(s) due</th>
@@ -58,13 +58,34 @@ Sample class schedule [week-by-week]
       <!-- <td></td>
       <td></td> -->
     </tr>
-      <tr class="table-dark">
-        <!-- <th scope="row"><u>NOTE:</u></th> -->
-        <th colspan="4">NOTE: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester</th>
-        <!-- <td colspan="3">In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester</td> -->
-        <!-- <td></td>
-        <td></td> -->
+    <tr class="table-active">
+      <th scope="row">Week 3 [02/03/2023]</th>
+      <td>
+        <ul>
+          <li>[Very brief introduction to matrices](lecture_notes/week3-matrices.qmd) by **Prof. Kartik Bulusu**</li>
+          <li>Introduction to Augmented and Virtual Reality Technologies by Prof. Hurriyet Ok (**Website TBA**)</li>
+          <li>Lecture Notes (**Website TBA**)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Handling data arrays and plotting data using Python</li> 
+          <li>[In-class Raspberry Pi Lab (Ultrasonic cacophony)](lecture_notes/week3-rasp-pi-ultrasound.qmd)</li> 
+          <li>Student group formation</li> 
+          <li>**HW 1 due**</li>
+          <li>Lab examples (**github TBA**)</li>
+          <li>HW 2 Assigned (**Website TBA**)</li>
+          <li>5-min Standup talk by: [**Samantha Kusner**](standup.qmd#samantha-kusner)</li>
+        </ul>
+      </td>
+      <td>
+        <li>HW2 ![Download button](images/download-button.png)</li>
+      </td> 
     </tr>
+        <tr class="table-dark">
+        <th colspan="4">NOTE: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester</th>
+    </tr>
+
   </tbody>
 </table>
 
