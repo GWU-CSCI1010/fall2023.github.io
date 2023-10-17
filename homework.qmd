@@ -5,9 +5,16 @@
 
 In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.
 
-- Please [review](summary-policy.qmd) important information on course polices on collaboration among students before submitting your course deliverables.
+:::{.callout-important appearance="default" title="Review Policy"}
+Please [review](summary-policy.qmd) important information on course polices on collaboration among students before submitting your course deliverables.
+:::
+:::{.callout-tip appearance="default" title="Save Changes"}
+**Don’t forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them.
+:::
 
-- **Don’t forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them.
+<!-- - Please [review](summary-policy.qmd) important information on course polices on collaboration among students before submitting your course deliverables. -->
+
+<!-- - **Don’t forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them. -->
 
 <!-- ## Steps -->
 ### Step 1: Open Anaconda Navigator
@@ -44,7 +51,7 @@ In this guide, you will learn how to launch a local Jupyter server using Anacond
 ### Step 1: Open the HW1 File
 
 1. Navigate to your "Download" folder using the Jupyter Dashboard. You can use the file browser within the dashboard.
-2. If asked to allow terminal access to the Download folder, click on "AlLow"
+2. If asked to allow terminal access to the Download folder, click on "Allow"
 
 ![Navigate to Download Folder](images/screenshots/homework/screenshot-4.png)
 
@@ -77,9 +84,15 @@ You can now work on your renamed HW assignment within Jupyter Notebook. When you
 You've successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!
 
 # Reminders
-- Please [review](summary-policy.qmd) important information on course polices on collaboration among students before submitting your course deliverables.
+:::{.callout-important appearance="default" title="Review Policy"}
+Please [review](summary-policy.qmd) important information on course polices on collaboration among students before submitting your course deliverables.
+:::
+:::{.callout-tip appearance="default" title="Save Changes"}
+**Don’t forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them.
+:::
+<!-- - Please [review](summary-policy.qmd) important information on course polices on collaboration among students before submitting your course deliverables. -->
 
-- **Don’t forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them.
+<!-- - **Don’t forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them. -->
 
 
 
