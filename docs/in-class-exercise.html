@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CSCI 1010 [Fall 2023] – python3-windows</title>
+<title>CSCI 1010 [Fall 2023] – in-class-exercise</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -175,14 +141,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#installing-python-and-jupyter-on-windows" id="toc-installing-python-and-jupyter-on-windows" class="nav-link active" data-scroll-target="#installing-python-and-jupyter-on-windows">Installing Python and Jupyter on Windows</a>
+  <li><a href="#how-to-download-and-work-with-cs1010-in-class-exercises-and-hw-files" id="toc-how-to-download-and-work-with-cs1010-in-class-exercises-and-hw-files" class="nav-link active" data-scroll-target="#how-to-download-and-work-with-cs1010-in-class-exercises-and-hw-files">How to Download and Work with CS1010 In-Class Exercises and HW Files</a>
   <ul class="collapse">
-  <li><a href="#step-1-download-and-install-python" id="toc-step-1-download-and-install-python" class="nav-link" data-scroll-target="#step-1-download-and-install-python">Step 1: Download and Install Python</a></li>
-  <li><a href="#step-2-verify-python-installation" id="toc-step-2-verify-python-installation" class="nav-link" data-scroll-target="#step-2-verify-python-installation">Step 2: Verify Python Installation</a></li>
-  <li><a href="#step-3-install-jupyter-notebook" id="toc-step-3-install-jupyter-notebook" class="nav-link" data-scroll-target="#step-3-install-jupyter-notebook">Step 3: Install Jupyter Notebook</a></li>
-  <li><a href="#step-4-find-the-path-to-python-scripts-folder" id="toc-step-4-find-the-path-to-python-scripts-folder" class="nav-link" data-scroll-target="#step-4-find-the-path-to-python-scripts-folder">Step 4: Find the Path to Python Scripts Folder</a></li>
-  <li><a href="#step-5-configure-python-bin-path" id="toc-step-5-configure-python-bin-path" class="nav-link" data-scroll-target="#step-5-configure-python-bin-path">Step 5: Configure Python Bin Path</a></li>
-  <li><a href="#step-6-launch-jupyter-notebook" id="toc-step-6-launch-jupyter-notebook" class="nav-link" data-scroll-target="#step-6-launch-jupyter-notebook">Step 6: Launch Jupyter Notebook</a></li>
+  <li><a href="#step-1-download-course-materials-for-week-3" id="toc-step-1-download-course-materials-for-week-3" class="nav-link" data-scroll-target="#step-1-download-course-materials-for-week-3">Step 1: Download Course Materials for Week-3</a></li>
+  <li><a href="#step-2-download-in-class-python-exercise-hw2-for-week-3" id="toc-step-2-download-in-class-python-exercise-hw2-for-week-3" class="nav-link" data-scroll-target="#step-2-download-in-class-python-exercise-hw2-for-week-3">Step 2: Download In-Class Python Exercise &amp; HW2 for Week-3</a></li>
+  <li><a href="#step-3-manually-unzip-the-zip-file" id="toc-step-3-manually-unzip-the-zip-file" class="nav-link" data-scroll-target="#step-3-manually-unzip-the-zip-file">Step 3: Manually Unzip the ZIP File</a>
+  <ul class="collapse">
+  <li><a href="#for-mac-users" id="toc-for-mac-users" class="nav-link" data-scroll-target="#for-mac-users">For Mac Users</a></li>
+  <li><a href="#for-windows-users" id="toc-for-windows-users" class="nav-link" data-scroll-target="#for-windows-users">For Windows Users</a></li>
+  </ul></li>
+  <li><a href="#step-4-access-course-files-with-anaconda" id="toc-step-4-access-course-files-with-anaconda" class="nav-link" data-scroll-target="#step-4-access-course-files-with-anaconda">Step 4: Access Course Files with Anaconda</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -192,59 +160,58 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="installing-python-and-jupyter-on-windows" class="level1">
-<h1>Installing Python and Jupyter on Windows</h1>
-<p>In this guide, we will walk you through the process of installing Python on Windows, configuring the user-specific Python bin path, and exporting it in your system environment variables. Additionally, we will install and launch Jupyter Notebook, a popular tool for interactive Python development.</p>
-<section id="step-1-download-and-install-python" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-download-and-install-python">Step 1: Download and Install Python</h2>
+<section id="how-to-download-and-work-with-cs1010-in-class-exercises-and-hw-files" class="level1">
+<h1>How to Download and Work with CS1010 In-Class Exercises and HW Files</h1>
+<!-- ## Download Course Material for Week 3
+
+To ensure you have all the necessary course materials and tools set up for CSCI 1010, follow these steps: -->
+<section id="step-1-download-course-materials-for-week-3" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-download-course-materials-for-week-3">Step 1: Download Course Materials for Week-3</h2>
 <ol type="1">
-<li>Visit the official Python website: <a href="https://www.python.org/downloads/windows/">https://www.python.org/downloads/windows/</a>.</li>
-<li>Download the latest version of Python for Windows by clicking on the “<strong>Download Windows installer</strong>” button.</li>
-<li>Open the downloaded installer (e.g., <code>python-X.Y.Z-amd64.exe</code>), where X.Y.Z represents the Python version, and follow the installation instructions. Make sure to check the box that says “<strong>Add Python X.Y to PATH</strong>.”</li>
+<li>Visit the <a href="https://gwu-csci1010.github.io">course webpage</a>.</li>
+<li>Click on the “Schedule” tab to access the course schedule.</li>
 </ol>
 </section>
-<section id="step-2-verify-python-installation" class="level2">
-<h2 class="anchored" data-anchor-id="step-2-verify-python-installation">Step 2: Verify Python Installation</h2>
-<p>To ensure that Python is installed correctly, open your Command Prompt and run the following command:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This command will display the Python version, confirming that it’s successfully installed.</p>
+<section id="step-2-download-in-class-python-exercise-hw2-for-week-3" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-download-in-class-python-exercise-hw2-for-week-3">Step 2: Download In-Class Python Exercise &amp; HW2 for Week-3</h2>
+<ul>
+<li>In the course schedule, find the “In-Class Python Exercise” and “HW2” section.</li>
+<li>You will see a <strong>Download</strong> button “<img src="images/download-button.png" class="img-fluid" alt="download-button">”.</li>
+<li>Click on the <strong>Download</strong> button “<img src="images/download-button.png" class="img-fluid" alt="download-button">” next to “<strong>In-Class Python Exercise &amp; HW2</strong>” to download the ZIP file.</li>
+</ul>
 </section>
-<section id="step-3-install-jupyter-notebook" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-install-jupyter-notebook">Step 3: Install Jupyter Notebook</h2>
-<p>To install Jupyter Notebook, open your Command Prompt and run the following command:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install jupyter</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This command will download and install Jupyter Notebook, a powerful tool for interactive Python development.</p>
-</section>
-<section id="step-4-find-the-path-to-python-scripts-folder" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-find-the-path-to-python-scripts-folder">Step 4: Find the Path to Python Scripts Folder</h2>
-<p>To locate the path to the Python scripts folder through the Command Prompt, follow these steps:</p>
+<section id="step-3-manually-unzip-the-zip-file" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-manually-unzip-the-zip-file">Step 3: Manually Unzip the ZIP File</h2>
+<section id="for-mac-users" class="level3">
+<h3 class="anchored" data-anchor-id="for-mac-users">For Mac Users</h3>
 <ol type="1">
-<li><p>Open your Command Prompt.</p></li>
-<li><p>Run the following command to find the Python scripts folder:</p></li>
-</ol>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> site <span class="at">--user-site</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This command will display the path to your user-specific Python libraries, including the scripts folder.</p>
-</section>
-<section id="step-5-configure-python-bin-path" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-configure-python-bin-path">Step 5: Configure Python Bin Path</h2>
-<p>Now that you have the path to the Python scripts folder, you can set up the Python bin path and add it to your system environment variables. Follow these steps:</p>
-<ol type="1">
-<li><p>Open the Start menu and search for “<strong>Environment Variables</strong>.”</p></li>
-<li><p>Click on “<strong>Edit the system environment variables</strong>.”</p></li>
-<li><p>In the System Properties window, click the “<strong>Environment Variables</strong>” button.</p></li>
-<li><p>Under the “<strong>System Variables</strong>” section, find and select the “<strong>Path</strong>” variable, then click the “<strong>Edit</strong>” button.</p></li>
-<li><p>Click “<strong>New</strong>” and add the path to your Python scripts folder that you obtained in <strong>Step 4</strong>.</p></li>
-<li><p>Click “<strong>OK</strong>” to save the changes.</p></li>
+<li>Locate the downloaded <strong>Week3.zip</strong> file. It should be in your “<strong>Downloads</strong>” folder.</li>
+<li>Double-click on the <strong>Week3.zip</strong> file to unzip it.</li>
+<li>This will create a “<strong>Week3</strong>” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.</li>
 </ol>
 </section>
-<section id="step-6-launch-jupyter-notebook" class="level2">
-<h2 class="anchored" data-anchor-id="step-6-launch-jupyter-notebook">Step 6: Launch Jupyter Notebook</h2>
-<p>To start Jupyter Notebook, open your Command Prompt and run the following command:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">jupyter</span> notebook</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This command will launch the Jupyter Notebook in your default web browser, allowing you to create and run Python notebooks for interactive coding and data analysis.</p>
-<p>Conclusion You have successfully installed Python, configured the user-specific Python bin path, and set up your system environment variables on your Windows system. You can now use Jupyter Notebook for interactive coding and data analysis.</p>
-<p>Happy coding!</p>
-<br><br>
+<section id="for-windows-users" class="level3">
+<h3 class="anchored" data-anchor-id="for-windows-users">For Windows Users</h3>
+<ol type="1">
+<li>Locate the downloaded <strong>Week3.zip</strong> file. It should be in your “<strong>OneDrive</strong>” folder.</li>
+<li>Right-click on the <strong>Week3.zip</strong> file and select “Extract All…”</li>
+<li>Follow the on-screen instructions to unzip the file.</li>
+<li>This will create a “<strong>Week3</strong>” folder inside which you can find the .ipynb and .csv files along with the “<strong>HW2.ipynb</strong>” file.</li>
+</ol>
+</section>
+</section>
+<section id="step-4-access-course-files-with-anaconda" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-access-course-files-with-anaconda">Step 4: Access Course Files with Anaconda</h2>
+<p>Now that you have successfully unzipped the course materials, let’s access them using Anaconda Jupyter:</p>
+<ol type="1">
+<li>Open Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the <a href="./install-editor.html#select-an-option-appropriate-for-your-operating-system">installation guide</a>.</li>
+<li>Launch Jupyter Notebook from Anaconda Navigator.</li>
+<li>Navigate to the “<strong>Week3</strong>” folder where you unzipped the ZIP file.</li>
+<li>Access the course files, which should include .ipynb and .csv files for the exercises.</li>
+</ol>
+<p>Congratulations! You are now ready to start working with the course materials. If you encounter any issues, don’t hesitate to reach out to anyone from the instruction team via slack or email for assistance.</p>
+<p>Enjoy your Python programming journey!</p>
+<br>
 <footer>
 <p>
 <small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.<br> Author: Kartik Bulusu<br> Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br> © 2023 All rights reserved</small></small></small></small>

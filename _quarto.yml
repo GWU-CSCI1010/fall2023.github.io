@@ -15,6 +15,12 @@ website:
             text: "Launch a Jupyter Server"
           - href: "homework.qmd#work-with-HW.ipynb"
             text: "Working with HW .ipynb files"
+          - href: in-class-exercise.qmd
+            text: "Download and Work with In-Class Exercises and HW Files"
+          # - href: python3-mac.qmd
+          #   text: "Install Python & Jupyter without Anaconda - MacOs"
+          # - href: python3-windows.qmd
+          #   text: "Install Python & Jupyter without Anaconda - Windows"
       - about.qmd
       - schedule.qmd
       - policies.qmd
