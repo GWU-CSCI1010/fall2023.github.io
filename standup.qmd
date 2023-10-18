@@ -3,15 +3,37 @@
 ## Marlee Alvino
 <div id="marlee-alvino"></div>
 
-**Marlee** is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!
+<table>
+  <tr>
+    <td width="70%">
+      **Marlee** is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!
 
-**Email**: [marlenaalvino@gwmail.gwu.edu](marlenaalvino@gwmail.gwu.edu)
+      **Email**: [marlenaalvino@gwmail.gwu.edu](marlenaalvino@gwmail.gwu.edu)
+    </td>
+
+    <td width="30%">
+      <img src="images/guest-speakers/marlee.jpg" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
 
 ## Samantha Kusner
 <div id="samantha-kusner"></div>
-**Sam** is a senior majoring in computer science. During her time at GW, she’s had the opportunity to be on the leadership team for few different organizations, foster a positive learning environment as an LA and UTA, and speak to students like you who are just joining the CS community here. Outside of school, she’s had a few internships which have helped her get a better understanding of what possibilities are out there! She’s looking forward to sharing some of her experience with you.
 
-**Email**: [samkusner430@gwmail.gwu.edu](samkusner430@gwmail.gwu.edu)
+<table>
+  <tr>
+    <td width="70%">
+      **Sam** is a senior majoring in computer science. During her time at GW, she’s had the opportunity to be on the leadership team for few different organizations, foster a positive learning environment as an LA and UTA, and speak to students like you who are just joining the CS community here. Outside of school, she’s had a few internships which have helped her get a better understanding of what possibilities are out there! She’s looking forward to sharing some of her experience with you.
+
+      **Email**: [samkusner430@gwmail.gwu.edu](samkusner430@gwmail.gwu.edu)
+    </td>
+
+    <td width="30%">
+      <img src="images/guest-speakers/samantha.jpg" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
 
 <br><br>
 <footer>
