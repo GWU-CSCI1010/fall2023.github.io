@@ -457,37 +457,37 @@
   {
     "objectID": "in-class-exercise.html",
     "href": "in-class-exercise.html",
-    "title": "How to Download and Work with CS1010 In-Class Exercises and HW Files",
+    "title": "Download and the Locate Course Material",
     "section": "",
-    "text": "Visit the course webpage.\nClick on the “Schedule” tab to access the course schedule.\n\n\n\n\n\nIn the course schedule, find the “In-Class Python Exercise” and “HW2” section.\nYou will see a Download button “”.\nClick on the Download button “” next to “In-Class Python Exercise & HW2” to download the ZIP file.\n\n\n\n\n\n\n\nLocate the downloaded Week3.zip file. It should be in your “Downloads” folder.\nDouble-click on the Week3.zip file to unzip it.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.\n\n\n\n\n\nLocate the downloaded Week3.zip file. The ZIP file may be located in your “OneDrive” folder.\nRight-click on the Week3.zip file and select “Extract All…”\nFollow the on-screen instructions to unzip the file.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.\n\n\n\n\n\nNow that you have successfully unzipped the course materials, let’s access them using Anaconda Jupyter:\n\nOpen Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the installation guide.\nLaunch Jupyter Notebook from Anaconda Navigator.\nNavigate to the “Week3” folder where you unzipped the ZIP file.\nAccess the course files, which should include .ipynb and .csv files for the exercises.\n\nCongratulations! You are now ready to start working with the course materials. If you encounter any issues, don’t hesitate to reach out to anyone from the instruction team via slack or email for assistance.\nEnjoy your Python programming journey!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Visit the course webpage.\nClick on the “Schedule” tab to access the course schedule.\n\n\n\n\n\nIn the course schedule, find the “In-Class Python Exercise” and “HW2” section.\nYou will see a Download button “”.\nClick on the Download button “” next to “In-Class Python Exercise & HW2” to download the ZIP file.\n\n\n\n\n\n\n\nLocate the downloaded Week3.zip file. It should be in your “Downloads” folder.\nDouble-click on the Week3.zip file to unzip it.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.\n\n\n\n\n\nLocate the downloaded Week3.zip file. The ZIP file may be located in your “OneDrive” folder.\nRight-click on the Week3.zip file and select “Extract All…”\nFollow the on-screen instructions to unzip the file.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.\n\n\n\n\n\nNow that you have successfully unzipped the course materials, let’s access them using Anaconda Jupyter:\n\nOpen Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the installation guide.\nLaunch Jupyter Notebook from Anaconda Navigator.\nNavigate to the “Week3” folder where you unzipped the ZIP file.\nAccess the course files, which should include .ipynb and .csv files for the exercises. To understand how to work with the HW files, refer to this guide.\n\n\n\n\n\n\n\nSave Changes\n\n\n\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\nCongratulations! You are now ready to start working with the course materials. If you encounter any issues, don’t hesitate to reach out to anyone from the instruction team via slack or email for assistance.\nEnjoy your Python programming journey!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
     "objectID": "in-class-exercise.html#step-1-download-course-materials-for-week-3",
     "href": "in-class-exercise.html#step-1-download-course-materials-for-week-3",
-    "title": "How to Download and Work with CS1010 In-Class Exercises and HW Files",
+    "title": "Download and the Locate Course Material",
     "section": "",
     "text": "Visit the course webpage.\nClick on the “Schedule” tab to access the course schedule."
   },
   {
     "objectID": "in-class-exercise.html#step-2-download-in-class-python-exercise-hw2-for-week-3",
     "href": "in-class-exercise.html#step-2-download-in-class-python-exercise-hw2-for-week-3",
-    "title": "How to Download and Work with CS1010 In-Class Exercises and HW Files",
+    "title": "Download and the Locate Course Material",
     "section": "",
     "text": "In the course schedule, find the “In-Class Python Exercise” and “HW2” section.\nYou will see a Download button “”.\nClick on the Download button “” next to “In-Class Python Exercise & HW2” to download the ZIP file."
   },
   {
     "objectID": "in-class-exercise.html#step-3-manually-unzip-the-zip-file",
     "href": "in-class-exercise.html#step-3-manually-unzip-the-zip-file",
-    "title": "How to Download and Work with CS1010 In-Class Exercises and HW Files",
+    "title": "Download and the Locate Course Material",
     "section": "",
     "text": "Locate the downloaded Week3.zip file. It should be in your “Downloads” folder.\nDouble-click on the Week3.zip file to unzip it.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.\n\n\n\n\n\nLocate the downloaded Week3.zip file. The ZIP file may be located in your “OneDrive” folder.\nRight-click on the Week3.zip file and select “Extract All…”\nFollow the on-screen instructions to unzip the file.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file."
   },
   {
     "objectID": "in-class-exercise.html#step-4-access-course-files-with-anaconda",
     "href": "in-class-exercise.html#step-4-access-course-files-with-anaconda",
-    "title": "How to Download and Work with CS1010 In-Class Exercises and HW Files",
+    "title": "Download and the Locate Course Material",
     "section": "",
-    "text": "Now that you have successfully unzipped the course materials, let’s access them using Anaconda Jupyter:\n\nOpen Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the installation guide.\nLaunch Jupyter Notebook from Anaconda Navigator.\nNavigate to the “Week3” folder where you unzipped the ZIP file.\nAccess the course files, which should include .ipynb and .csv files for the exercises.\n\nCongratulations! You are now ready to start working with the course materials. If you encounter any issues, don’t hesitate to reach out to anyone from the instruction team via slack or email for assistance.\nEnjoy your Python programming journey!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Now that you have successfully unzipped the course materials, let’s access them using Anaconda Jupyter:\n\nOpen Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the installation guide.\nLaunch Jupyter Notebook from Anaconda Navigator.\nNavigate to the “Week3” folder where you unzipped the ZIP file.\nAccess the course files, which should include .ipynb and .csv files for the exercises. To understand how to work with the HW files, refer to this guide.\n\n\n\n\n\n\n\nSave Changes\n\n\n\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\nCongratulations! You are now ready to start working with the course materials. If you encounter any issues, don’t hesitate to reach out to anyone from the instruction team via slack or email for assistance.\nEnjoy your Python programming journey!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
     "objectID": "lecture_notes/week1-rasp-pi.html",

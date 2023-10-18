@@ -1,4 +1,4 @@
-# How to Download and Work with CS1010 In-Class Exercises and HW Files
+# Download and the Locate Course Material
 
 <!-- ## Download Course Material for Week 3
 
@@ -37,7 +37,11 @@ Now that you have successfully unzipped the course materials, let's access them 
 1. Open Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the [installation guide](install-editor.qmd#select-an-option-appropriate-for-your-operating-system).
 2. Launch Jupyter Notebook from Anaconda Navigator.
 3. Navigate to the "**Week3**" folder where you unzipped the ZIP file.
-4. Access the course files, which should include .ipynb and .csv files for the exercises.
+4. Access the course files, which should include .ipynb and .csv files for the exercises. To understand how to work with the HW files, refer to [this guide](homework.qmd#working-with-HW.ipynb).
+
+:::{.callout-tip appearance="default" title="Save Changes"}
+**Don’t forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them.
+:::
 
 Congratulations! You are now ready to start working with the course materials. If you encounter any issues, don't hesitate to reach out to anyone from the instruction team via slack or email for assistance.
 

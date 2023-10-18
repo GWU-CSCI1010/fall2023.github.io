@@ -11,12 +11,12 @@ website:
       - text: "Getting Started"
         menu:
           - href: install-editor.qmd
+          - href: in-class-exercise.qmd
+            text: "Download and Locate the Course Material"
           - href: "homework.qmd#launch-jupyter"
             text: "Launch a Jupyter Server"
           - href: "homework.qmd#work-with-HW.ipynb"
             text: "Working with HW .ipynb files"
-          - href: in-class-exercise.qmd
-            text: "Download and Work with In-Class Exercises and HW Files"
           # - href: python3-mac.qmd
           #   text: "Install Python & Jupyter without Anaconda - MacOs"
           # - href: python3-windows.qmd
