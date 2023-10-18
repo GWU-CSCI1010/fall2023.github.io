@@ -1,0 +1,52 @@
+# How to Download and Work with CS1010 In-Class Exercises and HW Files
+
+<!-- ## Download Course Material for Week 3
+
+To ensure you have all the necessary course materials and tools set up for CSCI 1010, follow these steps: -->
+
+## Step 1: Download Course Materials for Week-3
+
+1. Visit the [course webpage](https://gwu-csci1010.github.io).
+2. Click on the "Schedule" tab to access the course schedule.
+
+## Step 2: Download In-Class Python Exercise & HW2 for Week-3
+
+- In the course schedule, find the "In-Class Python Exercise" and "HW2" section.
+- You will see a **Download** button "![download-button](images/download-button.png)".
+- Click on the **Download** button "![download-button](images/download-button.png)" next to "**In-Class Python Exercise & HW2**" to download the ZIP file.
+
+## Step 3: Manually Unzip the ZIP File
+
+### For Mac Users
+
+1. Locate the downloaded **Week3.zip** file. It should be in your "**Downloads**" folder.
+2. Double-click on the **Week3.zip** file to unzip it.
+3. This will create a "**Week3**" folder inside which you can find the .ipynb and .csv files along with the "HW2.ipynb" file.
+
+### For Windows Users
+
+1. Locate the downloaded **Week3.zip** file. It should be in your "**OneDrive**" folder.
+2. Right-click on the **Week3.zip** file and select "Extract All..."
+3. Follow the on-screen instructions to unzip the file.
+4. This will create a "**Week3**" folder inside which you can find the .ipynb and .csv files along with the "**HW2.ipynb**" file.
+
+## Step 4: Access Course Files with Anaconda
+
+Now that you have successfully unzipped the course materials, let's access them using Anaconda Jupyter:
+
+1. Open Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the [installation guide](install-editor.qmd#select-an-option-appropriate-for-your-operating-system).
+2. Launch Jupyter Notebook from Anaconda Navigator.
+3. Navigate to the "**Week3**" folder where you unzipped the ZIP file.
+4. Access the course files, which should include .ipynb and .csv files for the exercises.
+
+Congratulations! You are now ready to start working with the course materials. If you encounter any issues, don't hesitate to reach out to anyone from the instruction team via slack or email for assistance.
+
+Enjoy your Python programming journey!
+
+<br>
+<footer>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
+</footer>
