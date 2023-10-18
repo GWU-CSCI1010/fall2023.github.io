@@ -45,7 +45,7 @@ Sample class schedule [*week-by-week*]
       <td>
         <li>Lecture Notes</li>
         <li>Lab Examples</li>
-        <li>In-class Python Excercise  <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>![Download button](images/download-button.png)</a></li>
+        <li>In-class Python Exercise  <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>![Download button](images/download-button.png)</a></li>
         <li>HW1 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/HW1.zip" download>![Download button](images/download-button.png)</li>
       </td>
       <tr>
@@ -61,23 +61,21 @@ Sample class schedule [*week-by-week*]
       <td>
         <ul>
           <li>[Very brief introduction to matrices](lecture_notes/week3-matrices.qmd) by **Prof. Kartik Bulusu**</li>
-          <li>Introduction to Augmented and Virtual Reality Technologies by Prof. Hurriyet Ok (**Website TBA**)</li>
-          <li>Lecture Notes (**Website TBA**)</li>
+          <li>Introduction to Computer Grpahics by [**Prof. James Hahn**](https://www.cs.seas.gwu.edu/james-hahn) ([*Institute of Computer Graphics*](https://icg.gwu.edu))</li>
         </ul>
       </td>
       <td>
         <ul>
           <li>Handling data arrays and plotting data using Python</li> 
           <li>[In-class Raspberry Pi Lab (Ultrasonic cacophony)](lecture_notes/week3-rasp-pi-ultrasound.qmd)</li> 
-          <li>Student group formation</li> 
-          <li>**HW 1 due**</li>
-          <li>Lab examples (**github TBA**)</li>
-          <li>HW 2 Assigned (**Website TBA**)</li>
+          <li>**HW 1 due date (Tuesday, October 17, 2023)**</li>
+          <li>HW 2 Assigned</li>
           <li>5-min Standup talk by: [**Samantha Kusner**](standup.qmd#samantha-kusner)</li>
         </ul>
       </td>
       <td>
-        <li>HW2 ![Download button](images/download-button.png)</li>
+        <li>In-class Python Exercise & HW2 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week3.zip" download>![Download button](images/download-button.png)</a></li>
+        <!-- <li>HW2 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/HW2.zip" download>![Download button](images/download-button.png)</li> -->
       </td> 
     <!-- </tr>
         <tr class="table-secondary">
