@@ -25,7 +25,7 @@ To ensure you have all the necessary course materials and tools set up for CSCI 
 
 ### For Windows Users
 
-1. Locate the downloaded **Week3.zip** file. It should be in your "**OneDrive**" folder.
+1. Locate the downloaded **Week3.zip** file. The ZIP file may be located in your "**OneDrive**" folder.
 2. Right-click on the **Week3.zip** file and select "Extract All..."
 3. Follow the on-screen instructions to unzip the file.
 4. This will create a "**Week3**" folder inside which you can find the .ipynb and .csv files along with the "**HW2.ipynb**" file.
