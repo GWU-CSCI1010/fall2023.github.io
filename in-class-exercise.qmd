@@ -40,7 +40,7 @@ Now that you have successfully unzipped the course materials, let's access them 
 4. Access the course files, which should include .ipynb and .csv files for the exercises. To understand how to work with the HW files, refer to [this guide](homework.qmd#work-with-HW.ipynb).
 
 :::{.callout-tip appearance="default" title="Save Changes"}
-**Don’t forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them.
+**Don’t forget to rename your file as shown in "[Working with HW. ipynb files](homework.qmd#work-with-HW.ipynb)", Step-2**, as you work on them.
 :::
 
 Congratulations! You are now ready to start working with the course materials. If you encounter any issues, don't hesitate to reach out to anyone from the instruction team via slack or email for assistance.
