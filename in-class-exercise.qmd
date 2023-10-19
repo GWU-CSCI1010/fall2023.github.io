@@ -37,7 +37,7 @@ Now that you have successfully unzipped the course materials, let's access them 
 1. Open Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the [installation guide](install-editor.qmd#select-an-option-appropriate-for-your-operating-system).
 2. Launch Jupyter Notebook from Anaconda Navigator.
 3. Navigate to the "**Week3**" folder where you unzipped the ZIP file.
-4. Access the course files, which should include .ipynb and .csv files for the exercises. To understand how to work with the HW files, refer to [this guide](homework.qmd#working-with-HW.ipynb).
+4. Access the course files, which should include .ipynb and .csv files for the exercises. To understand how to work with the HW files, refer to [this guide](homework.qmd#work-with-HW.ipynb).
 
 :::{.callout-tip appearance="default" title="Save Changes"}
 **Don’t forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them.
