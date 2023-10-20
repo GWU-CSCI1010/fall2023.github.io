@@ -81,6 +81,18 @@ Sample class schedule [*week-by-week*]
         <tr class="table-secondary">
         <th colspan="4"><u>NOTE</u>: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester</th>
     </tr> -->
+    <tr>
+      <th scope="row">**HINT** for <u>**_HW2_**:</u>  </th>
+      <td colspan="3">
+        <ul>
+            When you're working on **HW2**, make sure to include the argument `encoding='ISO-8859-1'` in your `pd.read_csv()` call. 
+            
+            It should look something like, 
+            
+            `df = pd.read_csv("apsc1001_cs1010_400mgml_flow.csv", encoding='ISO-8859-1')`
+        </ul>
+      </td>
+    </tr>
 
   </tbody>
 </table>
