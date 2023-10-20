@@ -49,8 +49,6 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         </ul>
       </td>
       <td>
-        <!-- <li>Lecture Notes</li> -->
-        <!-- <li>Lab Examples</li> -->
         <li>In-class Python Exercise  <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>![Download button](images/download-button.png)</a></li>
         <li>HW1 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/HW1.zip" download>![Download button](images/download-button.png)</li>
       </td>
@@ -75,9 +73,9 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         <ul>
           <li>Handling data arrays and plotting data using Python</li> 
           <li>[In-class Raspberry Pi Lab (Ultrasonic cacophony)](lecture_notes/week3-rasp-pi-ultrasound.qmd)</li> 
+          <li>5-min Standup talk by: [**Samantha Kusner**](standup.qmd#samantha-kusner)</li>
           <li>**HW 1 due date (Tuesday, October 17, 2023)**</li>
           <li>HW 2 Assigned</li>
-          <li>5-min Standup talk by: [**Samantha Kusner**](standup.qmd#samantha-kusner)</li>
         </ul>
       </td>
       <td>
