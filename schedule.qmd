@@ -9,6 +9,12 @@ Sample class schedule [*week-by-week*]
 **The course schedule is subject to changes during the semester.**
 :::
 
+:::{.callout-tip appearance="default" title="Hint"}
+When you're working on <u>**HW2**</u>, make sure to include the argument `encoding='ISO-8859-1'` in your `pd.read_csv()` call or else you'll encounter an error. It should look something like, 
+
+`df = pd.read_csv("apsc1001_cs1010_400mgml_flow.csv", encoding='ISO-8859-1')`
+:::
+
 <table class="table table-hover w-auto">
   <colgroup>
     <col style="width:5%">
@@ -75,17 +81,17 @@ Sample class schedule [*week-by-week*]
       </td>
       <td>
         <li>In-class Python Exercise & HW2 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week3.zip" download>![Download button](images/download-button.png)</a></li>
-        <li>Slide deck by Prof. James Hahn <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CSCI_1010.10.20.2023.pdf" download>![Download button](images/download-button.png)</a></li>
+        <li>Slide deck by **Prof. James Hahn** <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CSCI_1010.10.20.2023.pdf" download>![Download button](images/download-button.png)</a></li>
         <!-- <li>HW2 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/HW2.zip" download>![Download button](images/download-button.png)</li> -->
       </td> 
     <!-- </tr>
         <tr class="table-secondary">
         <th colspan="4"><u>NOTE</u>: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester</th>
     </tr> -->
-    <tr>
-      <th colspan="4">**HINT** for _HW2_: When you're working on <u>**HW2**</u>, make sure to include the argument `encoding='ISO-8859-1'` in your `pd.read_csv()` call. 
-      It should look something like, `df = pd.read_csv("apsc1001_cs1010_400mgml_flow.csv", encoding='ISO-8859-1')`</th>
-    </tr>
+    <!-- <tr>
+      <th colspan="4">**HINT**: When you're working on <u>**HW2**</u>, make sure to include the argument _`encoding='ISO-8859-1'`_ in your _`pd.read_csv()`_ call. 
+      It should look something like, _`df = pd.read_csv("apsc1001_cs1010_400mgml_flow.csv", encoding='ISO-8859-1')`_</th>
+    </tr> -->
 
   </tbody>
 </table>
