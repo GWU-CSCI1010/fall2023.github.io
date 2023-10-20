@@ -49,8 +49,8 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         </ul>
       </td>
       <td>
-        <li>Lecture Notes</li>
-        <li>Lab Examples</li>
+        <!-- <li>Lecture Notes</li> -->
+        <!-- <li>Lab Examples</li> -->
         <li>In-class Python Exercise  <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>![Download button](images/download-button.png)</a></li>
         <li>HW1 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/HW1.zip" download>![Download button](images/download-button.png)</li>
       </td>
