@@ -29,6 +29,8 @@ Source: [https://www.raspberrypi.org/help/](https://www.raspberrypi.org/help/)
 ![Slide 6](../images/lecture_notes/week-3/rasp-pi-ultrasound/slide-6.png)
 **Source**: [https://youtu.be/Rr9RaisO11E](https://youtu.be/Rr9RaisO11E)
 
+{{< video https://youtu.be/Rr9RaisO11E title='Ultrasound Signals and its Applications' >}}
+
 ### Slide 7
 ![Slide 7](../images/lecture_notes/week-3/rasp-pi-ultrasound/slide-7.png)
 

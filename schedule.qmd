@@ -10,7 +10,7 @@ Sample class schedule [*week-by-week*]
 :::
 
 :::{.callout-tip appearance="default" title="Hint"}
-When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include the argument `encoding='ISO-8859-1'` in your `pd.read_csv()` call or else you'll encounter an error. It should look something like, 
+When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include the argument `encoding='ISO-8859-1'` in your `pd.read_csv()` call or else you'll encounter an error. The following code should be entered in the cell that includes the filename and encoding arguments as shown:
 
 `df = pd.read_csv("apsc1001_cs1010_400mgml_flow.csv", encoding='ISO-8859-1')`
 :::
