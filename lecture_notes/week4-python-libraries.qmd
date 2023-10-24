@@ -1,0 +1,63 @@
+## Short walk into Python libraries
+
+**Referencing this presentation:**
+
+Bulusu, Kartik V. (2023, October 27). Week-4 Presentation: CSCI1010 Computer Science Orientation [Short walk into Python libraries.] Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
+
+
+::: {.callout-note appearance="simple"}
+**Course materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.**
+:::
+
+### Slide 1
+![Slide 1](../images/lecture_notes/week-4/python-libraries/slide-1.png)
+
+### Slide 2
+![Slide 2](../images/lecture_notes/week-4/python-libraries/slide-2.png)
+**Sources**: 
+
+[https://numpy.org/](https://numpy.org/)
+
+[https://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html](https://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html)
+
+[https://numpy.org/doc/stable/user/absolute_beginners.html](https://numpy.org/doc/stable/user/absolute_beginners.html)
+
+### Slide 3
+![Slide 3](../images/lecture_notes/week-4/python-libraries/slide-3.png)
+**Sources**: 
+
+[https://matplotlib.org/](https://matplotlib.org/)
+
+[https://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html](https://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html)
+
+Create [publication quality plots](https://ieeexplore.ieee.org/document/4160265/citations?tabFilter=papers).
+
+Customize [visual style](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html) and [layout](https://matplotlib.org/stable/tutorials/provisional/mosaic.html).
+
+Export to [many file formats](https://matplotlib.org/stable/api/figure_api.html). 
+
+Use a rich array of [third-party packages](https://matplotlib.org/mpl-third-party/) built on Matplotlib.
+
+### Slide 4
+![Slide 4](../images/lecture_notes/week-4/python-libraries/slide-4.png)
+**Sources**: 
+
+[https://pandas.pydata.org/](https://pandas.pydata.org/)
+
+[https://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html](https://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html)
+
+### Slide 5
+![Slide 5](../images/lecture_notes/week-4/python-libraries/slide-5.png)
+
+### Slide 6
+![Slide 6](../images/lecture_notes/week-4/python-libraries/slide-6.png)
+
+
+
+<br>
+<footer>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
+</footer>

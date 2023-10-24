@@ -1,0 +1,51 @@
+## Playing with the [sense HAT]
+
+**Referencing this presentation:**
+
+Bulusu, Kartik V. (2023, October 27). Week-4 Presentation: CSCI1010 Computer Science Orientation [Playing with the sense HAT.] Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
+
+
+::: {.callout-note appearance="simple"}
+**Course materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.**
+:::
+
+### Slide 1
+![Slide 1](../images/lecture_notes/week-4/sense-HAT/slide-1.png)
+
+### Slide 2
+![Slide 2](../images/lecture_notes/week-4/sense-HAT/slide-2.png)
+
+### Slide 3
+![Slide 3](../images/lecture_notes/week-4/sense-HAT/slide-3.png)
+**Image and Animation Source**: [https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2)
+
+**Image Source**: [https://reference.wolfram.com/language/ref/device/SenseHAT.html](https://reference.wolfram.com/language/ref/device/SenseHAT.html)
+
+**Source**: [https://youtu.be/8NwWNOMqai4](https://youtu.be/8NwWNOMqai4)
+{{< video https://youtu.be/8NwWNOMqai4 title='Tim Peake with the Astro Pis on the International Space Station | European Astro Pi Challenge' >}}
+
+### Slide 4
+![Slide 4](../images/lecture_notes/week-4/sense-HAT/slide-4.png)
+**Starting point for further exploration**: [**Getting started with Sense HAT**](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/0)
+
+**Image Source**: [https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2)
+
+**Source**: [https://www.mathworks.com/help/supportpkg/raspberrypi/examples/auto-rotate-an-image-displayed-on-sense-hat-led-matrix.html](https://www.mathworks.com/help/supportpkg/raspberrypi/examples/auto-rotate-an-image-displayed-on-sense-hat-led-matrix.html)
+
+**Source**: [https://reference.wolfram.com/language/ref/device/SenseHAT.html](https://reference.wolfram.com/language/ref/device/SenseHAT.html)
+
+### Slide 5
+![Slide 5](../images/lecture_notes/week-4/sense-HAT/slide-5.png)
+
+**Source**: [https://youtu.be/kk_7KNuRLrk](https://youtu.be/kk_7KNuRLrk)
+
+{{< video https://youtu.be/kk_7KNuRLrk title='Raspberry Pi Sense HAT | Maker Minute' >}}
+
+
+<br>
+<footer>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
+</footer>
