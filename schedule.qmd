@@ -103,7 +103,7 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
       <th scope="row">Week 4 [10/27/2023]</th>
       <td>
         <ul>
-          <li>Cryptography and Secure Computation by Prof. Arkady Yerukhimovich (**Website TBA**)</li>
+          <li>Cryptography and Secure Computation by [**Prof. Arkady Yerukhimovich**](https://www2.seas.gwu.edu/~arkady/)</li>
           <li>Cloud Computing by Prof. Tim Wood (**Website TBA**)</li>
         </ul>
       </td>
