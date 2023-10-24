@@ -103,6 +103,7 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
       <th scope="row">Week 4 [10/27/2023]</th>
       <td>
         <ul>
+          <li>[Short walk into Python Libraries](lecture_notes/week4-python-libraries.qmd)</li>
           <li>Cryptography and Secure Computation by [**Prof. Arkady Yerukhimovich**](https://www2.seas.gwu.edu/~arkady/)</li>
           <li>Introduction to Augmented and Virtual Reality Technologies by [**Prof. Hurriyet Ok**](https://www.linkedin.com/in/hurriyetok/)</li>
         </ul>
