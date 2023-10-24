@@ -55,8 +55,8 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         </ul>
       </td>
       <td>
-        <li>In-class Python Exercise  <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>![Download button](images/download-button.png)</a></li>
-        <li>HW1 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/HW1.zip" download>![Download button](images/download-button.png)</li>
+        <li>In-class Python Exercise  <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>![Download button](images/file-black.png){width=28}</a></li>
+        <li>HW1 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/HW1.zip" download>![Download button](images/file-black.png){width=28}</li>
       </td>
       <tr>
       <th scope="row">Week 2 [10/13/2023]</th>
@@ -72,7 +72,7 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         <ul>
           <li>[Very brief introduction to matrices](lecture_notes/week3-matrices.qmd) by **Prof. Kartik Bulusu**</li>
           <li>Introduction to Computer Grpahics by [**Prof. James Hahn**](https://www.cs.seas.gwu.edu/james-hahn) ([*Institute of Computer Graphics*](https://icg.gwu.edu))</li>
-          <li>Slide deck by **Prof. James Hahn** <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CSCI_1010.10.20.2023.pdf" download>![Download button](images/download-button.png)</a></li>
+          <li>Slide deck by [**Prof. James Hahn**](https://www.cs.seas.gwu.edu/james-hahn) <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CSCI_1010.10.20.2023.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
         </ul>
       </td>
       <td>
@@ -85,20 +85,8 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         </ul>
       </td>
       <td>
-        <li>In-class Python Exercise & HW2 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week3.zip" download>![Download button](images/download-button.png)</a></li>
-        <!-- <li>HW2 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/HW2.zip" download>![Download button](images/download-button.png)</li> -->
+        <li>In-class Python Exercise & HW2 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week3.zip" download>![Download button](images/file-black.png){width=28}</a></li>
       </td> 
-    <!-- <tr>
-      <th scope="row"> **[10/27/2023]**</th>
-      <td colspan="2">
-        <ul>
-          <li>Guided-Python Project on COVID-19 Data Analysis is released</li>
-          <li>NOTE: This group project is due on **Date TBA** by 11:59 PM</li>
-        </ul>
-      </td> 
-      <td>
-      </td> 
-    </tr> -->
     <tr>
       <th scope="row">Week 4 [10/27/2023]</th>
       <td>
@@ -117,8 +105,8 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         </ul>
       </td>
       <td>
-        <li>HW3 ![Download button](images/download-button.png)</li>
-        <li>**COVID-19 Data Analysis Project** ![Download button](images/download-button.png)</li>
+        <li>HW3 ![Download button](images/file-black.png){width=28}</li>
+        <li>**COVID-19 Data Analysis Project** ![Download button](images/file-black.png){width=28}</li>
       </td>
     </tr>
     <!-- </tr>
