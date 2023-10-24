@@ -111,7 +111,7 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         <ul>
           <li>Learning about dataframe using Pandas in Python</li>
           <li>[In-class Raspberry Pi Lab using senseHats](lecture_notes/week4-sense-HAT.qmd)</li>
-          <li>**HW 2 due date (Sunday, October 29, 2023)**</li>
+          <li>**HW 2 due date (Friday, October 27, 2023)**</li>
           <li>HW 3 Assigned</li>
         </ul>
       </td>
