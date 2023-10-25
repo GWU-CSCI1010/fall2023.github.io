@@ -12,7 +12,7 @@ Sample class schedule [*week-by-week*]
 ::: {.callout-note appearance="default" title="Guided Python Project released"}
 Guided-Python Project on **COVID-19 Data Analysis** is <u>_released_</u>, the project files are available under **Week 4**.
 
-**NOTE**: This group project is due on **Date TBA** by 11:59 PM
+**NOTE**: This is an individual project is due on **November 10, 2023** by 11:59 PM. Please [review](summary-policy.qmd) important information on university polices on collaboration among students before submitting your course deliverables.
 :::
 
 :::{.callout-tip appearance="default" title="Hint"}
@@ -100,6 +100,7 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         <ul>
           <li>Learning about dataframe using Pandas in Python</li>
           <li>[In-class Raspberry Pi Lab using senseHats](lecture_notes/week4-sense-HAT.qmd)</li>
+          <li>5-min Standup talk by: [**Kate Halushka**](standup.qmd#kate-halushka)</li>
           <li>**HW 2 due date (Friday, October 27, 2023)**</li>
           <li>HW 3 Assigned</li>
         </ul>

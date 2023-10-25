@@ -12,11 +12,7 @@ Please [review](summary-policy.qmd) important information on course polices on c
 **Don’t forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them.
 :::
 
-<!-- - Please [review](summary-policy.qmd) important information on course polices on collaboration among students before submitting your course deliverables. -->
 
-<!-- - **Don’t forget to rename your file as shown in "Working with HW. ipynb files", Step-2**, as you work on them. -->
-
-<!-- ## Steps -->
 ### Step 1: Open Anaconda Navigator
 
 1. Search for "Anaconda Navigator" in your computer's applications or start menu.
