@@ -8,7 +8,7 @@
     <td width="70%">
       **Marlee** is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!
 
-      **Email**: [marlenaalvino@gwmail.gwu.edu](marlenaalvino@gwmail.gwu.edu)
+      **Email**: <a href="mailto:marlenaalvino@gwmail.gwu.edu">marlenaalvino@gwmail.gwu.edu</a>
     </td>
 
     <td width="30%">
@@ -26,11 +26,29 @@
     <td width="70%">
       **Sam** is a senior majoring in computer science. During her time at GW, she’s had the opportunity to be on the leadership team for few different organizations, foster a positive learning environment as an LA and UTA, and speak to students like you who are just joining the CS community here. Outside of school, she’s had a few internships which have helped her get a better understanding of what possibilities are out there! She’s looking forward to sharing some of her experience with you.
 
-      **Email**: [samkusner430@gwmail.gwu.edu](samkusner430@gwmail.gwu.edu)
+      **Email**: <a href="mailto:samkusner430@gwmail.gwu.edu">samkusner430@gwmail.gwu.edu</a>
     </td>
 
     <td width="30%">
       <img src="images/guest-speakers/samantha.jpg" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+
+## Kate Halushka
+<div id="kate-halushka"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **Kate** is a senior majoring in computer science and has been coding since high school! Throughout her time at GW, she has been a TA for 3 different CS classes, held leadership positions in multiple orgs, and studied abroad in London. She is currently co-chair of [**WiCS** (_Women in Computer Science_)](https://gwwics.github.io/) at GW. She has also completed 2 summer internships, and is a member of **Sigma Delta Tau**. She’s excited to share how she has taken advantage of the opportunities available in CS at GW!
+
+      **Email**: <a href="mailto:khalushka@gwmail.gwu.edu">khalushka@gwmail.gwu.edu</a>
+    </td>
+
+    <td width="30%">
+      <img src="images/guest-speakers/kate.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
     </td>
   </tr>
 </table>
