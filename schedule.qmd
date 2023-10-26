@@ -108,7 +108,6 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
       <td>
         <li>HW3 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week4.zip" download>![Download button](images/file-black.png){width=28}</a></li>
         <li>**COVID-19 Data Analysis Project** <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/COVID_Project.zip" download>![Download button](images/file-black.png){width=28}</a></li>
-        <li>**Announcement**: Cybersecurity event **(Friday, November 3, 2023)** <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Cybersec-event-flyer-2.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
       </td>
     </tr>
     <!-- </tr>
