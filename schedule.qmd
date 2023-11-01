@@ -15,11 +15,11 @@ Guided-Python Project on **COVID-19 Data Analysis** is <u>_released_</u>, the pr
 **NOTE**: This is an individual project and it is due on **November 10, 2023** by 11:59 PM. Please [review](summary-policy.qmd) important information on university polices on collaboration among students before submitting your course deliverables.
 :::
 
-:::{.callout-tip appearance="default" title="Hint"}
+<!-- :::{.callout-tip appearance="default" title="Hint"}
 When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include the argument `encoding='ISO-8859-1'` in your `pd.read_csv()` call or else you'll encounter an error. The following code should be entered in the cell that includes the filename and encoding arguments as shown:
 
 `df = pd.read_csv("apsc1001_cs1010_400mgml_flow.csv", encoding='ISO-8859-1')`
-:::
+::: -->
 
 <table class="table table-hover w-auto">
   <colgroup>
@@ -110,6 +110,28 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         <li>**COVID-19 Data Analysis Project** <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/COVID_Project.zip" download>![Download button](images/file-black.png){width=28}</a></li>
       </td>
     </tr>
+    <!-- <tr class="table-active">
+      <th scope="row">Week 5 [11/03/2023]</th>
+      <td>
+        <ul>
+          <li>Computer Vision by Prof. Robert Pless (**Website TBA**)</li>
+          <li>Computer Vision and Natural Language Processing applied to BioMed by Prof. Kinga Dobolyi (**Website TBA**)</li>
+          <li>Lecture Notes (**Website TBA**)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>In-class Raspberry Pi Lab using Pi NOIR camera</li>
+          <li>**HW 3 due**</li>
+          <li>**Python Guided-Project due**</li>
+          <li>Lab examples (**github TBA**)</li>
+          <li>HW 4 Assigned (**Website TBA**)</li>
+        </ul>
+      </td>
+      <td>
+        <li>HW4 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week5.zip" download>![Download button](images/file-black.png){width=28}</a></li>
+      </td>
+    </tr> -->
     <!-- </tr>
         <tr class="table-secondary">
         <th colspan="4"><u>NOTE</u>: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester</th>
