@@ -125,7 +125,8 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
       <th scope="row">Week 5 [11/03/2023]</th>
       <td>
         <ul>
-          <li>Computer Vision by Prof. Robert Pless (**Website TBA**)</li>
+          <li>[Quick Recap on Plotting with Python](lecture_notes/week5-plotting.qmd) (Get the .ipynb file here<a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/RecapPlotting_SineApprox.zip" download>![Download button](images/file-black.png){width=28}</a>)</li>
+          <li>Computer Vision by [**Prof. Robert Pless**](https://www.cs.seas.gwu.edu/robert-pless)</li>
         </ul>
       </td>
       <td>

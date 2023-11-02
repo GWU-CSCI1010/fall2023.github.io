@@ -1,0 +1,32 @@
+## Quick Recap on Plotting with Python
+
+**Referencing this presentation:**
+
+Bulusu, Kartik V. (2023, November 03). Week-5 Presentation: CSCI1010 Computer Science Orientation [Quick Recap on Plotting with Python.] Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
+
+
+::: {.callout-note appearance="simple"}
+**Course materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.**
+:::
+
+### Slide 1
+![Slide 1](../images/lecture_notes/week-5/slide-1.png)
+
+### Slide 2
+![Slide 2](../images/lecture_notes/week-5/slide-2.png)
+[https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html](https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html)
+
+[https://matplotlib.org/stable/api/markers_api.html](https://matplotlib.org/stable/api/markers_api.html)
+
+
+### Slide 3
+![Slide 3](../images/lecture_notes/week-5/slide-3.png)
+
+
+<br>
+<footer>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
+</footer>

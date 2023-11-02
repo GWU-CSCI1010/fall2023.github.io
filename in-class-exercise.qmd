@@ -12,8 +12,8 @@ To ensure you have all the necessary course materials and tools set up for CSCI 
 ## Step 2: Download In-Class Python Exercise & HW2 for Week-3
 
 - In the course schedule, find the "In-Class Python Exercise" and "HW2" section.
-- You will see a **Download** button "![download-button](images/download-button.png)".
-- Click on the **Download** button "![download-button](images/download-button.png)" next to "**In-Class Python Exercise & HW2**" to download the ZIP file.
+- You will see a **Download** button "![download-button](images/file-black.png){width=28}".
+- Click on the **Download** button "![download-button](images/file-black.png){width=28}" next to "**In-Class Python Exercise & HW2**" to download the ZIP file.
 
 ## Step 3: Manually Unzip the ZIP File
 
