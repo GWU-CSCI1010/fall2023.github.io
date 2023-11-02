@@ -126,7 +126,6 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
       <td>
         <ul>
           <li>Computer Vision by Prof. Robert Pless (**Website TBA**)</li>
-          <li>Computer Vision and Natural Language Processing applied to BioMed by Prof. Kinga Dobolyi (**Website TBA**)</li>
         </ul>
       </td>
       <td>
