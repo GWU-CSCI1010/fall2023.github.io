@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>CSCI 1010 [Fall 2023] - CS 1010</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/CS1010.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">CSCI 1010 [Fall 2023]</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-getting-started" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Getting Started</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-getting-started">    
+        <li>
+    <a class="dropdown-item" href="../../install-editor.html" rel="" target="">
+ <span class="dropdown-text">Installing an Editor</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../in-class-exercise.html" rel="" target="">
+ <span class="dropdown-text">Download and Locate the Course Material</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../homework.html#launch-jupyter" rel="" target="">
+ <span class="dropdown-text">Launch a Jupyter Server</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../homework.html#work-with-HW.ipynb" rel="" target="">
+ <span class="dropdown-text">Working with HW .ipynb files</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html" rel="" target="">
+ <span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../policies.html" rel="" target="">
+ <span class="menu-text">Course policies</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../instructor.html" rel="" target="">
+ <span class="menu-text">Instruction Team</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#week-4---plotting-deep-dive-using-matplotlib" id="toc-week-4---plotting-deep-dive-using-matplotlib" class="nav-link active" data-scroll-target="#week-4---plotting-deep-dive-using-matplotlib">Week 4 - Plotting Deep Dive using Matplotlib</a>
+  <ul class="collapse">
+  <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor:</a></li>
+  <li><a href="#gta" id="toc-gta" class="nav-link" data-scroll-target="#gta">GTA:</a></li>
+  <li><a href="#uta" id="toc-uta" class="nav-link" data-scroll-target="#uta">UTA:</a></li>
+  <li><a href="#la" id="toc-la" class="nav-link" data-scroll-target="#la">LA:</a></li>
+  <li><a href="#grader" id="toc-grader" class="nav-link" data-scroll-target="#grader">Grader:</a></li>
+  <li><a href="#getting-started-with-matplotlib" id="toc-getting-started-with-matplotlib" class="nav-link" data-scroll-target="#getting-started-with-matplotlib">Getting Started with matplotlib!</a>
+  <ul class="collapse">
+  <li><a href="#matplotlib-pyplot-figures-and-subplots" id="toc-matplotlib-pyplot-figures-and-subplots" class="nav-link" data-scroll-target="#matplotlib-pyplot-figures-and-subplots">Matplotlib Pyplot Figures and Subplots</a></li>
+  <li><a href="#plotting-on-subplots" id="toc-plotting-on-subplots" class="nav-link" data-scroll-target="#plotting-on-subplots">Plotting on Subplots</a></li>
+  </ul></li>
+  <li><a href="#getting-fancy-with-plotting" id="toc-getting-fancy-with-plotting" class="nav-link" data-scroll-target="#getting-fancy-with-plotting">Getting Fancy with Plotting!</a></li>
+  <li><a href="#alternatives-to-matplotlib" id="toc-alternatives-to-matplotlib" class="nav-link" data-scroll-target="#alternatives-to-matplotlib">Alternatives to Matplotlib!</a></li>
+  <li><a href="#challenge-question" id="toc-challenge-question" class="nav-link" data-scroll-target="#challenge-question">Challenge Question!</a></li>
+  <li><a href="#in-depth-matplotlib-resources-bonus---not-required" id="toc-in-depth-matplotlib-resources-bonus---not-required" class="nav-link" data-scroll-target="#in-depth-matplotlib-resources-bonus---not-required">In-Depth Matplotlib Resources (Bonus - Not Required!)</a>
+  <ul class="collapse">
+  <li><a href="#useful-2d-non-line-plots" id="toc-useful-2d-non-line-plots" class="nav-link" data-scroll-target="#useful-2d-non-line-plots">Useful 2D Non-line Plots</a></li>
+  <li><a href="#plotting-effects" id="toc-plotting-effects" class="nav-link" data-scroll-target="#plotting-effects">Plotting Effects</a></li>
+  <li><a href="#additional-plotting-effects-and-techniques" id="toc-additional-plotting-effects-and-techniques" class="nav-link" data-scroll-target="#additional-plotting-effects-and-techniques">Additional Plotting Effects and Techniques</a></li>
+  <li><a href="#auto-coloring-with-the-cycler-library" id="toc-auto-coloring-with-the-cycler-library" class="nav-link" data-scroll-target="#auto-coloring-with-the-cycler-library">Auto-coloring with the Cycler Library</a></li>
+  <li><a href="#d-plotting-with-matplotlib" id="toc-d-plotting-with-matplotlib" class="nav-link" data-scroll-target="#d-plotting-with-matplotlib">3D plotting with Matplotlib</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">CS 1010</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="week-4---plotting-deep-dive-using-matplotlib" class="level1">
+<h1>Week 4 - Plotting Deep Dive using Matplotlib</h1>
+<section id="instructor" class="level3">
+<h3 class="anchored" data-anchor-id="instructor">Instructor:</h3>
+<p><strong>Prof.&nbsp;Kartik Bulusu [CS &amp; MAE]</strong></p>
+</section>
+<section id="gta" class="level3">
+<h3 class="anchored" data-anchor-id="gta">GTA:</h3>
+<p><strong>Oscar Southwell</strong></p>
+</section>
+<section id="uta" class="level3">
+<h3 class="anchored" data-anchor-id="uta">UTA:</h3>
+<p><strong>Sameen Ahmad, Talia Novack</strong></p>
+</section>
+<section id="la" class="level3">
+<h3 class="anchored" data-anchor-id="la">LA:</h3>
+<p><strong>Manue Alaimo, Selman Eris, Saif Alzaabi, Gustavo Londono, Amy Longua, Pravin Khanal</strong></p>
+</section>
+<section id="grader" class="level3">
+<h3 class="anchored" data-anchor-id="grader">Grader:</h3>
+<p><strong>Rutvik Solanki</strong></p>
+<p>If you have any questions regarding Python, please feel free to send a slack message or email to a member of the teaching team or come to office hours! We are happy to help!!</p>
+<p>Let’s start by importing our favorite friends as always going forward in this class: <strong>numpy</strong>, <strong>matplotlib</strong>, and <strong>pandas</strong></p>
+<div class="cell" data-cell_id="00002-e4eaf5b3-a832-4196-a1f5-67a3874c27d1" data-deepnote_cell_height="112" data-deepnote_cell_type="code" data-execution_millis="3" data-execution_start="1667408574309" data-output_cleared="true" data-source_hash="e4a0c7a1" data-tags="[]" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="getting-started-with-matplotlib" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started-with-matplotlib">Getting Started with matplotlib!</h2>
+<p>We can use csv files and pandas to pull in data (<strong>see demo 3</strong>), but let’s create our own numpy array for plotting this time</p>
+<section id="numpy-linspace-function" class="level4">
+<h4 class="anchored" data-anchor-id="numpy-linspace-function">Numpy Linspace Function</h4>
+<p><code>np.linspace()</code> is a great tool to use during plotting! Provide the start, stop and number of points in the range and it will give you an evenly distributed number of elements in a numpy array</p>
+<p>Example:</p>
+<p><code>x = np.linspace(10, 20, 1001)</code> will give an array containing 1001 elements evenly spaced from 10 to 20</p>
+<div class="cell" data-cell_id="00005-08d3d068-c9fc-48d0-b5c3-c6a8be3848f6" data-deepnote_cell_height="266.5" data-deepnote_cell_type="code" data-execution_millis="8" data-execution_start="1667408576149" data-outputid="26250404-ba47-4c40-f0cf-1bb6f48829b2" data-source_hash="511dcee1" data-tags="[]" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">10</span>, <span class="dv">101</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[ 0.   0.1  0.2  0.3  0.4  0.5  0.6  0.7  0.8  0.9  1.   1.1  1.2  1.3
+  1.4  1.5  1.6  1.7  1.8  1.9  2.   2.1  2.2  2.3  2.4  2.5  2.6  2.7
+  2.8  2.9  3.   3.1  3.2  3.3  3.4  3.5  3.6  3.7  3.8  3.9  4.   4.1
+  4.2  4.3  4.4  4.5  4.6  4.7  4.8  4.9  5.   5.1  5.2  5.3  5.4  5.5
+  5.6  5.7  5.8  5.9  6.   6.1  6.2  6.3  6.4  6.5  6.6  6.7  6.8  6.9
+  7.   7.1  7.2  7.3  7.4  7.5  7.6  7.7  7.8  7.9  8.   8.1  8.2  8.3
+  8.4  8.5  8.6  8.7  8.8  8.9  9.   9.1  9.2  9.3  9.4  9.5  9.6  9.7
+  9.8  9.9 10. ]</code></pre>
+</div>
+</div>
+<div class="cell" data-cell_id="00006-994d21e7-4f74-41f4-a9b3-455369938b15" data-deepnote_cell_height="130" data-deepnote_cell_type="code" data-execution_millis="2" data-execution_start="1667408578139" data-output_cleared="true" data-source_hash="637209c" data-tags="[]" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Using array math from Demo 2, we can create some arrays named y1, y2, and y3 as a function of x</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>x</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>y3 <span class="op">=</span> <span class="dv">3</span><span class="op">*</span>x<span class="op">**</span><span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="matplotlib-pyplot-figures-and-subplots" class="level3">
+<h3 class="anchored" data-anchor-id="matplotlib-pyplot-figures-and-subplots">Matplotlib Pyplot Figures and Subplots</h3>
+<p>A figure is just a place for our plots to exist. A figure can have multiple <strong>subplots</strong> which are arranged like a matrix in rows and columns. Each subplot is called an axis. Let’s play around with the subplots feature a little bit</p>
+<p>To create a set of axes, use the function:</p>
+<p><code>fig, axs = plt.subplots(num_of_rows, number_of_columns, figsize=(width, height))</code></p>
+<p>Let’s break this down a little at a time.</p>
+<div class="cell" data-cell_id="00008-24f0d298-388d-48b4-8867-2d7be14f47be" data-deepnote_cell_height="468" data-deepnote_cell_type="code" data-deepnote_output_heights="[358]" data-execution_millis="1002" data-execution_start="1667409061617" data-outputid="834535ef-b155-4d36-9e97-128da4da7bbb" data-source_hash="235d4cb9" data-tags="[]" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#this figure has 1 row of 2 plots, and the overall size of the figure is 6 units wide, 4 units tall</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-5-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00009-4d24481f-e8a0-43ea-9aee-1251e6bcdf0a" data-deepnote_cell_height="414" data-deepnote_cell_type="code" data-deepnote_output_heights="[299]" data-execution_millis="1671" data-execution_start="1664040341074" data-outputid="3867343e-3c52-45b3-ccbc-afcdc34e5830" data-source_hash="890146f3" data-tags="[]" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>,<span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">4</span>))</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co">#this workspace has 2 rows of 3 plots each, the overall size of the figure is 12 units wide, 4 units tall</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-6-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<section id="what-if-we-only-want-one-plot" class="level4">
+<h4 class="anchored" data-anchor-id="what-if-we-only-want-one-plot">What if we only want one plot?</h4>
+<p>We can use the exact same thing!! The only thing that is typical to change (but not necessary) is from <code>axs</code> to <code>ax</code> to show it is singular</p>
+<p><code>fig, ax = plt.subplots(1, 1, figsize=(width, height))</code></p>
+<p>If we really want to short-hand it, <code>plt.subplots(figsize=(width, height))</code> works just the same. It assumes a 1x1 by default!</p>
+<div class="cell" data-cell_id="00011-4294b3fc-00b7-4806-bee1-f39ce6feb0cc" data-deepnote_cell_height="622" data-deepnote_cell_type="code" data-deepnote_output_heights="[512]" data-execution_millis="782" data-execution_start="1664040370498" data-outputid="226da431-b9ef-4225-bf04-15be6e31e7fa" data-source_hash="8bc258ac" data-tags="[]" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">4</span>,<span class="dv">6</span>))</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co">#shows a figure with only one subplot and the overall size is 4 units wide by 6 units tall</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-7-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="plotting-on-subplots" class="level3">
+<h3 class="anchored" data-anchor-id="plotting-on-subplots">Plotting on Subplots</h3>
+<section id="cases-for-plotting" class="level4">
+<h4 class="anchored" data-anchor-id="cases-for-plotting">3 cases for plotting!</h4>
+<ul>
+<li><strong>Case 1.</strong> 1x1 subplot</li>
+<li><strong>Case 2.</strong> 1xn subplots or mx1 subplots (where m and n are not equal to 1)</li>
+<li><strong>Case 3.</strong> mxn subplots (where m and n are not equal to 1)</li>
+</ul>
+</section>
+<section id="case-1." class="level4">
+<h4 class="anchored" data-anchor-id="case-1.">Case 1.</h4>
+<p>When we have a 1x1 Subplot, we just use <code>ax.plot(x,y)</code> similar to <code>plt.plot(x,y)</code> from demo 2.</p>
+</section>
+<section id="case-2." class="level4">
+<h4 class="anchored" data-anchor-id="case-2.">Case 2.</h4>
+<p>When we have only one row or only one column of plots, we use <code>axs[ax_num].plot(x,y)</code> where ax_num goes from 0 to the number specified -1</p>
+<p>For example, to plot on the third plot in a single row use <code>axs[2].plot(x,y)</code></p>
+<p>Another example, to plot on the first element in a single column uses <code>axs[0].plot(x,y)</code></p>
+</section>
+<section id="case-3." class="level4">
+<h4 class="anchored" data-anchor-id="case-3.">Case 3.</h4>
+<p>In order to plot when we have a bunch of different places to do so, we need to tell the computer which spot to plot.</p>
+<p>To access an axis (subplot), use its location. This is very similar to pandas when we used <code>df.loc['row', 'column']</code></p>
+<p>For example, to plot on the top left axis, we use <code>axs[0,0].plot(x,y)</code></p>
+<div class="cell" data-cell_id="00013-5ef26363-8c4c-4050-a026-6b5bf80b32c8" data-deepnote_cell_height="670" data-deepnote_cell_type="code" data-deepnote_output_heights="[506,506]" data-execution_millis="501" data-execution_start="1667409818857" data-outputid="45081a1f-0114-48c0-ca0c-9ffdeb8e2946" data-source_hash="b92e639b" data-tags="[]" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Example of case 1. for a 1x1 subplot</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">4</span>,<span class="dv">6</span>))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y1)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y2)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y3)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-8-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00014-c15be9cb-7479-40a8-9193-091c3b542174" data-deepnote_cell_height="606" data-deepnote_cell_type="code" data-deepnote_output_heights="[352]" data-execution_millis="931" data-execution_start="1664040781775" data-outputid="ddd9f539-f486-46f9-be17-02c008989280" data-source_hash="89145e18" data-tags="[]" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Example of case 2. for a 1xn subplot</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">4</span>))</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co">#plot on the left plot</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].plot(x,y1)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="co">#plot again on the left</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].plot(x,y2)</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="co">#plot on the right plot</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].plot(x,y3)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-9-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00015-18defd0c-b03d-48dd-bf7c-d83862e4dcaf" data-deepnote_cell_height="864" data-deepnote_cell_type="code" data-deepnote_output_heights="[610]" data-execution_millis="360" data-execution_start="1664040796383" data-outputid="e0be34fd-9aa3-4072-b23b-3b4698e7d195" data-source_hash="42e64d53" data-tags="[]" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Example of case 2. for a mx1 subplot</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">4</span>,<span class="dv">8</span>))</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co">#plot on the top plot</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].plot(x,y1)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co">#plot again on the top</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].plot(x,y2)</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="co">#plot on the bottom plot</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].plot(x,y3)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-10-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00016-70ba934e-e3bc-4470-aefa-e148439ee0d5" data-deepnote_cell_height="941" data-deepnote_cell_type="code" data-deepnote_output_heights="[610]" data-execution_millis="606" data-execution_start="1664040799461" data-outputid="083269f8-eb36-402b-fc9d-bdc6081c05d2" data-source_hash="97a9cdc" data-tags="[]" data-execution_count="10">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Example of case 3. We will have a 2x2 plotting setup</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">8</span>))</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co">#plot on the top left, row=0, column=0</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>,<span class="dv">0</span>].plot(x,y1)</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co">#plot on the top right, row=0, column=1</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>,<span class="dv">1</span>].plot(x,y2)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="co">#plot on the top left, row=1, column=0</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>,<span class="dv">0</span>].plot(x,y3)<span class="op">;</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a><span class="co">#putting a ; at the end of our matplotlib figures gets rid of the sentence that is printed by default during plotting</span></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a><span class="co">#we'll leave the bottom right blank, but it would have axs[1,1]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-11-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00017-ae746c0c-5975-40af-85d5-4d8ab262a38d" data-deepnote_cell_height="344" data-deepnote_cell_type="code" data-execution_millis="491" data-execution_start="1664040832297" data-outputid="441d5952-718b-46b9-ab88-56ad5abb0694" data-source_hash="d05cd2f9" data-tags="[]" data-execution_count="11">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#For your reference, the default pandas column and index names happen to correspond with the axis plotting</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>], [<span class="dv">3</span>, <span class="dv">4</span>]])</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>display(pd.DataFrame(x))</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="co">#in this example, the number 4 is in the location 1,1, and also in the lower right</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">0</th>
+<th data-quarto-table-cell-role="th">1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>3</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="getting-fancy-with-plotting" class="level2">
+<h2 class="anchored" data-anchor-id="getting-fancy-with-plotting">Getting Fancy with Plotting!</h2>
+<p>To really get our creative energy flowing, we can make our plots look very nice!</p>
+<p>We will cover all of the key information in one plot. Below is the plot we work with in class and then beyond that, in section v. is all of the in-depth descriptions of how each of these things work, if you’d like to know. To jump to <strong>section v.</strong> Use the built in Table of contents feature</p>
+<p>All of the features shown in this example are for a 1x1 subplot using <code>ax.FUNCTION</code>, so similar to plotting above use <code>axs[INDEX].FUNCTION</code> to apply to a subplot specifically</p>
+<p><strong>Example:</strong> to put a unique title on every suplot of a 2x2 figure</p>
+<pre><code>axs[0,0].set_title('Title1')
+axs[0,1].set_title('Title2')
+axs[1,0].set_title('Title3')
+axs[1,1].set_title('Title4')</code></pre>
+<div class="cell" data-cell_id="00019-9cc71a7b-fd9f-4d0f-a46e-c45b233dcb82" data-deepnote_cell_height="1296" data-deepnote_cell_type="code" data-deepnote_output_heights="[610]" data-execution_millis="295" data-execution_start="1664040931851" data-outputid="e5f192b6-4ffb-4e0e-89ec-839e804cae17" data-source_hash="d3edfba1" data-tags="[]" data-execution_count="12">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#set up our single subplot!</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">8</span>))</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co">#let's establish t for 5 seconds, with 11 datapoints</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">11</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="co">#now lets establish our y-axis values</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>u1 <span class="op">=</span> t</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>u2 <span class="op">=</span> t<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>u3 <span class="op">=</span> t<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">12</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a><span class="co"># red dashes, blue dots and green triangles</span></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>ax.plot(t, u1, color<span class="op">=</span><span class="st">'r'</span>, linestyle<span class="op">=</span><span class="st">'--'</span>, label<span class="op">=</span><span class="st">'u1'</span>)</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>ax.plot(t, u2, color<span class="op">=</span><span class="st">'b'</span>, marker<span class="op">=</span><span class="st">'s'</span>, label<span class="op">=</span><span class="st">'Function u2'</span>)</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>ax.plot(t, u3, <span class="st">'g^'</span>)</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a><span class="co">#and lets get a little fancy an add some labeling</span></span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">'time (s)'</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">'Values as a function of time'</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a><span class="co">#and maybe a title for our plot</span></span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">'A very fancy plot'</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a><span class="co">#ax.text(x, y) just puts a textbox at this coordinate</span></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>ax.text(<span class="dv">1</span>, <span class="dv">45</span>, <span class="st">'Look I can type in here too!!'</span>)</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a><span class="co">#ax.axis([x1, x2, y1, y2]) limits the view we want to see</span></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>ax.axis([<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">0</span>, <span class="dv">60</span>])</span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a><span class="co">#ax.grid() adds a grid to the plot</span></span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>ax.grid()</span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a><span class="co">#ax.lengend() adds a legend (and finally a semi-colon to eliminate the default printing)</span></span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>ax.legend()<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-13-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="alternatives-to-matplotlib" class="level2">
+<h2 class="anchored" data-anchor-id="alternatives-to-matplotlib">Alternatives to Matplotlib!</h2>
+<p>There’s lots of matplotlib alternatives in python for plotting. Each has their pros and cons. You can read about some of them if you are interested: - <a href="https://plotly.com/python/plotly-express/">Plotly (Plotly Express)</a> - <a href="https://seaborn.pydata.org/">Seaborn</a> - <a href="https://altair-viz.github.io/">Altair</a> - <a href="https://realpython.com/ggplot-python/">ggplot</a> - <a href="https://github.com/andrea-cuttone/geoplotlib/wiki/User-Guide">geoplotlib</a> - <a href="https://gleam.run/cheatsheets/gleam-for-python-users/">Gleam</a></p>
+</section>
+<section id="challenge-question" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-question">Challenge Question!</h2>
+<p>As a group tackle the following question together!</p>
+<p>You have two time-dependent signals that are measured in millivolts (mV):</p>
+<p><span class="math inline">\(u(t) = 1 + \sin(2\pi t)\)</span></p>
+<p><span class="math inline">\(v(t) = 1 + \cos(2\pi t)\)</span></p>
+<ol type="1">
+<li>Set up an array for <strong>t</strong> from 0 to 5 seconds with 1001 datapoints</li>
+<li>Setup a 1x2 subplot space for plotting (two side by side axes). Pick a width and height that looks nice to you</li>
+<li>Plot signal <strong>u</strong> vs <strong>t</strong> on a subplot on the left, and <strong>v</strong> vs <strong>t</strong> on a subplot on the right</li>
+<li>Give each subplot axis labels (x and y axis)</li>
+<li>Give each subplot a title</li>
+<li>Change the color of <strong>u(t)</strong> to green and <strong>v(t)</strong> to red</li>
+</ol>
+<section id="hints" class="level4">
+<h4 class="anchored" data-anchor-id="hints">Hints</h4>
+<pre><code>#step 1.
+t = np.linspace(YOUR_CONTENT)
+
+u = ARRAY_MATH_USING_t
+v = ARRAY_MATH_USING_t
+
+#step 2.
+fig, axs = plt.subplots(ROW, COLUMN, figsize=(WIDTH, HEIGHT))
+
+#step 3.
+axs[LEFT].plot(t,u)
+axs[RIGHT].plot(t,v)
+
+#step 4.
+axs[LEFT].set_xlabel(XLABEL)
+axs[LEFT].set_ylabel(YLABEL)
+
+axs[RIGHT].set_xlabel(XLABEL)
+axs[RIGHT].set_ylabel(YLABEL)
+
+#step 5.
+axs[LEFT].set_title(TITLE)
+axs[RIGHT].set_title(TITLE)
+
+#step 6.
+#revisit step 3 and make modifcations for color</code></pre>
+<div class="cell" data-cell_id="00022-10ca7b5d-9ab9-494b-973c-9ac5cef459e4" data-deepnote_cell_height="76" data-deepnote_cell_type="code" data-execution_start="1664041120439" data-output_cleared="true" data-source_hash="75fe9844" data-tags="[]" data-execution_count="13">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Your code here!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="in-depth-matplotlib-resources-bonus---not-required" class="level2">
+<h2 class="anchored" data-anchor-id="in-depth-matplotlib-resources-bonus---not-required">In-Depth Matplotlib Resources (Bonus - Not Required!)</h2>
+<p>Here is a huge bank of information regarding matplotlib we will not cover in class, but available for you to play around with!</p>
+<p>The best way to work with matplotlib is to try it out!</p>
+<p>It should contain most things you would need. If it doesn’t, the answers are a Google away. We have also attached the documentation for matplotlib for you <a href="https://matplotlib.org/">here</a></p>
+<section id="useful-2d-non-line-plots" class="level3">
+<h3 class="anchored" data-anchor-id="useful-2d-non-line-plots">Useful 2D Non-line Plots</h3>
+<p>This section covers: - Scatter plots - Bar plots - Heatmaps</p>
+<section id="scatter-plots" class="level4">
+<h4 class="anchored" data-anchor-id="scatter-plots">Scatter Plots</h4>
+<div class="cell" data-cell_id="00027-261ce3c9-444a-47e2-a3f8-7dce002c2f9e" data-deepnote_cell_height="704" data-deepnote_cell_type="code" data-deepnote_output_heights="[414]" data-execution_millis="985" data-execution_start="1664041205671" data-outputid="e6bbec74-4402-48dd-c6bf-a0f14b90e212" data-source_hash="a15bbfd0" data-tags="[]" data-execution_count="14">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()<span class="op">;</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> [<span class="dv">9</span>, <span class="dv">4</span>, <span class="dv">7</span>, <span class="op">-</span><span class="dv">5</span>, <span class="dv">8</span>]</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="co">#Default ax.plot shown in blue</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y)</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="co">#Scatter version shown in red</span></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>ax.scatter(x,y, color<span class="op">=</span><span class="st">'red'</span>)</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>ax.grid()<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-15-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="bar-plots" class="level4">
+<h4 class="anchored" data-anchor-id="bar-plots">Bar Plots</h4>
+<div class="cell" data-cell_id="00029-807ffc9a-d1c5-42c4-956b-0abddd12a861" data-deepnote_cell_height="578" data-deepnote_cell_type="code" data-deepnote_output_heights="[414]" data-execution_millis="340" data-execution_start="1664041218894" data-outputid="27c5d3ae-9cc5-468d-8d70-f79f2c2f8208" data-source_hash="35826dce" data-tags="[]" data-execution_count="15">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()<span class="op">;</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> [<span class="dv">9</span>, <span class="dv">4</span>, <span class="dv">7</span>, <span class="op">-</span><span class="dv">5</span>, <span class="dv">8</span>]</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>ax.bar(x, y)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-16-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00030-c49cf97b-b67f-4ff5-9101-c38e2abab364" data-deepnote_cell_height="596" data-deepnote_cell_type="code" data-deepnote_output_heights="[414]" data-execution_millis="1018" data-execution_start="1664041224997" data-outputid="50766212-aff1-41a3-cf48-6d8ee0a7f05f" data-source_hash="b07acc81" data-tags="[]" data-execution_count="16">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#horizontal bar chart</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()<span class="op">;</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> [<span class="dv">9</span>, <span class="dv">4</span>, <span class="dv">7</span>, <span class="op">-</span><span class="dv">5</span>, <span class="dv">8</span>]</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>ax.barh(x, y)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-17-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="heatmaps-and-images" class="level4">
+<h4 class="anchored" data-anchor-id="heatmaps-and-images">Heatmaps and Images</h4>
+<div class="cell" data-cell_id="00032-ae0f08de-5207-4cb3-9749-21d507587191" data-deepnote_cell_height="794" data-deepnote_cell_type="code" data-deepnote_output_heights="[414]" data-execution_millis="699" data-execution_start="1664041235060" data-outputid="33bf6184-8809-440c-a79e-e96481690ca0" data-source_hash="e4967fb9" data-tags="[]" data-execution_count="17">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>matrix <span class="op">=</span> np.array([[<span class="fl">0.8</span>, <span class="fl">2.4</span>, <span class="fl">2.5</span>, <span class="fl">3.9</span>, <span class="fl">0.0</span>, <span class="fl">4.0</span>, <span class="fl">0.0</span>],</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>                   [<span class="fl">2.4</span>, <span class="fl">0.0</span>, <span class="fl">4.0</span>, <span class="fl">1.0</span>, <span class="fl">2.7</span>, <span class="fl">0.0</span>, <span class="fl">0.0</span>],</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>                   [<span class="fl">1.1</span>, <span class="fl">2.4</span>, <span class="fl">0.8</span>, <span class="fl">4.3</span>, <span class="fl">1.9</span>, <span class="fl">4.4</span>, <span class="fl">0.0</span>],</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>                   [<span class="fl">0.6</span>, <span class="fl">0.0</span>, <span class="fl">0.3</span>, <span class="fl">0.0</span>, <span class="fl">3.1</span>, <span class="fl">0.0</span>, <span class="fl">0.0</span>],</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>                   [<span class="fl">0.7</span>, <span class="fl">1.7</span>, <span class="fl">0.6</span>, <span class="fl">2.6</span>, <span class="fl">2.2</span>, <span class="fl">6.2</span>, <span class="fl">0.0</span>],</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>                   [<span class="fl">1.3</span>, <span class="fl">1.2</span>, <span class="fl">0.0</span>, <span class="fl">0.0</span>, <span class="fl">0.0</span>, <span class="fl">3.2</span>, <span class="fl">5.1</span>],</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>                   [<span class="fl">0.1</span>, <span class="fl">2.0</span>, <span class="fl">0.0</span>, <span class="fl">1.4</span>, <span class="fl">0.0</span>, <span class="fl">1.9</span>, <span class="fl">6.3</span>]])</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a><span class="co">#converts matrix to a heat map with each position being colored according to number</span></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>im <span class="op">=</span> ax.imshow(matrix)</span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a><span class="co">#adds a colorbar to the plot to represent what each color means</span></span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> mpl_toolkits.axes_grid1 <span class="im">import</span> make_axes_locatable</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>divider <span class="op">=</span> make_axes_locatable(ax)</span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>cax <span class="op">=</span> divider.append_axes(<span class="st">"right"</span>, size<span class="op">=</span><span class="st">"5%"</span>, pad<span class="op">=</span><span class="fl">0.05</span>)</span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a>fig.colorbar(im, cax<span class="op">=</span>cax)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-18-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="plotting-effects" class="level3">
+<h3 class="anchored" data-anchor-id="plotting-effects">Plotting Effects</h3>
+<p>This section covers a lot of different plotting effects in matplotlib - Title - Suptitle - Axis Labels - Fontsizes - Axis Ticksize - Legend - Grid - Line Thickness - Line Color - Line Style - Transparency - “alpha”</p>
+<section id="title-axis-labels-suptitle" class="level4">
+<h4 class="anchored" data-anchor-id="title-axis-labels-suptitle">Title, Axis Labels, Suptitle</h4>
+<div class="cell" data-cell_id="00036-7a690e70-bcb1-4179-8a0e-5456a788f86a" data-deepnote_cell_height="918" data-deepnote_cell_type="code" data-deepnote_output_heights="[610]" data-execution_millis="1017" data-execution_start="1664041244064" data-outputid="42f30422-d093-4659-f3cc-f2baec0aef7f" data-source_hash="2204944b" data-tags="[]" data-execution_count="18">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#showcasing "set" features - title, xlabel, ylabel</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>,<span class="dv">2</span>,figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">8</span>), constrained_layout<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co"># constrained_layout = True spaces the plots accordingly to fit the words</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="co">#one option in one line</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>,<span class="dv">0</span>].<span class="bu">set</span>(xlabel<span class="op">=</span><span class="st">'Top Left X-axis'</span>, ylabel<span class="op">=</span><span class="st">'Top Left Y-axis'</span>, title<span class="op">=</span><span class="st">'Top Left'</span>)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>,<span class="dv">1</span>].<span class="bu">set</span>(xlabel<span class="op">=</span><span class="st">'Top Right X-axis'</span>, ylabel<span class="op">=</span><span class="st">'Top Right Y-axis'</span>, title<span class="op">=</span><span class="st">'Top Right'</span>)</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>,<span class="dv">0</span>].<span class="bu">set</span>(xlabel<span class="op">=</span><span class="st">'Lower Left X-axis'</span>, ylabel<span class="op">=</span><span class="st">'Lower Left Y-axis'</span>, title<span class="op">=</span><span class="st">'Lower Left'</span>)</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>,<span class="dv">1</span>].<span class="bu">set</span>(xlabel<span class="op">=</span><span class="st">'Lower Right X-axis'</span>, ylabel<span class="op">=</span><span class="st">'Lower Right Y-axis'</span>, title<span class="op">=</span><span class="st">'Lower Right'</span>)</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a><span class="co">#suptitle of a plot</span></span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">'This is the Suptitle of the Plot'</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-19-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00037-4878c789-58dc-452a-82e4-788409bb89a4" data-deepnote_cell_height="1008" data-deepnote_cell_type="code" data-deepnote_output_heights="[610]" data-execution_millis="1036" data-execution_start="1664041254990" data-outputid="136ae950-1434-4dbb-e694-d4967325ebb2" data-source_hash="9135ba7e" data-tags="[]" data-execution_count="19">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#showcasing individual set features - set_title, set_xlabel, set_ylabel</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>,<span class="dv">2</span>,figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">8</span>), constrained_layout<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="co"># constrained_layout = True spaces the plots accordingly to fit the words</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a><span class="co">#bulkier but allows for fontsize manipulation</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a><span class="co">#axs[0,0].set_xlabel('Top Left X-axis', fontsize=20)</span></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a><span class="co">#axs[0,0].set_ylabel('Top Left Y-axis', fontsize=20)</span></span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a><span class="co">#axs[0,0].set_title('Top Left', fontsize=25)</span></span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a><span class="co">#repeat for all axs[x,y] slices or use axs.flat to loop through</span></span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>naming_list <span class="op">=</span> [<span class="st">'Top Left'</span>, <span class="st">'Top Right'</span>, <span class="st">'Lower Left'</span>, <span class="st">'Lower Right'</span>]</span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num, ax <span class="kw">in</span> <span class="bu">enumerate</span>(axs.flat):</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a>    ax.set_xlabel(naming_list[num]<span class="op">+</span><span class="st">' x-label'</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a>    ax.set_ylabel(naming_list[num]<span class="op">+</span><span class="st">' y-label'</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a>    ax.set_title(naming_list[num]<span class="op">+</span><span class="st">' Title'</span>, fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">'This is the Suptitle of the Plot'</span>, fontsize<span class="op">=</span><span class="dv">30</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-20-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00038-006df683-1562-4bec-9b78-b30232dd2eac" data-deepnote_cell_height="864" data-deepnote_cell_type="code" data-deepnote_output_heights="[610]" data-execution_millis="799" data-execution_start="1664041290703" data-outputid="e597aaf0-6e27-4f22-ecfc-9a80232f6327" data-source_hash="8727600f" data-tags="[]" data-execution_count="20">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#sharing axis labels</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>naming_list <span class="op">=</span> [<span class="st">'Top Left'</span>, <span class="st">'Top Right'</span>, <span class="st">'Lower Left'</span>, <span class="st">'Lower Right'</span>]</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="co">#notice x-labels for the top two plots are missing</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">8</span>), constrained_layout<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num, ax <span class="kw">in</span> <span class="bu">enumerate</span>(axs.flat):</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>    ax.set_xlabel(naming_list[num]<span class="op">+</span><span class="st">' x-label'</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>    ax.set_ylabel(naming_list[num]<span class="op">+</span><span class="st">' y-label'</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>    ax.set_title(naming_list[num]<span class="op">+</span><span class="st">' Title'</span>, fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>    ax.label_outer()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-21-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="axis-ticksize" class="level4">
+<h4 class="anchored" data-anchor-id="axis-ticksize">Axis Ticksize</h4>
+<div class="cell" data-cell_id="00040-390da00c-2c25-4b97-8dee-0d5c390946fb" data-deepnote_cell_height="148" data-deepnote_cell_type="code" data-execution_millis="3" data-execution_start="1664041314035" data-output_cleared="true" data-source_hash="8447e2a4" data-tags="[]" data-execution_count="21">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">#axis ticks - changed globally</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib <span class="im">as</span> mpl</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co">#15 is huge, but it will nicely demonstrate what is happening</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>mpl.rc(<span class="st">'xtick'</span>, labelsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>mpl.rc(<span class="st">'ytick'</span>, labelsize<span class="op">=</span><span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-cell_id="00041-e1d5e7a7-9f35-4186-b7ee-93aed93abedc" data-deepnote_cell_height="846" data-deepnote_cell_type="code" data-deepnote_output_heights="[610]" data-execution_millis="1387" data-execution_start="1664041318039" data-outputid="ac7c80d6-2382-4a4a-9ba6-ad107b9e81a1" data-source_hash="f08dd097" data-tags="[]" data-execution_count="22">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>,<span class="dv">2</span>,figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">8</span>), constrained_layout<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="co">#one option in one line</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>,<span class="dv">0</span>].<span class="bu">set</span>(xlabel<span class="op">=</span><span class="st">'Top Left X-axis'</span>, ylabel<span class="op">=</span><span class="st">'Top Left Y-axis'</span>, title<span class="op">=</span><span class="st">'Top Left'</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>,<span class="dv">1</span>].<span class="bu">set</span>(xlabel<span class="op">=</span><span class="st">'Top Right X-axis'</span>, ylabel<span class="op">=</span><span class="st">'Top Right Y-axis'</span>, title<span class="op">=</span><span class="st">'Top Right'</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>,<span class="dv">0</span>].<span class="bu">set</span>(xlabel<span class="op">=</span><span class="st">'Lower Left X-axis'</span>, ylabel<span class="op">=</span><span class="st">'Lower Left Y-axis'</span>, title<span class="op">=</span><span class="st">'Lower Left'</span>)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>,<span class="dv">1</span>].<span class="bu">set</span>(xlabel<span class="op">=</span><span class="st">'Lower Right X-axis'</span>, ylabel<span class="op">=</span><span class="st">'Lower Right Y-axis'</span>, title<span class="op">=</span><span class="st">'Lower Right'</span>)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a><span class="co">#suptitle of a plot</span></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">'This is the Suptitle of the Plot'</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-23-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00042-beaa44f4-814d-4ebf-b1a7-b2f6aff7e51d" data-deepnote_cell_height="112" data-deepnote_cell_type="code" data-execution_millis="1" data-execution_start="1664041324829" data-output_cleared="true" data-source_hash="a52827f2" data-tags="[]" data-execution_count="23">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">#reset it to something more reasonable</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>mpl.rc(<span class="st">'xtick'</span>, labelsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>mpl.rc(<span class="st">'ytick'</span>, labelsize<span class="op">=</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="legend-and-grid" class="level4">
+<h4 class="anchored" data-anchor-id="legend-and-grid">Legend and Grid</h4>
+<p>The legend of the plot is also sometimes referred to as the key of the plot. It is where lines are labeled</p>
+<p>The grid just shows us the x-y points every so often as faint lines in the background</p>
+<p><a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html">Legend parameters found here</a></p>
+<div class="cell" data-cell_id="00044-c1574c7e-2a83-4065-9c5c-f8bb684abc83" data-deepnote_cell_height="840" data-deepnote_cell_type="code" data-deepnote_output_heights="[352]" data-execution_millis="1324" data-execution_start="1664041330425" data-outputid="630eb2b9-c788-46d9-8dd5-c089243c5530" data-source_hash="3b900760" data-tags="[]" data-execution_count="24">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="co">#powers of x</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> x</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>y3 <span class="op">=</span> x<span class="op">**</span><span class="dv">3</span></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>y4 <span class="op">=</span> x<span class="op">**</span><span class="dv">4</span></span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>y_list <span class="op">=</span> [y1, y2, y3, y4]</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>name_list <span class="op">=</span> [<span class="st">'1st Degree'</span>, <span class="st">'2nd Degree'</span>, <span class="st">'3rd Degree'</span>, <span class="st">'4th Degree'</span>]</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num, y <span class="kw">in</span> <span class="bu">enumerate</span>(y_list):</span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>    ax.plot(x,y, label<span class="op">=</span>name_list[num])</span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a><span class="co">#in general: ax.plot(x,y, label='Label')</span></span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a><span class="co">#make the legend of the plot (also sometimes called the key)</span></span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a>ax.legend()</span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a><span class="co">#legend has fontsize, location, and even title features (shown in next plot)</span></span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a><span class="co">#add gridlines to the plot</span></span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a>ax.grid()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-25-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00045-eebfd3b0-9603-4cdb-a889-1aa5a30f1bbc" data-deepnote_cell_height="822" data-deepnote_cell_type="code" data-deepnote_output_heights="[352]" data-execution_millis="401" data-execution_start="1664041341691" data-outputid="853f0c10-b7a3-4d04-ca0c-eb0d4ae3d2c9" data-source_hash="8a8b885c" data-tags="[]" data-execution_count="25">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="co">#powers of x</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> x</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>y3 <span class="op">=</span> x<span class="op">**</span><span class="dv">3</span></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>y4 <span class="op">=</span> x<span class="op">**</span><span class="dv">4</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>ylist <span class="op">=</span> [y1, y2, y3, y4]</span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>name_list <span class="op">=</span> [<span class="st">'1st'</span>, <span class="st">'2nd'</span>, <span class="st">'3rd'</span>, <span class="st">'4th'</span>]</span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num, y <span class="kw">in</span> <span class="bu">enumerate</span>(y_list):</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>    ax.plot(x,y, label<span class="op">=</span>name_list[num])</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a><span class="co">#in general: ax.plot(x,y, label='Label')</span></span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a><span class="co">#this combination will not look good, but its about showcasing the features</span></span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>ax.legend(title <span class="op">=</span> <span class="st">'Polynomial Degree'</span>, title_fontsize<span class="op">=</span><span class="dv">15</span>, fontsize<span class="op">=</span><span class="dv">10</span>, loc<span class="op">=</span><span class="st">'lower left'</span>)</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a><span class="co">#add gridlines to the plot</span></span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>ax.grid()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-26-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="line-thickness-line-color-line-style-and-transparency" class="level4">
+<h4 class="anchored" data-anchor-id="line-thickness-line-color-line-style-and-transparency">Line thickness, Line Color, Line Style and Transparency</h4>
+<p><a href="https://matplotlib.org/stable/gallery/color/named_colors.html">List of colors</a></p>
+<div class="cell" data-cell_id="00047-8f8b5058-ce50-41c2-94c5-212d957b8eb5" data-deepnote_cell_height="750" data-deepnote_cell_type="code" data-deepnote_output_heights="[352]" data-execution_millis="1047" data-execution_start="1664041352933" data-outputid="dc0f9643-59e2-4652-9e11-359b9f9903dd" data-source_hash="db6130b4" data-tags="[]" data-execution_count="26">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="co">#powers of x</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> x</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>y3 <span class="op">=</span> x<span class="op">**</span><span class="dv">3</span></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>y4 <span class="op">=</span> x<span class="op">**</span><span class="dv">4</span></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y1, color<span class="op">=</span><span class="st">'r'</span>) <span class="co">#red color (short-hand)</span></span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y2, color<span class="op">=</span><span class="st">'#033C5A'</span>) <span class="co">#color is GW Blue (in hex code)</span></span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y3, color<span class="op">=</span><span class="st">'darksalmon'</span>,linestyle<span class="op">=</span><span class="st">'dashed'</span>)</span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a><span class="co">#darksalmon is a default named color from matplotlib</span></span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y4, linewidth<span class="op">=</span><span class="dv">8</span>, alpha<span class="op">=</span><span class="fl">0.3</span>)<span class="op">;</span></span>
+<span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a><span class="co">#alpha varies from 0.0 to 1.0 and determines transparency</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-27-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="additional-plotting-effects-and-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="additional-plotting-effects-and-techniques">Additional Plotting Effects and Techniques</h3>
+<p>This section covers: - Log scale plots - Axis Limits - Annotation - Arrows - Thicker gridlines - Shading of shapes - In-line labels - Category labels (such as all dashed lines mean something)</p>
+<section id="log-scaling" class="level4">
+<h4 class="anchored" data-anchor-id="log-scaling">Log Scaling</h4>
+<p>Sometimes plots are best represented with a Logarithmically-Scaled y-axis or logarithmically scaled x and y axes</p>
+<div class="cell" data-cell_id="00051-ab4e21a6-220d-471c-9af7-bdf7efd580ef" data-deepnote_cell_height="690" data-deepnote_cell_type="code" data-deepnote_output_heights="[436]" data-execution_millis="1045" data-execution_start="1664041371666" data-outputid="51a7cf63-0d44-4f1d-d85d-04228cfd3479" data-source_hash="c8280f7a" data-tags="[]" data-execution_count="27">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>)</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>])</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="dv">10</span><span class="op">**</span>x</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].plot(x,y)</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].set_title(<span class="st">'Normal Scaling'</span>)</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].set_yscale(<span class="st">'log'</span>)</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].plot(x,y)</span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].set_title(<span class="st">'Logarithmic Scaling'</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-28-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="axis-limiting" class="level4">
+<h4 class="anchored" data-anchor-id="axis-limiting">Axis Limiting</h4>
+<p>You can limit the view of the window by adjusting the axes</p>
+<div class="cell" data-cell_id="00053-b47924ad-f8b8-44f5-a727-52a3742b46f8" data-deepnote_cell_height="655" data-deepnote_cell_type="code" data-deepnote_output_heights="[419]" data-execution_millis="296" data-execution_start="1664041388380" data-outputid="e6ea9ede-4439-46cc-8893-cc10bc5cf843" data-source_hash="2cf572d6" data-tags="[]" data-execution_count="28">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> [<span class="dv">9</span>, <span class="dv">4</span>, <span class="dv">7</span>, <span class="op">-</span><span class="dv">5</span>, <span class="dv">8</span>]</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y)</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>ax.set_xlim(left<span class="op">=</span><span class="dv">1</span>, right<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>ax.set_ylim(top<span class="op">=</span><span class="dv">6</span>, bottom<span class="op">=</span><span class="dv">0</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-29-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="annotation-of-points" class="level4">
+<h4 class="anchored" data-anchor-id="annotation-of-points">Annotation of points</h4>
+<p>Labeling points is super useful for some plots</p>
+<p><a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.annotate.html">Documentation</a></p>
+<div class="cell" data-cell_id="00055-95bb3ae9-22d4-4170-b2f0-8c44e171f546" data-deepnote_cell_height="776" data-deepnote_cell_type="code" data-deepnote_output_heights="[414]" data-execution_millis="374" data-execution_start="1664041404047" data-outputid="de32fce4-5464-4dd3-fcc8-b2bbd4f142d2" data-source_hash="d8ee17de" data-tags="[]" data-execution_count="29">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()<span class="op">;</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> [<span class="dv">9</span>, <span class="dv">4</span>, <span class="dv">7</span>, <span class="op">-</span><span class="dv">5</span>, <span class="dv">8</span>]</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="co">#Default plt.plot shown in blue</span></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a><span class="co">#Scatter version shown in red</span></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>ax.scatter(x,y, color<span class="op">=</span><span class="st">'red'</span>)</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>pointName <span class="op">=</span> [<span class="st">'Name1'</span>, <span class="st">'Name2'</span>, <span class="st">'Name3'</span>, <span class="st">'Name4'</span>, <span class="st">'Name5'</span>]</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(x)):</span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>    ax.annotate(text<span class="op">=</span>pointName[num], xy<span class="op">=</span>(x[num],y[num]))<span class="op">;</span></span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a><span class="co">#xy could be adjusted per point to move the values to better locations</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-30-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="arrows" class="level4">
+<h4 class="anchored" data-anchor-id="arrows">Arrows</h4>
+<p>Plotting arrows can show cycles more easily or all sorts of other fun applications</p>
+<p>Draw an arrow from (x, y) to (x+dx, y+dy).</p>
+<p><a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.arrow.html">Documentation</a></p>
+<div class="cell" data-cell_id="00057-b242ffb2-35e7-49b7-9770-2b99147902d1" data-deepnote_cell_height="794" data-deepnote_cell_type="code" data-deepnote_output_heights="[414]" data-execution_millis="789" data-execution_start="1664041415799" data-outputid="1719e13c-72d3-46c3-884d-5b62b2ff398b" data-source_hash="b32baa7" data-tags="[]" data-execution_count="30">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>dx <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>dy <span class="op">=</span> <span class="dv">4</span></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>ax.arrow(x,y,dx,dy, head_width<span class="op">=</span><span class="fl">0.2</span>, head_length<span class="op">=</span><span class="fl">0.5</span>, length_includes_head<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a><span class="co">#if given (x1, y1) and (x2, y2):</span></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>x1 <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>x2 <span class="op">=</span> <span class="dv">7</span></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> <span class="dv">4</span></span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>dx <span class="op">=</span> x2<span class="op">-</span>x1</span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a>dy <span class="op">=</span> y2<span class="op">-</span>y1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-31-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="thicker-gridlines-horizontal-and-vertical-lines" class="level4">
+<h4 class="anchored" data-anchor-id="thicker-gridlines-horizontal-and-vertical-lines">Thicker Gridlines (horizontal and vertical lines)</h4>
+<p>You can adjust all gridlines with this feature:</p>
+<p><code>ax.xaxis.get_gridlines()</code> &amp; <code>ax.yaxis.get_gridlines()</code></p>
+<p>Or</p>
+<p>This you want to bold the singlular lines through 0 for example, or draw a horizontal line at a y value (or vertical line at an x value), this is what you would use:</p>
+<p>Documentation:</p>
+<ul>
+<li><p><a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axhline.html">Horizontal Line</a></p></li>
+<li><p><a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axvline.html">Vertical Line</a></p></li>
+</ul>
+<div class="cell" data-cell_id="00059-2d87ed5b-3408-4473-b6b4-c673db6a73f7" data-deepnote_cell_height="943" data-deepnote_cell_type="code" data-deepnote_output_heights="[419]" data-execution_millis="268" data-execution_start="1664041426925" data-outputid="a4eb5db6-7625-45e8-d315-0d9aea5dd85b" data-source_hash="4eec48d0" data-tags="[]" data-execution_count="31">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>ax.grid()</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="co">#color all x-grids red</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>xgrids <span class="op">=</span> ax.xaxis.get_gridlines()</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(xgrids)):</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>    xgrids[num].set_color(<span class="st">'r'</span>)</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>    xgrids[num].set_linewidth(<span class="fl">2.5</span>)</span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a><span class="co">#change one x-grid to green to show off indexing</span></span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a><span class="co">#index from 0 (starting on the left of the plot)</span></span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a>xgrids[<span class="dv">3</span>].set_color(<span class="st">'g'</span>)</span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a>xgrids[<span class="dv">3</span>].set_linewidth(<span class="dv">5</span>)</span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a><span class="co">#color all y-grids blue</span></span>
+<span id="cb34-17"><a href="#cb34-17" aria-hidden="true" tabindex="-1"></a>ygrids <span class="op">=</span> ax.yaxis.get_gridlines()</span>
+<span id="cb34-18"><a href="#cb34-18" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(ygrids)):</span>
+<span id="cb34-19"><a href="#cb34-19" aria-hidden="true" tabindex="-1"></a>    ygrids[num].set_color(<span class="st">'b'</span>)</span>
+<span id="cb34-20"><a href="#cb34-20" aria-hidden="true" tabindex="-1"></a>    ygrids[num].set_linewidth(<span class="dv">3</span>)</span>
+<span id="cb34-21"><a href="#cb34-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-22"><a href="#cb34-22" aria-hidden="true" tabindex="-1"></a><span class="co">#change one y-grid to yellow to show off indexing</span></span>
+<span id="cb34-23"><a href="#cb34-23" aria-hidden="true" tabindex="-1"></a><span class="co">#index from 0 (starting on the bottom on the plot)</span></span>
+<span id="cb34-24"><a href="#cb34-24" aria-hidden="true" tabindex="-1"></a>ygrids[<span class="dv">3</span>].set_color(<span class="st">'y'</span>)</span>
+<span id="cb34-25"><a href="#cb34-25" aria-hidden="true" tabindex="-1"></a>ygrids[<span class="dv">3</span>].set_linewidth(<span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-32-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00060-016b288b-83b1-4a60-89e7-12abdf002681" data-deepnote_cell_height="632" data-deepnote_cell_type="code" data-deepnote_output_heights="[414]" data-execution_millis="1200" data-execution_start="1664041447298" data-outputid="05351f4c-9ef9-456e-d92b-b6762b40eb76" data-source_hash="56cab966" data-tags="[]" data-execution_count="32">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>ax.grid()</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>ax.axhline(y<span class="op">=</span><span class="dv">0</span>, color<span class="op">=</span><span class="st">'k'</span>, linewidth<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>ax.axvline(x<span class="op">=</span><span class="dv">0</span>, color<span class="op">=</span><span class="st">'k'</span>, linewidth<span class="op">=</span><span class="dv">4</span>)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>ax.axhline(y<span class="op">=</span><span class="fl">2.15</span>, color<span class="op">=</span><span class="st">'b'</span>, linewidth<span class="op">=</span><span class="dv">3</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-33-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="shading-of-shapes" class="level4">
+<h4 class="anchored" data-anchor-id="shading-of-shapes">Shading of Shapes</h4>
+<div class="cell" data-cell_id="00062-cb77bf12-c64f-4adb-8f8d-79ef581a7c14" data-deepnote_cell_height="704" data-deepnote_cell_type="code" data-deepnote_output_heights="[414]" data-execution_millis="301" data-execution_start="1664041452692" data-outputid="bb7ad602-2941-407f-c7ed-e3be618f7f4c" data-source_hash="296082fe" data-tags="[]" data-execution_count="33">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()<span class="op">;</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="co">#has 4 items since its a square</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>x_square <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">0</span>]</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>y_square <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">1</span>]</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a><span class="co">#has 3 items since its a triangle</span></span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>x_triangle <span class="op">=</span> [<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>y_triangle <span class="op">=</span> [<span class="dv">2</span>, <span class="dv">6</span>, <span class="dv">4</span>]</span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>ax.fill(x_square, y_square)</span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a>ax.fill(x_triangle, y_triangle, color<span class="op">=</span><span class="st">'r'</span>, alpha<span class="op">=</span><span class="fl">0.4</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-34-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="in-line-labels" class="level4">
+<h4 class="anchored" data-anchor-id="in-line-labels">In-line labels</h4>
+<p>Someone came up with this awesome system for in-line labeling that I use frequently. The link to the original is provided here if you want to read about it from the <a href="https://stackoverflow.com/questions/16992038/inline-labels-in-matplotlib">source</a></p>
+<div class="cell" data-cell_id="00064-83df7200-db91-49c8-8c6c-cbee5e165f74" data-deepnote_cell_height="1426" data-deepnote_cell_type="code" data-execution_millis="7" data-execution_start="1664041465551" data-output_cleared="true" data-source_hash="eeaa2538" data-tags="[]" data-execution_count="34">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> label_line(line,x,label<span class="op">=</span><span class="va">None</span>,align<span class="op">=</span><span class="va">True</span>,<span class="op">**</span>kwargs):</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>    ax <span class="op">=</span> line.axes</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>    xdata <span class="op">=</span> line.get_xdata()</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>    ydata <span class="op">=</span> line.get_ydata()</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (x <span class="op">&lt;</span> xdata[<span class="dv">0</span>]) <span class="kw">or</span> (x <span class="op">&gt;</span> xdata[<span class="op">-</span><span class="dv">1</span>]):</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">'x label location is outside data range!'</span>)</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span></span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Find corresponding y co-ordinate and angle of the line</span></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>    ip <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(xdata)):</span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> x <span class="op">&lt;</span> xdata[i]:</span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>            ip <span class="op">=</span> i</span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-18"><a href="#cb37-18" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> ydata[ip<span class="op">-</span><span class="dv">1</span>] <span class="op">+</span> (ydata[ip]<span class="op">-</span>ydata[ip<span class="op">-</span><span class="dv">1</span>])<span class="op">*</span>(x<span class="op">-</span>xdata[ip<span class="op">-</span><span class="dv">1</span>])<span class="op">/</span>(xdata[ip]<span class="op">-</span>xdata[ip<span class="op">-</span><span class="dv">1</span>])</span>
+<span id="cb37-19"><a href="#cb37-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-20"><a href="#cb37-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> label:</span>
+<span id="cb37-21"><a href="#cb37-21" aria-hidden="true" tabindex="-1"></a>        label <span class="op">=</span> line.get_label()</span>
+<span id="cb37-22"><a href="#cb37-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-23"><a href="#cb37-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> align:</span>
+<span id="cb37-24"><a href="#cb37-24" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Compute the slope</span></span>
+<span id="cb37-25"><a href="#cb37-25" aria-hidden="true" tabindex="-1"></a>        dx <span class="op">=</span> xdata[ip] <span class="op">-</span> xdata[ip<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb37-26"><a href="#cb37-26" aria-hidden="true" tabindex="-1"></a>        dy <span class="op">=</span> ydata[ip] <span class="op">-</span> ydata[ip<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb37-27"><a href="#cb37-27" aria-hidden="true" tabindex="-1"></a>        ang <span class="op">=</span> np.degrees(np.arctan2(dy,dx))</span>
+<span id="cb37-28"><a href="#cb37-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-29"><a href="#cb37-29" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Transform to screen co-ordinates</span></span>
+<span id="cb37-30"><a href="#cb37-30" aria-hidden="true" tabindex="-1"></a>        pt <span class="op">=</span> np.array([x,y]).reshape((<span class="dv">1</span>,<span class="dv">2</span>))</span>
+<span id="cb37-31"><a href="#cb37-31" aria-hidden="true" tabindex="-1"></a>        trans_angle <span class="op">=</span> ax.transData.transform_angles(np.array((ang,)),pt)[<span class="dv">0</span>]</span>
+<span id="cb37-32"><a href="#cb37-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-33"><a href="#cb37-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb37-34"><a href="#cb37-34" aria-hidden="true" tabindex="-1"></a>        trans_angle <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb37-35"><a href="#cb37-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-36"><a href="#cb37-36" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Set a bunch of keyword arguments</span></span>
+<span id="cb37-37"><a href="#cb37-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">'color'</span> <span class="kw">not</span> <span class="kw">in</span> kwargs:</span>
+<span id="cb37-38"><a href="#cb37-38" aria-hidden="true" tabindex="-1"></a>        kwargs[<span class="st">'color'</span>] <span class="op">=</span> line.get_color()</span>
+<span id="cb37-39"><a href="#cb37-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-40"><a href="#cb37-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="st">'horizontalalignment'</span> <span class="kw">not</span> <span class="kw">in</span> kwargs) <span class="kw">and</span> (<span class="st">'ha'</span> <span class="kw">not</span> <span class="kw">in</span> kwargs):</span>
+<span id="cb37-41"><a href="#cb37-41" aria-hidden="true" tabindex="-1"></a>        kwargs[<span class="st">'ha'</span>] <span class="op">=</span> <span class="st">'center'</span></span>
+<span id="cb37-42"><a href="#cb37-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-43"><a href="#cb37-43" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="st">'verticalalignment'</span> <span class="kw">not</span> <span class="kw">in</span> kwargs) <span class="kw">and</span> (<span class="st">'va'</span> <span class="kw">not</span> <span class="kw">in</span> kwargs):</span>
+<span id="cb37-44"><a href="#cb37-44" aria-hidden="true" tabindex="-1"></a>        kwargs[<span class="st">'va'</span>] <span class="op">=</span> <span class="st">'center'</span></span>
+<span id="cb37-45"><a href="#cb37-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-46"><a href="#cb37-46" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">'backgroundcolor'</span> <span class="kw">not</span> <span class="kw">in</span> kwargs:</span>
+<span id="cb37-47"><a href="#cb37-47" aria-hidden="true" tabindex="-1"></a>        kwargs[<span class="st">'backgroundcolor'</span>] <span class="op">=</span> ax.get_facecolor()</span>
+<span id="cb37-48"><a href="#cb37-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-49"><a href="#cb37-49" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">'clip_on'</span> <span class="kw">not</span> <span class="kw">in</span> kwargs:</span>
+<span id="cb37-50"><a href="#cb37-50" aria-hidden="true" tabindex="-1"></a>        kwargs[<span class="st">'clip_on'</span>] <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb37-51"><a href="#cb37-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-52"><a href="#cb37-52" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">'zorder'</span> <span class="kw">not</span> <span class="kw">in</span> kwargs:</span>
+<span id="cb37-53"><a href="#cb37-53" aria-hidden="true" tabindex="-1"></a>        kwargs[<span class="st">'zorder'</span>] <span class="op">=</span> <span class="fl">2.5</span></span>
+<span id="cb37-54"><a href="#cb37-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-55"><a href="#cb37-55" aria-hidden="true" tabindex="-1"></a>    ax.text(x,y,label,rotation<span class="op">=</span>trans_angle,<span class="op">**</span>kwargs)</span>
+<span id="cb37-56"><a href="#cb37-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-57"><a href="#cb37-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-58"><a href="#cb37-58" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> label_lines(lines,align<span class="op">=</span><span class="va">True</span>,xvals<span class="op">=</span><span class="va">None</span>,<span class="op">**</span>kwargs):</span>
+<span id="cb37-59"><a href="#cb37-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-60"><a href="#cb37-60" aria-hidden="true" tabindex="-1"></a>    ax <span class="op">=</span> lines[<span class="dv">0</span>].axes</span>
+<span id="cb37-61"><a href="#cb37-61" aria-hidden="true" tabindex="-1"></a>    labLines <span class="op">=</span> []</span>
+<span id="cb37-62"><a href="#cb37-62" aria-hidden="true" tabindex="-1"></a>    labels <span class="op">=</span> []</span>
+<span id="cb37-63"><a href="#cb37-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-64"><a href="#cb37-64" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Take only the lines which have labels other than the default ones</span></span>
+<span id="cb37-65"><a href="#cb37-65" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> line <span class="kw">in</span> lines:</span>
+<span id="cb37-66"><a href="#cb37-66" aria-hidden="true" tabindex="-1"></a>        label <span class="op">=</span> line.get_label()</span>
+<span id="cb37-67"><a href="#cb37-67" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="st">"_line"</span> <span class="kw">not</span> <span class="kw">in</span> label:</span>
+<span id="cb37-68"><a href="#cb37-68" aria-hidden="true" tabindex="-1"></a>            labLines.append(line)</span>
+<span id="cb37-69"><a href="#cb37-69" aria-hidden="true" tabindex="-1"></a>            labels.append(label)</span>
+<span id="cb37-70"><a href="#cb37-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-71"><a href="#cb37-71" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> xvals <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb37-72"><a href="#cb37-72" aria-hidden="true" tabindex="-1"></a>        xmin,xmax <span class="op">=</span> ax.get_xlim()</span>
+<span id="cb37-73"><a href="#cb37-73" aria-hidden="true" tabindex="-1"></a>        xvals <span class="op">=</span> np.linspace(xmin,xmax,<span class="bu">len</span>(labLines)<span class="op">+</span><span class="dv">2</span>)[<span class="dv">1</span>:<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb37-74"><a href="#cb37-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-75"><a href="#cb37-75" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> line,x,label <span class="kw">in</span> <span class="bu">zip</span>(labLines,xvals,labels):</span>
+<span id="cb37-76"><a href="#cb37-76" aria-hidden="true" tabindex="-1"></a>        label_line(line,x,label,align,<span class="op">**</span>kwargs)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-cell_id="00065-3664abb3-1b0b-4eab-b713-28a81877835d" data-deepnote_cell_height="750" data-deepnote_cell_type="code" data-deepnote_output_heights="[352]" data-execution_millis="314" data-execution_start="1664041469219" data-outputid="a812848f-0e4c-4a43-dd1e-d05b902b661a" data-source_hash="1f9cdbed" data-tags="[]" data-execution_count="35">
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a><span class="co">#powers of x</span></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> x</span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>y3 <span class="op">=</span> x<span class="op">**</span><span class="dv">3</span></span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a>y4 <span class="op">=</span> x<span class="op">**</span><span class="dv">4</span></span>
+<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-10"><a href="#cb38-10" aria-hidden="true" tabindex="-1"></a>y_list <span class="op">=</span> [y1, y2, y3, y4]</span>
+<span id="cb38-11"><a href="#cb38-11" aria-hidden="true" tabindex="-1"></a>name_list <span class="op">=</span> [<span class="st">'1st Degree'</span>, <span class="st">'2nd Degree'</span>, <span class="st">'3rd Degree'</span>, <span class="st">'4th Degree'</span>]</span>
+<span id="cb38-12"><a href="#cb38-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num, y <span class="kw">in</span> <span class="bu">enumerate</span>(y_list):</span>
+<span id="cb38-13"><a href="#cb38-13" aria-hidden="true" tabindex="-1"></a>    ax.plot(x,y, label<span class="op">=</span>name_list[num])</span>
+<span id="cb38-14"><a href="#cb38-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-15"><a href="#cb38-15" aria-hidden="true" tabindex="-1"></a>ax.grid()</span>
+<span id="cb38-16"><a href="#cb38-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-17"><a href="#cb38-17" aria-hidden="true" tabindex="-1"></a><span class="co">#maybe not the best showcase of the possibilities, but a good tool nonetheless</span></span>
+<span id="cb38-18"><a href="#cb38-18" aria-hidden="true" tabindex="-1"></a>label_lines(plt.gca().get_lines(),align<span class="op">=</span><span class="va">False</span>,fontsize<span class="op">=</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-36-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00066-6d317eff-40b3-48b4-8fc5-b87b07341edf" data-deepnote_cell_height="750" data-deepnote_cell_type="code" data-deepnote_output_heights="[352]" data-execution_millis="247" data-execution_start="1664041549847" data-outputid="4ec316cf-5ab2-42d0-9869-648031735d42" data-source_hash="2ee04aa9" data-tags="[]" data-execution_count="36">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a><span class="co">#powers of x</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> x</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>y3 <span class="op">=</span> x<span class="op">**</span><span class="dv">3</span></span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>y4 <span class="op">=</span> x<span class="op">**</span><span class="dv">4</span></span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>y_list <span class="op">=</span> [y1, y2, y3, y4]</span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>name_list <span class="op">=</span> [<span class="st">'1st Degree'</span>, <span class="st">'2nd Degree'</span>, <span class="st">'3rd Degree'</span>, <span class="st">'4th Degree'</span>]</span>
+<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num, y <span class="kw">in</span> <span class="bu">enumerate</span>(y_list):</span>
+<span id="cb39-13"><a href="#cb39-13" aria-hidden="true" tabindex="-1"></a>    ax.plot(x,y, label<span class="op">=</span>name_list[num])</span>
+<span id="cb39-14"><a href="#cb39-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-15"><a href="#cb39-15" aria-hidden="true" tabindex="-1"></a>ax.grid()</span>
+<span id="cb39-16"><a href="#cb39-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-17"><a href="#cb39-17" aria-hidden="true" tabindex="-1"></a><span class="co">#maybe not the best showcase of the possibilities, but a good tool nonetheless</span></span>
+<span id="cb39-18"><a href="#cb39-18" aria-hidden="true" tabindex="-1"></a>label_lines(plt.gca().get_lines(),zorder<span class="op">=</span><span class="fl">2.5</span>, color<span class="op">=</span><span class="st">'grey'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-37-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="category-labeling" class="level4">
+<h4 class="anchored" data-anchor-id="category-labeling">Category Labeling</h4>
+<p>What if we want to say all dashed lines mean something? What if we want to put something in the legend we don’t want to see?</p>
+<p>We can do that with “Category Labeling”</p>
+<div class="cell" data-cell_id="00068-ebe403a8-3eb4-45d9-b779-bc1eb09525b5" data-deepnote_cell_height="1134" data-deepnote_cell_type="code" data-deepnote_output_heights="[610]" data-execution_millis="1339" data-execution_start="1664041555041" data-outputid="3c94ab0f-bfe5-4826-9dc1-162b94ef068e" data-source_hash="192ee7e9" data-tags="[]" data-execution_count="37">
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">8</span>))</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">50</span>)</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> np.sqrt(x)</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>y1b <span class="op">=</span> np.sqrt(x)<span class="op">+</span> <span class="dv">30</span></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>y3 <span class="op">=</span> x<span class="op">**</span>(<span class="dv">1</span><span class="op">/</span><span class="dv">3</span>)</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>y4 <span class="op">=</span> x<span class="op">**</span><span class="dv">3</span></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a>y4b <span class="op">=</span> x<span class="op">**</span><span class="dv">3</span> <span class="op">+</span> <span class="dv">20</span></span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>ax.plot(x, y1, linestyle<span class="op">=</span><span class="st">'--'</span>, color<span class="op">=</span><span class="st">'r'</span>)</span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>ax.plot(x, y1b, linestyle<span class="op">=</span><span class="st">'--'</span>, color<span class="op">=</span><span class="st">'r'</span>)</span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y2, color<span class="op">=</span><span class="st">'g'</span>)</span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a>ax.plot(x, y3, linestyle<span class="op">=</span><span class="st">'--'</span>, color<span class="op">=</span><span class="st">'b'</span>)</span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y4, color <span class="op">=</span> <span class="st">'y'</span>)</span>
+<span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a>ax.plot(x,y4b, color<span class="op">=</span><span class="st">'y'</span>)</span>
+<span id="cb40-16"><a href="#cb40-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-17"><a href="#cb40-17" aria-hidden="true" tabindex="-1"></a><span class="co">#we can use a fancy trick to plot a single point (which won't show up on the plot)</span></span>
+<span id="cb40-18"><a href="#cb40-18" aria-hidden="true" tabindex="-1"></a>ax.plot([<span class="dv">0</span>],[<span class="dv">0</span>], color <span class="op">=</span> <span class="st">'r'</span>, label<span class="op">=</span><span class="st">'Square root function'</span>)</span>
+<span id="cb40-19"><a href="#cb40-19" aria-hidden="true" tabindex="-1"></a>ax.plot([<span class="dv">0</span>],[<span class="dv">0</span>], color <span class="op">=</span> <span class="st">'g'</span>, label<span class="op">=</span><span class="st">'Square function'</span>)</span>
+<span id="cb40-20"><a href="#cb40-20" aria-hidden="true" tabindex="-1"></a>ax.plot([<span class="dv">0</span>],[<span class="dv">0</span>], color <span class="op">=</span> <span class="st">'b'</span>, label<span class="op">=</span><span class="st">'Cube root function'</span>)</span>
+<span id="cb40-21"><a href="#cb40-21" aria-hidden="true" tabindex="-1"></a>ax.plot([<span class="dv">0</span>],[<span class="dv">0</span>], color <span class="op">=</span> <span class="st">'y'</span>, label<span class="op">=</span><span class="st">'Cubic function'</span>)</span>
+<span id="cb40-22"><a href="#cb40-22" aria-hidden="true" tabindex="-1"></a>ax.plot([<span class="dv">0</span>],[<span class="dv">0</span>], color <span class="op">=</span> <span class="st">'grey'</span>, linestyle <span class="op">=</span> <span class="st">'--'</span>, label<span class="op">=</span><span class="st">'Root function'</span>)</span>
+<span id="cb40-23"><a href="#cb40-23" aria-hidden="true" tabindex="-1"></a>ax.plot([<span class="dv">0</span>],[<span class="dv">0</span>], color <span class="op">=</span> <span class="st">'grey'</span>, label<span class="op">=</span><span class="st">'Power function'</span>)</span>
+<span id="cb40-24"><a href="#cb40-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-25"><a href="#cb40-25" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">'Showcase Category Labels:'</span>, title_fontsize<span class="op">=</span><span class="dv">16</span>, fontsize<span class="op">=</span><span class="dv">12</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-38-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="auto-coloring-with-the-cycler-library" class="level3">
+<h3 class="anchored" data-anchor-id="auto-coloring-with-the-cycler-library">Auto-coloring with the Cycler Library</h3>
+<p>Tired of always looking up the GW colors for figures, I sure am. Here’s a faster way!</p>
+<p>Order matters, will always plot the first line without a color label as the first color in the given list, then the 2nd as the 2nd color, etc</p>
+<p>If it gets to the end of the list, it will begin from the beginning with the 1st color hence “Cycler”</p>
+<div class="cell" data-cell_id="00071-966ae55c-48a5-425e-9dea-7403fba92155" data-deepnote_cell_height="166" data-deepnote_cell_type="code" data-execution_millis="3" data-execution_start="1664041575001" data-output_cleared="true" data-source_hash="4228e13f" data-tags="[]" data-execution_count="38">
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> cycler <span class="im">import</span> cycler</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib <span class="im">as</span> mpl</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a><span class="co">#save this default for later when we need it</span></span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>prop_cycle <span class="op">=</span> mpl.rcParams[<span class="st">'axes.prop_cycle'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-cell_id="00072-6866f00f-0533-4551-b7b2-5c46dc3db004" data-deepnote_cell_height="840" data-deepnote_cell_type="code" data-deepnote_output_heights="[352]" data-execution_millis="309" data-execution_start="1664041576703" data-outputid="bb7fd1cc-e7c6-4628-e28e-4070da96ffc7" data-source_hash="242ae55e" data-tags="[]" data-execution_count="39">
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Cycle 1:</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="co">#in order: GW red, GW green, GW Yellow, GW Blue</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>colorlist1 <span class="op">=</span> [<span class="st">'#C9102F'</span>, <span class="st">'#008364'</span>, <span class="st">'#FFC72C'</span>, <span class="st">'#033C5A'</span>]</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>mpl.rcParams[<span class="st">'axes.prop_cycle'</span>] <span class="op">=</span> cycler(color<span class="op">=</span>colorlist1)</span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a><span class="co">#powers of x</span></span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> x</span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a>y3 <span class="op">=</span> x<span class="op">**</span><span class="dv">3</span></span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a>y4 <span class="op">=</span> x<span class="op">**</span><span class="dv">4</span></span>
+<span id="cb42-14"><a href="#cb42-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-15"><a href="#cb42-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-16"><a href="#cb42-16" aria-hidden="true" tabindex="-1"></a>ylist <span class="op">=</span> [y1, y2, y3, y4]</span>
+<span id="cb42-17"><a href="#cb42-17" aria-hidden="true" tabindex="-1"></a>namelist <span class="op">=</span> [<span class="st">'1st Degree'</span>, <span class="st">'2nd Degree'</span>, <span class="st">'3rd Degree'</span>, <span class="st">'4th Degree'</span>]</span>
+<span id="cb42-18"><a href="#cb42-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-19"><a href="#cb42-19" aria-hidden="true" tabindex="-1"></a><span class="co">#no color parameter specified, but matplotlib defaults to the sequence we told it to</span></span>
+<span id="cb42-20"><a href="#cb42-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num, y <span class="kw">in</span> <span class="bu">enumerate</span>(ylist):</span>
+<span id="cb42-21"><a href="#cb42-21" aria-hidden="true" tabindex="-1"></a>    ax.plot(x,y, label<span class="op">=</span>namelist[num])</span>
+<span id="cb42-22"><a href="#cb42-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-23"><a href="#cb42-23" aria-hidden="true" tabindex="-1"></a>ax.legend()<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-40-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00073-5f24df1f-720e-46aa-bf82-949786cecbd7" data-deepnote_cell_height="840" data-deepnote_cell_type="code" data-deepnote_output_heights="[352]" data-execution_millis="886" data-execution_start="1664041581905" data-outputid="ade66dea-8019-482b-d2ed-c3ba32aced06" data-source_hash="b4d70e03" data-tags="[]" data-execution_count="40">
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Cycle 2:</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="co">#in order: GW blue, GW light blue, GW buff, GW dark green, GW Brown</span></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>colorlist2 <span class="op">=</span> [<span class="st">'#033C5A'</span>, <span class="st">'#0073AA'</span>, <span class="st">'#AA9868'</span>, <span class="st">'#008364'</span>, <span class="st">'#A75523'</span>]</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>mpl.rcParams[<span class="st">'axes.prop_cycle'</span>] <span class="op">=</span> cycler(color<span class="op">=</span>colorlist2)</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a><span class="co">#powers of x</span></span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb43-10"><a href="#cb43-10" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> x</span>
+<span id="cb43-11"><a href="#cb43-11" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb43-12"><a href="#cb43-12" aria-hidden="true" tabindex="-1"></a>y3 <span class="op">=</span> x<span class="op">**</span><span class="dv">3</span></span>
+<span id="cb43-13"><a href="#cb43-13" aria-hidden="true" tabindex="-1"></a>y4 <span class="op">=</span> x<span class="op">**</span><span class="dv">4</span></span>
+<span id="cb43-14"><a href="#cb43-14" aria-hidden="true" tabindex="-1"></a>y5 <span class="op">=</span> x<span class="op">**</span><span class="dv">5</span></span>
+<span id="cb43-15"><a href="#cb43-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-16"><a href="#cb43-16" aria-hidden="true" tabindex="-1"></a>ylist <span class="op">=</span> [y1, y2, y3, y4, y5]</span>
+<span id="cb43-17"><a href="#cb43-17" aria-hidden="true" tabindex="-1"></a>namelist <span class="op">=</span> [<span class="st">'1st Degree'</span>, <span class="st">'2nd Degree'</span>, <span class="st">'3rd Degree'</span>, <span class="st">'4th Degree'</span>, <span class="st">'5th Degree'</span>]</span>
+<span id="cb43-18"><a href="#cb43-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-19"><a href="#cb43-19" aria-hidden="true" tabindex="-1"></a><span class="co">#no color parameter specified, but matplotlib defaults to the sequence we told it to</span></span>
+<span id="cb43-20"><a href="#cb43-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num, y <span class="kw">in</span> <span class="bu">enumerate</span>(ylist):</span>
+<span id="cb43-21"><a href="#cb43-21" aria-hidden="true" tabindex="-1"></a>    ax.plot(x,y, label<span class="op">=</span>namelist[num])</span>
+<span id="cb43-22"><a href="#cb43-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-23"><a href="#cb43-23" aria-hidden="true" tabindex="-1"></a>ax.legend()<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-41-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00074-3fde2b1d-364b-4c11-ab16-e8ec71aaf6b5" data-deepnote_cell_height="171" data-deepnote_cell_type="code" data-execution_millis="1" data-execution_start="1664041593038" data-output_cleared="true" data-source_hash="23d3f585" data-tags="[]" data-execution_count="41">
+<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co">#here's the full GW color system (excluding black and white) in one list if you have a lot of lines to plot</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>GW_COLOR_LIST <span class="op">=</span> [<span class="st">'#C9102F'</span>, <span class="st">'#008364'</span>, <span class="st">'#FFC72C'</span>, <span class="st">'#033C5A'</span>, <span class="st">'#0073AA'</span>, <span class="st">'#AA9868'</span>, <span class="st">'#008364'</span>, <span class="st">'#A75523'</span>]</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>mpl.rcParams[<span class="st">'axes.prop_cycle'</span>] <span class="op">=</span> cycler(color<span class="op">=</span>GW_COLOR_LIST)</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a><span class="co">#but we will go back to defaults</span></span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>mpl.rcParams[<span class="st">'axes.prop_cycle'</span>] <span class="op">=</span> prop_cycle</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="d-plotting-with-matplotlib" class="level3">
+<h3 class="anchored" data-anchor-id="d-plotting-with-matplotlib">3D plotting with Matplotlib</h3>
+<div class="cell" data-cell_id="00076-db634746-02cf-4a28-910c-49f2e24ebbfd" data-deepnote_cell_height="76" data-deepnote_cell_type="code" data-execution_millis="1" data-execution_start="1664041594715" data-output_cleared="true" data-source_hash="8af4041c" data-tags="[]" data-execution_count="42">
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> mpl_toolkits <span class="im">import</span> mplot3d</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-cell_id="00077-14ae1df8-19a0-47ee-a9a0-fb2a32313b3e" data-deepnote_cell_height="545" data-deepnote_cell_type="code" data-deepnote_output_heights="[417]" data-execution_millis="899" data-execution_start="1664041594716" data-outputid="811f6e58-3c05-4978-8a8a-43b39e9f4f8c" data-source_hash="9975a9e7" data-tags="[]" data-execution_count="43">
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="co">#basic 3D plot initialization</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">5</span>))</span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.axes(projection<span class="op">=</span><span class="st">'3d'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-44-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<section id="d-line-and-scatter-plots" class="level4">
+<h4 class="anchored" data-anchor-id="d-line-and-scatter-plots">3D line and scatter plots</h4>
+<div class="cell" data-cell_id="00079-267c469e-c958-4274-a1f3-ee1657dad068" data-deepnote_cell_height="650" data-deepnote_cell_type="code" data-deepnote_output_heights="[414]" data-execution_millis="422" data-execution_start="1664041599240" data-outputid="359373f3-7eb6-4aaa-8d23-33c5c84db7cf" data-source_hash="f8f52f7f" data-tags="[]" data-execution_count="44">
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co">#line plots</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">5</span>))</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.axes(projection<span class="op">=</span><span class="st">'3d'</span>)</span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">50</span>)</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.sin(np.linspace(<span class="dv">0</span>, <span class="dv">10</span>, <span class="dv">50</span>))</span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a>z <span class="op">=</span> np.cos(x) <span class="op">*</span> y</span>
+<span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a>ax.plot3D(x, y, z)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-45-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00080-5db07a15-31cc-4455-912b-8047b1a8e97a" data-deepnote_cell_height="650" data-deepnote_cell_type="code" data-deepnote_output_heights="[414]" data-execution_millis="752" data-execution_start="1664041612305" data-outputid="bf3f67dc-aac1-4776-f5eb-ea2a1be19bff" data-source_hash="e9b88b98" data-tags="[]" data-execution_count="45">
+<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co">#scatter plot</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">5</span>))</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.axes(projection<span class="op">=</span><span class="st">'3d'</span>)</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">10</span>, <span class="dv">10</span>)</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> (x<span class="op">+</span><span class="dv">67</span>)<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a>z <span class="op">=</span> np.cos(x)</span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a>ax.scatter3D(x,y,z)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-46-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="contour-wireframe-and-surface-plots" class="level4">
+<h4 class="anchored" data-anchor-id="contour-wireframe-and-surface-plots">Contour, Wireframe, and Surface Plots</h4>
+<p><strong>Contour</strong> - Imagine making rings at differing elevations of a surface, then plot the rings</p>
+<p><strong>Wireframe</strong> - Gridded mesh of surface structures</p>
+<p><strong>Surface</strong> - Solid surface plot</p>
+<p>Each style has benefits and downsides for representation of data, so I’ve included them all to make it easy to know the options</p>
+<p><strong>Extra Notes</strong>:</p>
+<p><code>np.meshgrid</code> is commonly used in 3d plots. <a href="https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html">Meshgrid documentation</a></p>
+<div class="cell" data-cell_id="00082-e5177ef0-fbed-4035-a01e-462baaf3ee57" data-deepnote_cell_height="865" data-deepnote_cell_type="code" data-deepnote_output_heights="[485]" data-execution_millis="608" data-execution_start="1664041620741" data-outputid="a58c3107-4a7c-4912-fd31-96b3417331be" data-source_hash="fd15ecd1" data-tags="[]" data-execution_count="46">
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co">#this function is commonly used in math classes because it looks fun</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x, y):</span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (np.sin(np.sqrt(x<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> y<span class="op">**</span><span class="dv">2</span>)))</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a><span class="co">#contour plot example</span></span>
+<span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">8</span>, <span class="dv">8</span>, <span class="dv">50</span>)</span>
+<span id="cb49-8"><a href="#cb49-8" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">8</span>, <span class="dv">8</span>, <span class="dv">50</span>)</span>
+<span id="cb49-9"><a href="#cb49-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-10"><a href="#cb49-10" aria-hidden="true" tabindex="-1"></a>X, Y <span class="op">=</span> np.meshgrid(x, y)</span>
+<span id="cb49-11"><a href="#cb49-11" aria-hidden="true" tabindex="-1"></a>Z <span class="op">=</span> f(X, Y)</span>
+<span id="cb49-12"><a href="#cb49-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-13"><a href="#cb49-13" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">6</span>))</span>
+<span id="cb49-14"><a href="#cb49-14" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.axes(projection<span class="op">=</span><span class="st">'3d'</span>)</span>
+<span id="cb49-15"><a href="#cb49-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-16"><a href="#cb49-16" aria-hidden="true" tabindex="-1"></a><span class="co">#4th parameter here indicates the number of elevation rings used</span></span>
+<span id="cb49-17"><a href="#cb49-17" aria-hidden="true" tabindex="-1"></a>ax.contour3D(X, Y, Z, <span class="dv">30</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-47-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00083-00ab340d-b263-4060-892e-43b5933738ae" data-deepnote_cell_height="757" data-deepnote_cell_type="code" data-deepnote_output_heights="[485]" data-execution_millis="752" data-execution_start="1664041625399" data-outputid="0d2730ed-7ce0-4595-f6b2-d989290dff48" data-source_hash="ca912980" data-tags="[]" data-execution_count="47">
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co">#wireframe example</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">8</span>, <span class="dv">8</span>, <span class="dv">50</span>)</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">8</span>, <span class="dv">8</span>, <span class="dv">50</span>)</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>X, Y <span class="op">=</span> np.meshgrid(x, y)</span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a>Z <span class="op">=</span> f(X, Y)</span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">6</span>))</span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.axes(projection<span class="op">=</span><span class="st">'3d'</span>)</span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a>ax.plot_wireframe(X, Y, Z)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-48-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-cell_id="00084-d1751f50-8b98-42b9-b86e-d035c297b3e7" data-deepnote_cell_height="757" data-deepnote_cell_type="code" data-deepnote_output_heights="[485]" data-execution_millis="757" data-execution_start="1664041628593" data-outputid="7a028ba3-fc2c-43cd-c194-973db6292bd9" data-source_hash="46785a8" data-tags="[]" data-execution_count="48">
+<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co">#surface plot example</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">8</span>, <span class="dv">8</span>, <span class="dv">50</span>)</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">8</span>, <span class="dv">8</span>, <span class="dv">50</span>)</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>X, Y <span class="op">=</span> np.meshgrid(x, y)</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>Z <span class="op">=</span> f(X, Y)</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">6</span>))</span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.axes(projection<span class="op">=</span><span class="st">'3d'</span>)</span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a>ax.plot_surface(X, Y, Z)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Demo4-Guide_files/figure-html/cell-49-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+
+
+</section>
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
