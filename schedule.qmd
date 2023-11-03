@@ -132,6 +132,7 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
       <td>
         <ul>
           <li>[In-class Raspberry Pi Lab using Pi NOIR camera](lecture_notes/week5-pi-picam.qmd)</li>
+          <li>5-min Standup talk by: **Josie Lisbon**</li>
           <li>**HW 3 due date (Friday, November 03, 2023)**</li>
           <li>HW 4 Assigned</li>
         </ul>
