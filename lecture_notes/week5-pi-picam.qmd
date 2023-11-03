@@ -1,8 +1,8 @@
-## Getting Started with Raspberry Pi and PiCamera
+## Getting started with Raspberry Pi and PiCamera
 
 **Referencing this presentation:**
 
-Bulusu, Kartik V. (2023, November 03). Week-5 Presentation: CSCI1010 Computer Science Orientation [Getting Started with Raspberry Pi and PiCamera.] Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
+Bulusu, Kartik V. (2023, November 03). Week-5 Presentation: CSCI1010 Computer Science Orientation [Getting started with Raspberry Pi and PiCamera.] Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
 
 
 ::: {.callout-note appearance="simple"}
