@@ -53,6 +53,23 @@
   </tr>
 </table>
 
+## Josie Libbon
+<div id="josie-lisbon"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **Josie** is a senior majoring in computer science and minoring in political science. Throughout her time at GW, she has been an LA and TA for 3 different CS classes, held leadership positions in orgs such as [**WiCS**](https://gwwics.github.io/) and **ACM**, and conducted research with various professors surrounding real-time artificial intelligence. She is currently the undergraduate representative for the CS Curriculum Committee at GW. She has also completed a summer internship at a DMV government contractor, and will be returning there after she graduates in May. She is excited to discuss and give advice on how to have a successful career at GW!
+      
+      **Email**: <a href="mailto:josielibbon@gwmail.gwu.edu">josielibbon@gwmail.gwu.edu</a>
+    </td>
+
+    <td width="30%">
+      <img src="images/guest-speakers/josie.jpeg" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
 <br><br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
