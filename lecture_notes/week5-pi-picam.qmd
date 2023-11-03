@@ -1,0 +1,36 @@
+## Getting Started with Raspberry Pi and PiCamera
+
+**Referencing this presentation:**
+
+Bulusu, Kartik V. (2023, November 03). Week-5 Presentation: CSCI1010 Computer Science Orientation [Getting Started with Raspberry Pi and PiCamera.] Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
+
+
+::: {.callout-note appearance="simple"}
+**Course materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.**
+:::
+
+### Slide 1
+![Slide 1](../images/lecture_notes/week-5/pi-picam/slide-1.png)
+
+### Slide 2
+![Slide 2](../images/lecture_notes/week-5/pi-picam/slide-2.png)
+
+[https://www.adafruit.com/product/3100#description](https://www.adafruit.com/product/3100#description)
+
+### Slide 3
+![Slide 3](../images/lecture_notes/week-5/pi-picam/slide-3.png)
+
+### Slide 4
+![Slide 4](../images/lecture_notes/week-5/pi-picam/slide-4.png)
+
+### Slide 5
+![Slide 5](../images/lecture_notes/week-5/pi-picam/slide-5.png)
+
+
+<br>
+<footer>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
+</footer>
