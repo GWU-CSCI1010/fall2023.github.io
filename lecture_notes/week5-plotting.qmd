@@ -10,17 +10,17 @@ Bulusu, Kartik V. (2023, November 03). Week-5 Presentation: CSCI1010 Computer Sc
 :::
 
 ### Slide 1
-![Slide 1](../images/lecture_notes/week-5/slide-1.png)
+![Slide 1](../images/lecture_notes/week-5/plotting/slide-1.png)
 
 ### Slide 2
-![Slide 2](../images/lecture_notes/week-5/slide-2.png)
+![Slide 2](../images/lecture_notes/week-5//plottingslide-2.png)
 [https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html](https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html)
 
 [https://matplotlib.org/stable/api/markers_api.html](https://matplotlib.org/stable/api/markers_api.html)
 
 
 ### Slide 3
-![Slide 3](../images/lecture_notes/week-5/slide-3.png)
+![Slide 3](../images/lecture_notes/week-5/plotting/slide-3.png)
 
 
 <br>
