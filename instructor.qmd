@@ -205,11 +205,7 @@ format: html
 
       Before embarking on my graduate studies at GWU, I had the incredible opportunity to work as both a Data Scientist intern and a DevOps intern for a dynamic startup. These experiences not only honed my skills but also fueled my curiosity to explore the ever-evolving tech landscape.
 
-      But it's not all about screens and keyboards. I'm an avid sports enthusiast, and cricket holds a special place in my heart. There's nothing quite like the thrill of a good cricket match. And when I'm looking to break a sweat and enjoy some friendly competition, you might catch me on the volleyball court, spiking and setting with the folks at Volo.
-
-      In addition to my academic pursuits, I take on the responsibility of maintaining the CS1010 course website. It's a role that I take seriously, as I believe that a well-structured online platform is essential for enhancing the learning experience of fellow students.
-
-      So, whether it's coding, sports, or web maintenance, I'm always up for a challenge. Feel free to reach out, and let's embark on this exciting journey together!
+      In addition to my academic pursuits, I take on the responsibility of maintaining the CS1010 course website. It's a role that I take seriously, as I believe that a well-structured online platform is essential for enhancing the learning experience of fellow students. Feel free to reach out, and let's embark on this exciting journey together!
     </td>
 
     <td width="30%"> 
