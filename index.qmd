@@ -4,16 +4,6 @@ title: "Computer Science Orientation"
 
 <h2>Hands-on exploration of the possibilities in Computer Science</h2>
 
-:::{.callout-important title="Location change"}
-The location for the lecture for this **Friday, November 3 only**, has been moved to **MPA B07** because of the _Inauguration events_.
-
-**Location**: <u>__MPA B07, School of Media & Public Affairs__</u>
-
-[_805 21st St NW #400, Washington, DC 20052_](https://www.google.com/maps/dir//school+of+media+and+public+affairs/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89b7b7b08af3296f:0x3e32dedd82d144b3?sa=X&ved=2ahUKEwjhzKDZsKOCAxVauIkEHfzUD4YQ9Rd6BAhOEAA)
-
-**B07** is located in the basement.
-:::
-
 <style>
 * {
   box-sizing: border-box;
