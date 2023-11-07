@@ -135,7 +135,7 @@ format: html
       
       **Office Hours:** Tuesday (2 PM - 4 PM)
 
-      **Location:** SEH B2001
+      **Location:** SEH B2000
     </td>
 
     <td width="30%">
