@@ -130,6 +130,26 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         <li>In-class Python Exercise & HW4 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week5.zip" download>![Download button](images/file-black.png){width=28}</a></li>
       </td> 
     </tr>
+    <tr>
+      <th scope="row">Week 6 [11/10/2023]</th>
+      <td>
+        <ul>
+          <li>Machine Learning by Richard Sear (CS Alumni and ML researcher) [Slides]</li>
+          <li>Information privacy / Image encryption-decryption by [**Prof. Bhagirath Narahari**]()</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>[In-class Raspberry Pi Lab on Image Encryption and Decryption](lecture_notes/week6-encrypt-decrypt.qmd)</li>
+          <li>5-min Standup talk by: [**Ryah Carpenter**](standup.qmd#ryah-carpenter)</li>
+          <li>**COVID-19 Data Analysis Project due date (Friday, November 10, 2023)**</li>
+          <li>**HW 4 due date (Friday, November 10, 2023)**</li>
+          <li>HW 5 Assigned</li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
     <!-- </tr>
         <tr class="table-secondary">
         <th colspan="4"><u>NOTE</u>: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester</th>
