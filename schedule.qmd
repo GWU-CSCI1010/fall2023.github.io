@@ -135,7 +135,7 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
       <td>
         <ul>
           <li>Machine Learning by Richard Sear (CS Alumni and ML researcher) [Slides]</li>
-          <li>Information privacy / Image encryption-decryption by [**Prof. Bhagirath Narahari**]()</li>
+          <li>Information privacy / Image encryption-decryption by [**Prof. Bhagirath Narahari**](https://www.seas.gwu.edu/bhagirath-narahari)</li>
         </ul>
       </td>
       <td>
@@ -148,6 +148,7 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
         </ul>
       </td>
       <td>
+      <li>In-class Python Exercise & HW5 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week6.zip" download>![Download button](images/file-black.png){width=28}</a></li>
       </td>
     </tr>
     <!-- </tr>
