@@ -70,6 +70,23 @@
   </tr>
 </table>
 
+## Ryah Carpenter
+<div id="rayh-carpenter"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **Ryah** is a senior majoring in computer science and minoring in criminal justice. Throughout her time at GW, she has been involved with the [Women’s Club Lacrosse](https://gwu.campuslabs.com/engage/organization/gw-women-s-club-lacrosse) team, been an LA and TA for 3 different CS classes, and conducted research on real-time artificial intelligence. She has also completed two summer internships, and is excited to share all her advice for making the most out of your time in college!
+      
+      **Email**: <a href="mailto:jrcarpenter349@gwmail.gwu.edu">jrcarpenter349@gwmail.gwu.edu</a>
+    </td>
+
+    <td width="30%">
+      <img src="images/guest-speakers/ryah.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
 <br><br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
