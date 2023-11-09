@@ -300,36 +300,7 @@ Week 2 [10/13/2023]
 </th>
 <td colspan="3">
 <ul>
-<li>
 Fall Break, <strong>NO CLASS!</strong>
-</li>
-<li>
-<em>Distribution of Scores for <strong>HW1</strong></em>
-</li>
-<img src="images/histograms/HW1.png" alt="HW1" class="thumbnail" onclick="displayImage('images/histograms/HW1.png')">
-<div id="popupContainer" onclick="hidePopup()">
-<img src="" alt="HW1" id="popupImage">
-</div>
-<script>
-                  function displayImage(imageSrc) {
-                      var popupImage = document.getElementById('popupImage');
-                      popupImage.src = imageSrc;
-                      document.getElementById('popupContainer').style.display = 'flex';
-                  }
-                  function hidePopup() {
-                      document.getElementById('popupContainer').style.display = 'none';
-                  }
-                  document.getElementById('popupContainer').addEventListener('click', function(e) {
-                      if (e.target === this) {
-                          hidePopup();
-                      }
-                  });
-                  document.addEventListener('keydown', function(e) {
-                      if (e.key === 'Escape') {
-                          hidePopup();
-                      }
-                  });
-              </script>
 </ul>
 </td>
 </tr>
@@ -368,39 +339,39 @@ Handling data arrays and plotting data using Python
 <li>
 HW 2 Assigned
 </li>
+<li>
+<em>Distribution of Scores for <strong>HW1</strong></em>
+</li>
+<img src="images/histograms/HW1.png" alt="HW1" class="thumbnail" onclick="displayImage('images/histograms/HW1.png')">
+<div id="popupContainer" onclick="hidePopup()">
+<img src="" alt="HW1" id="popupImage">
+</div>
+<script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
 </ul>
 </td>
 <td>
 <li>
 In-class Python Exercise &amp; HW2 <a href="https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week3.zip" download=""><img src="images/file-black.png" class="img-fluid" width="28" alt="Download button"></a>
 </li>
-<li>
-<em>Distribution of Scores for <strong>HW2</strong></em>
-</li>
-<img src="images/histograms/HW2.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW2.png')">
-<div id="popupContainer" onclick="hidePopup()">
-<img src="" alt="HW2" id="popupImage">
-</div>
-<script>
-              function displayImage(imageSrc) {
-                  var popupImage = document.getElementById('popupImage');
-                  popupImage.src = imageSrc;
-                  document.getElementById('popupContainer').style.display = 'flex';
-              }
-              function hidePopup() {
-                  document.getElementById('popupContainer').style.display = 'none';
-              }
-              document.getElementById('popupContainer').addEventListener('click', function(e) {
-                  if (e.target === this) {
-                      hidePopup();
-                  }
-              });
-              document.addEventListener('keydown', function(e) {
-                  if (e.key === 'Escape') {
-                      hidePopup();
-                  }
-              });
-          </script>
 </td>
 </tr><tr>
 <th scope="row">
@@ -436,6 +407,33 @@ Learning about dataframe using Pandas in Python
 <li>
 HW 3 Assigned
 </li>
+<li>
+<em>Distribution of Scores for <strong>HW2</strong></em>
+</li>
+<img src="images/histograms/HW2.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW2.png')">
+<div id="popupContainer" onclick="hidePopup()">
+<img src="" alt="HW2" id="popupImage">
+</div>
+<script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
 </ul>
 </td>
 <td>

@@ -99,30 +99,7 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
       <th scope="row">Week 2 [10/13/2023]</th>
       <td colspan="3">
         <ul>
-            <li>Fall Break, **NO CLASS!**</li>
-            <li>_Distribution of Scores for **HW1**_</li> 
-              <img src="images/histograms/HW1.png" alt="HW1" class="thumbnail" onclick="displayImage('images/histograms/HW1.png')">
-              <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW1" id="popupImage"></div>
-              <script>
-                  function displayImage(imageSrc) {
-                      var popupImage = document.getElementById('popupImage');
-                      popupImage.src = imageSrc;
-                      document.getElementById('popupContainer').style.display = 'flex';
-                  }
-                  function hidePopup() {
-                      document.getElementById('popupContainer').style.display = 'none';
-                  }
-                  document.getElementById('popupContainer').addEventListener('click', function(e) {
-                      if (e.target === this) {
-                          hidePopup();
-                      }
-                  });
-                  document.addEventListener('keydown', function(e) {
-                      if (e.key === 'Escape') {
-                          hidePopup();
-                      }
-                  });
-              </script>
+          Fall Break, **NO CLASS!**
         </ul>
     </td>
     </tr>
@@ -142,33 +119,33 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
           <li>5-min Standup talk by: [**Samantha Kusner**](standup.qmd#samantha-kusner)</li>
           <li>**HW 1 due date (Tuesday, October 17, 2023)**</li>
           <li>HW 2 Assigned</li>
+          <li>_Distribution of Scores for **HW1**_</li> 
+            <img src="images/histograms/HW1.png" alt="HW1" class="thumbnail" onclick="displayImage('images/histograms/HW1.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW1" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
         </ul>
       </td>
       <td>
         <li>In-class Python Exercise & HW2 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week3.zip" download>![Download button](images/file-black.png){width=28}</a></li>
-        <li>_Distribution of Scores for **HW2**_</li> 
-          <img src="images/histograms/HW2.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW2.png')">
-          <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW2" id="popupImage"></div>
-          <script>
-              function displayImage(imageSrc) {
-                  var popupImage = document.getElementById('popupImage');
-                  popupImage.src = imageSrc;
-                  document.getElementById('popupContainer').style.display = 'flex';
-              }
-              function hidePopup() {
-                  document.getElementById('popupContainer').style.display = 'none';
-              }
-              document.getElementById('popupContainer').addEventListener('click', function(e) {
-                  if (e.target === this) {
-                      hidePopup();
-                  }
-              });
-              document.addEventListener('keydown', function(e) {
-                  if (e.key === 'Escape') {
-                      hidePopup();
-                  }
-              });
-          </script>
       </td> 
     <tr>
       <th scope="row">Week 4 [10/27/2023]</th>
@@ -186,6 +163,29 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
           <li>5-min Standup talk by: [**Kate Halushka**](standup.qmd#kate-halushka)</li>
           <li>**HW 2 due date (Saturday, October 28, 2023 5:00 PM)**</li>
           <li>HW 3 Assigned</li>
+          <li>_Distribution of Scores for **HW2**_</li> 
+            <img src="images/histograms/HW2.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW2.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW2" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
         </ul>
       </td>
       <td>
