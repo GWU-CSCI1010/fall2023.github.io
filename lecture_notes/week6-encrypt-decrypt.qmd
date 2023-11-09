@@ -25,7 +25,7 @@ Bulusu, Kartik V. (2023, November 10). Week-6 Presentation: CSCI1010 Computer Sc
 ![Slide 5](../images/lecture_notes/week-6/slide-5.png)
 
 ### Slide 6
-![Slide 5](../images/lecture_notes/week-6/slide-6.png)
+![Slide 6](../images/lecture_notes/week-6/slide-6.png)
 
 [https://www.adafruit.com/product/3100#description](https://www.adafruit.com/product/3100#description)
 
