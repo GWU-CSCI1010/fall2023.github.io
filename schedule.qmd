@@ -21,6 +21,43 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
 `df = pd.read_csv("apsc1001_cs1010_400mgml_flow.csv", encoding='ISO-8859-1')`
 ::: -->
 
+<!-- <style>
+        .thumbnail {
+            width: 100px; /* Adjust the size of your thumbnails */
+            cursor: pointer;
+        }
+
+        #fullImage {
+            display: none;
+            max-width: 100%;
+            height: auto;
+        }
+</style> -->
+
+<style>
+        .thumbnail {
+            width: 100px; /* Adjust the size of your thumbnails */
+            cursor: pointer;
+        }
+
+        #popupContainer {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+        }
+
+        #popupImage {
+            max-width: 80%;
+            max-height: 80%;
+        }
+    </style>
+
 <table class="table table-hover w-auto">
   <colgroup>
     <col style="width:5%">
@@ -62,9 +99,32 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
       <th scope="row">Week 2 [10/13/2023]</th>
       <td colspan="3">
         <ul>
-            Fall Break, **NO CLASS!**
+            <li>Fall Break, **NO CLASS!**</li>
+            <li>_Distribution of Scores for **HW1**_</li> 
+              <img src="images/histograms/HW1.png" alt="HW1" class="thumbnail" onclick="displayImage('images/histograms/HW1.png')">
+              <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW1" id="popupImage"></div>
+              <script>
+                  function displayImage(imageSrc) {
+                      var popupImage = document.getElementById('popupImage');
+                      popupImage.src = imageSrc;
+                      document.getElementById('popupContainer').style.display = 'flex';
+                  }
+                  function hidePopup() {
+                      document.getElementById('popupContainer').style.display = 'none';
+                  }
+                  document.getElementById('popupContainer').addEventListener('click', function(e) {
+                      if (e.target === this) {
+                          hidePopup();
+                      }
+                  });
+                  document.addEventListener('keydown', function(e) {
+                      if (e.key === 'Escape') {
+                          hidePopup();
+                      }
+                  });
+              </script>
         </ul>
-      </td>
+    </td>
     </tr>
     <tr class="table-active">
       <th scope="row">Week 3 [10/20/2023]</th>
@@ -86,6 +146,29 @@ When you're working on **HW2**, for <u>__Question 3.__</u> make sure to include 
       </td>
       <td>
         <li>In-class Python Exercise & HW2 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week3.zip" download>![Download button](images/file-black.png){width=28}</a></li>
+        <li>_Distribution of Scores for **HW2**_</li> 
+          <img src="images/histograms/HW2.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW2.png')">
+          <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW2" id="popupImage"></div>
+          <script>
+              function displayImage(imageSrc) {
+                  var popupImage = document.getElementById('popupImage');
+                  popupImage.src = imageSrc;
+                  document.getElementById('popupContainer').style.display = 'flex';
+              }
+              function hidePopup() {
+                  document.getElementById('popupContainer').style.display = 'none';
+              }
+              document.getElementById('popupContainer').addEventListener('click', function(e) {
+                  if (e.target === this) {
+                      hidePopup();
+                  }
+              });
+              document.addEventListener('keydown', function(e) {
+                  if (e.key === 'Escape') {
+                      hidePopup();
+                  }
+              });
+          </script>
       </td> 
     <tr>
       <th scope="row">Week 4 [10/27/2023]</th>
