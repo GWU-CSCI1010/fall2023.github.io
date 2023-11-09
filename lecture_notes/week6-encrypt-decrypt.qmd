@@ -2,7 +2,7 @@
 
 **Referencing this presentation:**
 
-Bulusu, Kartik V. (2023, November 10). Week-5 Presentation: CSCI1010 Computer Science Orientation [Image Encyption and Decryption.] Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
+Bulusu, Kartik V. (2023, November 10). Week-6 Presentation: CSCI1010 Computer Science Orientation [Image Encyption and Decryption.] Department of Computer Science, The George Washington University. [https://gwu-csci1010.github.io](https://gwu-csci1010.github.io)
 
 
 ::: {.callout-note appearance="simple"}
