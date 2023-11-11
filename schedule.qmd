@@ -199,7 +199,7 @@ Guided-Python Project on **COVID-19 Data Analysis** is <u>_released_</u>, the pr
       <th scope="row">Week 6 [11/10/2023]</th>
       <td>
         <ul>
-          <li>Guest Lecture by [**Prof. Rebecca Hwa**](https://cs.engineering.gwu.edu/rebecca-hwa)</li>
+          <li>A Brief Introduction to Natural Language Processing (NLP) by [**Prof. Rebecca Hwa**](https://cs.engineering.gwu.edu/rebecca-hwa)</li>
         </ul>
       </td>
       <td>
