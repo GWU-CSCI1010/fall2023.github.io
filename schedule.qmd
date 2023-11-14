@@ -9,13 +9,6 @@ Sample class schedule [*week-by-week*]
 **The course schedule is subject to changes during the semester.**
 :::
 
-::: {.callout-note appearance="default" title="Guided Python Project released"}
-Guided-Python Project on **COVID-19 Data Analysis** is <u>_released_</u>, the project files are available under **Week 4**.
-
-**NOTE**: This is an individual project and it is due on **November 10, 2023** by 11:59 PM. Please [review](summary-policy.qmd) important information on university polices on collaboration among students before submitting your course deliverables.
-:::
-
-
 <style>
         .thumbnail {
             width: 100px; /* Adjust the size of your thumbnails */
