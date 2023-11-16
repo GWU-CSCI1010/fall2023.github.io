@@ -208,6 +208,27 @@ Sample class schedule [*week-by-week*]
       <li>In-class Python Exercise & HW5 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week6.zip" download>![Download button](images/file-black.png){width=28}</a></li>
       </td>
     </tr>
+    <tr class="table-active">
+      <th scope="row">Week 7 [11/17/2023]</th>
+      <td>
+        <ul>
+          <li> Discussion of Midterm Projects and setting course for updates and reporting</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>dweet.io - it's like the Twitter of Things <a href="https://dweet.io"target="_blank"> dweet</a></li>
+          <li>Fetching data from dweet</li>
+          <li>dweet an LED</li>
+          <li>Working with senseHAT data and matplotlib</li>
+          <li>Writing senseHAT data to CSV files</li>
+          <li>Emails alerts from senseHAT data</li>
+          <li><a href="https://drive.google.com/drive/folders/1nfW_e6UMP8V1tn20zKAe9_b9Ix1DTEUw?usp=sharing" target="_blank">Lab examples</a></li>
+        </ul>
+      </td>
+      <td></td>
+
+
     <!-- </tr>
         <tr class="table-secondary">
         <th colspan="4"><u>NOTE</u>: In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester</th>
