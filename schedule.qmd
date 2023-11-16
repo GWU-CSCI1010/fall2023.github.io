@@ -182,6 +182,29 @@ Sample class schedule [*week-by-week*]
           <li>5-min Standup talk by: [**Josie Libbon**](standup.qmd#josie-libbon)</li>
           <li>**HW 3 due date (Friday, November 03, 2023)**</li>
           <li>HW 4 Assigned</li>
+          <li>_Distribution of Scores for **HW3**_</li> 
+            <img src="images/histograms/HW3.png" alt="HW3" class="thumbnail" onclick="displayImage('images/histograms/HW3.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW3" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
         </ul>
       </td>
       <td>
@@ -212,7 +235,7 @@ Sample class schedule [*week-by-week*]
       <th scope="row">Week 7 [11/17/2023]</th>
       <td>
         <ul>
-          <li> Discussion of Midterm Projects and setting course for updates and reporting</li>
+          <!-- <li> Discussion of Midterm Projects and setting course for updates and reporting</li> -->
         </ul>
       </td>
       <td>
@@ -223,7 +246,7 @@ Sample class schedule [*week-by-week*]
           <li>Working with senseHAT data and matplotlib</li>
           <li>Writing senseHAT data to CSV files</li>
           <li>Emails alerts from senseHAT data</li>
-          <li><a href="https://drive.google.com/drive/folders/1nfW_e6UMP8V1tn20zKAe9_b9Ix1DTEUw?usp=sharing" target="_blank">Lab examples</a></li>
+          <li>5-min Standup talk by: [**Lindsey Cicero**](standup.qmd#lindsey-cicero)</li>
         </ul>
       </td>
       <td></td>
