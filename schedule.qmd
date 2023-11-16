@@ -11,7 +11,7 @@ Sample class schedule [*week-by-week*]
 
 <style>
         .thumbnail {
-            width: 100px; /* Adjust the size of your thumbnails */
+            width: 100px; 
             cursor: pointer;
         }
 

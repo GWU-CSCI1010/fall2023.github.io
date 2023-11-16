@@ -87,6 +87,24 @@
   </tr>
 </table>
 
+
+## Lindsey Cicero
+<div id="lindsey-cicero"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **Lindsey** is a senior majoring in Computer Science with a minor in Creative Writing and a minor in Fine Arts. She is completing the BA program, and that has allowed her to explore her many interests while at GW. Within SEAS Lindsey has held many leadership positions such as being the former Co-Chair of [**WiCS**](https://gwwics.github.io/) as well as the current President of [**SEASSPAN**](https://www.seas.gwu.edu/seasspan). She has also been a TA for some of the upper level CS classes and has had the opportunity to complete two summer internships. She is excited to chat about how to take advantage of the unique opportunities GW provides and how to find what interest you in CS!
+      
+      **Email**: <a href="mailto:lindseycicero@gwu.edu">lindseycicero@gwu.edu</a>
+    </td>
+
+    <td width="30%">
+      <img src="images/guest-speakers/lindsey.jpg" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
 <br><br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
