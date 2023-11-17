@@ -241,7 +241,7 @@ Sample class schedule [*week-by-week*]
       </td>
       <td>
         <ul>
-          <li>Choose your RPi project</li>
+          <li>[Choose your RPi project](lecture_notes/final-project.qmd)</li>
           <li>Team building excersice (Same + Different)</li>
           <li>Team building debrief</li>
           <li>Spec out the project in breakouts</li>

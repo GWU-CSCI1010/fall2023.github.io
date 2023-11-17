@@ -273,95 +273,193 @@
     "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, November 03). Week-5 Presentation: CSCI1010 Computer Science Orientation [Quick Recap on Plotting with Python.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html\nhttps://matplotlib.org/stable/api/markers_api.html\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "lecture_notes/week4-python-libraries.html",
-    "href": "lecture_notes/week4-python-libraries.html",
+    "objectID": "lecture_notes/final-project.html",
+    "href": "lecture_notes/final-project.html",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 27). Week-4 Presentation: CSCI1010 Computer Science Orientation [Short walk into Python libraries.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Sources:\nhttps://numpy.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Sources:\nhttps://matplotlib.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html\nCreate publication quality plots.\nCustomize visual style and layout.\nExport to many file formats.\nUse a rich array of third-party packages built on Matplotlib.\n\n\n\n Sources:\nhttps://pandas.pydata.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, November 17). Week-7: CSCI1010 Computer Science Orientation [Final Raspberry Pi and Python Group Project.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved&lt;/Image Encyption and Decryption"
   },
   {
-    "objectID": "lecture_notes/week4-python-libraries.html#short-walk-into-python-libraries",
-    "href": "lecture_notes/week4-python-libraries.html#short-walk-into-python-libraries",
+    "objectID": "lecture_notes/final-project.html#final-raspberry-pi-and-python-group-project",
+    "href": "lecture_notes/final-project.html#final-raspberry-pi-and-python-group-project",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 27). Week-4 Presentation: CSCI1010 Computer Science Orientation [Short walk into Python libraries.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Sources:\nhttps://numpy.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Sources:\nhttps://matplotlib.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html\nCreate publication quality plots.\nCustomize visual style and layout.\nExport to many file formats.\nUse a rich array of third-party packages built on Matplotlib.\n\n\n\n Sources:\nhttps://pandas.pydata.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, November 17). Week-7: CSCI1010 Computer Science Orientation [Final Raspberry Pi and Python Group Project.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved&lt;/Image Encyption and Decryption"
   },
   {
-    "objectID": "lecture_notes/week1-intro-cs1010.html",
-    "href": "lecture_notes/week1-intro-cs1010.html",
+    "objectID": "lecture_notes/week3-matrices.html",
+    "href": "lecture_notes/week3-matrices.html",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to CSCI1010]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\nCourse Website: https://gwu-csci1010.github.io/\n\n\n\n\n\n\nSlide 2\n\n\nIcon Source: https://thenounproject.com/\nIcon credits: LUTFI GANI AL, Studion 365, DesignBite, Danil Polshin\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n Justice, Equality, Diversity, Inclusion (JEDI): https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee\n\n\n\n Disability Support: https://disabilitysupport.gwu.edu/\n\n\n\n\n\n\nSlide 9\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 20). Week-3 Presentation: CSCI1010 Computer Science Orientation [Introduction to Matrices with Python.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Source: http://giphy.com/search/matrix-gif\n\n\n\n Sources:\nhttps://numpy.org\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Source: http://en.wikipedia.org/wiki/Matrix_(mathematics)\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "lecture_notes/week1-intro-cs1010.html#introduction-to-cs1010",
-    "href": "lecture_notes/week1-intro-cs1010.html#introduction-to-cs1010",
+    "objectID": "lecture_notes/week3-matrices.html#introduction-to-matrices-with-python",
+    "href": "lecture_notes/week3-matrices.html#introduction-to-matrices-with-python",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to CSCI1010]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\nCourse Website: https://gwu-csci1010.github.io/\n\n\n\n\n\n\nSlide 2\n\n\nIcon Source: https://thenounproject.com/\nIcon credits: LUTFI GANI AL, Studion 365, DesignBite, Danil Polshin\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n Justice, Equality, Diversity, Inclusion (JEDI): https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee\n\n\n\n Disability Support: https://disabilitysupport.gwu.edu/\n\n\n\n\n\n\nSlide 9\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 20). Week-3 Presentation: CSCI1010 Computer Science Orientation [Introduction to Matrices with Python.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Source: http://giphy.com/search/matrix-gif\n\n\n\n Sources:\nhttps://numpy.org\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Source: http://en.wikipedia.org/wiki/Matrix_(mathematics)\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "lecture_notes/week4-sense-HAT.html",
-    "href": "lecture_notes/week4-sense-HAT.html",
+    "objectID": "lecture_notes/week3-rasp-pi-ultrasound.html",
+    "href": "lecture_notes/week3-rasp-pi-ultrasound.html",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 27). Week-4 Presentation: CSCI1010 Computer Science Orientation [Playing with the sense HAT.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Image and Animation Source: https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2\nImage Source: https://reference.wolfram.com/language/ref/device/SenseHAT.html\nSource: https://youtu.be/8NwWNOMqai4\n\n\n\n\n Starting point for further exploration: Getting started with Sense HAT\nImage Source: https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2\nSource: https://www.mathworks.com/help/supportpkg/raspberrypi/examples/auto-rotate-an-image-displayed-on-sense-hat-led-matrix.html\nSource: https://reference.wolfram.com/language/ref/device/SenseHAT.html\n\n\n\n\n\n\nSlide 5\n\n\nSource: https://youtu.be/kk_7KNuRLrk\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 20). Week-3 Presentation: CSCI1010 Computer Science Orientation [From LED Madness to Ultrasound Cacophony.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n Source: https://youtu.be/Rr9RaisO11E\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n\n\n\nSlide 8\n\n\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "lecture_notes/week4-sense-HAT.html#playing-with-the-sense-hat",
-    "href": "lecture_notes/week4-sense-HAT.html#playing-with-the-sense-hat",
+    "objectID": "lecture_notes/week3-rasp-pi-ultrasound.html#from-led-madness-to-ultrasound-cacophony",
+    "href": "lecture_notes/week3-rasp-pi-ultrasound.html#from-led-madness-to-ultrasound-cacophony",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 27). Week-4 Presentation: CSCI1010 Computer Science Orientation [Playing with the sense HAT.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Image and Animation Source: https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2\nImage Source: https://reference.wolfram.com/language/ref/device/SenseHAT.html\nSource: https://youtu.be/8NwWNOMqai4\n\n\n\n\n Starting point for further exploration: Getting started with Sense HAT\nImage Source: https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2\nSource: https://www.mathworks.com/help/supportpkg/raspberrypi/examples/auto-rotate-an-image-displayed-on-sense-hat-led-matrix.html\nSource: https://reference.wolfram.com/language/ref/device/SenseHAT.html\n\n\n\n\n\n\nSlide 5\n\n\nSource: https://youtu.be/kk_7KNuRLrk\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 20). Week-3 Presentation: CSCI1010 Computer Science Orientation [From LED Madness to Ultrasound Cacophony.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n Source: https://youtu.be/Rr9RaisO11E\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n\n\n\nSlide 8\n\n\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "lecture_notes/week1-rasp-pi.html",
-    "href": "lecture_notes/week1-rasp-pi.html",
+    "objectID": "lecture_notes/week5-pi-picam.html",
+    "href": "lecture_notes/week5-pi-picam.html",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to the Raspberry Pi with Blinking LEDs]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Sources:\nCodecaemy: https://www.youtube.com/watch?v=EGQh5SZctaE\nPython Logo: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\nPython (Programming Language): https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Python logo and other information: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n Source: https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\n\n\n\nSlide 12\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, November 03). Week-5 Presentation: CSCI1010 Computer Science Orientation [Getting started with Raspberry Pi and PiCamera.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\nhttps://www.adafruit.com/product/3100#description\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "lecture_notes/week1-rasp-pi.html#introduction-to-raspberry-pi-with-blinking-leds",
-    "href": "lecture_notes/week1-rasp-pi.html#introduction-to-raspberry-pi-with-blinking-leds",
+    "objectID": "lecture_notes/week5-pi-picam.html#getting-started-with-raspberry-pi-and-picamera",
+    "href": "lecture_notes/week5-pi-picam.html#getting-started-with-raspberry-pi-and-picamera",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to the Raspberry Pi with Blinking LEDs]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Sources:\nCodecaemy: https://www.youtube.com/watch?v=EGQh5SZctaE\nPython Logo: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\nPython (Programming Language): https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Python logo and other information: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n Source: https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\n\n\n\nSlide 12\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, November 03). Week-5 Presentation: CSCI1010 Computer Science Orientation [Getting started with Raspberry Pi and PiCamera.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\nhttps://www.adafruit.com/product/3100#description\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "in-class-exercise.html",
-    "href": "in-class-exercise.html",
-    "title": "Download and the Locate Course Material",
+    "objectID": "homework.html",
+    "href": "homework.html",
+    "title": "Reminders",
     "section": "",
-    "text": "Visit the course webpage.\nClick on the “Schedule” tab to access the course schedule.\n\n\n\n\n\nIn the course schedule, find the “In-Class Python Exercise” and “HW2” section.\nYou will see a Download button “”.\nClick on the Download button “” next to “In-Class Python Exercise & HW2” to download the ZIP file.\n\n\n\n\n\n\n\nLocate the downloaded Week3.zip file. It should be in your “Downloads” folder.\nDouble-click on the Week3.zip file to unzip it.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.\n\n\n\n\n\nLocate the downloaded Week3.zip file. The ZIP file may be located in your “OneDrive” folder.\nRight-click on the Week3.zip file and select “Extract All…”\nFollow the on-screen instructions to unzip the file.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.\n\n\n\n\n\nNow that you have successfully unzipped the course materials, let’s access them using Anaconda Jupyter:\n\nOpen Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the installation guide.\nLaunch Jupyter Notebook from Anaconda Navigator.\nNavigate to the “Week3” folder where you unzipped the ZIP file.\nAccess the course files, which should include .ipynb and .csv files for the exercises. To understand how to work with the HW files, refer to this guide.\n\n\n\n\n\n\n\nSave Changes\n\n\n\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\nCongratulations! You are now ready to start working with the course materials. If you encounter any issues, don’t hesitate to reach out to anyone from the instruction team via slack or email for assistance.\nEnjoy your Python programming journey!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\n\n\n\n\n\nReview Policy\n\n\n\nPlease review important information on course polices on collaboration among students before submitting your course deliverables.\n\n\n\n\n\n\n\n\nSave Changes\n\n\n\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files."
   },
   {
-    "objectID": "in-class-exercise.html#step-1-download-course-materials-for-week-3",
-    "href": "in-class-exercise.html#step-1-download-course-materials-for-week-3",
-    "title": "Download and the Locate Course Material",
+    "objectID": "homework.html#launching-a-jupyter-server",
+    "href": "homework.html#launching-a-jupyter-server",
+    "title": "Reminders",
     "section": "",
-    "text": "Visit the course webpage.\nClick on the “Schedule” tab to access the course schedule."
+    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\n\n\n\n\n\nReview Policy\n\n\n\nPlease review important information on course polices on collaboration among students before submitting your course deliverables.\n\n\n\n\n\n\n\n\nSave Changes\n\n\n\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files."
   },
   {
-    "objectID": "in-class-exercise.html#step-2-download-in-class-python-exercise-hw2-for-week-3",
-    "href": "in-class-exercise.html#step-2-download-in-class-python-exercise-hw2-for-week-3",
-    "title": "Download and the Locate Course Material",
-    "section": "",
-    "text": "In the course schedule, find the “In-Class Python Exercise” and “HW2” section.\nYou will see a Download button “”.\nClick on the Download button “” next to “In-Class Python Exercise & HW2” to download the ZIP file."
+    "objectID": "homework.html#working-with-hw-.ipynb-files",
+    "href": "homework.html#working-with-hw-.ipynb-files",
+    "title": "Reminders",
+    "section": "Working with HW .ipynb files",
+    "text": "Working with HW .ipynb files\n\n\n\n\nStep 1: Open the HW1 File\n\nNavigate to your “Download” folder using the Jupyter Dashboard. You can use the file browser within the dashboard.\nIf asked to allow terminal access to the Download folder, click on “Allow”\n\n\n\n\nNavigate to Download Folder\n\n\n\n\n\nAllow access to Download Folder\n\n\n\nLook for the HW1 file within the “Download” folder.\nSelect the file by clicking on it. This will open a new Jupyter notebook or file editor for your HW1 file.\n\n\n\n\nOpen HW .ipynb file\n\n\n\n\nStep 2: Rename the HW File\n\nBefore you begin working on your HW, it’s necessay to rename the file to include your last name. This is how you’re expected to turn in your HW files.\n\nRight-click on the file.\nSelect “Rename.”\nChange the file name to “HW1_&lt;Your Last Name&gt;.”\n\n\n\n\n\nClick on File -&gt; Rename…\n\n\n\n\n\nRename the HW file by renaming it to ‘HW1_&lt;Last Name&gt;’\n\n\n\n\nStep 3: Work on Your HW\nYou can now work on your renamed HW assignment within Jupyter Notebook. When you’re done, remember to save your changes.\n\n\n\nSave changes\n\n\nYou’ve successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!"
   },
   {
-    "objectID": "in-class-exercise.html#step-3-manually-unzip-the-zip-file",
-    "href": "in-class-exercise.html#step-3-manually-unzip-the-zip-file",
-    "title": "Download and the Locate Course Material",
+    "objectID": "realvnc-mac-connect.html",
+    "href": "realvnc-mac-connect.html",
+    "title": "RealVNC Installation Guide for Mac",
     "section": "",
-    "text": "Locate the downloaded Week3.zip file. It should be in your “Downloads” folder.\nDouble-click on the Week3.zip file to unzip it.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.\n\n\n\n\n\nLocate the downloaded Week3.zip file. The ZIP file may be located in your “OneDrive” folder.\nRight-click on the Week3.zip file and select “Extract All…”\nFollow the on-screen instructions to unzip the file.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file."
+    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to establish a remote using RealVNC on your Mac computer.\n\n\nBefore you begin, ensure that you have already installed RealVNC on your Mac.\n\n\n\n\n\nLaunch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window.\n\n\n\n\nYou have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "in-class-exercise.html#step-4-access-course-files-with-anaconda",
-    "href": "in-class-exercise.html#step-4-access-course-files-with-anaconda",
-    "title": "Download and the Locate Course Material",
+    "objectID": "realvnc-mac-connect.html#prerequisites",
+    "href": "realvnc-mac-connect.html#prerequisites",
+    "title": "RealVNC Installation Guide for Mac",
     "section": "",
-    "text": "Now that you have successfully unzipped the course materials, let’s access them using Anaconda Jupyter:\n\nOpen Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the installation guide.\nLaunch Jupyter Notebook from Anaconda Navigator.\nNavigate to the “Week3” folder where you unzipped the ZIP file.\nAccess the course files, which should include .ipynb and .csv files for the exercises. To understand how to work with the HW files, refer to this guide.\n\n\n\n\n\n\n\nSave Changes\n\n\n\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\nCongratulations! You are now ready to start working with the course materials. If you encounter any issues, don’t hesitate to reach out to anyone from the instruction team via slack or email for assistance.\nEnjoy your Python programming journey!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Before you begin, ensure that you have already installed RealVNC on your Mac."
+  },
+  {
+    "objectID": "realvnc-mac-connect.html#establish-a-connection",
+    "href": "realvnc-mac-connect.html#establish-a-connection",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "Launch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window."
+  },
+  {
+    "objectID": "realvnc-mac-connect.html#conclusion",
+    "href": "realvnc-mac-connect.html#conclusion",
+    "title": "RealVNC Installation Guide for Mac",
+    "section": "",
+    "text": "You have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "standup.html",
+    "href": "standup.html",
+    "title": "Student guest speakers",
+    "section": "",
+    "text": "Marlee is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!\nEmail: marlenaalvino@gwmail.gwu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSam is a senior majoring in computer science. During her time at GW, she’s had the opportunity to be on the leadership team for few different organizations, foster a positive learning environment as an LA and UTA, and speak to students like you who are just joining the CS community here. Outside of school, she’s had a few internships which have helped her get a better understanding of what possibilities are out there! She’s looking forward to sharing some of her experience with you.\nEmail: samkusner430@gwmail.gwu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKate is a senior majoring in computer science and has been coding since high school! Throughout her time at GW, she has been a TA for 3 different CS classes, held leadership positions in multiple orgs, and studied abroad in London. She is currently co-chair of WiCS (Women in Computer Science) at GW. She has also completed 2 summer internships, and is a member of Sigma Delta Tau. She’s excited to share how she has taken advantage of the opportunities available in CS at GW!\nEmail: khalushka@gwmail.gwu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJosie is a senior majoring in computer science and minoring in political science. Throughout her time at GW, she has been an LA and TA for 3 different CS classes, held leadership positions in orgs such as WiCS and ACM, and conducted research with various professors surrounding real-time artificial intelligence. She is currently the undergraduate representative for the CS Curriculum Committee at GW. She has also completed a summer internship at a DMV government contractor, and will be returning there after she graduates in May. She is excited to discuss and give advice on how to have a successful career at GW!\nEmail: josielibbon@gwmail.gwu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRyah is a senior majoring in computer science and minoring in criminal justice. Throughout her time at GW, she has been involved with the Women’s Club Lacrosse team, been an LA and TA for 3 different CS classes, and conducted research on real-time artificial intelligence. She has also completed two summer internships, and is excited to share all her advice for making the most out of your time in college!\nEmail: jrcarpenter349@gwmail.gwu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLindsey is a senior majoring in Computer Science with a minor in Creative Writing and a minor in Fine Arts. She is completing the BA program, and that has allowed her to explore her many interests while at GW. Within SEAS Lindsey has held many leadership positions such as being the former Co-Chair of WiCS as well as the current President of SEASSPAN. She has also been a TA for some of the upper level CS classes and has had the opportunity to complete two summer internships. She is excited to chat about how to take advantage of the unique opportunities GW provides and how to find what interest you in CS!\nEmail: lindseycicero@gwu.edu\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "standup.html#marlee-alvino",
+    "href": "standup.html#marlee-alvino",
+    "title": "Student guest speakers",
+    "section": "",
+    "text": "Marlee is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!\nEmail: marlenaalvino@gwmail.gwu.edu"
+  },
+  {
+    "objectID": "standup.html#samantha-kusner",
+    "href": "standup.html#samantha-kusner",
+    "title": "Student guest speakers",
+    "section": "",
+    "text": "Sam is a senior majoring in computer science. During her time at GW, she’s had the opportunity to be on the leadership team for few different organizations, foster a positive learning environment as an LA and UTA, and speak to students like you who are just joining the CS community here. Outside of school, she’s had a few internships which have helped her get a better understanding of what possibilities are out there! She’s looking forward to sharing some of her experience with you.\nEmail: samkusner430@gwmail.gwu.edu"
+  },
+  {
+    "objectID": "standup.html#kate-halushka",
+    "href": "standup.html#kate-halushka",
+    "title": "Student guest speakers",
+    "section": "",
+    "text": "Kate is a senior majoring in computer science and has been coding since high school! Throughout her time at GW, she has been a TA for 3 different CS classes, held leadership positions in multiple orgs, and studied abroad in London. She is currently co-chair of WiCS (Women in Computer Science) at GW. She has also completed 2 summer internships, and is a member of Sigma Delta Tau. She’s excited to share how she has taken advantage of the opportunities available in CS at GW!\nEmail: khalushka@gwmail.gwu.edu"
+  },
+  {
+    "objectID": "standup.html#josie-libbon",
+    "href": "standup.html#josie-libbon",
+    "title": "Student guest speakers",
+    "section": "",
+    "text": "Josie is a senior majoring in computer science and minoring in political science. Throughout her time at GW, she has been an LA and TA for 3 different CS classes, held leadership positions in orgs such as WiCS and ACM, and conducted research with various professors surrounding real-time artificial intelligence. She is currently the undergraduate representative for the CS Curriculum Committee at GW. She has also completed a summer internship at a DMV government contractor, and will be returning there after she graduates in May. She is excited to discuss and give advice on how to have a successful career at GW!\nEmail: josielibbon@gwmail.gwu.edu"
+  },
+  {
+    "objectID": "standup.html#ryah-carpenter",
+    "href": "standup.html#ryah-carpenter",
+    "title": "Student guest speakers",
+    "section": "",
+    "text": "Ryah is a senior majoring in computer science and minoring in criminal justice. Throughout her time at GW, she has been involved with the Women’s Club Lacrosse team, been an LA and TA for 3 different CS classes, and conducted research on real-time artificial intelligence. She has also completed two summer internships, and is excited to share all her advice for making the most out of your time in college!\nEmail: jrcarpenter349@gwmail.gwu.edu"
+  },
+  {
+    "objectID": "standup.html#lindsey-cicero",
+    "href": "standup.html#lindsey-cicero",
+    "title": "Student guest speakers",
+    "section": "",
+    "text": "Lindsey is a senior majoring in Computer Science with a minor in Creative Writing and a minor in Fine Arts. She is completing the BA program, and that has allowed her to explore her many interests while at GW. Within SEAS Lindsey has held many leadership positions such as being the former Co-Chair of WiCS as well as the current President of SEASSPAN. She has also been a TA for some of the upper level CS classes and has had the opportunity to complete two summer internships. She is excited to chat about how to take advantage of the unique opportunities GW provides and how to find what interest you in CS!\nEmail: lindseycicero@gwu.edu\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "anaconda-mac.html",
+    "href": "anaconda-mac.html",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "anaconda-mac.html#introduction",
+    "href": "anaconda-mac.html#introduction",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
+  },
+  {
+    "objectID": "anaconda-mac.html#prerequisites",
+    "href": "anaconda-mac.html#prerequisites",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation."
+  },
+  {
+    "objectID": "anaconda-mac.html#installation-steps",
+    "href": "anaconda-mac.html#installation-steps",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
+  },
+  {
+    "objectID": "anaconda-mac.html#conclusion",
+    "href": "anaconda-mac.html#conclusion",
+    "title": "Anaconda Installation Guide for macOS",
+    "section": "",
+    "text": "Congratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
     "objectID": "python3-mac.html",
@@ -427,179 +525,95 @@
     "text": "You have successfully installed Python and Jupyter Notebook on your macOS system, configured the user-specific Python bin path, and exported it to your ~/.zshrc file for easy access. You can now use Jupyter Notebook for interactive coding and data analysis.\nHappy coding!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "anaconda-mac.html",
-    "href": "anaconda-mac.html",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "in-class-exercise.html",
+    "href": "in-class-exercise.html",
+    "title": "Download and the Locate Course Material",
     "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing.\n\n\n\nBefore you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation.\n\n\n\n\n\n\nVisit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched\n\n\n\n\n\n\nCongratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Visit the course webpage.\nClick on the “Schedule” tab to access the course schedule.\n\n\n\n\n\nIn the course schedule, find the “In-Class Python Exercise” and “HW2” section.\nYou will see a Download button “”.\nClick on the Download button “” next to “In-Class Python Exercise & HW2” to download the ZIP file.\n\n\n\n\n\n\n\nLocate the downloaded Week3.zip file. It should be in your “Downloads” folder.\nDouble-click on the Week3.zip file to unzip it.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.\n\n\n\n\n\nLocate the downloaded Week3.zip file. The ZIP file may be located in your “OneDrive” folder.\nRight-click on the Week3.zip file and select “Extract All…”\nFollow the on-screen instructions to unzip the file.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.\n\n\n\n\n\nNow that you have successfully unzipped the course materials, let’s access them using Anaconda Jupyter:\n\nOpen Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the installation guide.\nLaunch Jupyter Notebook from Anaconda Navigator.\nNavigate to the “Week3” folder where you unzipped the ZIP file.\nAccess the course files, which should include .ipynb and .csv files for the exercises. To understand how to work with the HW files, refer to this guide.\n\n\n\n\n\n\n\nSave Changes\n\n\n\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\nCongratulations! You are now ready to start working with the course materials. If you encounter any issues, don’t hesitate to reach out to anyone from the instruction team via slack or email for assistance.\nEnjoy your Python programming journey!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "anaconda-mac.html#introduction",
-    "href": "anaconda-mac.html#introduction",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "in-class-exercise.html#step-1-download-course-materials-for-week-3",
+    "href": "in-class-exercise.html#step-1-download-course-materials-for-week-3",
+    "title": "Download and the Locate Course Material",
     "section": "",
-    "text": "This guide will walk you through the process of installing Anaconda, a popular Python distribution, on your macOS computer. Anaconda provides a convenient way to manage Python packages and environments for data science and scientific computing."
+    "text": "Visit the course webpage.\nClick on the “Schedule” tab to access the course schedule."
   },
   {
-    "objectID": "anaconda-mac.html#prerequisites",
-    "href": "anaconda-mac.html#prerequisites",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "in-class-exercise.html#step-2-download-in-class-python-exercise-hw2-for-week-3",
+    "href": "in-class-exercise.html#step-2-download-in-class-python-exercise-hw2-for-week-3",
+    "title": "Download and the Locate Course Material",
     "section": "",
-    "text": "Before you begin, ensure you have the following:\n\nA macOS computer.\nAn internet connection.\nSufficient disk space for the installation."
+    "text": "In the course schedule, find the “In-Class Python Exercise” and “HW2” section.\nYou will see a Download button “”.\nClick on the Download button “” next to “In-Class Python Exercise & HW2” to download the ZIP file."
   },
   {
-    "objectID": "anaconda-mac.html#installation-steps",
-    "href": "anaconda-mac.html#installation-steps",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "in-class-exercise.html#step-3-manually-unzip-the-zip-file",
+    "href": "in-class-exercise.html#step-3-manually-unzip-the-zip-file",
+    "title": "Download and the Locate Course Material",
     "section": "",
-    "text": "Visit the Anaconda download page at https://www.anaconda.com/download.\n\n\n\nClick on the “Download” button under the macOS section depending on you System-on-chip (Intel/M1/M2) to download the Anaconda installer for macOS.\n\n\n\nDownload Anaconda\n\n\n\n\n\n\nLocate the downloaded file (usually in your “Downloads” folder).\nDouble-click the Anaconda disk image (.dmg) file to open it and click on “Allow” when prompted.\n\n\n\n\nRun Installer\n\n\n\n\n\nAllow Installation\n\n\n\n\n\n\nFollow the on-screen instructions to begin the installation.\nRead and accept the license agreement when prompted.\n\n\n\n\nRead Me\n\n\n\n\n\nLicense Agreement\n\n\n\n\n\nClick the “Install” button to begin the installation process. This may take a few minutes.\n\n\n\nInstall\n\n\n\n\n\nOnce the installation is complete, you will see a confirmation message. Click the “Continue” button and finally close the installation wizard by clicking on the “Close” button.\n\n\n\nInstallation Complete\n\n\n\n\n\nClose Installation Wizard\n\n\n\n\n\n\n\n\nMove the Installer to Trash\n\n\n\n\n\n\n\n\nDon’t Update\n\n\n\n\n\n\n\n\nDon’t Log in/Sign up\n\n\n\n\n\n\nTo verify the installation launch a local Jupyter Server by clicking on the “launch” button for Jupyter Notebook.\n\n\n\nLaunch Jupyter Server\n\n\nYou should see a terminal open and the Jupyter Notebbok server launched in a browser window.\n\n\n\nJupyter Server Launched"
+    "text": "Locate the downloaded Week3.zip file. It should be in your “Downloads” folder.\nDouble-click on the Week3.zip file to unzip it.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file.\n\n\n\n\n\nLocate the downloaded Week3.zip file. The ZIP file may be located in your “OneDrive” folder.\nRight-click on the Week3.zip file and select “Extract All…”\nFollow the on-screen instructions to unzip the file.\nThis will create a “Week3” folder inside which you can find the .ipynb and .csv files along with the “HW2.ipynb” file."
   },
   {
-    "objectID": "anaconda-mac.html#conclusion",
-    "href": "anaconda-mac.html#conclusion",
-    "title": "Anaconda Installation Guide for macOS",
+    "objectID": "in-class-exercise.html#step-4-access-course-files-with-anaconda",
+    "href": "in-class-exercise.html#step-4-access-course-files-with-anaconda",
+    "title": "Download and the Locate Course Material",
     "section": "",
-    "text": "Congratulations! You’ve successfully installed Anaconda and Jupyter on your macOS computer. You can now use Anaconda to create Python environments, manage packages, and work on data science projects.\nFor more information on using Anaconda, refer to the official documentation at https://docs.anaconda.com/.\nIf you encounter any issues or have questions, don’t hesitate to seek help from the Anaconda community or consult the documentation for troubleshooting tips.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Now that you have successfully unzipped the course materials, let’s access them using Anaconda Jupyter:\n\nOpen Anaconda Navigator, you must already have it installed on your computer. If not, please install Anaconda Navigator following the installation guide.\nLaunch Jupyter Notebook from Anaconda Navigator.\nNavigate to the “Week3” folder where you unzipped the ZIP file.\nAccess the course files, which should include .ipynb and .csv files for the exercises. To understand how to work with the HW files, refer to this guide.\n\n\n\n\n\n\n\nSave Changes\n\n\n\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\nCongratulations! You are now ready to start working with the course materials. If you encounter any issues, don’t hesitate to reach out to anyone from the instruction team via slack or email for assistance.\nEnjoy your Python programming journey!\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "standup.html",
-    "href": "standup.html",
-    "title": "Student guest speakers",
-    "section": "",
-    "text": "Marlee is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!\nEmail: marlenaalvino@gwmail.gwu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSam is a senior majoring in computer science. During her time at GW, she’s had the opportunity to be on the leadership team for few different organizations, foster a positive learning environment as an LA and UTA, and speak to students like you who are just joining the CS community here. Outside of school, she’s had a few internships which have helped her get a better understanding of what possibilities are out there! She’s looking forward to sharing some of her experience with you.\nEmail: samkusner430@gwmail.gwu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKate is a senior majoring in computer science and has been coding since high school! Throughout her time at GW, she has been a TA for 3 different CS classes, held leadership positions in multiple orgs, and studied abroad in London. She is currently co-chair of WiCS (Women in Computer Science) at GW. She has also completed 2 summer internships, and is a member of Sigma Delta Tau. She’s excited to share how she has taken advantage of the opportunities available in CS at GW!\nEmail: khalushka@gwmail.gwu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJosie is a senior majoring in computer science and minoring in political science. Throughout her time at GW, she has been an LA and TA for 3 different CS classes, held leadership positions in orgs such as WiCS and ACM, and conducted research with various professors surrounding real-time artificial intelligence. She is currently the undergraduate representative for the CS Curriculum Committee at GW. She has also completed a summer internship at a DMV government contractor, and will be returning there after she graduates in May. She is excited to discuss and give advice on how to have a successful career at GW!\nEmail: josielibbon@gwmail.gwu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRyah is a senior majoring in computer science and minoring in criminal justice. Throughout her time at GW, she has been involved with the Women’s Club Lacrosse team, been an LA and TA for 3 different CS classes, and conducted research on real-time artificial intelligence. She has also completed two summer internships, and is excited to share all her advice for making the most out of your time in college!\nEmail: jrcarpenter349@gwmail.gwu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLindsey is a senior majoring in Computer Science with a minor in Creative Writing and a minor in Fine Arts. She is completing the BA program, and that has allowed her to explore her many interests while at GW. Within SEAS Lindsey has held many leadership positions such as being the former Co-Chair of WiCS as well as the current President of SEASSPAN. She has also been a TA for some of the upper level CS classes and has had the opportunity to complete two summer internships. She is excited to chat about how to take advantage of the unique opportunities GW provides and how to find what interest you in CS!\nEmail: lindseycicero@gwu.edu\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "standup.html#marlee-alvino",
-    "href": "standup.html#marlee-alvino",
-    "title": "Student guest speakers",
-    "section": "",
-    "text": "Marlee is a senior majoring in computer science with a minor in statistics and, during her time here, she has done a little of just about everything. That includes: being a TA, doing research, mentoring first year students, having internships, and leading student organizations. It’s safe to say there’s a space here for everyone, and she is excited to share it with you!\nEmail: marlenaalvino@gwmail.gwu.edu"
-  },
-  {
-    "objectID": "standup.html#samantha-kusner",
-    "href": "standup.html#samantha-kusner",
-    "title": "Student guest speakers",
-    "section": "",
-    "text": "Sam is a senior majoring in computer science. During her time at GW, she’s had the opportunity to be on the leadership team for few different organizations, foster a positive learning environment as an LA and UTA, and speak to students like you who are just joining the CS community here. Outside of school, she’s had a few internships which have helped her get a better understanding of what possibilities are out there! She’s looking forward to sharing some of her experience with you.\nEmail: samkusner430@gwmail.gwu.edu"
-  },
-  {
-    "objectID": "standup.html#kate-halushka",
-    "href": "standup.html#kate-halushka",
-    "title": "Student guest speakers",
-    "section": "",
-    "text": "Kate is a senior majoring in computer science and has been coding since high school! Throughout her time at GW, she has been a TA for 3 different CS classes, held leadership positions in multiple orgs, and studied abroad in London. She is currently co-chair of WiCS (Women in Computer Science) at GW. She has also completed 2 summer internships, and is a member of Sigma Delta Tau. She’s excited to share how she has taken advantage of the opportunities available in CS at GW!\nEmail: khalushka@gwmail.gwu.edu"
-  },
-  {
-    "objectID": "standup.html#josie-libbon",
-    "href": "standup.html#josie-libbon",
-    "title": "Student guest speakers",
-    "section": "",
-    "text": "Josie is a senior majoring in computer science and minoring in political science. Throughout her time at GW, she has been an LA and TA for 3 different CS classes, held leadership positions in orgs such as WiCS and ACM, and conducted research with various professors surrounding real-time artificial intelligence. She is currently the undergraduate representative for the CS Curriculum Committee at GW. She has also completed a summer internship at a DMV government contractor, and will be returning there after she graduates in May. She is excited to discuss and give advice on how to have a successful career at GW!\nEmail: josielibbon@gwmail.gwu.edu"
-  },
-  {
-    "objectID": "standup.html#ryah-carpenter",
-    "href": "standup.html#ryah-carpenter",
-    "title": "Student guest speakers",
-    "section": "",
-    "text": "Ryah is a senior majoring in computer science and minoring in criminal justice. Throughout her time at GW, she has been involved with the Women’s Club Lacrosse team, been an LA and TA for 3 different CS classes, and conducted research on real-time artificial intelligence. She has also completed two summer internships, and is excited to share all her advice for making the most out of your time in college!\nEmail: jrcarpenter349@gwmail.gwu.edu"
-  },
-  {
-    "objectID": "standup.html#lindsey-cicero",
-    "href": "standup.html#lindsey-cicero",
-    "title": "Student guest speakers",
-    "section": "",
-    "text": "Lindsey is a senior majoring in Computer Science with a minor in Creative Writing and a minor in Fine Arts. She is completing the BA program, and that has allowed her to explore her many interests while at GW. Within SEAS Lindsey has held many leadership positions such as being the former Co-Chair of WiCS as well as the current President of SEASSPAN. She has also been a TA for some of the upper level CS classes and has had the opportunity to complete two summer internships. She is excited to chat about how to take advantage of the unique opportunities GW provides and how to find what interest you in CS!\nEmail: lindseycicero@gwu.edu\n\n\n\n\n\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "realvnc-mac-connect.html",
-    "href": "realvnc-mac-connect.html",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to establish a remote using RealVNC on your Mac computer.\n\n\nBefore you begin, ensure that you have already installed RealVNC on your Mac.\n\n\n\n\n\nLaunch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window.\n\n\n\n\nYou have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "realvnc-mac-connect.html#prerequisites",
-    "href": "realvnc-mac-connect.html#prerequisites",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "Before you begin, ensure that you have already installed RealVNC on your Mac."
-  },
-  {
-    "objectID": "realvnc-mac-connect.html#establish-a-connection",
-    "href": "realvnc-mac-connect.html#establish-a-connection",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "Launch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re NOT REQUIRED to sign up.\n\n\n\nOpen RealVNC Viewer\n\n\n\n\n\nDon’t Sign up\n\n\n\n\n\nTo connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.\n\n\n\nIP Address on the Box\n\n\n\n\n\nConnect to the Pi\n\n\n\n\n\nEnter Credentials\n\n\n\n\n\nYou are now connected to the Raspberry Pi, and you can control it.\n\n\n\nRemote Connection Successfull\n\n\n\n\n\nTo disconnect from the Raspberry Pi, simply close the VNC Viewer window."
-  },
-  {
-    "objectID": "realvnc-mac-connect.html#conclusion",
-    "href": "realvnc-mac-connect.html#conclusion",
-    "title": "RealVNC Installation Guide for Mac",
-    "section": "",
-    "text": "You have successfully established connection to the Pi, allowing you to access and control it with ease.\nFor more information and support, you can visit the RealVNC website.\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
-  },
-  {
-    "objectID": "homework.html",
-    "href": "homework.html",
-    "title": "Reminders",
-    "section": "",
-    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\n\n\n\n\n\nReview Policy\n\n\n\nPlease review important information on course polices on collaboration among students before submitting your course deliverables.\n\n\n\n\n\n\n\n\nSave Changes\n\n\n\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files."
-  },
-  {
-    "objectID": "homework.html#launching-a-jupyter-server",
-    "href": "homework.html#launching-a-jupyter-server",
-    "title": "Reminders",
-    "section": "",
-    "text": "In this guide, you will learn how to launch a local Jupyter server using Anaconda Navigator and open a HW file from your download folder. Make sure you have Anaconda installed on your computer before proceeding.\n\n\n\n\n\n\nReview Policy\n\n\n\nPlease review important information on course polices on collaboration among students before submitting your course deliverables.\n\n\n\n\n\n\n\n\nSave Changes\n\n\n\nDon’t forget to rename your file as shown in “Working with HW. ipynb files”, Step-2, as you work on them.\n\n\n\n\n\nSearch for “Anaconda Navigator” in your computer’s applications or start menu.\nClick on “Anaconda Navigator” to open it.\n\n\n\n\nmacOs\n\n\n\n\n\nWindows\n\n\n\n\n\n\nIn Anaconda Navigator, locate the “Jupyter Notebook” tile and click the “Launch” button next to it. This will launch a local Jupyter server on your computer.\n\n\n\n\nLaunch Jupyter Notebook\n\n\n\n\n\n\nAfter the Jupyter server has started, your default web browser will open with the Jupyter Dashboard. This dashboard is a web-based interface to your Jupyter environment.\n\n\n\n\nJupyter Dashboard - macOs\n\n\n\n\n\nJupyter Dashboard - Windows\n\n\n\nYou can navigate through your file system using the dashboard to locate and access your files."
-  },
-  {
-    "objectID": "homework.html#working-with-hw-.ipynb-files",
-    "href": "homework.html#working-with-hw-.ipynb-files",
-    "title": "Reminders",
-    "section": "Working with HW .ipynb files",
-    "text": "Working with HW .ipynb files\n\n\n\n\nStep 1: Open the HW1 File\n\nNavigate to your “Download” folder using the Jupyter Dashboard. You can use the file browser within the dashboard.\nIf asked to allow terminal access to the Download folder, click on “Allow”\n\n\n\n\nNavigate to Download Folder\n\n\n\n\n\nAllow access to Download Folder\n\n\n\nLook for the HW1 file within the “Download” folder.\nSelect the file by clicking on it. This will open a new Jupyter notebook or file editor for your HW1 file.\n\n\n\n\nOpen HW .ipynb file\n\n\n\n\nStep 2: Rename the HW File\n\nBefore you begin working on your HW, it’s necessay to rename the file to include your last name. This is how you’re expected to turn in your HW files.\n\nRight-click on the file.\nSelect “Rename.”\nChange the file name to “HW1_&lt;Your Last Name&gt;.”\n\n\n\n\n\nClick on File -&gt; Rename…\n\n\n\n\n\nRename the HW file by renaming it to ‘HW1_&lt;Last Name&gt;’\n\n\n\n\nStep 3: Work on Your HW\nYou can now work on your renamed HW assignment within Jupyter Notebook. When you’re done, remember to save your changes.\n\n\n\nSave changes\n\n\nYou’ve successfully launched a local Jupyter server using Anaconda Navigator, opened the HW1 file, and renamed files with your last name. Happy coding!"
-  },
-  {
-    "objectID": "lecture_notes/week5-pi-picam.html",
-    "href": "lecture_notes/week5-pi-picam.html",
+    "objectID": "lecture_notes/week1-rasp-pi.html",
+    "href": "lecture_notes/week1-rasp-pi.html",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, November 03). Week-5 Presentation: CSCI1010 Computer Science Orientation [Getting started with Raspberry Pi and PiCamera.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\nhttps://www.adafruit.com/product/3100#description\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to the Raspberry Pi with Blinking LEDs]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Sources:\nCodecaemy: https://www.youtube.com/watch?v=EGQh5SZctaE\nPython Logo: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\nPython (Programming Language): https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Python logo and other information: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n Source: https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\n\n\n\nSlide 12\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "lecture_notes/week5-pi-picam.html#getting-started-with-raspberry-pi-and-picamera",
-    "href": "lecture_notes/week5-pi-picam.html#getting-started-with-raspberry-pi-and-picamera",
+    "objectID": "lecture_notes/week1-rasp-pi.html#introduction-to-raspberry-pi-with-blinking-leds",
+    "href": "lecture_notes/week1-rasp-pi.html#introduction-to-raspberry-pi-with-blinking-leds",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, November 03). Week-5 Presentation: CSCI1010 Computer Science Orientation [Getting started with Raspberry Pi and PiCamera.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\nhttps://www.adafruit.com/product/3100#description\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to the Raspberry Pi with Blinking LEDs]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Sources:\nCodecaemy: https://www.youtube.com/watch?v=EGQh5SZctaE\nPython Logo: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\nPython (Programming Language): https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Python logo and other information: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg#/media/File:Python-logo-notext.svg\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n Source: https://www.sunfounder.com/learn/lesson-1-dual-color-led-sensor-kit-v2-0-for-b.html\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\n\n\n\nSlide 12\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "lecture_notes/week3-rasp-pi-ultrasound.html",
-    "href": "lecture_notes/week3-rasp-pi-ultrasound.html",
+    "objectID": "lecture_notes/week4-sense-HAT.html",
+    "href": "lecture_notes/week4-sense-HAT.html",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 20). Week-3 Presentation: CSCI1010 Computer Science Orientation [From LED Madness to Ultrasound Cacophony.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n Source: https://youtu.be/Rr9RaisO11E\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n\n\n\nSlide 8\n\n\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 27). Week-4 Presentation: CSCI1010 Computer Science Orientation [Playing with the sense HAT.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Image and Animation Source: https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2\nImage Source: https://reference.wolfram.com/language/ref/device/SenseHAT.html\nSource: https://youtu.be/8NwWNOMqai4\n\n\n\n\n Starting point for further exploration: Getting started with Sense HAT\nImage Source: https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2\nSource: https://www.mathworks.com/help/supportpkg/raspberrypi/examples/auto-rotate-an-image-displayed-on-sense-hat-led-matrix.html\nSource: https://reference.wolfram.com/language/ref/device/SenseHAT.html\n\n\n\n\n\n\nSlide 5\n\n\nSource: https://youtu.be/kk_7KNuRLrk\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "lecture_notes/week3-rasp-pi-ultrasound.html#from-led-madness-to-ultrasound-cacophony",
-    "href": "lecture_notes/week3-rasp-pi-ultrasound.html#from-led-madness-to-ultrasound-cacophony",
+    "objectID": "lecture_notes/week4-sense-HAT.html#playing-with-the-sense-hat",
+    "href": "lecture_notes/week4-sense-HAT.html#playing-with-the-sense-hat",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 20). Week-3 Presentation: CSCI1010 Computer Science Orientation [From LED Madness to Ultrasound Cacophony.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Source: https://www.raspberrypi.org/help/\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n Source: https://youtu.be/Rr9RaisO11E\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\n\n\n\nSlide 8\n\n\n\n\n\n\n\n\nSlide 9\n\n\n\n\n\n\n\n\nSlide 10\n\n\n\n\n\n\n\n\nSlide 11\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 27). Week-4 Presentation: CSCI1010 Computer Science Orientation [Playing with the sense HAT.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Image and Animation Source: https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2\nImage Source: https://reference.wolfram.com/language/ref/device/SenseHAT.html\nSource: https://youtu.be/8NwWNOMqai4\n\n\n\n\n Starting point for further exploration: Getting started with Sense HAT\nImage Source: https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/2\nSource: https://www.mathworks.com/help/supportpkg/raspberrypi/examples/auto-rotate-an-image-displayed-on-sense-hat-led-matrix.html\nSource: https://reference.wolfram.com/language/ref/device/SenseHAT.html\n\n\n\n\n\n\nSlide 5\n\n\nSource: https://youtu.be/kk_7KNuRLrk\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "lecture_notes/week3-matrices.html",
-    "href": "lecture_notes/week3-matrices.html",
+    "objectID": "lecture_notes/week1-intro-cs1010.html",
+    "href": "lecture_notes/week1-intro-cs1010.html",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 20). Week-3 Presentation: CSCI1010 Computer Science Orientation [Introduction to Matrices with Python.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Source: http://giphy.com/search/matrix-gif\n\n\n\n Sources:\nhttps://numpy.org\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Source: http://en.wikipedia.org/wiki/Matrix_(mathematics)\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to CSCI1010]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\nCourse Website: https://gwu-csci1010.github.io/\n\n\n\n\n\n\nSlide 2\n\n\nIcon Source: https://thenounproject.com/\nIcon credits: LUTFI GANI AL, Studion 365, DesignBite, Danil Polshin\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n Justice, Equality, Diversity, Inclusion (JEDI): https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee\n\n\n\n Disability Support: https://disabilitysupport.gwu.edu/\n\n\n\n\n\n\nSlide 9\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
-    "objectID": "lecture_notes/week3-matrices.html#introduction-to-matrices-with-python",
-    "href": "lecture_notes/week3-matrices.html#introduction-to-matrices-with-python",
+    "objectID": "lecture_notes/week1-intro-cs1010.html#introduction-to-cs1010",
+    "href": "lecture_notes/week1-intro-cs1010.html#introduction-to-cs1010",
     "title": "CSCI 1010 [Fall 2023]",
     "section": "",
-    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 20). Week-3 Presentation: CSCI1010 Computer Science Orientation [Introduction to Matrices with Python.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n\n\n\nSlide 2\n\n\n\n\n\n Source: http://giphy.com/search/matrix-gif\n\n\n\n Sources:\nhttps://numpy.org\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Source: http://en.wikipedia.org/wiki/Matrix_(mathematics)\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n\n\n\nSlide 7\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 6). Week-1 Presentation: CSCI1010 Computer Science Orientation [Introduction to CSCI1010]. Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\nCourse Website: https://gwu-csci1010.github.io/\n\n\n\n\n\n\nSlide 2\n\n\nIcon Source: https://thenounproject.com/\nIcon credits: LUTFI GANI AL, Studion 365, DesignBite, Danil Polshin\n\n\n\n\n\n\nSlide 3\n\n\n\n\n\n\n\n\nSlide 4\n\n\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\n Justice, Equality, Diversity, Inclusion (JEDI): https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee\n\n\n\n Disability Support: https://disabilitysupport.gwu.edu/\n\n\n\n\n\n\nSlide 9\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "lecture_notes/week4-python-libraries.html",
+    "href": "lecture_notes/week4-python-libraries.html",
+    "title": "CSCI 1010 [Fall 2023]",
+    "section": "",
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 27). Week-4 Presentation: CSCI1010 Computer Science Orientation [Short walk into Python libraries.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Sources:\nhttps://numpy.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Sources:\nhttps://matplotlib.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html\nCreate publication quality plots.\nCustomize visual style and layout.\nExport to many file formats.\nUse a rich array of third-party packages built on Matplotlib.\n\n\n\n Sources:\nhttps://pandas.pydata.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
+  },
+  {
+    "objectID": "lecture_notes/week4-python-libraries.html#short-walk-into-python-libraries",
+    "href": "lecture_notes/week4-python-libraries.html#short-walk-into-python-libraries",
+    "title": "CSCI 1010 [Fall 2023]",
+    "section": "",
+    "text": "Referencing this presentation:\nBulusu, Kartik V. (2023, October 27). Week-4 Presentation: CSCI1010 Computer Science Orientation [Short walk into Python libraries.] Department of Computer Science, The George Washington University. https://gwu-csci1010.github.io\n\n\n\n\n\n\nCourse materials developed by Prof. Kartik Bulusu for CS1010-Fall 2023.\n\n\n\n\n\n\n\n\nSlide 1\n\n\n\n\n\n Sources:\nhttps://numpy.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.0.html\nhttps://numpy.org/doc/stable/user/absolute_beginners.html\n\n\n\n Sources:\nhttps://matplotlib.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html\nCreate publication quality plots.\nCustomize visual style and layout.\nExport to many file formats.\nUse a rich array of third-party packages built on Matplotlib.\n\n\n\n Sources:\nhttps://pandas.pydata.org/\nhttps://www2.seas.gwu.edu/~cs4all/1012/unit2/module2.1.html\n\n\n\n\n\n\nSlide 5\n\n\n\n\n\n\n\n\nSlide 6\n\n\n\n\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites. Author: Kartik Bulusu Contact: bulusu © 2023 All rights reserved"
   },
   {
     "objectID": "lecture_notes/week6-encrypt-decrypt.html",
