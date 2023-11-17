@@ -236,13 +236,17 @@ Sample class schedule [*week-by-week*]
       <td>
         <ul>
           <li>Cloud Computing by [**Prof. Tim Wood**](https://www.seas.gwu.edu/timothy-wood)</li>
-          <li>Secure Autonomous Systems by [**Prof. Gabe Parmer**](https://www.seas.gwu.edu/gabriel-parmer)</li>
-          <!-- <li> Discussion of Midterm Projects and setting course for updates and reporting</li> -->
+          <li>Secure Autonomous Systems by [**Prof. Gabe Parmer**](https://www.seas.gwu.edu/gabriel-parmer) (Get the slide deck here <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/research_intro_1010_23-2.pdf" download>![Download button](images/file-black.png){width=28}</a>)</li>
         </ul>
       </td>
       <td>
         <ul>
+          <li>Choose your RPi project</li>
+          <li>Team building excersice (Same + Different)</li>
+          <li>Team building debrief</li>
+          <li>Spec out the project in breakouts</li>
           <li>5-min Standup talk by: [**Lindsey Cicero**](standup.qmd#lindsey-cicero)</li>
+          <li>**HW 5 due date (Friday, November 17, 2023)**</li>
         </ul>
       </td>
       <td></td>
