@@ -35,10 +35,10 @@ Sample class schedule [*week-by-week*]
 
 <table class="table table-hover w-auto">
   <colgroup>
-    <col style="width:5%">
+    <col style="width:3%">
     <col style="width:35%">
-    <col style="width:35%">
-    <col style="width:25%">
+    <col style="width:30%">
+    <col style="width:32%">
   </colgroup> 
   <thead>
     <tr class="table-primary">
@@ -288,9 +288,6 @@ Sample class schedule [*week-by-week*]
       <td>
         <ul>
           <li>[Choose your RPi project](lecture_notes/final-project.qmd)</li>
-          <li>Team building excersice (Same + Different)</li>
-          <li>Team building debrief</li>
-          <li>Spec out the project in breakouts</li>
           <li>5-min Standup talk by: [**Lindsey Cicero**](standup.qmd#lindsey-cicero)</li>
           <li>**HW 5 due date (Friday, November 17, 2023)**</li>
           <li>_Distribution of Scores for **HW5**_</li> 
@@ -318,7 +315,11 @@ Sample class schedule [*week-by-week*]
             </script>
         </ul>
       </td>
-      <td></td>
+      <td>
+        <li>Team building excersice _(Same + Different)_</li>
+        <li>Team building debrief</li>
+        <li>Spec out the project in breakouts</li>
+      </td>
     </tr>
     <tr>
       <th scope="row">Week 8 [11/24/2023]</th>
