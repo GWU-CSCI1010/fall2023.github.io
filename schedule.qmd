@@ -319,7 +319,7 @@ Sample class schedule [*week-by-week*]
         <li>Team building excersice _(Same + Different)_</li>
         <li>Team building debrief</li>
         <li>Spec out the project in breakouts</li>
-        <li>Group Work Guidelines <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CSCI 1010 - Group Work Guidelines.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
+        <li>Group Work Guidelines <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CSCI1010-Group_Work_Guidelines.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
       </td>
     </tr>
     <tr>
