@@ -293,7 +293,7 @@ Sample class schedule [*week-by-week*]
           <li>Spec out the project in breakouts</li>
           <li>5-min Standup talk by: [**Lindsey Cicero**](standup.qmd#lindsey-cicero)</li>
           <li>**HW 5 due date (Friday, November 17, 2023)**</li>
-          <!-- <li>_Distribution of Scores for **HW5**_</li> 
+          <li>_Distribution of Scores for **HW5**_</li> 
             <img src="images/histograms/HW5.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW5.png')">
             <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW5" id="popupImage"></div>
             <script>
@@ -315,7 +315,7 @@ Sample class schedule [*week-by-week*]
                         hidePopup();
                     }
                 });
-            </script> -->
+            </script>
         </ul>
       </td>
       <td></td>
