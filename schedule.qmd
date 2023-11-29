@@ -45,7 +45,7 @@ Sample class schedule [*week-by-week*]
       <th scope="col">Date</th>
       <th scope="col">Topic(s)</th>
       <th scope="col">$\mu$-LABs and Assignment(s) due</th>
-      <th scope="col">Download Files</th>
+      <th scope="col">Extended Lab Activities + Download Files</th>
     </tr>
   </thead>
   <tbody>
