@@ -248,7 +248,7 @@ Sample class schedule [*week-by-week*]
                     }
                 });
             </script>
-        <!-- <li>_Distribution of Scores for **Guided Python Project**_</li> 
+        <li>_Distribution of Scores for **Guided Python Project**_</li> 
             <img src="images/histograms/COVID_Project.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/COVID_Project.png')">
             <div id="popupContainer" onclick="hidePopup()"><img src="" alt="COVID_Project" id="popupImage"></div>
             <script>
@@ -270,7 +270,7 @@ Sample class schedule [*week-by-week*]
                         hidePopup();
                     }
                 });
-            </script> -->
+            </script>
         </ul>
       </td>
       <td>
