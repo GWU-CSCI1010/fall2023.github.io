@@ -225,6 +225,52 @@ Sample class schedule [*week-by-week*]
           <li>**COVID-19 Data Analysis Project due date (Friday, November 10, 2023)**</li>
           <li>**HW 4 due date (Friday, November 10, 2023)**</li>
           <li>HW 5 Assigned</li>
+          <li>_Distribution of Scores for **HW4**_</li> 
+            <img src="images/histograms/HW4.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW4.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW4" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
+        <!-- <li>_Distribution of Scores for **Guided Python Project**_</li> 
+            <img src="images/histograms/COVID_Project.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/COVID_Project.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="COVID_Project" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script> -->
         </ul>
       </td>
       <td>
@@ -247,6 +293,29 @@ Sample class schedule [*week-by-week*]
           <li>Spec out the project in breakouts</li>
           <li>5-min Standup talk by: [**Lindsey Cicero**](standup.qmd#lindsey-cicero)</li>
           <li>**HW 5 due date (Friday, November 17, 2023)**</li>
+          <!-- <li>_Distribution of Scores for **HW5**_</li> 
+            <img src="images/histograms/HW5.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW5.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW5" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script> -->
         </ul>
       </td>
       <td></td>
