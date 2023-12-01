@@ -323,7 +323,6 @@ The Final Project deliverables are due on **December 05, 2023, 11:59 PM**. Check
         <li>Team building excersice _(Same + Different)_</li>
         <li>Team building debrief</li>
         <li>Spec out the project in breakouts</li>
-        <li>Group Work Guidelines <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CSCI1010-Group_Work_Guidelines.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
       </td>
     </tr>
     <tr>
@@ -343,7 +342,8 @@ The Final Project deliverables are due on **December 05, 2023, 11:59 PM**. Check
     </td>
     <td>
       <ul>
-        <li>Group Work Guidelines</li>
+        <li>Raspberry Pi Final project workshop with Mentor guidance</li>
+        <li>Group Work Guidelines <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CSCI1010-Group_Work_Guidelines.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
         <li>5-min Standup talk by: **Clare Jenney**</li>
       </ul>
     </td>
