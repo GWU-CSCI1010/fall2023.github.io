@@ -344,11 +344,11 @@ The Final Project deliverables are due on **December 05, 2023, 11:59 PM**. Check
       <ul>
         <li>Raspberry Pi Final project workshop with Mentor guidance</li>
         <li>Group Work Guidelines <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CSCI1010-Group_Work_Guidelines.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
-        <li>5-min Standup talk by: **Clare Jenney**</li>
+        <li>5-min Standup talk by: [**Clare Jenney**](standup.qmd#clare-jenney)</li>
       </ul>
     </td>
     <td>
-      <li>Path Statement Sample<a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Group_2_Path_Statement-Maya_Bardin.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
+      <li>Path Statement Sample<a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Path_Statement_Sample.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
       <li>Path Statement Template <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/PATH_Statement.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
       </td>
     </tr>
