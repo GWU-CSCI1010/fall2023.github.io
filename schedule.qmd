@@ -355,19 +355,20 @@ The Final Project deliverables are due on **December 05, 2023, 11:59 PM**. Check
     <tr>
       <th scope="row">Week 10 [12/08/2023]</th>
       <td>
-        Presentations from following student organizations:
+        Presentations from various Student Organizations:
           <li>[**WiCS - Women in Computer Science**](https://gwwics.github.io/)</li>
           <li>[**GW Robotics**](https://gw-robotics.github.io/)</li>
           <li>[**George Hacks**](https://www.instagram.com/george.hacks/?hl=en)</li>
-          <li>[**SEASSPAN**](https://www.seas.gwu.edu/seasspan) (<a href="mailto:seasspan@gwu.edu">seasspan@gwu.edu</a>)</li>
-          <li>[**E-Council**](https://www.cs.seas.gwu.edu/student-organizations) (<a href="mailto:ecouncil@gwu.edu">ecouncil@gwu.edu</a>)</li>
-          <li>[**AIAA**](https://www.cs.seas.gwu.edu/student-organizations) (<a href="mailto:gwaiaa@gwu.edu">gwaiaa@gwu.edu</a>)</li>
+          <li>[**SEASSPAN**](https://www.seas.gwu.edu/seasspan) - <a href="mailto:seasspan@gwu.edu">seasspan@gwu.edu</a></li>
+          <li>[**E-Council**](https://www.cs.seas.gwu.edu/student-organizations) - <a href="mailto:ecouncil@gwu.edu">ecouncil@gwu.edu</a></li>
+          <li>[**AIAA**](https://www.cs.seas.gwu.edu/student-organizations) - <a href="mailto:gwaiaa@gwu.edu">gwaiaa@gwu.edu</a></li>
           <li>[**GW BAJA**](https://gwubaja.wixsite.com/race)</li>
-          <li>[**EPS and ACM**](https://www.cs.seas.gwu.edu/student-organizations) (<a href="mailto:acm@gwu.edu">acm@gwu.edu</a>)</li>
+          <li>[**EPS and ACM**](https://www.cs.seas.gwu.edu/student-organizations) - <a href="mailto:acm@gwu.edu">acm@gwu.edu</a></li>
       </td>
       <td>
         <ul>
-        <li>Student Panel consisting of [**Student Guest Speakers**](standup.qmd) from Fall 2023</li>
+          <li>Student Panel consisting of [**Student Guest Speakers**](standup.qmd) from Fall 2023</li>
+          <li>Group Presentations for Final Project</li> 
         </ul>
       </td>
       <td>
