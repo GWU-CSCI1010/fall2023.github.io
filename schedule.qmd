@@ -353,6 +353,15 @@ The Final Project deliverables are due on **December 05, 2023, 11:59 PM**. Check
         </td>
     </tr>
     <tr>
+      <th scope="row">Final Project deliverables Due Date [12/05/2023]</th>
+      <td colspan="3">
+        <div id="final-project"></div>
+        <ul>
+          Please submit your all your Final Project deliverables using this [**form**](https://docs.google.com/forms/d/e/1FAIpQLSeb9VbcxspgukkjVIZEb4zpiz043LTuBkYa5RWQsesDscBLSA/viewform?usp=sharing) before **11:59 PM** on <u>**December 05, 2023**</u>.
+        </ul>
+      </td>
+    </tr>
+    <tr class="table-active">
       <th scope="row">Week 10 [12/08/2023]</th>
       <td>
         Presentations from various Student Organizations:
@@ -372,15 +381,6 @@ The Final Project deliverables are due on **December 05, 2023, 11:59 PM**. Check
         </ul>
       </td>
       <td>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">Final Project deliverables Due Date [12/05/2023]</th>
-      <td colspan="3">
-        <div id="final-project"></div>
-        <ul>
-          Please submit your all your Final Project deliverables using this [**form**](https://docs.google.com/forms/d/e/1FAIpQLSeb9VbcxspgukkjVIZEb4zpiz043LTuBkYa5RWQsesDscBLSA/viewform?usp=sharing) before **11:59 PM** on <u>**December 05, 2023**</u>.
-        </ul>
       </td>
     </tr>
   </tbody>
