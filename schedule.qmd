@@ -9,9 +9,9 @@ Sample class schedule [*week-by-week*]
 **The course schedule is subject to changes during the semester.**
 :::
 
-::: {.callout-important appearance="default" title="Final Project Due Date"}
+<!-- ::: {.callout-important appearance="default" title="Final Project Due Date"}
 The Final Project deliverables are due on **December 05, 2023, 11:59 PM**. Check-out the schedule to learn more about where to [submit all the deliverables](schedule.qmd#final-project).
-:::
+::: -->
 
 <style>
         .thumbnail {
