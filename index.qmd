@@ -46,18 +46,14 @@ title: "Computer Science Orientation"
   - Lab section 30: Friday 10:40 AM - 12:15 PM 
   - Lab section 31: Friday 12:45 PM - 2:10 PM
 - **Course website:** TBA
-<!-- - **Course website:** [https://gwu-csci3907.github.io](https://gwu-csci3907.github.io) -->
 - **Instructor information** [can be found here](/instructor.qmd)
  </div>
 
  <div class="column">
- <!-- "float: left;  -->
  <img src="/images/CS1010.png" alt="IoT icon" style="object-fit:contain width:250px;height:250px; margin-right: 10px;" /><br>
-<!--  <p><font size="1">IoT by Alla Zaleuska from <a href="https://thenounproject.com/browse/icons/term/iot/" target="_blank" title="IoT Icons">Noun Project</a></font></p> -->
- </div>
-</div>
 
-<br>
+### Syllabus
+Get the syllabus [here.](https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CS1010_Fall2023_Syllabus_10052022.pdf)
 
 ### Github Repo (updated weekly)
 git clone **TBA**
