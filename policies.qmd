@@ -40,10 +40,10 @@ format: html
 - Attendance and/or peer-to-peer and instructor interactions 10%
 - In-class work and Weekly Quizzes 10%
 - Python programming and other Homework 30%
-- Projects (including code, demo and presentation) 50%
+- Projects (including code, demo and presentation) 60%
   - 30% Individual midterm project
-  - 20% Group final project 
-There is no required final exam.
+  - 30% Group final project 
+- There is no required final exam
 
  </div>
 
