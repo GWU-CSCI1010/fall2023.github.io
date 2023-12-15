@@ -37,7 +37,7 @@ format: html
   - 20% Individual midterm project
   - 30% Group final project 
  -->
-- Attendance and/or peer-to-peer and instructor interactions 10%
+<!-- - Attendance and/or peer-to-peer and instructor interactions 10% -->
 - In-class work and Weekly Quizzes 10%
 - Python programming and other Homework 30%
 - Projects (including code, demo and presentation) 60%
