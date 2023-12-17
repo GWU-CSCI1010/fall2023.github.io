@@ -56,7 +56,6 @@ title: "Computer Science Orientation"
 Get the syllabus [here.](https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CS1010_Fall2023_Syllabus_10052022.pdf)
 
 ### Github Repo (updated weekly)
-git clone **TBA**
 
 ### Course description
 This is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of
