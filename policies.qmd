@@ -45,6 +45,30 @@ format: html
   - 30% Group final project 
 - There is no required final exam
 
+### Grading Scale
+The following grading scale will be applied to the **Final Weighted Total** at the end of the semester to calculate letter grades: 
+
+90-100: __A__
+
+85-89: __A-__
+
+80-84: __B+__
+
+75-79: __B__
+
+70-74: __B-__
+
+65-69: __C+__
+
+60-64: __C__
+
+55-59: __C-__
+
+50-54: __D__
+
+0-49: __F__
+
+
  </div>
 
 
