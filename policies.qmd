@@ -26,27 +26,25 @@ format: html
   clear: both;
 }
 </style>
-
 <div class="row">
- <div class="column">
-<!-- - Attendance and/or peer-to-peer and instructor interactions 10%
-- In-class work and/or Weekly Quizzes 10% 
-- Project reports, paper reviews and in-class presentations 10% 
-- Python programming and other Homework 20%
-- Projects (including code, demo, written report and presentation) 50% 
-  - 20% Individual midterm project
-  - 30% Group final project 
- -->
-<!-- - Attendance and/or peer-to-peer and instructor interactions 10% -->
+<div class="column">
 - In-class work and Weekly Quizzes 10%
 - Python programming and other Homework 30%
 - Projects (including code, demo and presentation) 60%
   - 30% Individual midterm project
   - 30% Group final project 
 - There is no required final exam
+ </div>
+
+ <div class="column">
+ <!-- "float: left;  -->
+ <img src="/images/noun-exam-3617082_copy.png" alt="exam icon" style="object-fit:contain width:200px;height:200px; margin-right: 5px;" /><br>
+ <p><font size="1">exam by pongsakorn from <a href="https://thenounproject.com/browse/icons/term/exam/" target="_blank" title="exam Icons">Noun Project</a></font></p>
+ </div>
+</div>
 
 ### Grading Scale
-The following grading scale will be applied to the **Final Weighted Total** at the end of the semester to calculate letter grades: 
+The following grading scale will be applied to the **Final Weighted Total** at the end of the semester to calculate letter grades, grades are "rounded up" to the nearest integer: 
 
 90-100: __A__
 
@@ -68,32 +66,11 @@ The following grading scale will be applied to the **Final Weighted Total** at t
 
 0-49: __F__
 
-
- </div>
-
-
-
-
-
- <div class="column">
- <!-- "float: left;  -->
- <img src="/images/noun-exam-3617082_copy.png" alt="exam icon" style="object-fit:contain width:200px;height:200px; margin-right: 5px;" /><br>
- <p><font size="1">exam by pongsakorn from <a href="https://thenounproject.com/browse/icons/term/exam/" target="_blank" title="exam Icons">Noun Project</a></font></p>
- </div>
-</div>
-
-<br>
-
 ## Additional important information about grading policy:
 
 - Late submissions on Homework and projects will not be acceptable.
 - Any questions or follow up about the assignments will be done only within 2 weeks of submission deadline.
   - Following the week after the submission deadline no further discussion on the assignment will be done.
-<!-- - There is no required final exam. -->
-<!-- - There may be instances in the presentations where peer-evaluations may be introduced at the discretion of the instructor. -->
-<!-- - The instructor will seeks inputs from the class and decide if course projects will be done individfually, in groups or in a combination.  -->
-
-<br>
 
 ## Classroom Policies and Student responsibilities
 
@@ -108,7 +85,6 @@ The following grading scale will be applied to the **Final Weighted Total** at t
  <p><font size="1">classroom by Chattapat from <a href="https://thenounproject.com/browse/icons/term/classroom/" target="_blank" title="classroom Icons">Noun Project</a></font></p>
  </div>
 </div>
-<br>
 
 - **Be respectful:** Listen to the instructors. Keep an open mind to the course material presented. Limit the use of personal devices. Be aware that you are working in a group. Be mindful of your colleagues.
 - **Be responsible:** Arrive on time. Attendance is the first pathway toward success. Submit the course deliverables on time. Help your team members.
@@ -128,7 +104,7 @@ The following grading scale will be applied to the **Final Weighted Total** at t
  <p><font size="1">employee diversity by Bold Yellow from <a href="https://thenounproject.com/browse/icons/term/employee-diversity/" target="_blank" title="employee diversity Icons">Noun Project</a></font></p>
  </div>
 </div>
-<br><br><br>
+
  <p>Please let the main instructor know ways to improve the effectiveness of the course. See [JEDI resources](https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-resources) for student resources. </p>
 
 ## Use of chatGPT or any other AI-based models for in-class work and deliverables
